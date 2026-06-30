@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /scripts/
 
 Sitemap: https://gate-referral-site.pages.dev/sitemap.xml

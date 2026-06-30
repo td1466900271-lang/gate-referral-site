@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Глобальный рыночный обзор 2026-05-22</title>
+  <desc id="desc">Высокий диапазон, расхождение в полупроводниках, BTC около $77K и нейтральный funding.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06120f"/><stop offset=".55" stop-color="#0b1b17"/><stop offset="1" stop-color="#10251f"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#30f2a6"/><stop offset="1" stop-color="#38d9d0"/></linearGradient>
+    <style>.font{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}.muted{fill:#a9bdb5}.text{fill:#f5fff9}.green{fill:#30f2a6}.amber{fill:#ffd36a}.red{fill:#ff7d7d}.card{fill:rgba(255,255,255,.055);stroke:rgba(255,255,255,.14);stroke-width:1.5}.small{font-size:27px}.body{font-size:34px}.label{font-size:30px;font-weight:700}.num{font-size:48px;font-weight:850}.title{font-size:68px;font-weight:900}.subtitle{font-size:34px;font-weight:650}</style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1340" cy="120" r="260" fill="#30f2a6" opacity=".08"/><circle cx="1260" cy="850" r="340" fill="#38d9d0" opacity=".06"/>
+  <path d="M90 780 C280 670 410 780 560 650 S860 520 1040 610 S1300 710 1510 560" fill="none" stroke="#30f2a6" stroke-width="6" opacity=".28"/>
+  <path d="M90 820 C300 730 420 830 590 705 S880 590 1040 680 S1320 770 1510 635" fill="none" stroke="#38d9d0" stroke-width="4" opacity=".18"/>
+  <g class="font">
+    <rect x="72" y="60" width="1456" height="880" rx="28" class="card"/><rect x="72" y="60" width="1456" height="10" rx="5" fill="url(#accent)"/>
+    <text x="112" y="128" class="muted small">2026-05-22 · Глобальный рыночный обзор</text>
+    <text x="112" y="215" class="text title">Высокий диапазон + структура</text>
+    <text x="112" y="270" class="muted subtitle">Semis расходятся, BTC leverage умеренный, нефть и золото высоко.</text>
+    <g transform="translate(112 330)"><rect width="420" height="170" rx="18" class="card"/><text x="28" y="54" class="muted label">BTC Spot</text><text x="28" y="118" class="green num">77,661</text><text x="235" y="118" class="muted body">USD</text><text x="28" y="150" class="muted small">HL funding почти нейтральный</text></g>
+    <g transform="translate(590 330)"><rect width="420" height="170" rx="18" class="card"/><text x="28" y="54" class="muted label">Semiconductor ETF</text><text x="28" y="118" class="green num">SMH +0.57%</text><text x="28" y="150" class="muted small">SOXX +0.85%, basket сильнее</text></g>
+    <g transform="translate(1068 330)"><rect width="420" height="170" rx="18" class="card"/><text x="28" y="54" class="muted label">Лидеры расходятся</text><text x="28" y="118" class="red num">NVDA -1.77%</text><text x="28" y="150" class="muted small">MU +4.11%, рынок ищет beta</text></g>
+    <g transform="translate(112 550)"><rect width="658" height="270" rx="18" class="card"/><text x="28" y="58" class="text label">3 вопроса дня</text><text x="28" y="116" class="muted body">1. AI growth перекроет давление оценок?</text><text x="28" y="170" class="muted body">2. NVDA слабее, MU сильнее: ротация?</text><text x="28" y="224" class="muted body">3. BTC leverage погонится за premium?</text></g>
+    <g transform="translate(830 550)"><rect width="658" height="270" rx="18" class="card"/><text x="28" y="58" class="text label">Рамка для трейдера</text><text x="28" y="116" class="muted body">Не гнаться вслепую за index beta.</text><text x="28" y="170" class="muted body">Смотреть relative strength: SMH/SOXX.</text><text x="28" y="224" class="muted body">Фокус: TSM, NVDA, MU, AMAT.</text></g>
+    <text x="112" y="884" class="amber small">Итог: это не общий risk-on взрыв, а рынок, где структура важнее индекса.</text>
+    <text x="112" y="920" class="muted small">Только информация, не инвестиционный совет. Данные из предоставленного обзора и публичных источников.</text>
+  </g>
+</svg>

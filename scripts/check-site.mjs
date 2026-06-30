@@ -2,7 +2,7 @@ import { readdir, readFile, stat } from "node:fs/promises";
 import { join } from "node:path";
 
 const root = new URL("..", import.meta.url).pathname;
-const required = ["index.html", "daily/index.html", "daily/2026-06-30/index.html", "assets/styles.css", "assets/app.js", "sitemap.xml"];
+const required = ["index.html", "daily/index.html", "daily/2026-06-29/index.html", "daily/2026-06-29/en/index.html", "assets/styles.css", "assets/app.js", "sitemap.xml"];
 const missing = [];
 
 for (const file of required) {
