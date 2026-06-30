@@ -96,6 +96,31 @@ a {
   color: var(--text);
 }
 
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.lang-switch a {
+  min-width: 34px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 850;
+  text-align: center;
+}
+
+.lang-switch a[aria-current="true"] {
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--gate-blue), var(--gate-blue-2));
+}
+
 .button,
 .mini-button {
   display: inline-flex;
@@ -551,6 +576,10 @@ footer {
   .nav-links {
     flex-wrap: wrap;
     gap: 12px;
+  }
+
+  .lang-switch {
+    flex-wrap: wrap;
   }
 
   .hero {

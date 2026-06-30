@@ -2,6 +2,20 @@
 
 Gate affiliate 返佣自然流量网站，邀请码：`VLYQB1HXUW`。
 
+## 语言结构
+
+- 简体中文：`/`
+- 繁体中文：`/zh-hant/`
+- English：`/en/`
+- Русский：`/ru/`
+
+日报也同步为四种语言，例如：
+
+- `/daily/2026-06-29/`
+- `/zh-hant/daily/2026-06-29/`
+- `/en/daily/2026-06-29/`
+- `/ru/daily/2026-06-29/`
+
 ## 本地预览
 
 ```bash
@@ -12,12 +26,21 @@ npm start
 
 ## 每天更新日报
 
-1. 复制最近一篇日报目录，例如 `daily/2026-06-29/` 为新的日期目录。
-2. 修改新页面的标题、描述、日期、正文和图片。
-3. 如需英文页，同步复制并修改 `en/index.html`。
-4. 在 `daily/index.html` 的历史日报列表中加入新链接。
-5. 在 `sitemap.xml` 中加入新 URL。
-6. 提交并推送到 GitHub，GitHub Pages 会自动部署。
+1. 四种语言都要新增对应日期页面。
+2. 简体中文放在 `daily/YYYY-MM-DD/`。
+3. 繁体中文放在 `zh-hant/daily/YYYY-MM-DD/`。
+4. 英文放在 `en/daily/YYYY-MM-DD/`。
+5. 俄语放在 `ru/daily/YYYY-MM-DD/`。
+6. 同步更新四种语言的日报目录和 `sitemap.xml`。
+7. 提交并推送到 GitHub，GitHub Pages 会自动部署。
+
+当前项目保留了 `scripts/import-market-briefs.py`，可从参考站批量重新生成四语言历史日报。
+
+首次运行迁移脚本前安装依赖：
+
+```bash
+python3 -m pip install -r requirements.txt
+```
 
 ## 重要说明
 

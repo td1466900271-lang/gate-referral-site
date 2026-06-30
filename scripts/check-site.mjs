@@ -2,7 +2,23 @@ import { readdir, readFile, stat } from "node:fs/promises";
 import { join } from "node:path";
 
 const root = new URL("..", import.meta.url).pathname;
-const required = ["index.html", "daily/index.html", "daily/2026-06-29/index.html", "daily/2026-06-29/en/index.html", "assets/styles.css", "assets/app.js", "sitemap.xml"];
+const required = [
+  "index.html",
+  "zh-hant/index.html",
+  "en/index.html",
+  "ru/index.html",
+  "daily/index.html",
+  "zh-hant/daily/index.html",
+  "en/daily/index.html",
+  "ru/daily/index.html",
+  "daily/2026-06-29/index.html",
+  "zh-hant/daily/2026-06-29/index.html",
+  "en/daily/2026-06-29/index.html",
+  "ru/daily/2026-06-29/index.html",
+  "assets/styles.css",
+  "assets/app.js",
+  "sitemap.xml",
+];
 const missing = [];
 
 for (const file of required) {
@@ -33,6 +49,10 @@ for (const file of htmlFiles) {
   const html = await readFile(file, "utf8");
   if (!html.includes("VLYQB1HXUW")) broken.push(file);
   if (!html.includes("/assets/styles.css?v=20260630-gate-blue")) broken.push(file);
+  if (!html.includes("hreflang=\"zh-CN\"")) broken.push(file);
+  if (!html.includes("hreflang=\"zh-Hant\"")) broken.push(file);
+  if (!html.includes("hreflang=\"en\"")) broken.push(file);
+  if (!html.includes("hreflang=\"ru\"")) broken.push(file);
 }
 
 if (missing.length || broken.length) {
