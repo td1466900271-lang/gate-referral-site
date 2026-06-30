@@ -24,14 +24,14 @@ LANG_META = {
         "short": "简",
         "home": "/",
         "daily": "/daily/",
-        "nav": ("邀请码", "注册步骤", "Affiliate SEO", "每日市场日报", "FAQ", "使用邀请码注册"),
+        "nav": ("邀请码", "注册步骤", "每日市场日报", "FAQ", "使用邀请码注册"),
         "footer": "GateAffiliate 市场内容仅供信息参考，不构成投资建议。",
-        "daily_title": "GateAffiliate 每日市场日报 | Gate 返佣自然流量内容库",
-        "daily_desc": "GateAffiliate 每日市场日报目录，覆盖 BTC、ETH、AI 半导体、宏观、热门交易情绪与 Gate affiliate 返佣站自然流量内容沉淀。",
-        "daily_h1": "GateAffiliate 每日市场日报内容库",
-        "daily_copy": f"这里沉淀每日市场主线、宏观风险、热门资产与交易情绪。内容为 Gate affiliate 返佣站提供持续更新的自然流量入口，同时把读者引导到邀请码 {CODE}。",
+        "daily_title": "GateAffiliate 每日市场日报 | BTC、ETH 与热门交易观察",
+        "daily_desc": "GateAffiliate 每日市场日报目录，覆盖 BTC、ETH、AI 半导体、宏观、热门交易情绪与 Gate 用户关注的市场变化。",
+        "daily_h1": "GateAffiliate 每日市场日报",
+        "daily_copy": f"这里整理每日市场主线、宏观风险、热门资产与交易情绪，帮助 Gate 用户在注册和交易前快速了解市场背景。邀请码：{CODE}。",
         "history": "历史日报",
-        "history_copy": "已迁移参考站的历史日报内容，并统一为 GateAffiliate 蓝色视觉、内部链接和 SEO 结构。",
+        "history_copy": "按日期查看历史市场观察，快速回顾不同交易日的主题、风险和关键数据。",
         "latest": "阅读最新日报",
     },
     "zh-hant": {
@@ -40,14 +40,14 @@ LANG_META = {
         "short": "繁",
         "home": "/zh-hant/",
         "daily": "/zh-hant/daily/",
-        "nav": ("邀請碼", "註冊步驟", "Affiliate SEO", "每日市場日報", "FAQ", "使用邀請碼註冊"),
+        "nav": ("邀請碼", "註冊步驟", "每日市場日報", "FAQ", "使用邀請碼註冊"),
         "footer": "GateAffiliate 市場內容僅供資訊參考，不構成投資建議。",
-        "daily_title": "GateAffiliate 每日市場日報 | Gate 返佣自然流量內容庫",
-        "daily_desc": "GateAffiliate 每日市場日報目錄，覆蓋 BTC、ETH、AI 半導體、宏觀、熱門交易情緒與 Gate affiliate 返佣站自然流量內容沉澱。",
+        "daily_title": "GateAffiliate 每日市場日報 | BTC、ETH 與熱門交易觀察",
+        "daily_desc": "GateAffiliate 每日市場日報目錄，覆蓋 BTC、ETH、AI 半導體、宏觀、熱門交易情緒與 Gate 用戶關注的市場變化。",
         "daily_h1": "GateAffiliate 每日市場日報內容庫",
-        "daily_copy": f"這裡沉澱每日市場主線、宏觀風險、熱門資產與交易情緒。內容為 Gate affiliate 返佣站提供持續更新的自然流量入口，同時把讀者引導到邀請碼 {CODE}。",
+        "daily_copy": f"這裡整理每日市場主線、宏觀風險、熱門資產與交易情緒，幫助 Gate 用戶在註冊和交易前快速了解市場背景。邀請碼：{CODE}。",
         "history": "歷史日報",
-        "history_copy": "已遷移參考站的歷史日報內容，並統一為 GateAffiliate 藍色視覺、內部連結和 SEO 結構。",
+        "history_copy": "按日期查看歷史市場觀察，快速回顧不同交易日的主題、風險和關鍵數據。",
         "latest": "閱讀最新日報",
     },
     "en": {
@@ -56,14 +56,14 @@ LANG_META = {
         "short": "EN",
         "home": "/en/",
         "daily": "/en/daily/",
-        "nav": ("Invite Code", "How to Join", "Affiliate SEO", "Daily Briefs", "FAQ", "Join with Code"),
+        "nav": ("Invite Code", "How to Join", "Daily Briefs", "FAQ", "Join with Code"),
         "footer": "GateAffiliate market commentary is for information only and is not financial advice.",
         "daily_title": "GateAffiliate Daily Market Briefs | Gate Affiliate Organic Traffic Hub",
-        "daily_desc": "GateAffiliate daily market brief archive covering BTC, ETH, AI semiconductors, macro risk, trading sentiment, and organic content for Gate affiliate conversion.",
+        "daily_desc": "GateAffiliate daily market brief archive covering BTC, ETH, AI semiconductors, macro risk, trading sentiment, and market changes Gate users follow.",
         "daily_h1": "GateAffiliate Daily Market Briefs",
-        "daily_copy": f"This archive keeps daily market themes, macro risk, hot assets, and trading sentiment in one place. It supports organic traffic for the Gate affiliate site while routing readers back to invite code {CODE}.",
+        "daily_copy": f"This archive keeps daily market themes, macro risk, hot assets, and trading sentiment in one place so Gate users can get context before registering or trading. Invite code: {CODE}.",
         "history": "Brief Archive",
-        "history_copy": "Historical briefs have been migrated into the GateAffiliate blue visual system with unified internal links and SEO structure.",
+        "history_copy": "Browse previous market briefs by date and review key themes, risks, and data points from each trading day.",
         "latest": "Read Latest Brief",
     },
     "ru": {
@@ -72,14 +72,14 @@ LANG_META = {
         "short": "RU",
         "home": "/ru/",
         "daily": "/ru/daily/",
-        "nav": ("Инвайт-код", "Регистрация", "Affiliate SEO", "Обзоры", "FAQ", "Регистрация с кодом"),
+        "nav": ("Инвайт-код", "Регистрация", "Обзоры", "FAQ", "Регистрация с кодом"),
         "footer": "Материалы GateAffiliate предназначены только для информации и не являются инвестиционной рекомендацией.",
         "daily_title": "GateAffiliate Ежедневные обзоры рынка | Контент-хаб Gate Affiliate",
-        "daily_desc": "Архив ежедневных обзоров GateAffiliate по BTC, ETH, AI-полупроводникам, макро-рискам, рыночным настроениям и органическому трафику для Gate affiliate.",
+        "daily_desc": "Архив ежедневных обзоров GateAffiliate по BTC, ETH, AI-полупроводникам, макро-рискам, рыночным настроениям и важным изменениям рынка.",
         "daily_h1": "GateAffiliate Ежедневные обзоры рынка",
-        "daily_copy": f"Здесь собраны ежедневные рыночные темы, макро-риски, популярные активы и торговые настроения. Контент поддерживает органический трафик Gate affiliate и ведет пользователей к инвайт-коду {CODE}.",
+        "daily_copy": f"Здесь собраны ежедневные рыночные темы, макро-риски, популярные активы и торговые настроения, чтобы пользователи Gate могли получить контекст перед регистрацией или торговлей. Инвайт-код: {CODE}.",
         "history": "Архив обзоров",
-        "history_copy": "Исторические обзоры перенесены в визуальный стиль GateAffiliate с едиными внутренними ссылками и SEO-структурой.",
+        "history_copy": "Просматривайте предыдущие обзоры по датам и быстро возвращайтесь к ключевым темам, рискам и данным каждого торгового дня.",
         "latest": "Читать свежий обзор",
     },
 }
@@ -89,68 +89,68 @@ HOME = {
         "title": "GateAffiliate 返佣邀请码 VLYQB1HXUW | Gate Affiliate Program",
         "desc": "GateAffiliate 返佣站：使用 Gate 邀请码 VLYQB1HXUW 注册，查看 Gate affiliate program、返佣规则说明、注册步骤和每日市场日报。",
         "eyebrow": f"GateAffiliate 邀请码：{CODE}",
-        "h1": "Gate affiliate 返佣入口，叠加每日市场内容获取自然流量。",
-        "copy": f"复制邀请码 {CODE}，通过 Gate 官方注册入口开通账户。本站围绕 Gate affiliate、邀请码、返佣、交易所注册和每日市场日报做内容沉淀，服务自然搜索流量和长期转化。",
+        "h1": "使用 Gate affiliate 邀请码，开启更清晰的交易入口。",
+        "copy": f"复制邀请码 {CODE}，通过 Gate 官方注册入口开通账户。这里整理注册步骤、返佣权益、账户安全和每日市场观察，帮助你更从容地开始使用 Gate。",
         "open": "打开 Gate 注册",
         "copy_code": "复制邀请码",
-        "stats": [("VLYQB1HXUW", "注册时填写的邀请码"), ("Affiliate", "围绕 Gate 返佣转化设计"), ("自然流量", "日报内容持续沉淀 SEO")],
+        "stats": [("VLYQB1HXUW", "注册时填写的邀请码"), ("Affiliate", "关注 Gate 返佣权益"), ("每日市场", "跟踪交易情绪与风险")],
         "bonus_h2": "注册前先复制 Gate affiliate 邀请码。",
         "bonus_p": f"如果 Gate 注册页没有自动带入邀请码，请手动填写 {CODE}。新用户奖励、返佣比例、任务券、affiliate 资格和活动门槛会随官方活动变化，实际权益请以 Gate 当前页面显示为准。",
         "steps_h2": "Gate affiliate 注册步骤",
         "steps_p": "保持流程简单，重点是确认官方域名、填写邀请码、完成账户安全设置。",
         "steps": [("打开官方注册页", "从本站按钮跳转到 Gate 官方页面，检查浏览器地址栏，确认不是仿冒网站。"), ("填写邀请码", "注册时输入或粘贴邀请码，提交前再确认一次。"), ("完成安全设置", "启用双重验证，设置资金密码，并只在自己理解风险的前提下使用现货、合约或理财功能。")],
-        "seo_h2": "围绕 Gate affiliate 高意图搜索词布局",
-        "seo_p": "页面底层围绕注册、邀请码、返佣、affiliate program、交易所活动和日报内容建立内部链接，让自然流量进入同一条转化路径。",
+        "seo_h2": "Gate 交易权益与账户指南",
+        "seo_p": "在注册前了解邀请码、返佣资格、账户安全和市场信息，能帮助你更好地判断是否适合使用 Gate 的相关交易产品。",
         "latest_h2": "最新 GateAffiliate 市场日报",
-        "latest_p": "已迁移历史市场日报，并统一为 GateAffiliate 蓝色视觉。日报内容会作为长期 SEO 内容库，为返佣站提供回访和自然搜索入口。",
+        "latest_p": "每日市场日报覆盖 BTC、ETH、热门板块、宏观变量和交易情绪，方便你在交易前快速了解当天市场背景。",
         "faq_h2": "常见问题",
         "faq_p": "注册前建议先把这些细节确认好。",
-        "faq": [("GateAffiliate 邀请码是多少？", f"邀请码是 {CODE}。如果注册链接没有自动带入，请手动复制填写。"), ("奖励和返佣一定能拿到吗？", "不承诺。不同地区、账户状态、活动周期、交易产品和 KYC 情况都可能影响资格，最终以 Gate 官方页面和账户内显示为准。"), ("这个站为什么放每日市场日报？", "Affiliate 站不能只放注册链接。每日市场日报可以承接 BTC、ETH、AI、宏观和交易情绪等长尾搜索，让用户有理由回访，并通过内部链接回到 Gate 邀请码和返佣入口。")],
+        "faq": [("GateAffiliate 邀请码是多少？", f"邀请码是 {CODE}。如果注册链接没有自动带入，请手动复制填写。"), ("奖励和返佣一定能拿到吗？", "不承诺。不同地区、账户状态、活动周期、交易产品和 KYC 情况都可能影响资格，最终以 Gate 官方页面和账户内显示为准。"), ("每日市场日报适合谁看？", "适合希望在注册或交易前快速了解市场背景的用户。日报内容覆盖主流资产、热门板块、宏观变量和风险提示，仅供信息参考。")],
     },
     "zh-hant": {},
     "en": {
         "title": "GateAffiliate Referral Code VLYQB1HXUW | Gate Affiliate Program",
         "desc": "GateAffiliate rebate site: use Gate invite code VLYQB1HXUW, review Gate affiliate program notes, joining steps, and daily market briefs.",
         "eyebrow": f"GateAffiliate invite code: {CODE}",
-        "h1": "Gate affiliate referral entry with daily market content for organic traffic.",
+        "h1": "Use the Gate affiliate invite code and start with a clearer trading entry.",
         "copy": f"Copy invite code {CODE} and open a Gate account through the official registration path. This site builds around Gate affiliate, invite code, rebate, exchange signup, and daily market briefs for long-term search traffic and conversion.",
         "open": "Open Gate registration",
         "copy_code": "Copy invite code",
-        "stats": [("VLYQB1HXUW", "Invite code to use at signup"), ("Affiliate", "Built around Gate rebate conversion"), ("Organic traffic", "Daily briefs compound SEO relevance")],
+        "stats": [("VLYQB1HXUW", "Invite code to use at signup"), ("Affiliate", "Follow Gate rebate benefits"), ("Daily market", "Track sentiment and risk")],
         "bonus_h2": "Copy the Gate affiliate invite code before signup.",
         "bonus_p": f"If Gate does not auto-fill the invite code, enter {CODE} manually. New-user rewards, rebate rates, task coupons, affiliate eligibility, and campaign rules can change, so the current Gate page controls the final terms.",
         "steps_h2": "How to join with the Gate affiliate code",
         "steps_p": "Keep the flow simple: verify the official domain, enter the invite code, and secure the account.",
         "steps": [("Open the official registration page", "Use the button on this site and check the browser address bar before entering any account details."), ("Enter the invite code", "Paste the code during registration and confirm it before submitting."), ("Secure the account", "Enable two-factor authentication, set fund security controls, and only use trading products you understand.")],
-        "seo_h2": "Built around high-intent Gate affiliate searches",
-        "seo_p": "The site links signup, invite code, rebates, affiliate program terms, exchange campaigns, and daily briefs into one conversion path.",
+        "seo_h2": "Gate trading benefits and account guide",
+        "seo_p": "Before signing up, review the invite code, rebate eligibility, account security basics, and market information so you can decide whether Gate products fit your needs.",
         "latest_h2": "Latest GateAffiliate Market Brief",
-        "latest_p": "Historical briefs have been migrated into the GateAffiliate blue visual system. They act as a long-term SEO content library for return visits and organic search.",
+        "latest_p": "Daily market briefs cover BTC, ETH, hot sectors, macro variables, and trading sentiment so you can get context before trading.",
         "faq_h2": "FAQ",
         "faq_p": "Check these points before registering.",
-        "faq": [("What is the GateAffiliate invite code?", f"The invite code is {CODE}. If the signup page does not auto-fill it, copy and enter it manually."), ("Are rewards and rebates guaranteed?", "No. Region, account status, campaign dates, trading product, and KYC status may affect eligibility. Gate's current official page and account display are final."), ("Why does an affiliate site include daily market briefs?", "An affiliate site should not rely on a single link. Daily briefs can capture long-tail searches for BTC, ETH, AI, macro, and trading sentiment while linking readers back to the Gate invite and rebate entry.")],
+        "faq": [("What is the GateAffiliate invite code?", f"The invite code is {CODE}. If the signup page does not auto-fill it, copy and enter it manually."), ("Are rewards and rebates guaranteed?", "No. Region, account status, campaign dates, trading product, and KYC status may affect eligibility. Gate's current official page and account display are final."), ("Who should read the daily market briefs?", "They are for users who want quick market context before registering or trading. Briefs cover major assets, hot sectors, macro variables, and risk notes for information only.")],
     },
     "ru": {
         "title": "GateAffiliate реферальный код VLYQB1HXUW | Gate Affiliate Program",
         "desc": "GateAffiliate сайт для rebate: используйте инвайт-код Gate VLYQB1HXUW, смотрите условия affiliate program, шаги регистрации и ежедневные обзоры рынка.",
         "eyebrow": f"GateAffiliate инвайт-код: {CODE}",
-        "h1": "Gate affiliate вход для rebate плюс ежедневный контент для органического трафика.",
+        "h1": "Используйте Gate affiliate инвайт-код и начните с понятного входа.",
         "copy": f"Скопируйте инвайт-код {CODE} и откройте аккаунт Gate через официальный путь регистрации. Сайт объединяет Gate affiliate, инвайт-код, rebate, регистрацию на бирже и ежедневные обзоры для долгосрочного поиска и конверсии.",
         "open": "Открыть регистрацию Gate",
         "copy_code": "Скопировать код",
-        "stats": [("VLYQB1HXUW", "Код для регистрации"), ("Affiliate", "Фокус на Gate rebate"), ("Organic traffic", "Ежедневные обзоры усиливают SEO")],
+        "stats": [("VLYQB1HXUW", "Код для регистрации"), ("Affiliate", "Условия Gate rebate"), ("Ежедневный рынок", "Настроения и риски")],
         "bonus_h2": "Скопируйте Gate affiliate код перед регистрацией.",
         "bonus_p": f"Если Gate не подставит код автоматически, введите {CODE} вручную. Бонусы, rebate, купоны, affiliate eligibility и условия кампаний могут меняться; финальные условия определяются текущей страницей Gate.",
         "steps_h2": "Как зарегистрироваться с Gate affiliate кодом",
         "steps_p": "Проверьте официальный домен, введите инвайт-код и настройте безопасность аккаунта.",
         "steps": [("Откройте официальную страницу", "Используйте кнопку на сайте и проверьте адрес в браузере перед вводом данных."), ("Введите инвайт-код", "Вставьте код при регистрации и проверьте его перед отправкой формы."), ("Защитите аккаунт", "Включите 2FA, настройте защиту средств и используйте только понятные вам торговые продукты.")],
-        "seo_h2": "Структура под high-intent Gate affiliate запросы",
-        "seo_p": "Сайт связывает регистрацию, инвайт-код, rebate, affiliate program, кампании биржи и ежедневные обзоры в один путь конверсии.",
+        "seo_h2": "Преимущества Gate и краткий гид по аккаунту",
+        "seo_p": "Перед регистрацией проверьте инвайт-код, условия rebate, базовую безопасность аккаунта и рыночную информацию, чтобы понять, подходят ли вам продукты Gate.",
         "latest_h2": "Свежий обзор GateAffiliate",
-        "latest_p": "Исторические обзоры перенесены в синий стиль GateAffiliate. Они работают как долгосрочная SEO-библиотека для возвратов и органического поиска.",
+        "latest_p": "Ежедневные обзоры охватывают BTC, ETH, популярные сектора, макро-факторы и рыночные настроения, чтобы дать контекст перед торговлей.",
         "faq_h2": "FAQ",
         "faq_p": "Проверьте эти пункты перед регистрацией.",
-        "faq": [("Какой инвайт-код GateAffiliate?", f"Инвайт-код: {CODE}. Если он не подставился автоматически, скопируйте и введите его вручную."), ("Гарантированы ли бонусы и rebate?", "Нет. Регион, статус аккаунта, даты кампании, торговый продукт и KYC могут влиять на eligibility. Финальными являются текущие условия Gate."), ("Зачем affiliate сайту ежедневные обзоры?", "Affiliate сайт не должен зависеть только от одной ссылки. Ежедневные обзоры привлекают long-tail запросы по BTC, ETH, AI, macro и sentiment, а затем возвращают читателя к Gate invite и rebate entry.")],
+        "faq": [("Какой инвайт-код GateAffiliate?", f"Инвайт-код: {CODE}. Если он не подставился автоматически, скопируйте и введите его вручную."), ("Гарантированы ли бонусы и rebate?", "Нет. Регион, статус аккаунта, даты кампании, торговый продукт и KYC могут влиять на eligibility. Финальными являются текущие условия Gate."), ("Кому подходят ежедневные обзоры?", "Они подходят пользователям, которым нужен быстрый рыночный контекст перед регистрацией или торговлей. Обзоры включают основные активы, популярные сектора, макро-факторы и риски.")],
     },
 }
 HOME["zh-hant"] = {
@@ -161,23 +161,23 @@ HOME["zh-hant"].update({
     "title": "GateAffiliate 返佣邀請碼 VLYQB1HXUW | Gate Affiliate Program",
     "desc": "GateAffiliate 返佣站：使用 Gate 邀請碼 VLYQB1HXUW 註冊，查看 Gate affiliate program、返佣規則說明、註冊步驟和每日市場日報。",
     "eyebrow": f"GateAffiliate 邀請碼：{CODE}",
-    "h1": "Gate affiliate 返佣入口，疊加每日市場內容獲取自然流量。",
-    "copy": f"複製邀請碼 {CODE}，透過 Gate 官方註冊入口開通帳戶。本站圍繞 Gate affiliate、邀請碼、返佣、交易所註冊和每日市場日報做內容沉澱，服務自然搜尋流量和長期轉化。",
+    "h1": "使用 Gate affiliate 邀請碼，開啟更清晰的交易入口。",
+    "copy": f"複製邀請碼 {CODE}，透過 Gate 官方註冊入口開通帳戶。這裡整理註冊步驟、返佣權益、帳戶安全和每日市場觀察，幫助你更從容地開始使用 Gate。",
     "open": "打開 Gate 註冊",
     "copy_code": "複製邀請碼",
-    "stats": [("VLYQB1HXUW", "註冊時填寫的邀請碼"), ("Affiliate", "圍繞 Gate 返佣轉化設計"), ("自然流量", "日報內容持續沉澱 SEO")],
+    "stats": [("VLYQB1HXUW", "註冊時填寫的邀請碼"), ("Affiliate", "關注 Gate 返佣權益"), ("每日市場", "追蹤交易情緒與風險")],
     "bonus_h2": "註冊前先複製 Gate affiliate 邀請碼。",
     "bonus_p": f"如果 Gate 註冊頁沒有自動帶入邀請碼，請手動填寫 {CODE}。新用戶獎勵、返佣比例、任務券、affiliate 資格和活動門檻會隨官方活動變化，實際權益請以 Gate 當前頁面顯示為準。",
     "steps_h2": "Gate affiliate 註冊步驟",
     "steps_p": "保持流程簡單，重點是確認官方域名、填寫邀請碼、完成帳戶安全設定。",
     "steps": [("打開官方註冊頁", "從本站按鈕跳轉到 Gate 官方頁面，檢查瀏覽器地址欄，確認不是仿冒網站。"), ("填寫邀請碼", "註冊時輸入或貼上邀請碼，提交前再確認一次。"), ("完成安全設定", "啟用雙重驗證，設定資金密碼，並只在自己理解風險的前提下使用現貨、合約或理財功能。")],
-    "seo_h2": "圍繞 Gate affiliate 高意圖搜尋詞布局",
-    "seo_p": "頁面底層圍繞註冊、邀請碼、返佣、affiliate program、交易所活動和日報內容建立內部連結，讓自然流量進入同一條轉化路徑。",
+    "seo_h2": "Gate 交易權益與帳戶指南",
+    "seo_p": "在註冊前了解邀請碼、返佣資格、帳戶安全和市場資訊，能幫助你更好地判斷是否適合使用 Gate 的相關交易產品。",
     "latest_h2": "最新 GateAffiliate 市場日報",
-    "latest_p": "已遷移歷史市場日報，並統一為 GateAffiliate 藍色視覺。日報內容會作為長期 SEO 內容庫，為返佣站提供回訪和自然搜尋入口。",
+    "latest_p": "每日市場日報覆蓋 BTC、ETH、熱門板塊、宏觀變量和交易情緒，方便你在交易前快速了解當天市場背景。",
     "faq_h2": "常見問題",
     "faq_p": "註冊前建議先把這些細節確認好。",
-    "faq": [("GateAffiliate 邀請碼是多少？", f"邀請碼是 {CODE}。如果註冊連結沒有自動帶入，請手動複製填寫。"), ("獎勵和返佣一定能拿到嗎？", "不承諾。不同地區、帳戶狀態、活動週期、交易產品和 KYC 情況都可能影響資格，最終以 Gate 官方頁面和帳戶內顯示為準。"), ("這個站為什麼放每日市場日報？", "Affiliate 站不能只放註冊連結。每日市場日報可以承接 BTC、ETH、AI、宏觀和交易情緒等長尾搜尋，讓用戶有理由回訪，並透過內部連結回到 Gate 邀請碼和返佣入口。")],
+    "faq": [("GateAffiliate 邀請碼是多少？", f"邀請碼是 {CODE}。如果註冊連結沒有自動帶入，請手動複製填寫。"), ("獎勵和返佣一定能拿到嗎？", "不承諾。不同地區、帳戶狀態、活動週期、交易產品和 KYC 情況都可能影響資格，最終以 Gate 官方頁面和帳戶內顯示為準。"), ("每日市場日報適合誰看？", "適合希望在註冊或交易前快速了解市場背景的用戶。日報內容覆蓋主流資產、熱門板塊、宏觀變量和風險提示，僅供資訊參考。")],
 })
 
 
@@ -283,10 +283,9 @@ def header(lang, current_path_by_lang=None):
         <div class="nav-links">
           <a href="{m["home"]}#invite">{nav[0]}</a>
           <a href="{m["home"]}#steps">{nav[1]}</a>
-          <a href="{m["home"]}#seo">{nav[2]}</a>
-          <a href="{m["daily"]}">{nav[3]}</a>
-          <a href="{m["home"]}#faq">{nav[4]}</a>
-          <a class="button button-primary" data-invite href="#">{nav[5]}</a>
+          <a href="{m["daily"]}">{nav[2]}</a>
+          <a href="{m["home"]}#faq">{nav[3]}</a>
+          <a class="button button-primary" data-invite href="#">{nav[4]}</a>
         </div>
         {lang_switch(lang, current_path_by_lang)}
       </nav>
@@ -491,8 +490,7 @@ def home_page(lang):
         </div>
       </section>
       <section id="steps"><div class="wrap"><div class="section-head"><h2>{c["steps_h2"]}</h2><p>{c["steps_p"]}</p></div><div class="grid grid-3 steps">{steps}</div></div></section>
-      <section id="seo"><div class="wrap"><div class="section-head"><h2>{c["seo_h2"]}</h2><p>{c["seo_p"]}</p></div><div class="grid grid-2"><article class="card"><h3>Gate affiliate keywords</h3><ul><li>Gate affiliate program</li><li>Gate referral code {CODE}</li><li>Gate invite code</li><li>Gate rebate</li><li>Gate registration bonus</li></ul></article><article class="card"><h3>Conversion content</h3><ul><li>How to use {CODE}</li><li>Gate affiliate rebate terms</li><li>Gate account security</li><li><a class="text-link" href="{m["daily"]}">Daily market briefs</a></li></ul></article></div></div></section>
-      <section><div class="wrap latest-brief"><div><span class="eyebrow">Daily brief</span><h2>{c["latest_h2"]}</h2><p>{c["latest_p"]}</p></div><a class="button button-secondary" href="{m["daily"]}">{m["nav"][3]}</a></div></section>
+      <section><div class="wrap latest-brief"><div><span class="eyebrow">Daily brief</span><h2>{c["latest_h2"]}</h2><p>{c["latest_p"]}</p></div><a class="button button-secondary" href="{m["daily"]}">{m["nav"][2]}</a></div></section>
       <section id="faq" class="faq"><div class="wrap"><div class="section-head"><h2>{c["faq_h2"]}</h2><p>{c["faq_p"]}</p></div>{faqs}</div></section>
     </main>
     {footer(lang)}
@@ -535,7 +533,7 @@ def daily_index(lang):
   </head>
   <body>
     {header(lang, path_by_lang)}
-    <section class="hero"><div class="hero-inner"><span class="eyebrow">GateAffiliate daily market brief</span><h1>{m["daily_h1"]}</h1><p class="hero-copy">{m["daily_copy"]}</p><div class="hero-actions"><a class="button button-primary" href="{daily_slug(lang, DATES[-1])}">{m["latest"]}</a><a class="button button-secondary" data-invite href="#">{m["nav"][5]}</a></div></div></section>
+    <section class="hero"><div class="hero-inner"><span class="eyebrow">GateAffiliate daily market brief</span><h1>{m["daily_h1"]}</h1><p class="hero-copy">{m["daily_copy"]}</p><div class="hero-actions"><a class="button button-primary" href="{daily_slug(lang, DATES[-1])}">{m["latest"]}</a><a class="button button-secondary" data-invite href="#">{m["nav"][4]}</a></div></div></section>
     <main><section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">{''.join(cards)}</div></div></section></main>
     {footer(lang)}
     <script src="/assets/app.js?v={STYLE_VERSION}"></script>
@@ -569,6 +567,9 @@ def clean_generated():
     for child in (ROOT / "daily").glob("2026-*"):
         if child.is_dir():
             shutil.rmtree(child)
+    bad_daily_index_dir = ROOT / "daily" / "index.html"
+    if bad_daily_index_dir.is_dir():
+        shutil.rmtree(bad_daily_index_dir)
 
 
 def main():
@@ -583,7 +584,8 @@ def main():
         if lang == "zh-cn":
             home_path = ROOT / "index.html"
         write(home_path, home_page(lang))
-        write(ROOT / daily_slug(lang, "index.html").lstrip("/"), daily_index(lang))
+        daily_index_path = ROOT / LANG_META[lang]["daily"].lstrip("/") / "index.html"
+        write(daily_index_path, daily_index(lang))
         for date in DATES:
             write(ROOT / daily_slug(lang, date).lstrip("/") / "index.html", page(date, lang))
     write(ROOT / "sitemap.xml", sitemap())
