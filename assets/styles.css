@@ -68,14 +68,19 @@ a {
 .brand-mark {
   width: 34px;
   height: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  overflow: hidden;
   border-radius: 8px;
-  color: #f6f9ff;
-  background: linear-gradient(135deg, var(--gate-blue), var(--gate-blue-2));
+  background: #ffffff;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08) inset;
-  font-weight: 900;
+  flex: 0 0 auto;
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .nav-links {
