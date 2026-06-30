@@ -32,7 +32,7 @@ const broken = [];
 for (const file of htmlFiles) {
   const html = await readFile(file, "utf8");
   if (!html.includes("VLYQB1HXUW")) broken.push(file);
-  if (!html.includes("/assets/styles.css?v=20260630-gate-brand")) broken.push(file);
+  if (!html.includes("/assets/styles.css?v=20260630-gate-blue")) broken.push(file);
 }
 
 if (missing.length || broken.length) {
