@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Gate Guide">
+  <rect width="64" height="64" rx="14" fill="#07110f"/>
+  <path fill="#18e59a" d="M32 10a22 22 0 1 0 0 44 22 22 0 0 0 19.8-12.4H32.5V30.5H54A22 22 0 0 0 32 10Z"/>
+  <path fill="#42d8ff" d="M32 20a12 12 0 1 0 8.4 20.6H32.5V30.5h21.6A22 22 0 0 1 32 54a22 22 0 0 1 0-44 22 22 0 0 1 18.7 10.4H36A11.9 11.9 0 0 0 32 20Z" opacity=".75"/>
+</svg>
