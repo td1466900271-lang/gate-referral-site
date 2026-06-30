@@ -9,7 +9,7 @@ from opencc import OpenCC
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT.parent / "hyperliquid-referral-site" / "market-briefing"
-BASE_URL = "https://gate-referral-site.pages.dev"
+BASE_URL = "https://gateaffiliate.com"
 CODE = "VLYQB1HXUW"
 STYLE_VERSION = "20260630-gate-blue"
 T2S = OpenCC("t2s")
