@@ -62,87 +62,68 @@ META = {
     },
 }
 
-EN_SECTIONS = [
-    ("Main View", [
-        "AI semiconductor second confirmation is still progressing. U.S. TSM, AMD, AMAT, ASML, SMH and SOXX all strengthened, while Taiwan's market and TSM continued to repair intraday.",
-        "This is not broad, indiscriminate risk-on. MU still has high TraderXYZ turnover but is slightly lower, DRAM is weaker, CRCL fell sharply, and BTC/ETH are soft. Capital is choosing assets that can convert AI CapEx into earnings.",
-    ]),
-    ("Key Market Data", [
-        "U.S. cash data is from the 2026-06-30 close. Taiwan and TraderXYZ / Hyperliquid data are from around 2026-07-01 10:59 CST.",
-        "SPY 746.77 +0.74%, QQQ 736.40 +1.63%, SMH 655.89 +3.80%, SOXX 640.76 +4.15%. TSM ADR 477.57 +4.84%, MU 1154.29 +0.53%, NVDA 200.09 +2.53%, AMD 580.91 +7.64%, AMAT 723.00 +4.19%, ASML 1989.44 +5.59%, SNDK 2273.73 +10.75%.",
-        "Taiwan Weighted traded near 47,045.32, up about 1.99%. TSM 2330 bid/ask was around NT$2485 / NT$2490, with an intraday high near NT$2495. A sustained move above NT$2500 would reconfirm TSM as the core anchor of the Asian AI supply chain.",
-    ]),
-    ("TraderXYZ / Hyperliquid Flows", [
-        "Top 24h notional flows included SKHX about $435M, XYZ100 about $314M, SP500 about $261M, SPCX about $258M, MU about $197M, SNDK about $171M, SILVER about $164M, DRAM about $86.22M, CL about $76.53M and CRCL about $72.52M.",
-        "MU remains top five but is slightly lower, which points to high-level churn rather than a clean second leg higher. SNDK is much stronger than DRAM, suggesting rotation inside the memory chain toward data-center storage capacity.",
-    ]),
-    ("Crypto and Macro", [
-        "BTC traded near 59,060, ETH near 1,585.6, SOL near 74.774 and HYPE near 65.37. Crypto is not confirming a broad liquidity-driven risk-on move today.",
-        "May PCE at 4.1% YoY and core PCE at 3.4% keep the Fed from turning dovish quickly. AI hardware needs earnings delivery more than simple multiple expansion.",
-    ]),
-    ("Institutional Frame", [
-        "Micron's FY2026 Q3 results remain the core fundamental anchor: revenue $41.456B, non-GAAP EPS $25.11 and gross margin near 84.6%, with Q4 guidance around $50B revenue and non-GAAP EPS near $31.",
-        "Wedbush, BNP Paribas and Morgan Stanley remain supportive on the AI memory cycle and MU's improving visibility. Goldman Sachs' AI CapEx framework keeps the bigger point in focus: AI infrastructure is a multi-year build-out across data centers, power, cooling, memory, networking and packaging.",
-        "Reported TSMC advanced-node price increases strengthen TSM's pricing power, but may pressure downstream customers such as Nvidia, AMD, Apple, Qualcomm and Broadcom.",
-    ]),
-    ("Contrarian View", [
-        "The strongest signal today is not MU alone. TSM, AMD, AMAT, ASML, SNDK and semiconductor ETFs show that AI is being repriced across the supply chain.",
-        "MU sideways action is not automatically bearish. If key levels hold, heavy turnover can be a healthy handoff rather than the end of the theme.",
-        "Weak crypto means this is not a broad liquidity rally. The real signal is in semiconductor ETFs, TSM, equipment and SNDK.",
-    ]),
-    ("Watchlist", [
-        "TSM: whether 2330.TW can break and hold NT$2500.",
-        "MU: whether the 1130-1150 zone keeps attracting buyers.",
-        "SNDK / DRAM: whether storage strength continues while DRAM lags.",
-        "Equipment chain: AMAT, ASML, LRCX and KLAC are the quality check for AI CapEx diffusion.",
-        "Macro: Fed comments, Treasury yields and oil remain the valuation ceiling.",
-    ]),
-    ("Conclusion", [
-        "My view: AI semiconductor second confirmation is becoming higher quality. Last week MU validated memory tightness; now TSM, equipment, AMD, SNDK and semiconductor ETFs are repairing together. This looks like a systemic repricing of the AI CapEx chain, not only a single-company earnings trade.",
-        "I would still avoid calling it a risk-free chase. MU is sideways, DRAM is weaker, crypto is not helping, and PCE remains high. The better framework is medium-term constructive on AI bottleneck assets, short-term confirmation through TSM NT$2500 and MU 1130-1150, with macro risk kept in view.",
-    ]),
-]
-
-RU_SECTIONS = [
-    ("Главный Вывод", [
-        "Второе подтверждение AI-полупроводников продолжается. В США укрепились TSM, AMD, AMAT, ASML, SMH и SOXX, а сегодня рынок Тайваня и TSM продолжили внутридневное восстановление.",
-        "Это не широкий и безусловный risk-on. У MU все еще высокий оборот на TraderXYZ, но цена немного ниже; DRAM слабее, CRCL резко снизился, BTC/ETH мягкие. Капитал выбирает активы, которые реально могут конвертировать AI CapEx в прибыль.",
-    ]),
-    ("Ключевые Данные", [
-        "Данные США относятся к закрытию 2026-06-30. Тайвань и TraderXYZ / Hyperliquid — около 2026-07-01 10:59 CST.",
-        "SPY 746.77 +0.74%, QQQ 736.40 +1.63%, SMH 655.89 +3.80%, SOXX 640.76 +4.15%. TSM ADR 477.57 +4.84%, MU 1154.29 +0.53%, NVDA 200.09 +2.53%, AMD 580.91 +7.64%, AMAT 723.00 +4.19%, ASML 1989.44 +5.59%, SNDK 2273.73 +10.75%.",
-        "Taiwan Weighted торговался около 47 045,32, рост около 1,99%. TSM 2330 стояла около NT$2485 / NT$2490, внутридневной максимум около NT$2495. Устойчивое движение выше NT$2500 снова подтвердит TSM как главный якорь азиатской AI-цепочки.",
-    ]),
-    ("Потоки TraderXYZ / Hyperliquid", [
-        "В топ 24-часовых номинальных потоков вошли SKHX около $435 млн, XYZ100 около $314 млн, SP500 около $261 млн, SPCX около $258 млн, MU около $197 млн, SNDK около $171 млн, SILVER около $164 млн, DRAM около $86,22 млн, CL около $76,53 млн и CRCL около $72,52 млн.",
-        "MU остается в топ-5, но немного снижается. Это больше похоже на высокую смену рук, чем на чистую вторую волну роста. SNDK заметно сильнее DRAM, что указывает на ротацию внутри памяти в сторону емкости хранения для дата-центров.",
-    ]),
-    ("Крипто И Макро", [
-        "BTC около 59 060, ETH около 1 585,6, SOL около 74,774 и HYPE около 65,37. Крипто сегодня не подтверждает широкий ликвидностный risk-on.",
-        "PCE за май 4,1% г/г и базовый PCE 3,4% не дают ФРС быстро стать мягкой. AI-оборудованию теперь важнее подтверждать прибыль, чем просто расширять мультипликаторы.",
-    ]),
-    ("Институциональный Фон", [
-        "Отчет Micron за FY2026 Q3 остается ключевым фундаментальным якорем: выручка $41,456 млрд, non-GAAP EPS $25,11, валовая маржа около 84,6%; прогноз Q4 — выручка около $50 млрд и non-GAAP EPS около $31.",
-        "Wedbush, BNP Paribas и Morgan Stanley по-прежнему поддерживают тезис AI-памяти и улучшения видимости MU. Рамка Goldman Sachs по AI CapEx напоминает: AI-инфраструктура — это многолетний цикл дата-центров, энергии, охлаждения, памяти, сетей и упаковки.",
-        "Сообщения о повышении цен TSMC на передовые техпроцессы усиливают ценовую власть TSM, но могут давить на клиентов вроде Nvidia, AMD, Apple, Qualcomm и Broadcom.",
-    ]),
-    ("Контрарный Взгляд", [
-        "Самый сильный сигнал сегодня — не только MU. TSM, AMD, AMAT, ASML, SNDK и полупроводниковые ETF показывают переоценку всей AI-цепочки.",
-        "Боковое движение MU не обязательно медвежье. Пока ключевые уровни держатся, высокий оборот может быть здоровой сменой рук, а не концом темы.",
-        "Слабая крипта означает, что это не широкий ликвидностный рост. Главный сигнал идет от ETF полупроводников, TSM, оборудования и SNDK.",
-    ]),
-    ("Что Смотреть", [
-        "TSM: сможет ли 2330.TW пробить и удержать NT$2500.",
-        "MU: будет ли зона 1130-1150 продолжать привлекать покупателей.",
-        "SNDK / DRAM: продолжится ли сила хранения при отставании DRAM.",
-        "Оборудование: AMAT, ASML, LRCX и KLAC проверяют качество распространения AI CapEx.",
-        "Макро: комментарии ФРС, доходности и нефть остаются потолком для оценок.",
-    ]),
-    ("Заключение", [
-        "Мой вывод: второе подтверждение AI-полупроводников становится качественнее. На прошлой неделе MU подтвердила дефицит памяти; теперь TSM, оборудование, AMD, SNDK и ETF восстанавливаются вместе. Это больше похоже на системную переоценку AI CapEx-цепочки, а не только на отчет одной компании.",
-        "Но я не считаю это безрисковым окном для погони. MU боковая, DRAM слабее, крипто не помогает, PCE высокий. Более разумная рамка: среднесрочно конструктивно смотреть на AI bottleneck assets, краткосрочно ждать подтверждения TSM выше NT$2500 и удержания MU 1130-1150, не забывая о макро-риске.",
-    ]),
-]
+CONCISE_SECTIONS = {
+    "zh-cn": [
+        ("核心结论", [
+            "今天的主线不是全面 risk-on，而是 AI 半导体内部的二次确认。TSM、AMD、AMAT、ASML 与半导体 ETF 同步修复，说明资金从 MU 的记忆体验证扩散到设备链、先进制程和 AI 供应链。",
+            "但 MU 高位换手、DRAM 偏弱、BTC/ETH 走软，提示短线仍要避免无差别追涨。",
+        ]),
+        ("三条观察线", [
+            "TSM 2330.TW 能否站稳 NT$2500，是亚洲 AI 供应链确认度的关键。",
+            "MU 需要守住 1130-1150 区间，否则高位换手会变成利润回吐。",
+            "设备链 AMAT、ASML、LRCX、KLAC 的持续性，决定 AI CapEx 是否继续向上扩散。",
+        ]),
+        ("交易框架", [
+            "中期仍偏向 AI bottleneck assets，但短线更适合等确认，而不是在情绪高点追单。",
+            "Crypto 没有同步走强，说明这轮强势更偏产业逻辑，不是全市场流动性行情。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "今天的主線不是全面 risk-on，而是 AI 半導體內部的二次確認。TSM、AMD、AMAT、ASML 與半導體 ETF 同步修復，說明資金從 MU 的記憶體驗證擴散到設備鏈、先進製程和 AI 供應鏈。",
+            "但 MU 高位換手、DRAM 偏弱、BTC/ETH 走軟，提示短線仍要避免無差別追漲。",
+        ]),
+        ("三條觀察線", [
+            "TSM 2330.TW 能否站穩 NT$2500，是亞洲 AI 供應鏈確認度的關鍵。",
+            "MU 需要守住 1130-1150 區間，否則高位換手會變成利潤回吐。",
+            "設備鏈 AMAT、ASML、LRCX、KLAC 的持續性，決定 AI CapEx 是否繼續向上擴散。",
+        ]),
+        ("交易框架", [
+            "中期仍偏向 AI bottleneck assets，但短線更適合等確認，而不是在情緒高點追單。",
+            "Crypto 沒有同步走強，說明這輪強勢更偏產業邏輯，不是全市場流動性行情。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "This is not a broad risk-on move. It is a second confirmation inside AI semiconductors: TSM, AMD, AMAT, ASML and semi ETFs are recovering together.",
+            "The signal has moved from MU memory validation into equipment, advanced process and the wider AI supply chain.",
+        ]),
+        ("Three Lines To Watch", [
+            "TSM 2330.TW above NT$2500 would strengthen the Asian AI supply-chain confirmation.",
+            "MU needs the 1130-1150 zone to hold; otherwise high turnover can become profit-taking.",
+            "AMAT, ASML, LRCX and KLAC decide whether AI CapEx diffusion is still broadening.",
+        ]),
+        ("Trading Frame", [
+            "Medium term, AI bottleneck assets remain constructive. Short term, confirmation matters more than chasing.",
+            "Crypto weakness means this is an industry-led move, not a simple liquidity rally.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "Это не широкий risk-on, а второе подтверждение внутри AI-полупроводников: TSM, AMD, AMAT, ASML и полупроводниковые ETF восстанавливаются вместе.",
+            "Сигнал расширился от памяти MU к оборудованию, передовым техпроцессам и более широкой AI-цепочке.",
+        ]),
+        ("Три Линии Для Наблюдения", [
+            "TSM 2330.TW выше NT$2500 усилит подтверждение азиатской AI-цепочки.",
+            "MU нужно удержать 1130-1150; иначе высокий оборот может перейти в фиксацию прибыли.",
+            "AMAT, ASML, LRCX и KLAC покажут, продолжает ли AI CapEx расширяться.",
+        ]),
+        ("Торговая Рамка", [
+            "Среднесрочно AI bottleneck assets остаются конструктивными. Краткосрочно важнее подтверждение, чем погоня за движением.",
+            "Слабая крипта означает, что это отраслевое движение, а не простой рост на ликвидности.",
+        ]),
+    ],
+}
 
 SOURCES = [
     ("Micron FY2026 Q3 官方财报", "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter"),
@@ -155,27 +136,6 @@ SOURCES = [
 ]
 
 
-def paragraphs_from_source(lang):
-    text = SOURCE.read_text(encoding="utf-8")
-    if lang == "zh-hant":
-        text = T2S.convert(text) if False else text
-        text = __import__("opencc").OpenCC("s2t").convert(text)
-    blocks = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
-    html_blocks = []
-    for block in blocks:
-        lines = [line.strip() for line in block.splitlines() if line.strip()]
-        if not lines:
-            continue
-        first = lines[0].lstrip("、")
-        if len(lines) == 1 and (first.endswith("判断") or re.match(r"^[一二三四五六七八九十]+、", first)):
-            html_blocks.append(f"<h2>{html.escape(first)}</h2>")
-        elif len(lines) > 2 and all(("：" in line or line.startswith(("TSM", "MU", "SNDK", "设备链", "AMD", "CRCL", "TRAM", "宏观"))) for line in lines[1:]):
-            html_blocks.append(f"<h2>{html.escape(first)}</h2><ul>" + "".join(f"<li>{html.escape(line)}</li>" for line in lines[1:]) + "</ul>")
-        else:
-            html_blocks.append("".join(f"<p>{html.escape(line)}</p>" for line in lines))
-    return "\n".join(html_blocks)
-
-
 def translated_sections(sections):
     return "\n".join(
         f"<h2>{html.escape(title)}</h2>" + "".join(f"<p>{html.escape(p)}</p>" for p in paragraphs)
@@ -184,12 +144,7 @@ def translated_sections(sections):
 
 
 def brief_body(lang):
-    if lang in ("zh-cn", "zh-hant"):
-        article = paragraphs_from_source(lang)
-    elif lang == "en":
-        article = translated_sections(EN_SECTIONS)
-    else:
-        article = translated_sections(RU_SECTIONS)
+    article = translated_sections(CONCISE_SECTIONS[lang])
     source_links = "".join(f'<li><a class="text-link" href="{url}">{html.escape(label)}</a></li>' for label, url in SOURCES)
     labels = {
         "zh-cn": ("今日总判断", "重点观察", "参考来源"),
