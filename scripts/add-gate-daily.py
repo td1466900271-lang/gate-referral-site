@@ -38,7 +38,7 @@ META = {
         "desc": "2026-07-01 GateAffiliate 每日市场日报：AI 半导体二次确认、TSM 台股修复、设备链走强、MU 高位换手、Crypto 偏弱与宏观约束。",
         "eyebrow": f"全球市场日报 · {DATE}",
         "h1": "AI 半导体二次确认继续推进，TSM 与设备链成为核心信号。",
-        "summary": "TSM、AMD、AMAT、ASML 与半导体 ETF 延续修复，资金从 MU 财报验证扩散到先进制程、设备链和 AI 供应链；但 MU 高位换手、DRAM 转弱、Crypto 偏弱，说明不是无差别 risk-on。",
+        "summary": "TSM、AMD、AMAT、ASML 与半导体 ETF 延续修复，资金从 MU 财报验证扩散到先进制程、设备链和 AI 供应链；但 MU 高位换手、DRAM 转弱、加密资产偏弱，说明不是无差别风险偏好升温。",
         "tag": "最新",
     },
     "zh-hant": {
@@ -46,7 +46,7 @@ META = {
         "desc": "2026-07-01 GateAffiliate 每日市場日報：AI 半導體二次確認、TSM 台股修復、設備鏈走強、MU 高位換手、Crypto 偏弱與宏觀約束。",
         "eyebrow": f"全球市場日報 · {DATE}",
         "h1": "AI 半導體二次確認繼續推進，TSM 與設備鏈成為核心信號。",
-        "summary": "TSM、AMD、AMAT、ASML 與半導體 ETF 延續修復，資金從 MU 財報驗證擴散到先進製程、設備鏈和 AI 供應鏈；但 MU 高位換手、DRAM 轉弱、Crypto 偏弱，說明不是無差別 risk-on。",
+        "summary": "TSM、AMD、AMAT、ASML 與半導體 ETF 延續修復，資金從 MU 財報驗證擴散到先進製程、設備鏈和 AI 供應鏈；但 MU 高位換手、DRAM 轉弱、加密資產偏弱，說明不是無差別風險偏好升溫。",
         "tag": "最新",
     },
     "en": {
@@ -62,7 +62,7 @@ META = {
         "desc": "Ежедневный обзор GateAffiliate за 2026-07-01: подтверждение AI-полупроводников, восстановление TSM на Тайване, сила оборудования, высокая смена рук в MU, слабая крипта и макро-ограничения.",
         "eyebrow": f"Глобальный обзор · {DATE}",
         "h1": "Второе подтверждение AI-полупроводников продолжается: ключевые сигналы дают TSM и оборудование.",
-        "summary": "TSM, AMD, AMAT, ASML и полупроводниковые ETF продолжили восстановление. Сделка расширяется от подтверждения MU в памяти к передовым техпроцессам, оборудованию и всей AI-цепочке, но высокая смена рук в MU, слабый DRAM и мягкая крипта показывают, что это выборочный, а не широкий risk-on.",
+        "summary": "TSM, AMD, AMAT, ASML и полупроводниковые ETF продолжили восстановление. Сделка расширяется от подтверждения MU в памяти к передовым техпроцессам, оборудованию и всей AI-цепочке, но высокая смена рук в MU, слабый DRAM и мягкая крипта показывают, что это выборочный, а не широкий рост аппетита к риску.",
         "tag": "Свежий",
     },
 }
@@ -70,7 +70,7 @@ META = {
 CONCISE_SECTIONS = {
     "zh-cn": [
         ("核心结论", [
-            "今天的主线不是全面 risk-on，而是 AI 半导体内部的二次确认。TSM、AMD、AMAT、ASML 与半导体 ETF 同步修复，说明资金从 MU 的记忆体验证扩散到设备链、先进制程和 AI 供应链。",
+            "今天的主线不是全面风险偏好升温，而是 AI 半导体内部的二次确认。TSM、AMD、AMAT、ASML 与半导体 ETF 同步修复，说明资金从 MU 的记忆体验证扩散到设备链、先进制程和 AI 供应链。",
             "但 MU 高位换手、DRAM 偏弱、BTC/ETH 走软，提示短线仍要避免无差别追涨。",
         ]),
         ("三条观察线", [
@@ -79,13 +79,13 @@ CONCISE_SECTIONS = {
             "设备链 AMAT、ASML、LRCX、KLAC 的持续性，决定 AI CapEx 是否继续向上扩散。",
         ]),
         ("交易框架", [
-            "中期仍偏向 AI bottleneck assets，但短线更适合等确认，而不是在情绪高点追单。",
-            "Crypto 没有同步走强，说明这轮强势更偏产业逻辑，不是全市场流动性行情。",
+            "中期仍偏向 AI 瓶颈资产，但短线更适合等确认，而不是在情绪高点追单。",
+            "加密资产没有同步走强，说明这轮强势更偏产业逻辑，不是全市场流动性行情。",
         ]),
     ],
     "zh-hant": [
         ("核心結論", [
-            "今天的主線不是全面 risk-on，而是 AI 半導體內部的二次確認。TSM、AMD、AMAT、ASML 與半導體 ETF 同步修復，說明資金從 MU 的記憶體驗證擴散到設備鏈、先進製程和 AI 供應鏈。",
+            "今天的主線不是全面風險偏好升溫，而是 AI 半導體內部的二次確認。TSM、AMD、AMAT、ASML 與半導體 ETF 同步修復，說明資金從 MU 的記憶體驗證擴散到設備鏈、先進製程和 AI 供應鏈。",
             "但 MU 高位換手、DRAM 偏弱、BTC/ETH 走軟，提示短線仍要避免無差別追漲。",
         ]),
         ("三條觀察線", [
@@ -94,8 +94,8 @@ CONCISE_SECTIONS = {
             "設備鏈 AMAT、ASML、LRCX、KLAC 的持續性，決定 AI CapEx 是否繼續向上擴散。",
         ]),
         ("交易框架", [
-            "中期仍偏向 AI bottleneck assets，但短線更適合等確認，而不是在情緒高點追單。",
-            "Crypto 沒有同步走強，說明這輪強勢更偏產業邏輯，不是全市場流動性行情。",
+            "中期仍偏向 AI 瓶頸資產，但短線更適合等確認，而不是在情緒高點追單。",
+            "加密資產沒有同步走強，說明這輪強勢更偏產業邏輯，不是全市場流動性行情。",
         ]),
     ],
     "en": [
@@ -115,7 +115,7 @@ CONCISE_SECTIONS = {
     ],
     "ru": [
         ("Главный Вывод", [
-            "Это не широкий risk-on, а второе подтверждение внутри AI-полупроводников: TSM, AMD, AMAT, ASML и полупроводниковые ETF восстанавливаются вместе.",
+            "Это не широкий рост аппетита к риску, а второе подтверждение внутри AI-полупроводников: TSM, AMD, AMAT, ASML и полупроводниковые ETF восстанавливаются вместе.",
             "Сигнал расширился от памяти MU к оборудованию, передовым техпроцессам и более широкой AI-цепочке.",
         ]),
         ("Три Линии Для Наблюдения", [
@@ -124,21 +124,60 @@ CONCISE_SECTIONS = {
             "AMAT, ASML, LRCX и KLAC покажут, продолжает ли AI CapEx расширяться.",
         ]),
         ("Торговая Рамка", [
-            "Среднесрочно AI bottleneck assets остаются конструктивными. Краткосрочно важнее подтверждение, чем погоня за движением.",
+            "Среднесрочно активы узких мест AI остаются конструктивными. Краткосрочно важнее подтверждение, чем погоня за движением.",
             "Слабая крипта означает, что это отраслевое движение, а не простой рост на ликвидности.",
         ]),
     ],
 }
 
-SOURCES = [
-    ("Micron FY2026 Q3 官方财报", "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter"),
-    ("Micron Investor Relations", "https://investors.micron.com/"),
-    ("MarketWatch: Wedbush Daniel Ives", "https://www.marketwatch.com/livecoverage/micron-earnings-stock-results-memory-guidance/card/micron-s-results-suggest-the-memory-chip-trade-is-in-the-early-stages-of-playing-out-says-analyst-goQl2ckFPUte8RwIXGIE"),
-    ("Goldman Sachs AI CapEx framework", "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out"),
-    ("BEA Personal Income and Outlays", "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"),
-    ("TWSE 实时行情", "https://mis.twse.com.tw/stock/index.jsp"),
-    ("TraderXYZ / Hyperliquid 数据接口", "https://api.hyperliquid.xyz/info"),
+SOURCE_URLS = [
+    ("micron-q3", "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter"),
+    ("micron-ir", "https://investors.micron.com/"),
+    ("marketwatch-ives", "https://www.marketwatch.com/livecoverage/micron-earnings-stock-results-memory-guidance/card/micron-s-results-suggest-the-memory-chip-trade-is-in-the-early-stages-of-playing-out-says-analyst-goQl2ckFPUte8RwIXGIE"),
+    ("goldman-capex", "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out"),
+    ("bea-pce", "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"),
+    ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
+    ("traderxyz-api", "https://api.hyperliquid.xyz/info"),
 ]
+
+SOURCE_LABELS = {
+    "zh-cn": {
+        "micron-q3": "Micron FY2026 Q3 官方财报",
+        "micron-ir": "Micron 投资者关系",
+        "marketwatch-ives": "MarketWatch：Wedbush Daniel Ives 观点",
+        "goldman-capex": "Goldman Sachs AI 资本开支框架",
+        "bea-pce": "BEA 个人收入与支出数据",
+        "twse": "TWSE 实时行情",
+        "traderxyz-api": "TraderXYZ / Hyperliquid 数据接口",
+    },
+    "zh-hant": {
+        "micron-q3": "Micron FY2026 Q3 官方財報",
+        "micron-ir": "Micron 投資者關係",
+        "marketwatch-ives": "MarketWatch：Wedbush Daniel Ives 觀點",
+        "goldman-capex": "Goldman Sachs AI 資本開支框架",
+        "bea-pce": "BEA 個人收入與支出數據",
+        "twse": "TWSE 即時行情",
+        "traderxyz-api": "TraderXYZ / Hyperliquid 數據接口",
+    },
+    "en": {
+        "micron-q3": "Micron FY2026 Q3 earnings release",
+        "micron-ir": "Micron Investor Relations",
+        "marketwatch-ives": "MarketWatch: Wedbush Daniel Ives view",
+        "goldman-capex": "Goldman Sachs AI CapEx framework",
+        "bea-pce": "BEA Personal Income and Outlays",
+        "twse": "TWSE real-time quotes",
+        "traderxyz-api": "TraderXYZ / Hyperliquid data API",
+    },
+    "ru": {
+        "micron-q3": "Официальный отчет Micron за FY2026 Q3",
+        "micron-ir": "Micron Investor Relations",
+        "marketwatch-ives": "MarketWatch: мнение Wedbush Daniel Ives",
+        "goldman-capex": "Goldman Sachs: рамка AI-капзатрат",
+        "bea-pce": "BEA: личные доходы и расходы",
+        "twse": "TWSE: котировки в реальном времени",
+        "traderxyz-api": "TraderXYZ / Hyperliquid API данных",
+    },
+}
 
 
 def translated_sections(sections):
@@ -150,12 +189,21 @@ def translated_sections(sections):
 
 def brief_body(lang):
     article = translated_sections(CONCISE_SECTIONS[lang])
-    source_links = "".join(f'<li><a class="text-link" href="{url}">{html.escape(label)}</a></li>' for label, url in SOURCES)
+    source_links = "".join(
+        f'<li><a class="text-link" href="{url}">{html.escape(SOURCE_LABELS[lang][key])}</a></li>'
+        for key, url in SOURCE_URLS
+    )
     labels = {
         "zh-cn": ("今日总判断", "重点观察", "参考来源"),
         "zh-hant": ("今日總判斷", "重點觀察", "參考來源"),
         "en": ("Top View", "Watchlist", "Sources"),
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
+    }[lang]
+    watch_labels = {
+        "zh-cn": ("记忆体轮动", "AI 资本开支", "风险偏好"),
+        "zh-hant": ("記憶體輪動", "AI 資本開支", "風險偏好"),
+        "en": ("memory rotation", "AI CapEx", "risk appetite"),
+        "ru": ("ротация памяти", "AI-капзатраты", "аппетит к риску"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -181,9 +229,9 @@ def brief_body(lang):
             <div class="brief-list">
               <div class="brief-item"><strong>TSM</strong><span>2500 TWD</span></div>
               <div class="brief-item"><strong>MU</strong><span>1130-1150</span></div>
-              <div class="brief-item"><strong>SNDK / DRAM</strong><span>memory rotation</span></div>
-              <div class="brief-item"><strong>AMAT / ASML</strong><span>AI CapEx</span></div>
-              <div class="brief-item"><strong>BTC / ETH</strong><span>risk appetite</span></div>
+              <div class="brief-item"><strong>SNDK / DRAM</strong><span>{watch_labels[0]}</span></div>
+              <div class="brief-item"><strong>AMAT / ASML</strong><span>{watch_labels[1]}</span></div>
+              <div class="brief-item"><strong>BTC / ETH</strong><span>{watch_labels[2]}</span></div>
             </div>
           </aside>
         </div>
