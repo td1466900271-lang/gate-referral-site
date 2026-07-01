@@ -225,6 +225,7 @@ def enhance_html(path):
     lang = lang_from_path(path)
     path_value = url_path(path)
     text = text.replace("</head>", f"    {head_block(path_value, lang, text)}\n  </head>", 1)
+    text = re.sub(r"\n\s*\n\s*<!-- seo-enhance:start -->", "\n      <!-- seo-enhance:start -->", text)
     if path_value in ("/", "/zh-hant/", "/en/", "/ru/") and 'class="guide-section"' not in text:
         text = text.replace('      <section><div class="wrap latest-brief"', guide_section(lang) + '      <section><div class="wrap latest-brief"', 1)
     if re.search(r"/daily/\d{4}-\d{2}-\d{2}/$", path_value) and 'class="related-links"' not in text:

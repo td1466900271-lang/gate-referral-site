@@ -25,7 +25,12 @@ write = import_market_briefs.write
 
 DATE = "2026-07-01"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
-IMAGE = "/daily/images/latest-market-brief.jpg"
+IMAGES = {
+    "zh-cn": "/daily/images/market-brief-2026-07-01-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-01-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-01-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-01-ru.svg",
+}
 
 META = {
     "zh-cn": {
@@ -168,7 +173,7 @@ def brief_body(lang):
         <div class="wrap brief-layout">
           <article class="card brief-article">
             <span class="eyebrow">{labels[0]}</span>
-            <img class="brief-hero-image" src="{IMAGE}" alt="{html.escape(META[lang]["title"])}">
+            <img class="brief-hero-image" src="{IMAGES[lang]}" alt="{html.escape(META[lang]["title"])}">
             {article}
           </article>
           <aside class="card" id="watchlist">
@@ -221,7 +226,7 @@ def page(lang):
         "dateModified": DATE,
         "author": {"@type": "Organization", "name": "GateAffiliate"},
         "publisher": {"@type": "Organization", "name": "GateAffiliate", "logo": {"@type": "ImageObject", "url": f"{BASE_URL}/assets/gate-logo.ico"}},
-        "image": f"{BASE_URL}{IMAGE}",
+        "image": f"{BASE_URL}{IMAGES[lang]}",
         "mainEntityOfPage": f"{BASE_URL}{path}",
     }
     return f'''<!doctype html>
@@ -237,13 +242,13 @@ def page(lang):
     <meta property="og:type" content="article">
     <meta property="og:title" content="{html.escape(META[lang]["title"])}">
     <meta property="og:description" content="{html.escape(META[lang]["desc"])}">
-    <meta property="og:image" content="{BASE_URL}{IMAGE}">
+    <meta property="og:image" content="{BASE_URL}{IMAGES[lang]}">
     <meta property="og:site_name" content="GateAffiliate">
     <meta property="og:url" content="{BASE_URL}{path}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="theme-color" content="#07102b">
     <link rel="icon" href="/assets/gate-logo.ico" type="image/x-icon">
-    <link rel="preload" as="image" href="{IMAGE}">
+    <link rel="preload" as="image" href="{IMAGES[lang]}">
     <link rel="stylesheet" href="/assets/styles.css?v={STYLE_VERSION}">
     <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
   </head>

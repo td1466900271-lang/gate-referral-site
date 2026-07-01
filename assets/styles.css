@@ -435,7 +435,7 @@ li + li {
   border: 1px solid rgba(47, 155, 255, 0.72);
   border-radius: 8px;
   background: #07102b;
-  filter: grayscale(0.38) hue-rotate(32deg) saturate(1.55) brightness(0.7) contrast(1.16);
+  filter: none;
   box-shadow:
     0 0 0 1px rgba(27, 124, 255, 0.18),
     0 18px 42px rgba(27, 124, 255, 0.16);
