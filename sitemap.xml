@@ -312,4 +312,28 @@
     <changefreq>monthly</changefreq>
     <priority>0.72</priority>
   </url>
+  <url>
+    <loc>https://gateaffiliate.com/daily/2026-07-01/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://gateaffiliate.com/zh-hant/daily/2026-07-01/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://gateaffiliate.com/en/daily/2026-07-01/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://gateaffiliate.com/ru/daily/2026-07-01/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.72</priority>
+  </url>
 </urlset>

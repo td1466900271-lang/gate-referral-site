@@ -140,7 +140,7 @@ HOME = {
         "copy_code": "Скопировать код",
         "stats": [("VLYQB1HXUW", "Код для регистрации"), ("Affiliate", "Условия Gate rebate"), ("Ежедневный рынок", "Настроения и риски")],
         "bonus_h2": "Скопируйте Gate affiliate код перед регистрацией.",
-        "bonus_p": f"Если Gate не подставит код автоматически, введите {CODE} вручную. Бонусы, rebate, купоны, affiliate eligibility и условия кампаний могут меняться; финальные условия определяются текущей страницей Gate.",
+        "bonus_p": f"Если Gate не подставит код автоматически, введите {CODE} вручную. Бонусы, rebate-условия, купоны, affiliate-право и условия кампаний могут меняться; финальные условия определяются текущей страницей Gate.",
         "steps_h2": "Как зарегистрироваться с Gate affiliate кодом",
         "steps_p": "Проверьте официальный домен, введите инвайт-код и настройте безопасность аккаунта.",
         "steps": [("Откройте официальную страницу", "Используйте кнопку на сайте и проверьте адрес в браузере перед вводом данных."), ("Введите инвайт-код", "Вставьте код при регистрации и проверьте его перед отправкой формы."), ("Защитите аккаунт", "Включите 2FA, настройте защиту средств и используйте только понятные вам торговые продукты.")],
@@ -179,6 +179,208 @@ HOME["zh-hant"].update({
     "faq_p": "註冊前建議先把這些細節確認好。",
     "faq": [("GateAffiliate 邀請碼是多少？", f"邀請碼是 {CODE}。如果註冊連結沒有自動帶入，請手動複製填寫。"), ("獎勵和返佣一定能拿到嗎？", "不承諾。不同地區、帳戶狀態、活動週期、交易產品和 KYC 情況都可能影響資格，最終以 Gate 官方頁面和帳戶內顯示為準。"), ("註冊後怎麼確認邀請碼和權益？", "完成註冊後，可到 Gate 帳戶內與邀請、獎勵或 affiliate 相關的頁面查看狀態。如果頁面沒有顯示，請以 Gate 帳戶內當前提示和官方規則為準。")],
 })
+
+RU_BRIEFS = {
+    "2026-06-29": {
+        "title": "AI-память остается главной аппаратной темой, но сделке нужно второе подтверждение.",
+        "summary": "MU остается одним из главных потоков на TraderXYZ, TSM восстанавливается на Тайване, а высокий PCE ограничивает расширение оценок техсектора.",
+        "suffix": "AI-память, MU, восстановление TSM и потоки TraderXYZ",
+    },
+    "2026-06-01": {
+        "title": "AI-инфраструктура остается сильной, пока TSM подтверждается на Тайване.",
+        "summary": "Тайваньский рынок подтверждает TSM, по MU важна защита прибыли, а HYPE поддерживает аппетит к риску.",
+        "suffix": "Сила TSM на Тайване, правила по MU и HYPE",
+    },
+    "2026-05-30": {
+        "title": "AI-полупроводники остаются в тренде, но победителям нужны более строгие правила.",
+        "summary": "MU ведет HBM-направление, TSM и NVDA остывают, а HYPE остается сильным перед выходными.",
+        "suffix": "MU, TSM, NVDA и ротация AI-полупроводников",
+    },
+    "2026-05-29": {
+        "title": "AI-полупроводники сохраняют тренд, но главным становится расхождение на высоких уровнях.",
+        "summary": "TSM и NVDA растут, MU торгуется с высокой волатильностью, а HYPE остается сильным.",
+        "suffix": "TSM, MU, NVDA и риск-аппетит HYPE",
+    },
+    "2026-05-28": {
+        "title": "AI-полупроводники не закончились, но рынок покупает уверенность, а не все подряд.",
+        "summary": "TSM и MU лидируют, NVDA остывает, а слабость BTC и ETH показывает выборочный риск-аппетит.",
+        "suffix": "TSM, MU, AI-полупроводники и риск BTC",
+    },
+    "2026-05-27": {
+        "title": "AI-полупроводники подтверждаются, но лидерство шире, чем NVDA.",
+        "summary": "TSM, MU, AMAT и азиатские цепочки поставок подтверждают расширение AI capex.",
+        "suffix": "AI-полупроводники, TSM, MU и перпы",
+    },
+    "2026-05-26": {
+        "title": "AI-полупроводники не сломались, рынок перешел к подтверждению на высоких уровнях.",
+        "summary": "Тайвань откатывается от максимумов, Корея держится, а перпы продолжают закладывать премию AI.",
+        "suffix": "Фандинг BTC, открытый интерес и AI-полупроводники",
+    },
+    "2026-05-25": {
+        "title": "TSM ведет восстановление AI-полупроводников, пока рынок США закрыт.",
+        "summary": "Тайваньский cash-рынок и перпы оценивают восстановление, но нужно подтверждение США.",
+        "suffix": "TSM ведет восстановление AI",
+    },
+    "2026-05-23": {
+        "title": "NVIDIA подтверждает спрос на AI, но дисциплина оценок важнее.",
+        "summary": "Сильный прогноз, сдержанная реакция NVDA, устойчивые chip ETF и макро-ограничения.",
+        "suffix": "NVIDIA, спрос на AI и дисциплина оценок",
+    },
+    "2026-05-22": {
+        "title": "Высокий диапазон и структурные возможности: полупроводники расходятся, BTC нейтрален.",
+        "summary": "Расхождение полупроводников, нейтральное плечо BTC, повышенные нефть и золото.",
+        "suffix": "Диапазон рынка, BTC и структурные возможности",
+    },
+    "2026-05-21": {
+        "title": "Восстановительный отскок сохраняется, но риск жесткой политики остается.",
+        "summary": "Нефть и доходности остыли, а оценки AI остаются чувствительными к ставкам.",
+        "suffix": "Восстановительный отскок и риск политики",
+    },
+}
+
+RU_TEXT_REPLACEMENTS = [
+    ("GateAffiliate daily market brief", "ежедневный обзор GateAffiliate"),
+    ("GateAffiliate Daily Market Brief", "Ежедневный обзор GateAffiliate"),
+    ("GateAffiliate daily market brief archive", "архив ежедневных обзоров GateAffiliate"),
+    ("GateAffiliate invite code", "инвайт-код GateAffiliate"),
+    ("GateAffiliate Invite Code", "Инвайт-код GateAffiliate"),
+    ("Daily briefs", "Ежедневные обзоры"),
+    ("Daily brief", "Ежедневный обзор"),
+    ("Brief Archive", "Архив обзоров"),
+    ("Archive", "Архив"),
+    ("Latest", "Свежий"),
+    ("Updated:", "Обновлено:"),
+    ("Theme:", "Тема:"),
+    ("Coverage:", "Охват:"),
+    ("Read today's brief", "Читать сегодняшний обзор"),
+    ("Read Latest Brief", "Читать свежий обзор"),
+    ("Join Gate", "Регистрация Gate"),
+    ("Use VLYQB1HXUW", f"Использовать {CODE}"),
+    ("Copy code", "Скопировать код"),
+    ("Copied", "Скопировано"),
+    ("Gate affiliate program", "Программа Gate affiliate"),
+    ("GateAffiliate Ежедневный обзор рынка", "Ежедневный обзор рынка GateAffiliate"),
+    ("Global market brief", "Глобальный обзор рынка"),
+    ("Global Market Brief", "Глобальный обзор рынка"),
+    ("Top view", "Главный вывод"),
+    ("Watchlist", "Список наблюдения"),
+    ("Trader Watchlist", "Список наблюдения"),
+    ("Framework", "Рамка действий"),
+    ("Bottom line:", "Итог:"),
+    ("Key Market Data", "Ключевые рыночные данные"),
+    ("Sources:", "Источники:"),
+    ("Data timestamps:", "Время данных:"),
+    ("U.S. equities and AI semiconductors", "Акции США и AI-полупроводники"),
+    ("Taiwan market and TSM", "Рынок Тайваня и TSM"),
+    ("TraderXYZ / Hyperliquid top flows", "Крупнейшие потоки TraderXYZ / Hyperliquid"),
+    ("Crypto risk context", "Криптовалютный риск-контекст"),
+    ("Institutions and major messages", "Институциональный фон и ключевые сообщения"),
+    ("Contrarian view", "Контрарный взгляд"),
+    ("For a focused Hyperliquid ecosystem view, see the", "Для отдельного обзора экосистемы Hyperliquid смотрите"),
+    ("HYPE market brief hub", "раздел рыночных обзоров"),
+    ("for information only and is not financial advice", "предназначены только для информации и не являются инвестиционной рекомендацией"),
+    ("AI memory remains the hardware theme, but the trade now needs second confirmation.", "AI-память остается главной аппаратной темой, но сделке теперь нужно второе подтверждение."),
+    ("MU Memory Rotation, TSM Repair and TraderXYZ Flows", "Ротация MU в памяти, восстановление TSM и потоки TraderXYZ"),
+    ("MU memory rotation, TSM Taiwan repair, TraderXYZ flows, DRAM and SNDK, PCE pressure, BTC/ETH and HYPE sentiment.", "Ротация MU в памяти, восстановление TSM на Тайване, потоки TraderXYZ, DRAM и SNDK, давление PCE, настроение BTC/ETH и HYPE."),
+    ("MU memory rotation + TSM repair", "ротация MU в памяти + восстановление TSM"),
+    ("MU earnings confirmed AI memory shortage, but the trade has moved from demand proof to durability confirmation. TSM is repairing in Taiwan, TraderXYZ still shows MU in top flows, and high PCE caps broad tech valuation expansion.", "Отчет MU подтвердил дефицит AI-памяти, но рынок перешел от доказательства спроса к проверке устойчивости. TSM восстанавливается на Тайване, TraderXYZ по-прежнему показывает MU среди главных потоков, а высокий PCE ограничивает расширение оценок техсектора."),
+    ("MU earnings confirmed the AI memory bottleneck, but the market has moved from demand proof into sustainability proof. TSM is repairing in Taiwan, TraderXYZ still shows MU among top flows, and high PCE caps valuations.", "Отчет MU подтвердил узкое место в AI-памяти, но рынок перешел от доказательства спроса к проверке устойчивости. TSM восстанавливается на Тайване, TraderXYZ по-прежнему показывает MU среди главных потоков, а высокий PCE ограничивает оценки."),
+    ("MU is still hot, but post-earnings trading is no longer a clean one-way chase.", "MU остается горячей темой, но после отчета это уже не чистая односторонняя погоня."),
+    ("MU is still hot, but the post-earnings trade is no longer a clean one-way chase.", "MU остается горячей темой, но после отчета это уже не чистая односторонняя погоня."),
+    ("AI memory remains valid as a medium-term theme. Short term, MU, DRAM and SNDK are in high-level turnover; TSM's Taiwan repair is constructive, but it still needs to reclaim 2400 TWD for confirmation.", "AI-память остается рабочей среднесрочной темой. Краткосрочно MU, DRAM и SNDK находятся в зоне высокой смены рук; восстановление TSM на Тайване конструктивно, но для подтверждения нужен возврат выше 2400 TWD."),
+    ("AI memory remains valid as medium-term theme. Short term, MU, DRAM and SNDK are in high-level churn, while Taiwan TSM repair is constructive but still below NT$2400 confirmation.", "AI-память остается рабочей среднесрочной темой. Краткосрочно MU, DRAM и SNDK находятся в зоне высокой смены рук, а восстановление TSM на Тайване конструктивно, но все еще ниже подтверждения NT$2400."),
+    ("1. MU needs second confirmation", "1. MU нужно второе подтверждение"),
+    ("MU was still top five on TraderXYZ 24h notional flow, around $61.71M, but U.S. cash MU fell about 5.2% after earnings. Attention is high, but chasing strength is fading.", "MU все еще входит в топ-5 по 24-часовому обороту TraderXYZ, около $61,71 млн, но на рынке США акция упала примерно на 5,2% после отчета. Интерес высокий, но импульс догоняющей покупки слабеет."),
+    ("MU was still top five on TraderXYZ with about $61.7M 24h notional and +2.0%, but U.S. cash MU fell about 5.2% after earnings. Attention remains high, while chase intensity has cooled.", "MU все еще входила в топ-5 TraderXYZ с 24-часовым оборотом около $61,7 млн и ростом 2,0%, но на рынке США акция упала примерно на 5,2% после отчета. Интерес остается высоким, но интенсивность догоняющей покупки снизилась."),
+    ("2. TSM repair is positive but not acceleration", "2. Восстановление TSM позитивно, но это еще не ускорение"),
+    ("Taiwan Weighted rose about 1.98%, and TSM 2330.TW traded around 2385/2390 TWD versus a prior 2340 close. The rebound is supportive, but trend confirmation needs a clean reclaim of 2400.", "Индекс Taiwan Weighted вырос примерно на 1,98%, а TSM 2330.TW торговалась около 2385/2390 TWD против предыдущего закрытия 2340. Отскок поддерживает картину, но для подтверждения тренда нужен уверенный возврат выше 2400."),
+    ("Taiwan Weighted rose about 1.98%, and 2330.TW traded near NT$2385/2390 after a prior NT$2340 close. Trend acceleration needs a clean move back above NT$2400.", "Индекс Taiwan Weighted вырос примерно на 1,98%, а 2330.TW торговалась около NT$2385/2390 после предыдущего закрытия NT$2340. Для ускорения тренда нужен уверенный возврат выше NT$2400."),
+    ("3. Memory chain is internally split", "3. Внутри цепочки памяти есть расхождение"),
+    ("3. Memory chain is splitting internally", "3. Внутри цепочки памяти есть расхождение"),
+    ("DRAM fell slightly on TraderXYZ, SNDK rose slightly, while U.S. spot SNDK and AMAT were clearly weaker. The theme remains, but selection has already started.", "DRAM немного снизился на TraderXYZ, SNDK слегка вырос, а на рынке США SNDK и AMAT заметно слабее. Тема остается, но отбор бумаг уже начался."),
+    ("DRAM was slightly lower and SNDK slightly higher on TraderXYZ, while SNDK and AMAT sold off hard in U.S. cash. The memory thesis is alive, but now selective.", "DRAM был немного ниже, а SNDK немного выше на TraderXYZ, тогда как SNDK и AMAT резко снизились на рынке США. Тезис по памяти жив, но теперь требует отбора."),
+    ("4. Macro remains the ceiling", "4. Макро остается потолком"),
+    ("4. Macro keeps the ceiling", "4. Макро остается потолком"),
+    ("U.S. PCE at 4.1% YoY and core PCE at 3.4% keep Fed easing difficult. This matters because AI hardware is long-duration growth: valuation expansion is harder when real rates stay high.", "PCE США на уровне 4,1% г/г и базовый PCE 3,4% осложняют смягчение ФРС. Это важно, потому что AI-оборудование относится к long-duration росту: при высоких реальных ставках расширение мультипликаторов сложнее."),
+    ("U.S. PCE at 4.1% YoY and core PCE at 3.4% mean the Fed cannot pivot quickly. Strong earnings can support winners, but broad tech multiple expansion remains constrained.", "PCE США на уровне 4,1% г/г и базовый PCE 3,4% означают, что ФРС не может быстро перейти к смягчению. Сильные отчеты поддерживают победителей, но широкое расширение мультипликаторов техсектора остается ограниченным."),
+    ("5. Crypto is not driving risk-on today", "5. Крипто сегодня не задает risk-on"),
+    ("BTC and ETH were slightly lower to flat, while HYPE was flat near 61.86. Crypto is not providing a clean liquidity tailwind for AI beta today.", "BTC и ETH были слегка слабее или около нуля, HYPE держался около 61,86. Крипто сегодня не дает чистого ликвидностного попутного ветра для AI-беты."),
+    ("These signals decide whether AI memory rotation remains healthy.", "Эти сигналы покажут, остается ли ротация в AI-памяти здоровой."),
+    ("Can MU hold above 1140-1150 without more profit-taking?", "Сможет ли MU удержаться выше 1140-1150 без новой фиксации прибыли?"),
+    ("Can MU hold the 1140-1150 zone after post-earnings profit-taking?", "Сможет ли MU удержать зону 1140-1150 после фиксации прибыли на отчете?"),
+    ("Can TSM 2330.TW reclaim and hold NT$2400 with Taiwan tech breadth?", "Сможет ли TSM 2330.TW вернуть и удержать NT$2400 на фоне ширины тайваньского техсектора?"),
+    ("Do AMAT, ASML and SNDK recover, confirming the MU read-through into capex?", "Восстановятся ли AMAT, ASML и SNDK, подтверждая перенос сигнала MU на capex?"),
+    ("Do DRAM and SNDK regain TraderXYZ volume, or does memory heat keep fading?", "Вернут ли DRAM и SNDK объемы на TraderXYZ, или интерес к памяти продолжит остывать?"),
+    ("Do Fed comments after high PCE pressure tech valuation multiples?", "Будут ли комментарии ФРС после высокого PCE давить на мультипликаторы техсектора?"),
+    ("Stay constructive on AI bottleneck assets, but do not chase memory blindly. MU needs sideways digestion or renewed volume; TSM needs NT$2400; macro still limits broad tech beta.", "Сохраняйте конструктивный взгляд на активы с AI-дефицитом, но не догоняйте память вслепую. MU нужна боковая разгрузка или новый объем; TSM нужен уровень NT$2400; макро все еще ограничивает широкую технологическую бету."),
+    ("U.S. cash from 2026-06-26 close; Taiwan and TraderXYZ/Hyperliquid around 2026-06-29 09:45 CST.", "рынок США по закрытию 2026-06-26; Тайвань и TraderXYZ/Hyperliquid около 2026-06-29 09:45 CST."),
+    ("Top 24h notional flows included", "Крупнейшие 24-часовые номинальные потоки включали"),
+    ("around $180M", "около $180 млн"),
+    ("around $158M", "около $158 млн"),
+    ("around $122M", "около $122 млн"),
+    ("around $92.9M", "около $92,9 млн"),
+    ("around $61.7M", "около $61,7 млн"),
+    ("around $49.0M", "около $49,0 млн"),
+    ("around $47.3M", "около $47,3 млн"),
+    ("around $42.6M", "около $42,6 млн"),
+    ("around $30.3M", "около $30,3 млн"),
+    ("around $25.0M", "около $25,0 млн"),
+    ("Crypto is broadly flat and does not provide a clean risk-on signal today.", "Крипто в целом около нуля и сегодня не дает чистого сигнала risk-on."),
+    ("The strong MU report does not guarantee a one-way stock move.", "Сильный отчет MU не гарантирует одностороннего движения акции."),
+    ("SPY was near 733.8 (-0.07%) and QQQ near 715.1 (-0.18%). SMH fell about 3.36% and SOXX about 4.55%. TSM ADR was near 429.5 (-1.25%), MU near 1150.1 (-5.2%), NVDA near 198.2 (+1.25%), AMAT near 617.1 (-7.6%), ASML near 1789.4 (-2.8%) and SNDK near 2134.0 (-8.6%).", "SPY был около 733,8 (-0,07%), QQQ около 715,1 (-0,18%). SMH снизился примерно на 3,36%, SOXX на 4,55%. TSM ADR был около 429,5 (-1,25%), MU около 1150,1 (-5,2%), NVDA около 198,2 (+1,25%), AMAT около 617,1 (-7,6%), ASML около 1789,4 (-2,8%), SNDK около 2134,0 (-8,6%)."),
+    ("Taiwan Weighted traded near 45,452.66, up about 1.98%, with an intraday high near 45,456.16. TSM 2330.TW was around NT$2385/2390 versus a prior NT$2340 close, with intraday high NT$2390 and low NT$2330. This is repair, not yet a fresh acceleration signal.", "Taiwan Weighted торговался около 45 452,66, прибавляя примерно 1,98%, с внутридневным максимумом около 45 456,16. TSM 2330.TW была около NT$2385/2390 против предыдущего закрытия NT$2340, с максимумом NT$2390 и минимумом NT$2330. Это восстановление, но еще не новый сигнал ускорения."),
+    ("MU staying top five is important, but turnover is lower than peak excitement.", "То, что MU остается в топ-5, важно, но оборот ниже пикового ажиотажа."),
+    ("SKHX around $180M, XYZ100 around $158M, CL around $122M, SP500 around $92.9M, MU around $61.7M, DRAM around $49.0M, SILVER around $47.3M, Brent around $42.6M, SPCX around $30.3M and SNDK around $25.0M.", "SKHX около $180 млн, XYZ100 около $158 млн, CL около $122 млн, SP500 около $92,9 млн, MU около $61,7 млн, DRAM около $49,0 млн, SILVER около $47,3 млн, Brent около $42,6 млн, SPCX около $30,3 млн и SNDK около $25,0 млн."),
+    ("BTC traded near 59,523 (-1.17%), ETH near 1,571.3 (-0.27%), SOL near 71.582 (+1.03%) and HYPE near 61.861 (flat).", "BTC торговался около 59 523 (-1,17%), ETH около 1 571,3 (-0,27%), SOL около 71,582 (+1,03%), а HYPE около 61,861 без выраженного изменения."),
+    ("Micron FY2026 Q3 revenue was", "Выручка Micron за FY2026 Q3 составила"),
+    ("with non-GAAP EPS of", "с non-GAAP EPS"),
+    ("and gross margin near", "и валовой маржой около"),
+    ("Q4 guidance points to revenue around", "Прогноз на Q4 указывает на выручку около"),
+    ("gross margin near", "валовую маржу около"),
+    ("and non-GAAP EPS around", "и non-GAAP EPS около"),
+    ("commentary supports improving AI memory visibility", "комментарии поддерживают улучшение видимости по AI-памяти"),
+    ("frames AI capex as a multi-year infrastructure cycle", "рассматривает AI capex как многолетний инфраструктурный цикл"),
+    ("Micron FY2026 Q3 revenue was 41.456B with non-GAAP EPS of 25.11 and gross margin near 84.6%. Q4 guidance points to revenue around 50B, gross margin near 86% and non-GAAP EPS around 31. Wedbush, BNP Paribas and Morgan Stanley commentary supports improving AI memory visibility, while Goldman Sachs frames AI capex as a multi-year infrastructure cycle.", "Выручка Micron за FY2026 Q3 составила 41,456 млрд, non-GAAP EPS - 25,11, валовая маржа около 84,6%. Прогноз на Q4 указывает на выручку около 50 млрд, маржу около 86% и non-GAAP EPS около 31. Комментарии Wedbush, BNP Paribas и Morgan Stanley поддерживают улучшение видимости по AI-памяти, а Goldman Sachs рассматривает AI capex как многолетний инфраструктурный цикл."),
+    ("Expectations are now higher, TSM repair still needs NT$2400 confirmation, AI capex beneficiaries are rotating, and high PCE keeps the Fed cautious.", "Ожидания теперь выше, восстановлению TSM все еще нужно подтверждение выше NT$2400, бенефициары AI capex ротируются, а высокий PCE удерживает ФРС в осторожном режиме."),
+    ("AI memory stays alive, but MU enters second-confirmation mode", "AI-память остается в игре, но MU переходит в режим второго подтверждения"),
+    ("MU remains top TraderXYZ flow, TSM rebounds in Taiwan, and high PCE caps broad tech valuation expansion.", "MU остается среди главных потоков TraderXYZ, TSM отскакивает на Тайване, а высокий PCE ограничивает широкое расширение оценок техсектора."),
+    ("AI hardware stays strong while TSM confirms in Taiwan", "AI-оборудование остается сильным, пока TSM подтверждается на Тайване"),
+    ("Taiwan cash confirms TSM, MU profit rules matter, and HYPE leads risk appetite.", "Тайваньский cash-рынок подтверждает TSM, по MU важны правила фиксации прибыли, а HYPE ведет риск-аппетит."),
+    ("AI semis rotate at highs while HYPE stays firm", "AI-полупроводники ротируются на максимумах, пока HYPE держится уверенно"),
+    ("MU leads HBM, TSM and NVDA cool, and HYPE remains strong.", "MU ведет HBM-направление, TSM и NVDA остывают, а HYPE остается сильным."),
+    ("AI semis enter high-level dispersion", "AI-полупроводники входят в расхождение на высоких уровнях"),
+    ("TSM and NVDA rise, MU churns at highs, and HYPE stays strong.", "TSM и NVDA растут, MU меняет руки на максимумах, а HYPE остается сильным."),
+    ("AI semis rotate into certainty", "AI-полупроводники ротируются в сторону большей определенности"),
+    ("TSM and MU lead while NVDA cools.", "TSM и MU лидируют, пока NVDA остывает."),
+    ("AI semiconductors broaden beyond NVDA", "AI-полупроводники расширяют лидерство за пределы NVDA"),
+    ("TSM, MU, AMAT and Asia supply chains confirm AI capex diffusion.", "TSM, MU, AMAT и азиатские цепочки поставок подтверждают расширение AI capex."),
+    ("AI semiconductors enter high-level confirmation", "AI-полупроводники входят в фазу подтверждения на высоких уровнях"),
+    ("Taiwan fades from highs, Korea stays firm, HL perps price AI premiums.", "Тайвань откатывается от максимумов, Корея держится, а перпы закладывают AI-премию."),
+    ("TSM leads AI repair while U.S. markets are closed", "TSM ведет восстановление AI, пока рынки США закрыты"),
+    ("Taiwan cash and HL perps price a recovery.", "Тайваньский cash-рынок и перпы закладывают восстановление."),
+    ("NVIDIA validates AI demand, but valuation discipline matters", "NVIDIA подтверждает спрос на AI, но дисциплина оценок важнее"),
+    ("Strong guidance, weaker NVDA reaction, firm chip ETFs and macro constraints.", "Сильный прогноз, слабая реакция NVDA, устойчивые chip ETF и макро-ограничения."),
+    ("High-level range trading + structural opportunities", "Диапазон на высоких уровнях и структурные возможности"),
+    ("Semiconductor divergence, neutral BTC leverage, elevated oil and gold.", "Расхождение полупроводников, нейтральное плечо BTC, повышенные нефть и золото."),
+    ("Repair rally, but hawkish policy tail risk", "Восстановительный отскок, но остается риск жесткой политики"),
+    ("Oil and yields cooled, while AI valuations stayed rate-sensitive.", "Нефть и доходности остыли, а оценки AI остались чувствительными к ставкам."),
+    ("AI memory remains valid as medium-term theme. Short term, MU, DRAM and SNDK are in high-level churn, while Taiwan восстановление TSM is constructive but still below NT$2400 confirmation.", "AI-память остается рабочей среднесрочной темой. Краткосрочно MU, DRAM и SNDK находятся в зоне высокой смены рук, а восстановление TSM на Тайване конструктивно, но все еще ниже подтверждения NT$2400."),
+    ("2. восстановление TSM is positive but not acceleration", "2. Восстановление TSM позитивно, но это еще не ускорение"),
+    ("These signals decide whether AI ротация памяти remains healthy.", "Эти сигналы покажут, остается ли ротация в AI-памяти здоровой."),
+    ("SPCX около $30,3 млн and SNDK около $25,0 млн.", "SPCX около $30,3 млн и SNDK около $25,0 млн."),
+    ("Wedbush, BNP Paribas and Morgan Stanley комментарии поддерживают улучшение видимости по AI-памяти, while Goldman Sachs рассматривает AI capex как многолетний инфраструктурный цикл.", "Комментарии Wedbush, BNP Paribas и Morgan Stanley поддерживают улучшение видимости по AI-памяти, а Goldman Sachs рассматривает AI capex как многолетний инфраструктурный цикл."),
+    ("Expectations are now higher, восстановление TSM still needs NT$2400 confirmation, AI capex beneficiaries are rotating, and high PCE keeps the Fed cautious.", "Ожидания теперь выше, восстановлению TSM все еще нужно подтверждение выше NT$2400, бенефициары AI capex ротируются, а высокий PCE удерживает ФРС в осторожном режиме."),
+]
+
+
+def apply_ru_replacements(text):
+    for old, new in RU_TEXT_REPLACEMENTS:
+        text = text.replace(old, new)
+    return text
+
+
+def ru_brief_meta(date):
+    return RU_BRIEFS.get(date, {})
 
 
 def read(path):
@@ -239,6 +441,7 @@ def localize_title(text, lang):
         text = T2S.convert(text).replace("每日市場日報", "每日市场日报")
     if lang == "ru":
         text = text.replace("GateAffiliate Daily Market Brief", "GateAffiliate Ежедневный обзор рынка")
+        text = apply_ru_replacements(text)
     return text
 
 
@@ -249,7 +452,7 @@ def localize_desc(text, lang):
     if lang == "zh-cn":
         text = T2S.convert(text).replace("每日市場日報", "每日市场日报")
     if lang == "ru":
-        text = text.replace("GateAffiliate daily market brief", "GateAffiliate daily market brief")
+        text = apply_ru_replacements(text)
     return text
 
 
@@ -294,13 +497,19 @@ def header(lang, current_path_by_lang=None):
 
 def footer(lang):
     m = LANG_META[lang]
+    labels = {
+        "zh-cn": ("每日市场日报", "Gate 官方活动"),
+        "zh-hant": ("每日市場日報", "Gate 官方活動"),
+        "en": ("Daily briefs", "Gate affiliate program"),
+        "ru": ("Ежедневные обзоры", "Программа Gate affiliate"),
+    }[lang]
     return f'''<footer>
       <div class="footer-inner">
         <span>{m["footer"]}</span>
         <div class="footer-links">
           <a href="{m["home"]}">GateAffiliate</a>
-          <a href="{m["daily"]}">Daily briefs</a>
-          <a data-official href="#">Gate affiliate program</a>
+          <a href="{m["daily"]}">{labels[0]}</a>
+          <a data-official href="#">{labels[1]}</a>
         </div>
       </div>
     </footer>'''
@@ -334,15 +543,17 @@ def rewrite_fragment(fragment, lang):
     fragment = re.sub(r'href="/market-briefing/(\d{4}-\d{2}-\d{2})/"', lambda m: f'href="{daily_slug(lang if lang in ("zh-cn", "zh-hant") else "zh-hant", m.group(1))}"', fragment)
     if lang == "zh-cn":
         fragment = T2S.convert(fragment)
+    if lang == "ru":
+        fragment = apply_ru_replacements(fragment)
     return fragment
 
 
 def brief_cta(lang):
     text = {
-        "zh-cn": ("使用 GateAffiliate 邀请码注册", f"复制邀请码 {CODE}，通过 Gate 官方入口注册。奖励、返佣和 affiliate 资格以 Gate 当前页面显示为准。", "打开 Gate 注册", "复制邀请码"),
-        "zh-hant": ("使用 GateAffiliate 邀請碼註冊", f"複製邀請碼 {CODE}，透過 Gate 官方入口註冊。獎勵、返佣和 affiliate 資格以 Gate 當前頁面顯示為準。", "打開 Gate 註冊", "複製邀請碼"),
-        "en": ("Join with the GateAffiliate invite code", f"Copy invite code {CODE} and register through the official Gate entry. Rewards, rebates, and affiliate eligibility follow Gate's current terms.", "Open Gate registration", "Copy code"),
-        "ru": ("Регистрация с инвайт-кодом GateAffiliate", f"Скопируйте инвайт-код {CODE} и зарегистрируйтесь через официальный вход Gate. Бонусы, rebate и affiliate eligibility зависят от текущих условий Gate.", "Открыть регистрацию Gate", "Скопировать код"),
+        "zh-cn": ("使用 GateAffiliate 邀请码注册", f"复制邀请码 {CODE}，通过 Gate 官方入口注册。奖励、返佣和 affiliate 资格以 Gate 当前页面显示为准。", "打开 Gate 注册", "复制邀请码", "已复制", "GateAffiliate 邀请码"),
+        "zh-hant": ("使用 GateAffiliate 邀請碼註冊", f"複製邀請碼 {CODE}，透過 Gate 官方入口註冊。獎勵、返佣和 affiliate 資格以 Gate 當前頁面顯示為準。", "打開 Gate 註冊", "複製邀請碼", "已複製", "GateAffiliate 邀請碼"),
+        "en": ("Join with the GateAffiliate invite code", f"Copy invite code {CODE} and register through the official Gate entry. Rewards, rebates, and affiliate eligibility follow Gate's current terms.", "Open Gate registration", "Copy code", "Copied", "GateAffiliate invite code"),
+        "ru": ("Регистрация с инвайт-кодом GateAffiliate", f"Скопируйте инвайт-код {CODE} и зарегистрируйтесь через официальный вход Gate. Бонусы, rebate и affiliate eligibility зависят от текущих условий Gate.", "Открыть регистрацию Gate", "Скопировать код", "Скопировано", "Инвайт-код GateAffiliate"),
     }[lang]
     return f'''<section class="bonus-band">
         <div class="wrap reward">
@@ -352,10 +563,10 @@ def brief_cta(lang):
             <p>{text[1]}</p>
             <div class="hero-actions">
               <a class="button button-primary" data-invite href="#">{text[2]}</a>
-              <button class="button button-secondary" data-copy-code data-copied="Copied">{text[3]}</button>
+              <button class="button button-secondary" data-copy-code data-copied="{text[4]}">{text[3]}</button>
             </div>
           </div>
-          <div class="reward-amount"><b>{CODE}</b><span>GateAffiliate invite code</span></div>
+          <div class="reward-amount"><b>{CODE}</b><span>{text[5]}</span></div>
         </div>
       </section>'''
 
@@ -364,6 +575,10 @@ def page(date, lang):
     content = source_content(date, lang)
     page_title = localize_title(title(content), lang)
     page_desc = localize_desc(meta(content, "description"), lang)
+    if lang == "ru" and ru_brief_meta(date):
+        brief = ru_brief_meta(date)
+        page_title = f"Ежедневный обзор рынка GateAffiliate {date} | {brief['suffix']}"
+        page_desc = f"{date} GateAffiliate: {brief['summary']}"
     page_path = daily_slug(lang, date)
     path_by_lang = {l: daily_slug(l, date) for l in LANGS}
     image_match = re.search(r'<meta property="og:image" content="https://hyperliquidreferral\.com/market-briefing/images/([^"]+)"', content)
@@ -418,6 +633,12 @@ def page(date, lang):
 def home_page(lang):
     c = HOME[lang]
     m = LANG_META[lang]
+    home_labels = {
+        "zh-cn": ("Invite code", "Gate 官方活动", "Copy", "Copied", "Daily brief"),
+        "zh-hant": ("Invite code", "Gate 官方活動", "Copy", "Copied", "Daily brief"),
+        "en": ("Invite code", "Gate affiliate program", "Copy", "Copied", "Daily brief"),
+        "ru": ("Инвайт-код", "Программа Gate affiliate", "Копировать", "Скопировано", "Ежедневный обзор"),
+    }[lang]
     path_by_lang = {l: LANG_META[l]["home"] for l in LANGS}
     org_schema = {
         "@context": "https://schema.org",
@@ -438,7 +659,7 @@ def home_page(lang):
               <div class="icon">{i:02d}</div>
               <h3>{h}</h3>
               <p>{p}</p>
-              {f'<div class="code-box"><code>{CODE}</code><button class="mini-button" data-copy-code data-copied="Copied">Copy</button></div>' if i == 2 else ''}
+              {f'<div class="code-box"><code>{CODE}</code><button class="mini-button" data-copy-code data-copied="{home_labels[3]}">{home_labels[2]}</button></div>' if i == 2 else ''}
             </article>'''
         for i, (h, p) in enumerate(c["steps"], 1)
     )
@@ -475,7 +696,7 @@ def home_page(lang):
         <p class="hero-copy">{c["copy"]}</p>
         <div class="hero-actions">
           <a class="button button-primary" data-invite href="#">{c["open"]}</a>
-          <button class="button button-secondary" data-copy-code data-copied="Copied">{c["copy_code"]}</button>
+          <button class="button button-secondary" data-copy-code data-copied="{home_labels[3]}">{c["copy_code"]}</button>
         </div>
         <div class="trust-row">{stats}</div>
       </div>
@@ -483,14 +704,14 @@ def home_page(lang):
     <main>
       <section id="invite" class="bonus-band">
         <div class="wrap reward">
-          <div><span class="eyebrow">Invite code</span><h2>{c["bonus_h2"]}</h2><p>{c["bonus_p"]}</p>
-            <div class="hero-actions"><a class="button button-primary" data-invite href="#">{c["open"]}</a><a class="button button-secondary" data-official href="#">Gate affiliate program</a></div>
+          <div><span class="eyebrow">{home_labels[0]}</span><h2>{c["bonus_h2"]}</h2><p>{c["bonus_p"]}</p>
+            <div class="hero-actions"><a class="button button-primary" data-invite href="#">{c["open"]}</a><a class="button button-secondary" data-official href="#">{home_labels[1]}</a></div>
           </div>
-          <div class="reward-amount"><b>{CODE}</b><span>GateAffiliate invite code</span><button class="mini-button" data-copy-code data-copied="Copied">Copy</button></div>
+          <div class="reward-amount"><b>{CODE}</b><span>{home_labels[0]}</span><button class="mini-button" data-copy-code data-copied="{home_labels[3]}">{home_labels[2]}</button></div>
         </div>
       </section>
       <section id="steps"><div class="wrap"><div class="section-head"><h2>{c["steps_h2"]}</h2><p>{c["steps_p"]}</p></div><div class="grid grid-3 steps">{steps}</div></div></section>
-      <section><div class="wrap latest-brief"><div><span class="eyebrow">Daily brief</span><h2>{c["latest_h2"]}</h2><p>{c["latest_p"]}</p></div><a class="button button-secondary" href="{m["daily"]}">{m["nav"][2]}</a></div></section>
+      <section><div class="wrap latest-brief"><div><span class="eyebrow">{home_labels[4]}</span><h2>{c["latest_h2"]}</h2><p>{c["latest_p"]}</p></div><a class="button button-secondary" href="{m["daily"]}">{m["nav"][2]}</a></div></section>
       <section id="faq" class="faq"><div class="wrap"><div class="section-head"><h2>{c["faq_h2"]}</h2><p>{c["faq_p"]}</p></div>{faqs}</div></section>
     </main>
     {footer(lang)}
@@ -503,11 +724,21 @@ def home_page(lang):
 def daily_index(lang):
     m = LANG_META[lang]
     path_by_lang = {l: daily_slug(l) for l in LANGS}
+    eyebrow = {
+        "zh-cn": "GateAffiliate 每日市场日报",
+        "zh-hant": "GateAffiliate 每日市場日報",
+        "en": "GateAffiliate daily market brief",
+        "ru": "Ежедневный обзор GateAffiliate",
+    }[lang]
     cards = []
     for date in reversed(DATES):
         content = source_content(date, lang)
         card_title = localize_title(h1(content) or title(content), lang)
         desc = localize_desc(meta(content, "description"), lang)
+        if lang == "ru" and ru_brief_meta(date):
+            brief = ru_brief_meta(date)
+            card_title = brief["title"]
+            desc = brief["summary"]
         cards.append(f'''<a class="history-link" href="{daily_slug(lang, date)}">
               <span class="history-date">{date}</span>
               <span><span class="history-title">{html.escape(card_title)}</span><span class="history-summary">{html.escape(desc[:140])}</span></span>
@@ -533,7 +764,7 @@ def daily_index(lang):
   </head>
   <body>
     {header(lang, path_by_lang)}
-    <section class="hero"><div class="hero-inner"><span class="eyebrow">GateAffiliate daily market brief</span><h1>{m["daily_h1"]}</h1><p class="hero-copy">{m["daily_copy"]}</p><div class="hero-actions"><a class="button button-primary" href="{daily_slug(lang, DATES[-1])}">{m["latest"]}</a><a class="button button-secondary" data-invite href="#">{m["nav"][4]}</a></div></div></section>
+    <section class="hero"><div class="hero-inner"><span class="eyebrow">{eyebrow}</span><h1>{m["daily_h1"]}</h1><p class="hero-copy">{m["daily_copy"]}</p><div class="hero-actions"><a class="button button-primary" href="{daily_slug(lang, DATES[-1])}">{m["latest"]}</a><a class="button button-secondary" data-invite href="#">{m["nav"][4]}</a></div></div></section>
     <main><section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">{''.join(cards)}</div></div></section></main>
     {footer(lang)}
     <script src="/assets/app.js?v={STYLE_VERSION}"></script>
