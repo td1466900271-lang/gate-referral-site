@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT.parent / "hyperliquid-referral-site" / "market-briefing"
 BASE_URL = "https://gateaffiliate.com"
 CODE = "VLYQB1HXUW"
-STYLE_VERSION = "20260630-gate-blue"
+STYLE_VERSION = "20260701-tg"
 T2S = OpenCC("t2s")
 
 DATES = sorted([p.name for p in SOURCE.iterdir() if p.is_dir() and re.match(r"2026-\d\d-\d\d$", p.name)])

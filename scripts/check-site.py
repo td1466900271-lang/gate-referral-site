@@ -32,7 +32,7 @@ for path in htmls:
     checks = [
         "GateAffiliate",
         "VLYQB1HXUW",
-        "/assets/styles.css?v=20260630-gate-blue",
+        "/assets/styles.css?v=20260701-tg",
         'hreflang="zh-CN"',
         'hreflang="zh-Hant"',
         'hreflang="en"',

@@ -1,6 +1,7 @@
 const REFERRAL_CODE = "VLYQB1HXUW";
 const INVITE_URL = "https://www.gate.com/signup?ref=VLYQB1HXUW";
 const OFFICIAL_PROMO_URL = "https://www.gate.com/referral";
+const TELEGRAM_URL = "https://t.me/Gate_affiliate_offcial";
 
 document.querySelectorAll("[data-invite]").forEach((link) => {
   link.setAttribute("href", INVITE_URL);
@@ -28,3 +29,18 @@ document.querySelectorAll("[data-copy-code]").forEach((button) => {
     }
   });
 });
+
+const tgLabels = {
+  "zh-CN": "TG 联系",
+  "zh-Hant": "TG 聯繫",
+  en: "Telegram",
+  ru: "Telegram",
+};
+const tgButton = document.createElement("a");
+tgButton.className = "telegram-float";
+tgButton.href = TELEGRAM_URL;
+tgButton.target = "_blank";
+tgButton.rel = "nofollow noopener";
+tgButton.setAttribute("aria-label", "Telegram @Gate_affiliate_offcial");
+tgButton.innerHTML = `<span class="telegram-icon">TG</span><span>${tgLabels[document.documentElement.lang] || "Telegram"}</span>`;
+document.body.appendChild(tgButton);
