@@ -10,6 +10,10 @@ required = [
     "zh-hant/daily/index.html",
     "en/daily/index.html",
     "ru/daily/index.html",
+    "daily/2026-07-02/index.html",
+    "zh-hant/daily/2026-07-02/index.html",
+    "en/daily/2026-07-02/index.html",
+    "ru/daily/2026-07-02/index.html",
     "daily/2026-07-01/index.html",
     "zh-hant/daily/2026-07-01/index.html",
     "en/daily/2026-07-01/index.html",
@@ -42,11 +46,12 @@ for path in htmls:
         broken.append(str(path))
 
 sitemap = Path("sitemap.xml").read_text(encoding="utf-8")
-if sitemap.count("<url>") != 56:
+expected_urls = 60
+if sitemap.count("<url>") != expected_urls:
     broken.append("sitemap.xml:url-count")
 
 if missing or broken:
     print({"missing": missing, "broken": broken})
     raise SystemExit(1)
 
-print(f"Checked {len(htmls)} HTML files and 56 sitemap URLs successfully.")
+print(f"Checked {len(htmls)} HTML files and {expected_urls} sitemap URLs successfully.")

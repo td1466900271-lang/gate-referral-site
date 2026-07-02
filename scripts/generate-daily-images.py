@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-01"
+DATE = "2026-07-02"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-01-zh-cn.svg",
+        "file": "market-brief-2026-07-02-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "AI 半导体再次确认",
-        "subtitle": "TSM 与设备链领涨，记忆体进入换手而非破坏。",
-        "cards": [("TSM 台股", "NT$2490", "观察 2500"), ("MU", "1130-1150", "关键支撑区"), ("SMH / SOXX", "+3.8% / +4.1%", "广度改善")],
-        "box1": ("3 个关键观察", ["1. TSM 能否站稳 NT$2500？", "2. MU 能否守住 1130-1150？", "3. AMAT / ASML 是否确认 AI CapEx？"]),
-        "box2": ("交易框架", ["选择性强势，不是全面 risk-on。", "等待确认，不追情绪高点。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：AI 瓶颈资产中期仍偏强，但短线不适合无差别追涨。",
+        "title": "AI 切向算力变现",
+        "subtitle": "META 走强，硬件链回撤；市场开始追问 AI CapEx 回报。",
+        "cards": [("META", "+11.6%", "算力变现"), ("MU", "-10.3%", "观察 1000-1050"), ("TSM 台股", "2460/2465", "2500 压力")],
+        "box1": ("3 个关键观察", ["1. MU 能否守住 1000-1050？", "2. TSM 能否重新挑战 NT$2500？", "3. META 算力变现是否延续？"]),
+        "box2": ("交易框架", ["硬件链进入压力测试。", "平台股阶段性强于硬件股。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：AI 主线未坏，但短线从硬件建设切到算力变现。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-01-zh-hant.svg",
+        "file": "market-brief-2026-07-02-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "AI 半導體再次確認",
-        "subtitle": "TSM 與設備鏈領漲，記憶體進入換手而非破壞。",
-        "cards": [("TSM 台股", "NT$2490", "觀察 2500"), ("MU", "1130-1150", "關鍵支撐區"), ("SMH / SOXX", "+3.8% / +4.1%", "廣度改善")],
-        "box1": ("3 個關鍵觀察", ["1. TSM 能否站穩 NT$2500？", "2. MU 能否守住 1130-1150？", "3. AMAT / ASML 是否確認 AI CapEx？"]),
-        "box2": ("交易框架", ["選擇性強勢，不是全面 risk-on。", "等待確認，不追情緒高點。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：AI 瓶頸資產中期仍偏強，但短線不適合無差別追漲。",
+        "title": "AI 切向算力變現",
+        "subtitle": "META 走強，硬體鏈回撤；市場開始追問 AI CapEx 回報。",
+        "cards": [("META", "+11.6%", "算力變現"), ("MU", "-10.3%", "觀察 1000-1050"), ("TSM 台股", "2460/2465", "2500 壓力")],
+        "box1": ("3 個關鍵觀察", ["1. MU 能否守住 1000-1050？", "2. TSM 能否重新挑戰 NT$2500？", "3. META 算力變現是否延續？"]),
+        "box2": ("交易框架", ["硬體鏈進入壓力測試。", "平台股階段性強於硬體股。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：AI 主線未壞，但短線從硬體建設切到算力變現。",
     },
     "en": {
-        "file": "market-brief-2026-07-01-en.svg",
+        "file": "market-brief-2026-07-02-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "AI semis confirm again",
-        "subtitle": "TSM and equipment lead; memory is rotating, not breaking.",
-        "cards": [("TSM TW", "NT$2490", "watch 2500"), ("MU", "1130-1150", "support zone"), ("SMH / SOXX", "+3.8% / +4.1%", "breadth improves")],
-        "box1": ("3 key checks", ["1. Can TSM hold above NT$2500?", "2. Does MU keep 1130-1150 support?", "3. Do AMAT / ASML confirm AI CapEx?"]),
-        "box2": ("Framework", ["Selective strength, not broad risk-on.", "Wait for confirmation.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: AI bottleneck assets remain constructive, but chasing is not the base case.",
+        "title": "AI shifts to compute revenue",
+        "subtitle": "META leads while hardware pulls back; the market asks whether AI CapEx can pay.",
+        "cards": [("META", "+11.6%", "compute revenue"), ("MU", "-10.3%", "watch 1000-1050"), ("TSM TW", "2460/2465", "2500 resistance")],
+        "box1": ("3 key checks", ["1. Can MU hold 1000-1050?", "2. Can TSM reclaim NT$2500?", "3. Does META monetization continue?"]),
+        "box2": ("Framework", ["Hardware is in a stress test.", "Platforms can lead short term.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: AI is intact, but the trade rotates from hardware buildout to compute monetization.",
     },
     "ru": {
-        "file": "market-brief-2026-07-01-ru.svg",
+        "file": "market-brief-2026-07-02-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "AI-чипы подтверждаются",
-        "subtitle": "TSM и оборудование лидируют; память ротируется, а не ломается.",
-        "cards": [("TSM TW", "NT$2490", "уровень 2500"), ("MU", "1130-1150", "зона поддержки"), ("SMH / SOXX", "+3.8% / +4.1%", "ширина лучше")],
-        "box1": ("3 ключевых сигнала", ["1. Удержит ли TSM NT$2500?", "2. Удержит ли MU 1130-1150?", "3. Подтвердят ли AMAT / ASML AI CapEx?"]),
-        "box2": ("Рамка", ["Выборочная сила, не широкий risk-on.", "Ждать подтверждения.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: AI bottleneck assets конструктивны, но погоня за ростом не базовый сценарий.",
+        "title": "AI смещается к compute revenue",
+        "subtitle": "META лидирует, hardware снижается; рынок проверяет окупаемость AI CapEx.",
+        "cards": [("META", "+11.6%", "compute revenue"), ("MU", "-10.3%", "1000-1050"), ("TSM TW", "2460/2465", "уровень 2500")],
+        "box1": ("3 ключевых сигнала", ["1. Удержит ли MU 1000-1050?", "2. Вернет ли TSM NT$2500?", "3. Продлится ли монетизация META?"]),
+        "box2": ("Рамка", ["Hardware проходит стресс-тест.", "Платформы могут лидировать.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: AI-тема жива, но сделка смещается от buildout к монетизации compute.",
     },
 }
 
