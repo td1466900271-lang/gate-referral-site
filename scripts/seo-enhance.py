@@ -67,10 +67,10 @@ RELATED = {
 }
 
 KEYWORDS = {
-    "zh-cn": f"Gate 邀请码, Gate affiliate, Gate 返佣, Gate 注册, GateAffiliate, {CODE}, 每日市场日报",
-    "zh-hant": f"Gate 邀請碼, Gate affiliate, Gate 返佣, Gate 註冊, GateAffiliate, {CODE}, 每日市場日報",
-    "en": f"Gate invite code, Gate affiliate, Gate referral code, Gate rebate, Gate registration, GateAffiliate, {CODE}, daily market brief",
-    "ru": f"Gate инвайт-код, Gate affiliate, Gate referral code, Gate rebate, регистрация Gate, GateAffiliate, {CODE}, ежедневный обзор рынка",
+    "zh-cn": f"Gate 邀请码, Gate affiliate, Gate 返佣, Gate 40% 返佣, Gate 14400U 奖励, Gate 注册, GateAffiliate, {CODE}, 每日市场日报",
+    "zh-hant": f"Gate 邀請碼, Gate affiliate, Gate 返佣, Gate 40% 返佣, Gate 14400U 獎勵, Gate 註冊, GateAffiliate, {CODE}, 每日市場日報",
+    "en": f"Gate invite code, Gate affiliate, Gate referral code, Gate 40% rebate, Gate 14400U rewards, Gate registration, GateAffiliate, {CODE}, daily market brief",
+    "ru": f"Gate инвайт-код, Gate affiliate, Gate referral code, Gate rebate 40%, Gate бонусы 14400U, регистрация Gate, GateAffiliate, {CODE}, ежедневный обзор рынка",
 }
 
 
