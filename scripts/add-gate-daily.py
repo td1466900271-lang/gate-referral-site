@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-02"
+DATE = "2026-07-03"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-02-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-02-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-02-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-02-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-07-03-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-03-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-03-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-03-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "AI 交易切向算力变现，半导体硬件链进入压力测试",
-        "desc": "2026-07-02 GateAffiliate 每日市场日报：Meta 算力变现叙事走强，MU、TSM、SNDK、DRAM 和半导体 ETF 回落，Crypto 风险偏好修复但信号分化。",
+        "title": "AI 硬件链继续出清，资金转向平台变现与 Crypto beta",
+        "desc": "2026-07-03 GateAffiliate 每日市场日报：AI 硬件链继续洗筹，MU、SNDK、DRAM、SKHX 与 TSM 承压，META 算力变现和 Crypto beta 成为资金轮动重点。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "AI 交易切向算力变现，半导体硬件链进入压力测试。",
-        "summary": "今天的主线不是 AI 全面上涨，而是风格切换：半导体硬件链回落，META 因 AI 算力变现叙事大涨。资金开始追问 AI CapEx 能否转成收入，MU、SNDK、DRAM 与 TSM 则进入高位消化。",
+        "h1": "AI 硬件链继续出清，资金转向平台变现与 Crypto beta。",
+        "summary": "今天的核心不是全面 risk-off，而是结构性切换：AI 硬件链继续高成交换手下跌，MU、SNDK、DRAM 与 SKHX 承压；资金更愿意追踪 META 算力变现叙事、平台股防御和局部 crypto beta。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "AI 交易切向算力變現，半導體硬體鏈進入壓力測試",
-        "desc": "2026-07-02 GateAffiliate 每日市場日報：Meta 算力變現敘事走強，MU、TSM、SNDK、DRAM 和半導體 ETF 回落，Crypto 風險偏好修復但信號分化。",
+        "title": "AI 硬體鏈繼續出清，資金轉向平台變現與 Crypto beta",
+        "desc": "2026-07-03 GateAffiliate 每日市場日報：AI 硬體鏈繼續洗籌，MU、SNDK、DRAM、SKHX 與 TSM 承壓，META 算力變現和 Crypto beta 成為資金輪動重點。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "AI 交易切向算力變現，半導體硬體鏈進入壓力測試。",
-        "summary": "今天的主線不是 AI 全面上漲，而是風格切換：半導體硬體鏈回落，META 因 AI 算力變現敘事大漲。資金開始追問 AI CapEx 能否轉成收入，MU、SNDK、DRAM 與 TSM 則進入高位消化。",
+        "h1": "AI 硬體鏈繼續出清，資金轉向平台變現與 Crypto beta。",
+        "summary": "今天的核心不是全面 risk-off，而是結構性切換：AI 硬體鏈繼續高成交換手下跌，MU、SNDK、DRAM 與 SKHX 承壓；資金更願意追蹤 META 算力變現敘事、平台股防禦和局部 crypto beta。",
         "tag": "最新",
     },
     "en": {
-        "title": "AI trade rotates toward compute monetization as hardware enters a stress test",
-        "desc": "2026-07-02 GateAffiliate daily market brief: Meta's AI compute monetization narrative strengthens while MU, TSM, SNDK, DRAM and semiconductor ETFs pull back.",
+        "title": "AI hardware keeps clearing as capital rotates to platform monetization and crypto beta",
+        "desc": "2026-07-03 GateAffiliate daily market brief: AI hardware continues to wash out, with MU, SNDK, DRAM, SKHX and TSM under pressure while META compute monetization and crypto beta lead the rotation.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "AI trade rotates toward compute monetization as hardware enters a stress test.",
-        "summary": "The market is no longer simply buying all AI exposure. Semiconductor hardware sold off, while META surged on the idea that excess AI compute can be monetized. Capital is now asking whether AI CapEx can become revenue, while MU, SNDK, DRAM and TSM digest crowded positioning.",
+        "h1": "AI hardware keeps clearing as capital rotates to platform monetization and crypto beta.",
+        "summary": "This is not a broad risk-off tape. It is a structural rotation: crowded AI hardware keeps falling on heavy volume, with MU, SNDK, DRAM and SKHX under pressure, while capital favors META's compute-monetization story, platform defensiveness and selected crypto beta.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "AI-сделка смещается к монетизации вычислений, а hardware проходит стресс-тест",
-        "desc": "Ежедневный обзор GateAffiliate за 2026-07-02: нарратив монетизации AI-вычислений Meta усиливается, а MU, TSM, SNDK, DRAM и ETF полупроводников снижаются.",
+        "title": "AI hardware продолжает очищение, капитал уходит в монетизацию платформ и crypto beta",
+        "desc": "Ежедневный обзор GateAffiliate за 2026-07-03: AI hardware продолжает снижаться; MU, SNDK, DRAM, SKHX и TSM под давлением, а META compute monetization и crypto beta ведут ротацию.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "AI-сделка смещается к монетизации вычислений, а hardware проходит стресс-тест.",
-        "summary": "Рынок больше не покупает весь AI одинаково. Полупроводниковый hardware снижается, а META резко выросла на идее монетизации избыточных AI-вычислений. Теперь капитал проверяет, может ли AI CapEx превращаться в выручку, пока MU, SNDK, DRAM и TSM переваривают перегретое позиционирование.",
+        "h1": "AI hardware продолжает очищение, капитал уходит в монетизацию платформ и crypto beta.",
+        "summary": "Это не широкий risk-off, а структурная ротация: перегретый AI hardware падает на высоких объемах, MU, SNDK, DRAM и SKHX остаются под давлением, а капитал выбирает историю монетизации compute у META, защитные платформы и отдельный crypto beta.",
         "tag": "Свежий",
     },
 }
@@ -70,66 +70,66 @@ META = {
 CONCISE_SECTIONS = {
     "zh-cn": [
         ("核心结论", [
-            "今天最重要的变化是 AI 交易的定价焦点从硬件建设切到算力变现。SMH、SOXX、TSM ADR、MU、AMD、AMAT、ASML 同步回落，说明硬件链正在做压力测试；但 META 大涨，说明市场开始奖励能够把 AI CapEx 转成云收入、租赁收入或平台现金流的公司。",
-            "这不是 AI 主题结束，而是 AI 主题从“谁卖铲子”切换到“谁能提升算力利用率”。短线对半导体硬件链要更严格，尤其是 MU、SNDK、DRAM 和 SKHX 这种高拥挤度方向。",
+            "今天市场的主线是 AI 硬件链继续出清。MU、SNDK、DRAM、SKHX 跌幅和成交额都偏高，说明这不是低量回调，而是拥挤交易在高位重新定价。",
+            "但这也不是全市场 risk-off。SP500 附近持平，BTC、ETH、SOL 和 HYPE 修复，资金并没有离开所有风险资产，而是从 AI 硬件扩产链转向平台变现、指数防御和局部 crypto beta。",
         ]),
         ("关键市场结构", [
-            "美股指数本身没有崩：SPY 和 QQQ 小幅上涨，但半导体 ETF 跌幅明显，MU 跌超 10%，AMD 跌超 8%，TSM ADR 跌超 3%。这说明压力集中在 AI 硬件链，不是全市场风险偏好崩塌。",
-            "台积电台股盘中回到 2460/2465 附近，昨天站上 2500 后没有继续突破。中期代工逻辑仍强，但短线从突破确认回到前高震荡，2440-2460 成为第一观察带。",
-            "TraderXYZ / Hyperliquid 上 MU、SNDK、DRAM 同时大跌且成交额高，代表记忆体主线正在经历高位清洗；META 进入成交前十并上涨，是今天最清晰的风格切换信号。",
+            "TSM 中期仍是 AI 先进制程核心资产，但台股 2330 未能站稳 2500，盘中回到 2425/2430 附近，短线从突破确认变成 2415-2500 区间消化。",
+            "MU 财报验证的中期逻辑没有被推翻，但永续价格逼近 1000 一线，已经进入关键防守区。若 1000-1050 不能止跌，记忆体交易还会继续降温。",
+            "META 算力云化 / 出租过剩算力仍是今天最重要的 AI 变量。市场开始奖励“AI CapEx 如何变成收入”，而不是继续无差别奖励“谁继续买 GPU / 扩产”。",
         ]),
         ("交易框架", [
-            "中期仍看好 AI 瓶颈资产，包括 TSM、HBM/DRAM、先进封装和设备链，但短线不适合把强财报直接等同于股价继续单边上涨。MU 若守不住 1000-1050，记忆体交易还会继续降温。",
-            "META 的上涨对平台股是利好，但对硬件链未必全是利好。若市场开始担心 GPU 租赁价格和算力供给过剩，部分硬件和云算力资产的估值会被重新审视。",
-            "加密资产今天偏强，BTC、ETH、SOL 修复，但 HYPE 走弱且硬件链下跌，说明跨市场信号不一致。不能用加密反弹直接推导 AI 硬件马上修复。",
+            "中期仍看好 AI 瓶颈资产，包括 TSM、HBM/DRAM、先进封装和设备链；短线则要等待 MU 守住 1000-1050、TSM 重回 2500、SKHX / SNDK / DRAM 停止高成交下跌。",
+            "META 叙事对平台股偏利好，但对 GPU 租赁、neocloud 和部分硬件链可能是压力，因为可出租算力供给增加会让市场重新审视租赁价格和 CapEx 回报率。",
+            "Crypto 的修复说明风险偏好仍在，但不能直接推导 AI 硬件马上反弹。当前更像资金在不同风险资产之间轮动，而不是同一条 AI 硬件主线全面回归。",
         ]),
     ],
     "zh-hant": [
         ("核心結論", [
-            "今天最重要的變化是 AI 交易的定價焦點從硬體建設切到算力變現。SMH、SOXX、TSM ADR、MU、AMD、AMAT、ASML 同步回落，說明硬體鏈正在做壓力測試；但 META 大漲，說明市場開始獎勵能把 AI CapEx 轉成雲收入、租賃收入或平台現金流的公司。",
-            "這不是 AI 主題結束，而是 AI 主題從「誰賣鏟子」切換到「誰能提升算力利用率」。短線對半導體硬體鏈要更嚴格，尤其是 MU、SNDK、DRAM 和 SKHX 這種高擁擠度方向。",
+            "今天市場的主線是 AI 硬體鏈繼續出清。MU、SNDK、DRAM、SKHX 跌幅和成交額都偏高，說明這不是低量回調，而是擁擠交易在高位重新定價。",
+            "但這也不是全市場 risk-off。SP500 附近持平，BTC、ETH、SOL 和 HYPE 修復，資金並沒有離開所有風險資產，而是從 AI 硬體擴產鏈轉向平台變現、指數防禦和局部 crypto beta。",
         ]),
         ("關鍵市場結構", [
-            "美股指數本身沒有崩：SPY 和 QQQ 小幅上漲，但半導體 ETF 跌幅明顯，MU 跌超 10%，AMD 跌超 8%，TSM ADR 跌超 3%。這說明壓力集中在 AI 硬體鏈，不是全市場風險偏好崩塌。",
-            "台積電台股盤中回到 2460/2465 附近，昨天站上 2500 後沒有繼續突破。中期代工邏輯仍強，但短線從突破確認回到前高震盪，2440-2460 成為第一觀察帶。",
-            "TraderXYZ / Hyperliquid 上 MU、SNDK、DRAM 同時大跌且成交額高，代表記憶體主線正在經歷高位清洗；META 進入成交前十並上漲，是今天最清晰的風格切換信號。",
+            "TSM 中期仍是 AI 先進製程核心資產，但台股 2330 未能站穩 2500，盤中回到 2425/2430 附近，短線從突破確認變成 2415-2500 區間消化。",
+            "MU 財報驗證的中期邏輯沒有被推翻，但永續價格逼近 1000 一線，已經進入關鍵防守區。若 1000-1050 不能止跌，記憶體交易還會繼續降溫。",
+            "META 算力雲化 / 出租過剩算力仍是今天最重要的 AI 變量。市場開始獎勵「AI CapEx 如何變成收入」，而不是繼續無差別獎勵「誰繼續買 GPU / 擴產」。",
         ]),
         ("交易框架", [
-            "中期仍看好 AI 瓶頸資產，包括 TSM、HBM/DRAM、先進封裝和設備鏈，但短線不適合把強財報直接等同於股價繼續單邊上漲。MU 若守不住 1000-1050，記憶體交易還會繼續降溫。",
-            "META 的上漲對平台股是利好，但對硬體鏈未必全是利好。若市場開始擔心 GPU 租賃價格和算力供給過剩，部分硬體和雲算力資產的估值會被重新審視。",
-            "加密資產今天偏強，BTC、ETH、SOL 修復，但 HYPE 走弱且硬體鏈下跌，說明跨市場信號不一致。不能用加密反彈直接推導 AI 硬體馬上修復。",
+            "中期仍看好 AI 瓶頸資產，包括 TSM、HBM/DRAM、先進封裝和設備鏈；短線則要等待 MU 守住 1000-1050、TSM 重回 2500、SKHX / SNDK / DRAM 停止高成交下跌。",
+            "META 敘事對平台股偏利好，但對 GPU 租賃、neocloud 和部分硬體鏈可能是壓力，因為可出租算力供給增加會讓市場重新審視租賃價格和 CapEx 回報率。",
+            "Crypto 的修復說明風險偏好仍在，但不能直接推導 AI 硬體馬上反彈。當前更像資金在不同風險資產之間輪動，而不是同一條 AI 硬體主線全面回歸。",
         ]),
     ],
     "en": [
         ("Core Takeaway", [
-            "The most important shift is that the AI trade is moving from hardware buildout toward compute monetization. SMH, SOXX, TSM ADR, MU, AMD, AMAT and ASML fell together, while META surged on the idea that excess AI compute can become cloud or infrastructure revenue.",
-            "This does not mean the AI theme is over. It means the market is moving from rewarding the sellers of shovels to rewarding companies that can raise utilization and returns on AI CapEx. Short term, crowded hardware winners need stricter risk rules.",
+            "The main story is another clearing round in AI hardware. MU, SNDK, DRAM and SKHX are falling with heavy turnover, which looks more like crowded-position repricing than a quiet pullback.",
+            "This is not broad risk-off. SP500 exposure is roughly stable, while BTC, ETH, SOL and HYPE improved. Capital is rotating out of the AI hardware buildout trade and into platform monetization, index defensiveness and selective crypto beta.",
         ]),
         ("Market Structure", [
-            "The broad tape did not break: SPY and QQQ were slightly higher. The pressure was concentrated in AI hardware, with MU down more than 10%, AMD down more than 8%, TSM ADR down more than 3%, and semiconductor ETFs sharply lower.",
-            "TSM 2330.TW moved back near 2460/2465 after failing to extend above NT$2500. The medium-term foundry thesis is intact, but the short-term setup has moved from breakout confirmation back into resistance digestion.",
-            "On TraderXYZ / Hyperliquid, MU, SNDK and DRAM fell together on heavy notional volume. That is a clear memory-chain washout. META entering the top flow list while rising is the cleanest style-rotation signal today.",
+            "TSM remains a core AI advanced-node asset, but 2330.TW failed to hold NT$2500 and moved back near 2425/2430 intraday. The short-term setup has shifted from breakout confirmation to digestion inside the 2415-2500 zone.",
+            "Micron's medium-term demand thesis is not broken, but MU perpetuals near 1000 are now in a key defense area. If 1000-1050 fails to stabilize, the memory trade can keep cooling.",
+            "META's compute-cloud and excess-capacity monetization story remains the key AI variable. The market is rewarding how AI CapEx becomes revenue, not simply who keeps buying GPUs or expanding capacity.",
         ]),
         ("Trading Frame", [
-            "Medium term, AI bottleneck assets still matter: TSM, HBM/DRAM, advanced packaging and equipment remain strategic. Short term, strong earnings are not enough when positioning is crowded; MU needs to hold 1000-1050 to stop the memory trade from cooling further.",
-            "META strength is positive for platform monetization, but it can be mixed for hardware. If investors worry about GPU rental prices or excess compute supply, some hardware and neocloud valuations may need to reset.",
-            "Crypto improved, with BTC, ETH and SOL firmer, but HYPE weakened and AI hardware sold off. Cross-asset signals are split, so a crypto bounce is not enough to call an immediate hardware rebound.",
+            "Medium term, AI bottleneck assets still matter: TSM, HBM/DRAM, advanced packaging and equipment remain strategic. Short term, the market needs MU to hold 1000-1050, TSM to reclaim 2500, and SKHX / SNDK / DRAM to stop falling on heavy volume.",
+            "META is constructive for platform names, but it can pressure GPU rental, neocloud and parts of the hardware chain if more rentable compute supply causes investors to revisit rental prices and CapEx returns.",
+            "Crypto strength shows risk appetite is still alive, but it does not automatically mean AI hardware is ready to rebound. This is rotation across risk assets, not a clean return to the same hardware-led AI trade.",
         ]),
     ],
     "ru": [
         ("Главный Вывод", [
-            "Главный сдвиг дня: AI-сделка переходит от темы строительства hardware к теме монетизации вычислений. SMH, SOXX, TSM ADR, MU, AMD, AMAT и ASML снижались вместе, а META резко выросла на идее, что избыточные AI-вычисления можно превратить в облачную или инфраструктурную выручку.",
-            "Это не конец AI-темы. Это переход от награды продавцам оборудования к награде компаниям, которые могут повысить загрузку инфраструктуры и окупаемость AI CapEx. Краткосрочно для перегретых hardware-победителей нужны более строгие правила риска.",
+            "Главная тема дня — очередная чистка в AI hardware. MU, SNDK, DRAM и SKHX падают при высоком обороте, поэтому это больше похоже на переоценку перегретого позиционирования, а не на тихий откат.",
+            "Это не широкий risk-off. SP500 остается около нуля, BTC, ETH, SOL и HYPE восстанавливаются. Капитал уходит из сделки AI buildout в монетизацию платформ, защиту через индексы и выборочный crypto beta.",
         ]),
         ("Структура Рынка", [
-            "Широкий рынок не сломался: SPY и QQQ немного выросли. Давление было сосредоточено в AI hardware: MU упала более чем на 10%, AMD более чем на 8%, TSM ADR более чем на 3%, а ETF полупроводников заметно снизились.",
-            "TSM 2330.TW вернулась к зоне 2460/2465 после неудачной попытки продолжить движение выше NT$2500. Среднесрочная логика foundry остается сильной, но краткосрочно это снова зона сопротивления и переваривания.",
-            "На TraderXYZ / Hyperliquid MU, SNDK и DRAM падали вместе при высоком обороте. Это явная чистка в цепочке памяти. META в топе потоков и с ростом — самый чистый сигнал ротации стиля.",
+            "TSM остается ключевым активом advanced nodes для AI, но 2330.TW не удержала NT$2500 и вернулась к 2425/2430 intraday. Краткосрочно это уже не breakout, а переваривание в зоне 2415-2500.",
+            "Среднесрочная логика спроса на Micron не сломана, но MU perpetual около 1000 входит в ключевую зону защиты. Если 1000-1050 не удержится, memory trade может охлаждаться дальше.",
+            "История META про compute cloud и монетизацию избыточных мощностей остается главным AI-фактором. Рынок награждает путь от AI CapEx к выручке, а не просто покупку GPU и расширение capacity.",
         ]),
         ("Торговая Рамка", [
-            "Среднесрочно активы узких мест AI остаются важными: TSM, HBM/DRAM, advanced packaging и оборудование. Но краткосрочно сильной отчетности недостаточно, если позиционирование перегрето; MU нужно удержать 1000-1050, чтобы остановить дальнейшее охлаждение memory trade.",
-            "Рост META позитивен для платформенной монетизации, но для hardware сигнал смешанный. Если инвесторы начнут опасаться цен аренды GPU и избытка вычислительных мощностей, часть hardware и neocloud-оценок может быть пересмотрена.",
-            "Крипта улучшилась: BTC, ETH и SOL сильнее, но HYPE слабее, а AI hardware падает. Межрыночные сигналы расходятся, поэтому отскок крипты сам по себе не подтверждает немедленное восстановление hardware.",
+            "Среднесрочно активы узких мест AI остаются важными: TSM, HBM/DRAM, advanced packaging и оборудование. Краткосрочно нужно увидеть, что MU держит 1000-1050, TSM возвращает 2500, а SKHX / SNDK / DRAM перестают падать на высоком обороте.",
+            "META позитивна для платформ, но может давить на GPU rental, neocloud и часть hardware-цепочки, если рост доступной compute supply заставит рынок пересмотреть цены аренды и окупаемость CapEx.",
+            "Сила крипты показывает, что аппетит к риску жив, но это не значит, что AI hardware сразу готов к отскоку. Сейчас это ротация между риск-активами, а не чистое возвращение к hardware-led AI trade.",
         ]),
     ],
 }
@@ -214,10 +214,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("1000-1050 支撑", "2440-2500 区间", "算力变现", "记忆体压力", "风险偏好"),
-        "zh-hant": ("1000-1050 支撐", "2440-2500 區間", "算力變現", "記憶體壓力", "風險偏好"),
-        "en": ("1000-1050 support", "2440-2500 range", "compute monetization", "memory pressure", "risk appetite"),
-        "ru": ("поддержка 1000-1050", "диапазон 2440-2500", "монетизация compute", "давление памяти", "аппетит к риску"),
+        "zh-cn": ("1000-1050 防守区", "2415-2500 消化区", "算力变现", "记忆体链压力", "crypto beta"),
+        "zh-hant": ("1000-1050 防守區", "2415-2500 消化區", "算力變現", "記憶體鏈壓力", "crypto beta"),
+        "en": ("1000-1050 defense", "2415-2500 digestion", "compute monetization", "memory-chain pressure", "crypto beta"),
+        "ru": ("защита 1000-1050", "зона 2415-2500", "монетизация compute", "давление memory-chain", "crypto beta"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -244,8 +244,8 @@ def brief_body(lang):
               <div class="brief-item"><strong>MU</strong><span>{watch_labels[0]}</span></div>
               <div class="brief-item"><strong>TSM</strong><span>{watch_labels[1]}</span></div>
               <div class="brief-item"><strong>META</strong><span>{watch_labels[2]}</span></div>
-              <div class="brief-item"><strong>SNDK / DRAM</strong><span>{watch_labels[3]}</span></div>
-              <div class="brief-item"><strong>BTC / ETH</strong><span>{watch_labels[4]}</span></div>
+              <div class="brief-item"><strong>SKHX / SNDK / DRAM</strong><span>{watch_labels[3]}</span></div>
+              <div class="brief-item"><strong>BTC / ETH / SOL / HYPE</strong><span>{watch_labels[4]}</span></div>
             </div>
           </aside>
         </div>
@@ -266,7 +266,7 @@ def history_section(lang):
     latest = META[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-01")}"><span class="history-date">2026-07-01</span><span><span class="history-title">AI semiconductor confirmation / TSM / equipment</span><span class="history-summary">Previous market brief.</span></span><span class="history-tag">Archive</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-02")}"><span class="history-date">2026-07-02</span><span><span class="history-title">AI compute monetization / hardware stress test</span><span class="history-summary">Previous market brief.</span></span><span class="history-tag">Archive</span></a>
     </div></div></section>'''
 
 
@@ -327,7 +327,12 @@ def page(lang):
 def update_daily_index(lang):
     path = ROOT / LANG_META[lang]["daily"].lstrip("/") / "index.html"
     text = path.read_text(encoding="utf-8")
-    text = re.sub(r'href="' + re.escape(daily_slug(lang, "2026-07-01")) + r'"', f'href="{daily_slug(lang, DATE)}"', text, count=1)
+    text = re.sub(
+        r'(<div class="hero-actions"><a class="button button-primary" href=")[^"]+(">)',
+        rf'\1{daily_slug(lang, DATE)}\2',
+        text,
+        count=1,
+    )
     card = f'''<a class="history-link" href="{daily_slug(lang, DATE)}">
               <span class="history-date">{DATE}</span>
               <span><span class="history-title">{html.escape(META[lang]["title"])}</span><span class="history-summary">{html.escape(META[lang]["summary"][:140])}</span></span>
