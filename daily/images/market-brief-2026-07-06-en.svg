@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07102b"/>
+      <stop offset="0.56" stop-color="#0b2f74"/>
+      <stop offset="1" stop-color="#061226"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#1b7cff"/>
+      <stop offset="1" stop-color="#66b7ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#010817" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M860 0c-48 94-38 188 31 281 62 84 155 122 209 214 38 64 46 123 37 180h63V0z" fill="#0d51a3" opacity=".24"/>
+  <path d="M0 520c112-52 203-78 290-80 122-3 186 42 292 16 110-27 147-117 258-132 112-15 176-5 360-106" fill="none" stroke="url(#line)" stroke-width="5" opacity=".82"/>
+  <path d="M0 548c138-55 236-70 318-62 104 10 170 37 267 12 116-29 151-104 250-124 129-26 227-13 365-80" fill="none" stroke="#1b7cff" stroke-width="2" opacity=".3"/>
+
+  <g transform="translate(70 48)">
+    <rect width="346" height="42" rx="21" fill="#0f4389" stroke="#2491ff" opacity=".9"/>
+    <text x="23" y="28" fill="#d9ecff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">2026-07-06 · Global Market Brief</text>
+  </g>
+
+  <text x="70" y="154" fill="#f5f9ff" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">TSM retests 2500</text>
+  <text x="70" y="212" fill="#c8dcf8" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">AI hardware is still defending, while TSM gives a marginal</text>
+<text x="70" y="246" fill="#c8dcf8" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">repair signal.</text>
+
+  <g filter="url(#shadow)" font-family="Inter, Arial, sans-serif">
+    <g transform="translate(70 276)">
+      <rect width="210" height="108" rx="8" fill="#081b3e" stroke="#2e78d8"/>
+      <text x="20" y="35" fill="#b9d4ff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">MU</text>
+      <text x="20" y="70" fill="#45b7ff" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="800">1000-1050</text>
+      <text x="20" y="94" fill="#8bb4ed" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">key defense</text>
+    </g><g transform="translate(316 276)">
+      <rect width="210" height="108" rx="8" fill="#081b3e" stroke="#2e78d8"/>
+      <text x="20" y="35" fill="#b9d4ff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">TSM TW</text>
+      <text x="20" y="70" fill="#45b7ff" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="800">2500</text>
+      <text x="20" y="94" fill="#8bb4ed" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">second test</text>
+    </g><g transform="translate(562 276)">
+      <rect width="210" height="108" rx="8" fill="#081b3e" stroke="#2e78d8"/>
+      <text x="20" y="35" fill="#b9d4ff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">HYPE</text>
+      <text x="20" y="70" fill="#45b7ff" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="800">+4.4%</text>
+      <text x="20" y="94" fill="#8bb4ed" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">risk appetite alive</text>
+    </g>
+  </g>
+
+  <g transform="translate(70 430)" filter="url(#shadow)">
+    <rect width="500" height="145" rx="9" fill="#081b3e" stroke="#264f99"/>
+    <text x="26" y="42" fill="#f5f9ff" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">3 key checks</text>
+    <text x="26" y="78" fill="#d9ecff" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">1. Can MU hold 1000-1050?</text>
+<text x="26" y="110" fill="#d9ecff" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">2. Can TSM hold NT$2500?</text>
+<text x="26" y="142" fill="#d9ecff" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">3. Do SKHX / SNDK / DRAM stabilize?</text>
+  </g>
+
+  <g transform="translate(620 430)" filter="url(#shadow)">
+    <rect width="430" height="145" rx="9" fill="#081b3e" stroke="#264f99"/>
+    <text x="26" y="42" fill="#f5f9ff" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800">Framework</text>
+    <text x="26" y="78" fill="#d9ecff" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Hardware awaits confirmation.</text>
+<text x="26" y="110" fill="#d9ecff" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">TSM is stronger than memory.</text>
+<text x="26" y="142" fill="#d9ecff" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">GateAffiliate · invite code VLYQB1HXUW</text>
+  </g>
+
+  <text x="70" y="625" fill="#45b7ff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Bottom line: AI hardware has not confirmed a reversal; it is in a key defense and retest</text>
+<text x="70" y="653" fill="#45b7ff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">phase.</text>
+</svg>

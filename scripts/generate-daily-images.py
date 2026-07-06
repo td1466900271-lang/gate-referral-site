@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-03"
+DATE = "2026-07-06"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-03-zh-cn.svg",
+        "file": "market-brief-2026-07-06-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "AI 硬件链继续出清",
-        "subtitle": "资金从硬件扩产转向平台变现、指数防御与局部 crypto beta。",
-        "cards": [("MU", "1000-1050", "关键防守区"), ("TSM 台股", "2415-2500", "区间消化"), ("BTC / ETH", "修复", "风险偏好仍在")],
-        "box1": ("3 个关键观察", ["1. MU 能否守住 1000-1050？", "2. TSM 能否重回 NT$2500？", "3. SKHX / SNDK / DRAM 是否止跌？"]),
-        "box2": ("交易框架", ["硬件链继续洗筹。", "META 变现叙事更关键。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：不是全面避险，而是 AI 硬件拥挤交易继续降温。",
+        "title": "TSM 再测 2500",
+        "subtitle": "AI 硬件链仍在防守期，台积电给出边际修复信号。",
+        "cards": [("MU", "1000-1050", "关键防守区"), ("TSM 台股", "2500", "二次测试"), ("HYPE", "+4.4%", "风险偏好仍在")],
+        "box1": ("3 个关键观察", ["1. MU 能否守住 1000-1050？", "2. TSM 能否站稳 NT$2500？", "3. SKHX / SNDK / DRAM 是否止跌？"]),
+        "box2": ("交易框架", ["硬件链等待确认。", "TSM 强于记忆体链。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：AI 硬件不是确认反转，而是进入关键防守与二次测试。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-03-zh-hant.svg",
+        "file": "market-brief-2026-07-06-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "AI 硬體鏈繼續出清",
-        "subtitle": "資金從硬體擴產轉向平台變現、指數防禦與局部 crypto beta。",
-        "cards": [("MU", "1000-1050", "關鍵防守區"), ("TSM 台股", "2415-2500", "區間消化"), ("BTC / ETH", "修復", "風險偏好仍在")],
-        "box1": ("3 個關鍵觀察", ["1. MU 能否守住 1000-1050？", "2. TSM 能否重回 NT$2500？", "3. SKHX / SNDK / DRAM 是否止跌？"]),
-        "box2": ("交易框架", ["硬體鏈繼續洗籌。", "META 變現敘事更關鍵。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：不是全面避險，而是 AI 硬體擁擠交易繼續降溫。",
+        "title": "TSM 再測 2500",
+        "subtitle": "AI 硬體鏈仍在防守期，台積電給出邊際修復信號。",
+        "cards": [("MU", "1000-1050", "關鍵防守區"), ("TSM 台股", "2500", "二次測試"), ("HYPE", "+4.4%", "風險偏好仍在")],
+        "box1": ("3 個關鍵觀察", ["1. MU 能否守住 1000-1050？", "2. TSM 能否站穩 NT$2500？", "3. SKHX / SNDK / DRAM 是否止跌？"]),
+        "box2": ("交易框架", ["硬體鏈等待確認。", "TSM 強於記憶體鏈。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：AI 硬體不是確認反轉，而是進入關鍵防守與二次測試。",
     },
     "en": {
-        "file": "market-brief-2026-07-03-en.svg",
+        "file": "market-brief-2026-07-06-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "AI hardware keeps clearing",
-        "subtitle": "Capital rotates from hardware buildout to platform monetization and selective crypto beta.",
-        "cards": [("MU", "1000-1050", "key defense"), ("TSM TW", "2415-2500", "digestion zone"), ("BTC / ETH", "rebound", "risk appetite alive")],
-        "box1": ("3 key checks", ["1. Can MU hold 1000-1050?", "2. Can TSM reclaim NT$2500?", "3. Do SKHX / SNDK / DRAM stop falling?"]),
-        "box2": ("Framework", ["Hardware is still washing out.", "META monetization matters more.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: not broad risk-off; crowded AI hardware is still cooling.",
+        "title": "TSM retests 2500",
+        "subtitle": "AI hardware is still defending, while TSM gives a marginal repair signal.",
+        "cards": [("MU", "1000-1050", "key defense"), ("TSM TW", "2500", "second test"), ("HYPE", "+4.4%", "risk appetite alive")],
+        "box1": ("3 key checks", ["1. Can MU hold 1000-1050?", "2. Can TSM hold NT$2500?", "3. Do SKHX / SNDK / DRAM stabilize?"]),
+        "box2": ("Framework", ["Hardware awaits confirmation.", "TSM is stronger than memory.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: AI hardware has not confirmed a reversal; it is in a key defense and retest phase.",
     },
     "ru": {
-        "file": "market-brief-2026-07-03-ru.svg",
+        "file": "market-brief-2026-07-06-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "AI hardware продолжает чистку",
-        "subtitle": "Капитал уходит из hardware buildout в монетизацию платформ и выборочный crypto beta.",
-        "cards": [("MU", "1000-1050", "ключевая защита"), ("TSM TW", "2415-2500", "зона переваривания"), ("BTC / ETH", "отскок", "аппетит к риску")],
-        "box1": ("3 ключевых сигнала", ["1. Удержит ли MU 1000-1050?", "2. Вернет ли TSM NT$2500?", "3. Остановят ли падение SKHX / SNDK / DRAM?"]),
-        "box2": ("Рамка", ["Hardware продолжает чистку.", "Монетизация META важнее.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: это не широкий risk-off; перегретый AI hardware продолжает остывать.",
+        "title": "TSM снова тестирует 2500",
+        "subtitle": "Аппаратная AI-цепочка защищается, а TSM дает сигнал частичного восстановления.",
+        "cards": [("MU", "1000-1050", "ключевая защита"), ("TSM TW", "2500", "повторный тест"), ("HYPE", "+4.4%", "риск-аппетит жив")],
+        "box1": ("3 ключевых сигнала", ["1. Удержит ли MU 1000-1050?", "2. Удержит ли TSM NT$2500?", "3. Стабилизируются ли SKHX / SNDK / DRAM?"]),
+        "box2": ("Рамка", ["Сектор ждет подтверждения.", "TSM сильнее цепочки памяти.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: разворот AI-сектора не подтвержден; рынок в фазе защиты и повторного теста.",
     },
 }
 
