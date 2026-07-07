@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-06"
+DATE = "2026-07-07"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-06-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-06-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-06-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-06-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-07-07-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-07-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-07-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-07-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "TSM 重新测试 2500，AI 硬件链进入关键防守期",
-        "desc": "2026-07-06 GateAffiliate 每日市场日报：AI 硬件链仍在清洗后的关键防守期，TSM 重新测试 2500，MU 1000-1050 成为记忆体链核心观察区，Crypto beta 维持风险偏好。",
+        "title": "机构看多与永续去风险分歧，存储链仍是短线核心矛盾",
+        "desc": "2026-07-07 GateAffiliate 每日市场日报：AI 硬件链中期逻辑未破，但 TraderXYZ / Hyperliquid 上 MU、SKHX、SNDK、DRAM 高成交下跌，机构对 Micron 的多头观点与衍生品去风险形成分歧。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "TSM 重新测试 2500，AI 硬件链进入关键防守期。",
-        "summary": "AI 硬件链仍在清洗后的防守阶段，但台积电重新触及 2500 给出边际修复信号。MU 仍在 1000 附近高成交换手，SKHX、DRAM、SNDK 还没完全止跌；Crypto 偏强说明风险偏好没坏，但不能直接等同半导体修复。",
+        "h1": "机构看多与永续去风险分歧，存储链仍是短线核心矛盾。",
+        "summary": "AI 硬件链中期逻辑没有破坏，但今天不能只看正股和机构乐观。TraderXYZ / Hyperliquid 上 MU、SKHX、SNDK、DRAM 同时高成交下跌，说明存储链仍在去杠杆；TSMC 早盘偏强，但 2500 新台币仍是关键确认位。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "TSM 重新測試 2500，AI 硬體鏈進入關鍵防守期",
-        "desc": "2026-07-06 GateAffiliate 每日市場日報：AI 硬體鏈仍在清洗後的關鍵防守期，TSM 重新測試 2500，MU 1000-1050 成為記憶體鏈核心觀察區，Crypto beta 維持風險偏好。",
+        "title": "機構看多與永續去風險分歧，記憶體鏈仍是短線核心矛盾",
+        "desc": "2026-07-07 GateAffiliate 每日市場日報：AI 硬體鏈中期邏輯未破，但 TraderXYZ / Hyperliquid 上 MU、SKHX、SNDK、DRAM 高成交下跌，機構對 Micron 的多頭觀點與衍生品去風險形成分歧。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "TSM 重新測試 2500，AI 硬體鏈進入關鍵防守期。",
-        "summary": "AI 硬體鏈仍在清洗後的防守階段，但台積電重新觸及 2500 給出邊際修復信號。MU 仍在 1000 附近高成交換手，SKHX、DRAM、SNDK 還沒完全止跌；Crypto 偏強說明風險偏好沒壞，但不能直接等同半導體修復。",
+        "h1": "機構看多與永續去風險分歧，記憶體鏈仍是短線核心矛盾。",
+        "summary": "AI 硬體鏈中期邏輯沒有破壞，但今天不能只看正股和機構樂觀。TraderXYZ / Hyperliquid 上 MU、SKHX、SNDK、DRAM 同時高成交下跌，說明記憶體鏈仍在去槓桿；TSMC 早盤偏強，但 2500 新台幣仍是關鍵確認位。",
         "tag": "最新",
     },
     "en": {
-        "title": "TSM retests 2500 as AI hardware enters a key defense phase",
-        "desc": "2026-07-06 GateAffiliate daily market brief: AI hardware remains in a post-washout defense phase, TSM retests NT$2500, MU 1000-1050 is the key memory-chain level, and crypto beta keeps risk appetite alive.",
+        "title": "Institutional optimism clashes with perpetual de-risking across the memory chain",
+        "desc": "2026-07-07 GateAffiliate daily market brief: AI hardware's medium-term thesis is intact, but MU, SKHX, SNDK and DRAM are still falling on heavy TraderXYZ / Hyperliquid volume as Micron bulls and derivatives de-risking diverge.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "TSM retests 2500 as AI hardware enters a key defense phase.",
-        "summary": "AI hardware is still defending after the washout, but TSM retesting NT$2500 is a marginal repair signal. MU is still changing hands near 1000, while SKHX, DRAM and SNDK have not fully stabilized. Crypto is firm, but that does not automatically confirm a semiconductor rebound.",
+        "h1": "Institutional optimism clashes with perpetual de-risking across the memory chain.",
+        "summary": "AI hardware's medium-term thesis is not broken, but today's signal is split. Cash-equity and institutional views are more constructive, while TraderXYZ / Hyperliquid still shows high-volume downside in MU, SKHX, SNDK and DRAM. TSMC is firmer early, but NT$2500 remains the key confirmation level.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "TSM снова тестирует 2500, аппаратная AI-цепочка входит в фазу защиты",
-        "desc": "Ежедневный обзор GateAffiliate за 2026-07-06: аппаратная AI-цепочка остается в фазе защиты после чистки, TSM тестирует NT$2500, зона MU 1000-1050 важна для цепочки памяти, а крипто-бета поддерживает риск-аппетит.",
+        "title": "Оптимизм институтов расходится со снижением риска в перпетуалах цепочки памяти",
+        "desc": "Ежедневный обзор GateAffiliate за 2026-07-07: среднесрочная логика аппаратной AI-цепочки не сломана, но MU, SKHX, SNDK и DRAM падают на высоком объеме TraderXYZ / Hyperliquid, создавая разрыв между мнением институционалов и деривативами.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "TSM снова тестирует 2500, аппаратная AI-цепочка входит в фазу защиты.",
-        "summary": "Аппаратная AI-цепочка все еще защищается после чистки, но повторный тест TSM NT$2500 дает сигнал частичного восстановления. MU торгуется около 1000 с высоким оборотом, а SKHX, DRAM и SNDK еще не стабилизировались полностью. Крипторынок сильнее, но это не подтверждает автоматический отскок полупроводников.",
+        "h1": "Оптимизм институтов расходится со снижением риска в перпетуалах цепочки памяти.",
+        "summary": "Среднесрочная логика аппаратной AI-цепочки не сломана, но сигнал дня разделен. Акции и институциональные оценки выглядят конструктивнее, а TraderXYZ / Hyperliquid все еще показывает высокий объем снижения по MU, SKHX, SNDK и DRAM. TSMC сильнее утром, но NT$2500 остается ключевым уровнем подтверждения.",
         "tag": "Свежий",
     },
 }
@@ -70,126 +70,121 @@ META = {
 CONCISE_SECTIONS = {
     "zh-cn": [
         ("核心结论", [
-            "AI 硬件链仍处在清洗后的关键防守期，但今天的边际变化更积极：台积电盘中重新测试 2500，说明亚洲 AI 核心资产开始出现承接。",
-            "记忆体链还没有完全修复。MU 仍在 1000 附近高成交换手，SKHX 继续偏弱，DRAM 和 SNDK 的跌幅虽然收敛，但还缺少主动买盘回流。",
+            "今天的重点不是“AI 硬件链继续上涨”，而是正股市场和机构观点偏乐观，但 TraderXYZ / Hyperliquid 的存储链永续仍在明显去风险。",
+            "中期逻辑没有破坏：TSMC、HBM、DRAM、先进封装、GPU / AI 服务器仍是未来几个季度的重要主线。但短线不能忽视 MU、SKHX、SNDK、DRAM 同时高成交下跌带来的波动风险。",
         ]),
         ("关键市场结构", [
-            "TSM 比 MU 更强。台积电 2330 盘中高点触及 2500，随后回到 2470/2475 附近，短线判断从“前高失败”转为“关键压力位二次测试”。",
-            "MU 1000-1050 是本周最重要的记忆体观察区。守住并横盘，第一轮清洗可能接近尾声；如果跌破 1000，技术盘和情绪盘可能继续退潮。",
-            "Crypto 偏强，尤其 HYPE 表现突出，说明风险偏好没有全面崩坏。但股票永续里的 MU、SKHX 仍弱，所以不能把 crypto 反弹直接等同于 AI 半导体确认修复。",
+            "TSMC 早盘参考买卖盘约 2470 / 2475，高于前收 2460，但这还不能等同全天突破确认。2500 新台币仍是最关键压力位，只有站稳并配合成交，才更像有效突破。",
+            "TraderXYZ / Hyperliquid 上 SKHX、MU、SNDK、DRAM 同时进入高成交下跌名单，说明衍生品端仍在对存储链减仓或对冲。这更像拥挤交易后的去杠杆，而不是行业中期逻辑被推翻。",
+            "机构端出现明显分歧。UBS 对 Micron 仍然偏多，把近期回调视为买点；但永续合约端显示 MU 跌破 1000 附近后仍有卖压。这个分歧本身就是今天最重要的信号。",
         ]),
         ("交易框架", [
-            "中期仍看好 AI 瓶颈资产，包括 TSM、MU、HBM/DRAM、先进封装和设备链；短线则要尊重价格，先看 TSM 是否站稳 2500、MU 是否守住 1000-1050。",
-            "META 算力变现叙事仍在改变市场定价：平台股会被奖励收入化路径，硬件扩产链则需要证明 GPU 租赁价格、利用率和 CapEx 回报率。",
-            "本周的确认条件很简单：MU 不破 1000、TSM 站稳 2500、SKHX / SNDK / DRAM 停止高成交下跌。满足前，维持中期看多、短线谨慎。",
+            "AI 硬件链仍维持中期多头框架，但短线降低追涨冲动。TSMC 要看 2500 是否有效站稳，不能把盘前或早盘集合竞价直接当作全天趋势确认。",
+            "存储链重点看 MU 是否重新站回 1000-1050，以及 SK Hynix / Samsung 是否释放 DRAM / HBM 价格或供应端的积极信息。若正股修复且永续止跌，多头才算重新接管。",
+            "对机构明显看多、但衍生品明显看空的标的，不急于只站一边。更好的确认方式是等待正股成交、期权、ETF 和 TraderXYZ 信号相互验证。",
         ]),
     ],
     "zh-hant": [
         ("核心結論", [
-            "AI 硬體鏈仍處在清洗後的關鍵防守期，但今天的邊際變化更積極：台積電盤中重新測試 2500，說明亞洲 AI 核心資產開始出現承接。",
-            "記憶體鏈還沒有完全修復。MU 仍在 1000 附近高成交換手，SKHX 繼續偏弱，DRAM 和 SNDK 的跌幅雖然收斂，但還缺少主動買盤回流。",
+            "今天的重點不是「AI 硬體鏈繼續上漲」，而是正股市場和機構觀點偏樂觀，但 TraderXYZ / Hyperliquid 的記憶體鏈永續仍在明顯去風險。",
+            "中期邏輯沒有破壞：TSMC、HBM、DRAM、先進封裝、GPU / AI 伺服器仍是未來幾個季度的重要主線。但短線不能忽視 MU、SKHX、SNDK、DRAM 同時高成交下跌帶來的波動風險。",
         ]),
         ("關鍵市場結構", [
-            "TSM 比 MU 更強。台積電 2330 盤中高點觸及 2500，隨後回到 2470/2475 附近，短線判斷從「前高失敗」轉為「關鍵壓力位二次測試」。",
-            "MU 1000-1050 是本週最重要的記憶體觀察區。守住並橫盤，第一輪清洗可能接近尾聲；如果跌破 1000，技術盤和情緒盤可能繼續退潮。",
-            "Crypto 偏強，尤其 HYPE 表現突出，說明風險偏好沒有全面崩壞。但股票永續裡的 MU、SKHX 仍弱，所以不能把 crypto 反彈直接等同於 AI 半導體確認修復。",
+            "TSMC 早盤參考買賣盤約 2470 / 2475，高於前收 2460，但這還不能等同全天突破確認。2500 新台幣仍是最關鍵壓力位，只有站穩並配合成交，才更像有效突破。",
+            "TraderXYZ / Hyperliquid 上 SKHX、MU、SNDK、DRAM 同時進入高成交下跌名單，說明衍生品端仍在對記憶體鏈減倉或對沖。這更像擁擠交易後的去槓桿，而不是產業中期邏輯被推翻。",
+            "機構端出現明顯分歧。UBS 對 Micron 仍然偏多，把近期回調視為買點；但永續合約端顯示 MU 跌破 1000 附近後仍有賣壓。這個分歧本身就是今天最重要的信號。",
         ]),
         ("交易框架", [
-            "中期仍看好 AI 瓶頸資產，包括 TSM、MU、HBM/DRAM、先進封裝和設備鏈；短線則要尊重價格，先看 TSM 是否站穩 2500、MU 是否守住 1000-1050。",
-            "META 算力變現敘事仍在改變市場定價：平台股會被獎勵收入化路徑，硬體擴產鏈則需要證明 GPU 租賃價格、利用率和 CapEx 回報率。",
-            "本週的確認條件很簡單：MU 不破 1000、TSM 站穩 2500、SKHX / SNDK / DRAM 停止高成交下跌。滿足前，維持中期看多、短線謹慎。",
+            "AI 硬體鏈仍維持中期多頭框架，但短線降低追漲衝動。TSMC 要看 2500 是否有效站穩，不能把盤前或早盤集合競價直接當作全天趨勢確認。",
+            "記憶體鏈重點看 MU 是否重新站回 1000-1050，以及 SK Hynix / Samsung 是否釋放 DRAM / HBM 價格或供應端的積極資訊。若正股修復且永續止跌，多頭才算重新接管。",
+            "對機構明顯看多、但衍生品明顯看空的標的，不急於只站一邊。更好的確認方式是等待正股成交、期權、ETF 和 TraderXYZ 信號相互驗證。",
         ]),
     ],
     "en": [
         ("Core Takeaway", [
-            "AI hardware is still in a post-washout defense phase, but today's marginal signal is better: TSM retested NT$2500 intraday, showing some support for Asia's core AI asset.",
-            "The memory chain is not fully repaired. MU is still changing hands near 1000 on heavy volume, SKHX remains weak, and DRAM / SNDK have only shown less downside pressure, not clear active buying.",
+            "Today's main signal is not simply that AI hardware is rising. Cash equities and institutional views look constructive, but TraderXYZ / Hyperliquid memory-chain perpetuals are still clearly de-risking.",
+            "The medium-term thesis is intact: TSMC, HBM, DRAM, advanced packaging, GPUs and AI servers remain important themes for the next several quarters. Short term, however, MU, SKHX, SNDK and DRAM falling together on heavy volume is a real volatility warning.",
         ]),
         ("Market Structure", [
-            "TSM is stronger than MU. 2330.TW touched NT$2500 intraday before easing back near 2470/2475, shifting the short-term setup from failed breakout to a second test of key resistance.",
-            "MU 1000-1050 is the most important memory-chain zone this week. Holding and moving sideways would suggest the first washout is close to done; breaking 1000 could invite more technical selling.",
-            "Crypto is firm, especially HYPE, which shows risk appetite has not collapsed. But MU and SKHX remain weak in equity perpetuals, so a crypto rebound is not the same as confirmed AI semiconductor repair.",
+            "TSMC's early reference bid / ask near 2470 / 2475 is above the prior 2460 close, but that is not a full-session breakout confirmation. NT$2500 remains the key resistance level; it needs to hold with volume.",
+            "On TraderXYZ / Hyperliquid, SKHX, MU, SNDK and DRAM all appear in high-volume downside flow. That points to continued memory-chain hedging or position reduction, more like post-crowding deleveraging than a broken industry thesis.",
+            "The institutional split matters. UBS remains constructive on Micron and treats the pullback as a buying opportunity, while perpetual markets still show selling pressure after MU moved below the 1000 area.",
         ]),
         ("Trading Frame", [
-            "Medium term, AI bottleneck assets still matter: TSM, MU, HBM/DRAM, advanced packaging and equipment. Short term, price comes first: TSM needs to hold 2500 and MU needs to defend 1000-1050.",
-            "META's compute-monetization narrative continues to reshape pricing. Platforms get rewarded for revenue paths, while the hardware buildout chain must prove GPU rental pricing, utilization and CapEx returns.",
-            "This week's confirmation checklist is simple: MU above 1000, TSM above 2500, and SKHX / SNDK / DRAM no longer falling on heavy volume. Until then, the stance is medium-term bullish but short-term cautious.",
+            "Keep the medium-term bullish AI hardware framework, but reduce short-term chase risk. TSMC needs to confirm above NT$2500; early-session strength alone is not enough.",
+            "For the memory chain, watch whether MU can reclaim 1000-1050 and whether SK Hynix / Samsung bring supportive DRAM / HBM pricing or supply signals. Bulls regain control only if cash equities recover and perpetuals stop falling.",
+            "When institutions are clearly bullish but derivatives are clearly defensive, do not rely on one side alone. Confirmation should come from cash equity volume, options, ETFs and TraderXYZ signals lining up.",
         ]),
     ],
     "ru": [
         ("Главный Вывод", [
-            "Аппаратная AI-цепочка все еще находится в фазе защиты после чистки, но сегодняшний маржинальный сигнал лучше: TSM внутри дня снова протестировала NT$2500, показывая поддержку ключевого AI-актива Азии.",
-            "Цепочка памяти еще не восстановилась полностью. MU по-прежнему торгуется около 1000 на высоком объеме, SKHX остается слабой, а DRAM / SNDK пока показывают только снижение давления продаж, а не явный возврат покупателей.",
+            "Главный сигнал дня не в том, что аппаратная AI-цепочка просто растет. Акции и институциональные оценки выглядят конструктивно, но перпетуалы цепочки памяти на TraderXYZ / Hyperliquid все еще явно снижают риск.",
+            "Среднесрочная логика не сломана: TSMC, HBM, DRAM, передовая упаковка, GPU и AI-серверы остаются важными темами следующих кварталов. Но краткосрочно одновременное падение MU, SKHX, SNDK и DRAM на высоком объеме — реальное предупреждение о волатильности.",
         ]),
         ("Структура Рынка", [
-            "TSM сильнее MU. 2330.TW коснулась NT$2500 внутри дня, затем вернулась к 2470/2475, поэтому краткосрочная картина сместилась от неудачного прорыва к повторному тесту ключевого сопротивления.",
-            "Зона MU 1000-1050 — главный уровень цепочки памяти на этой неделе. Удержание и боковик покажут, что первая чистка близка к завершению; пробой 1000 может запустить новые технические продажи.",
-            "Крипторынок выглядит сильнее, особенно HYPE, что говорит о сохранении риск-аппетита. Но MU и SKHX в акционных перпетуалах остаются слабыми, поэтому отскок крипто не является подтверждением восстановления AI-полупроводников.",
+            "Ранний ориентир TSMC около 2470 / 2475 выше предыдущего закрытия 2460, но это еще не подтверждение пробоя на весь день. NT$2500 остается ключевым сопротивлением: нужен удержанный уровень и объем.",
+            "На TraderXYZ / Hyperliquid SKHX, MU, SNDK и DRAM одновременно находятся среди высокооборотных снижений. Это указывает на хеджирование или сокращение позиций в цепочке памяти, а не обязательно на слом среднесрочной отраслевой логики.",
+            "Расхождение институтов важно. UBS сохраняет позитивный взгляд на Micron и считает откат возможностью для покупки, тогда как рынок перпетуалов показывает давление продавцов после ухода MU ниже зоны 1000.",
         ]),
         ("Торговая Рамка", [
-            "Среднесрочно активы узких мест AI остаются важными: TSM, MU, HBM/DRAM, advanced packaging и оборудование. Краткосрочно важнее цена: TSM нужно удержать 2500, а MU — зону 1000-1050.",
-            "Нарратив META о монетизации вычислений продолжает менять оценку рынка. Платформы получают премию за путь к выручке, а аппаратная цепочка расширения должна доказать цены аренды GPU, загрузку и окупаемость CapEx.",
-            "Чеклист недели простой: MU выше 1000, TSM выше 2500, SKHX / SNDK / DRAM больше не падают на высоком объеме. До этого позиция остается среднесрочно позитивной, но краткосрочно осторожной.",
+            "Среднесрочно сохраняется бычья рамка по аппаратной AI-цепочке, но краткосрочно лучше снизить погоню за ростом. TSMC должна подтвердить уровень выше NT$2500; одной ранней силы недостаточно.",
+            "По цепочке памяти важно, сможет ли MU вернуть 1000-1050 и появятся ли от SK Hynix / Samsung позитивные сигналы по DRAM / HBM. Быки возвращают контроль только если акции восстанавливаются, а перпетуалы перестают падать.",
+            "Когда институты явно смотрят вверх, а деривативы явно защищаются, не стоит полагаться только на одну сторону. Подтверждение лучше ждать от объема в акциях, опционов, ETF и сигналов TraderXYZ одновременно.",
         ]),
     ],
 }
 
 SOURCE_URLS = [
-    ("businessinsider-meta", "https://www.businessinsider.com/meta-stock-cloud-computing-ai-compute-tech-stocks-data-centers-2026-7"),
-    ("marketwatch-meta", "https://www.marketwatch.com/story/is-meta-giving-up-on-cutting-edge-ai-wall-street-is-divided-over-potential-cloud-pivot-7c5ffc5d"),
-    ("ibd-meta-micron", "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-meta-jumps-spacex-micron-tesla-deliveries-jobs-report/"),
+    ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
+    ("traderxyz-api", "https://api.hyperliquid.xyz/info"),
+    ("barrons-micron", "https://www.barrons.com/articles/micron-stock-price-buy-833a9218"),
+    ("marketwatch-micron", "https://www.marketwatch.com/story/microns-stock-gains-signaling-a-return-to-optimism-about-the-chip-sector-0b7f6a8c"),
     ("micron-q3", "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-record-results-third-quarter"),
     ("goldman-capex", "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out"),
     ("bea-pce", "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"),
     ("tomshardware-tsmc", "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-reportedly-hiking-prices-for-all-advanced-nodes-accounting-for-74-percent-of-the-companys-wafer-business-nvidia-amd-apple-qualcomm-and-others-will-face-higher-wafer-costs"),
-    ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
-    ("traderxyz-api", "https://api.hyperliquid.xyz/info"),
 ]
 
 SOURCE_LABELS = {
     "zh-cn": {
-        "businessinsider-meta": "Business Insider：Meta AI 算力云计划",
-        "marketwatch-meta": "MarketWatch：华尔街讨论 Meta 云转向",
-        "ibd-meta-micron": "IBD：Meta 上涨与 Micron、硬件链回落",
+        "twse": "TWSE 实时行情",
+        "traderxyz-api": "TraderXYZ / Hyperliquid 数据接口",
+        "barrons-micron": "Barron's：Micron 回调与买点讨论",
+        "marketwatch-micron": "MarketWatch：Micron 与存储股乐观情绪",
         "micron-q3": "Micron FY2026 Q3 官方财报",
         "goldman-capex": "Goldman Sachs AI 资本开支框架",
         "bea-pce": "BEA 个人收入与支出数据",
         "tomshardware-tsmc": "Tom's Hardware：TSMC 先进节点价格报道",
-        "twse": "TWSE 实时行情",
-        "traderxyz-api": "TraderXYZ / Hyperliquid 数据接口",
     },
     "zh-hant": {
-        "businessinsider-meta": "Business Insider：Meta AI 算力雲計劃",
-        "marketwatch-meta": "MarketWatch：華爾街討論 Meta 雲轉向",
-        "ibd-meta-micron": "IBD：Meta 上漲與 Micron、硬體鏈回落",
+        "twse": "TWSE 即時行情",
+        "traderxyz-api": "TraderXYZ / Hyperliquid 數據接口",
+        "barrons-micron": "Barron's：Micron 回調與買點討論",
+        "marketwatch-micron": "MarketWatch：Micron 與記憶體股樂觀情緒",
         "micron-q3": "Micron FY2026 Q3 官方財報",
         "goldman-capex": "Goldman Sachs AI 資本開支框架",
         "bea-pce": "BEA 個人收入與支出數據",
         "tomshardware-tsmc": "Tom's Hardware：TSMC 先進節點價格報導",
-        "twse": "TWSE 即時行情",
-        "traderxyz-api": "TraderXYZ / Hyperliquid 數據接口",
     },
     "en": {
-        "businessinsider-meta": "Business Insider: Meta AI compute cloud plan",
-        "marketwatch-meta": "MarketWatch: Wall Street debates Meta cloud pivot",
-        "ibd-meta-micron": "IBD: Meta jump and Micron hardware-chain pressure",
+        "twse": "TWSE real-time quotes",
+        "traderxyz-api": "TraderXYZ / Hyperliquid data API",
+        "barrons-micron": "Barron's: Micron pullback and buy-the-dip view",
+        "marketwatch-micron": "MarketWatch: Micron and storage-stock optimism",
         "micron-q3": "Micron FY2026 Q3 earnings release",
         "goldman-capex": "Goldman Sachs AI CapEx framework",
         "bea-pce": "BEA Personal Income and Outlays",
         "tomshardware-tsmc": "Tom's Hardware: TSMC advanced-node pricing report",
-        "twse": "TWSE real-time quotes",
-        "traderxyz-api": "TraderXYZ / Hyperliquid data API",
     },
     "ru": {
-        "businessinsider-meta": "Business Insider: план Meta по облаку AI-вычислений",
-        "marketwatch-meta": "MarketWatch: дискуссия Уолл-стрит о cloud-повороте Meta",
-        "ibd-meta-micron": "IBD: рост Meta и давление на Micron и аппаратную цепочку",
+        "twse": "TWSE: котировки в реальном времени",
+        "traderxyz-api": "TraderXYZ / Hyperliquid API данных",
+        "barrons-micron": "Barron's: откат Micron и идея покупки на снижении",
+        "marketwatch-micron": "MarketWatch: Micron и оптимизм вокруг акций памяти",
         "micron-q3": "Официальный отчет Micron за FY2026 Q3",
         "goldman-capex": "Goldman Sachs: рамка AI-капзатрат",
         "bea-pce": "BEA: личные доходы и расходы",
         "tomshardware-tsmc": "Tom's Hardware: цены TSMC на передовые техпроцессы",
-        "twse": "TWSE: котировки в реальном времени",
-        "traderxyz-api": "TraderXYZ / Hyperliquid API данных",
     },
 }
 
@@ -214,10 +209,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("1000-1050 防守区", "2500 二次测试", "算力变现", "等待止跌确认", "HYPE 相对强"),
-        "zh-hant": ("1000-1050 防守區", "2500 二次測試", "算力變現", "等待止跌確認", "HYPE 相對強"),
-        "en": ("1000-1050 defense", "2500 retest", "compute monetization", "waiting for stabilization", "HYPE relative strength"),
-        "ru": ("защита 1000-1050", "повторный тест 2500", "монетизация вычислений", "ожидание стабилизации", "HYPE сильнее"),
+        "zh-cn": ("重回 1000-1050", "2500 确认位", "UBS 多头分歧", "高成交去风险", "正股/期权/ETF 验证"),
+        "zh-hant": ("重回 1000-1050", "2500 確認位", "UBS 多頭分歧", "高成交去風險", "正股/期權/ETF 驗證"),
+        "en": ("reclaim 1000-1050", "2500 confirmation", "UBS bull split", "high-volume de-risking", "cash/options/ETF check"),
+        "ru": ("возврат к 1000-1050", "подтверждение 2500", "разрыв с UBS", "снижение риска на объеме", "проверка акций/опционов/ETF"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -243,9 +238,9 @@ def brief_body(lang):
             <div class="brief-list">
               <div class="brief-item"><strong>MU</strong><span>{watch_labels[0]}</span></div>
               <div class="brief-item"><strong>TSM</strong><span>{watch_labels[1]}</span></div>
-              <div class="brief-item"><strong>META</strong><span>{watch_labels[2]}</span></div>
+              <div class="brief-item"><strong>UBS / Micron</strong><span>{watch_labels[2]}</span></div>
               <div class="brief-item"><strong>SKHX / SNDK / DRAM</strong><span>{watch_labels[3]}</span></div>
-              <div class="brief-item"><strong>BTC / ETH / SOL / HYPE</strong><span>{watch_labels[4]}</span></div>
+              <div class="brief-item"><strong>SPY / QQQ / SOXX</strong><span>{watch_labels[4]}</span></div>
             </div>
           </aside>
         </div>
@@ -265,14 +260,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("AI 硬件链继续出清，资金转向平台变现与 Crypto beta", "上一篇市场日报。", "归档"),
-        "zh-hant": ("AI 硬體鏈繼續出清，資金轉向平台變現與 Crypto beta", "上一篇市場日報。", "歸檔"),
-        "en": ("AI hardware clearing / platform monetization / crypto beta", "Previous market brief.", "Archive"),
-        "ru": ("Чистка AI-сектора / монетизация платформ / крипто-бета", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("TSM 重新测试 2500，AI 硬件链进入关键防守期", "上一篇市场日报。", "归档"),
+        "zh-hant": ("TSM 重新測試 2500，AI 硬體鏈進入關鍵防守期", "上一篇市場日報。", "歸檔"),
+        "en": ("TSM retests 2500 as AI hardware enters a key defense phase", "Previous market brief.", "Archive"),
+        "ru": ("TSM снова тестирует 2500, аппаратная AI-цепочка входит в фазу защиты", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-03")}"><span class="history-date">2026-07-03</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-06")}"><span class="history-date">2026-07-06</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 

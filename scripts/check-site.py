@@ -46,7 +46,7 @@ for path in htmls:
         broken.append(str(path))
 
 sitemap = Path("sitemap.xml").read_text(encoding="utf-8")
-expected_urls = 68
+expected_urls = 72
 if sitemap.count("<url>") != expected_urls:
     broken.append("sitemap.xml:url-count")
 

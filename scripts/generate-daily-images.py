@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-06"
+DATE = "2026-07-07"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-06-zh-cn.svg",
+        "file": "market-brief-2026-07-07-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "TSM 再测 2500",
-        "subtitle": "AI 硬件链仍在防守期，台积电给出边际修复信号。",
-        "cards": [("MU", "1000-1050", "关键防守区"), ("TSM 台股", "2500", "二次测试"), ("HYPE", "+4.4%", "风险偏好仍在")],
-        "box1": ("3 个关键观察", ["1. MU 能否守住 1000-1050？", "2. TSM 能否站稳 NT$2500？", "3. SKHX / SNDK / DRAM 是否止跌？"]),
-        "box2": ("交易框架", ["硬件链等待确认。", "TSM 强于记忆体链。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：AI 硬件不是确认反转，而是进入关键防守与二次测试。",
+        "title": "机构看多 vs 永续去风险",
+        "subtitle": "AI 硬件中期逻辑未破，但存储链永续仍在高成交下跌。",
+        "cards": [("MU", "958.8", "等待重回 1000"), ("TSM 台股", "2470/2475", "2500 确认位"), ("SNDK / DRAM", "承压", "存储链去风险")],
+        "box1": ("3 个关键观察", ["1. MU 能否重回 1000-1050？", "2. TSM 能否有效站稳 NT$2500？", "3. 正股/期权/ETF 是否验证永续信号？"]),
+        "box2": ("交易框架", ["机构多头与衍生品分歧。", "存储链短线波动仍高。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：中期 AI 硬件不坏，但短线要等存储链停止高成交下跌。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-06-zh-hant.svg",
+        "file": "market-brief-2026-07-07-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "TSM 再測 2500",
-        "subtitle": "AI 硬體鏈仍在防守期，台積電給出邊際修復信號。",
-        "cards": [("MU", "1000-1050", "關鍵防守區"), ("TSM 台股", "2500", "二次測試"), ("HYPE", "+4.4%", "風險偏好仍在")],
-        "box1": ("3 個關鍵觀察", ["1. MU 能否守住 1000-1050？", "2. TSM 能否站穩 NT$2500？", "3. SKHX / SNDK / DRAM 是否止跌？"]),
-        "box2": ("交易框架", ["硬體鏈等待確認。", "TSM 強於記憶體鏈。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：AI 硬體不是確認反轉，而是進入關鍵防守與二次測試。",
+        "title": "機構看多 vs 永續去風險",
+        "subtitle": "AI 硬體中期邏輯未破，但記憶體鏈永續仍在高成交下跌。",
+        "cards": [("MU", "958.8", "等待重回 1000"), ("TSM 台股", "2470/2475", "2500 確認位"), ("SNDK / DRAM", "承壓", "記憶體鏈去風險")],
+        "box1": ("3 個關鍵觀察", ["1. MU 能否重回 1000-1050？", "2. TSM 能否有效站穩 NT$2500？", "3. 正股/期權/ETF 是否驗證永續信號？"]),
+        "box2": ("交易框架", ["機構多頭與衍生品分歧。", "記憶體鏈短線波動仍高。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：中期 AI 硬體不壞，但短線要等記憶體鏈停止高成交下跌。",
     },
     "en": {
-        "file": "market-brief-2026-07-06-en.svg",
+        "file": "market-brief-2026-07-07-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "TSM retests 2500",
-        "subtitle": "AI hardware is still defending, while TSM gives a marginal repair signal.",
-        "cards": [("MU", "1000-1050", "key defense"), ("TSM TW", "2500", "second test"), ("HYPE", "+4.4%", "risk appetite alive")],
-        "box1": ("3 key checks", ["1. Can MU hold 1000-1050?", "2. Can TSM hold NT$2500?", "3. Do SKHX / SNDK / DRAM stabilize?"]),
-        "box2": ("Framework", ["Hardware awaits confirmation.", "TSM is stronger than memory.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: AI hardware has not confirmed a reversal; it is in a key defense and retest phase.",
+        "title": "Institutions vs perpetual de-risking",
+        "subtitle": "AI hardware's thesis is intact, but memory perpetuals are still falling on volume.",
+        "cards": [("MU", "958.8", "needs 1000 reclaim"), ("TSM TW", "2470/2475", "2500 check"), ("SNDK / DRAM", "pressure", "memory de-risking")],
+        "box1": ("3 key checks", ["1. Can MU reclaim 1000-1050?", "2. Can TSM hold NT$2500?", "3. Do cash/options/ETF confirm perpetual signals?"]),
+        "box2": ("Framework", ["Institutions and derivatives diverge.", "Memory volatility remains high.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: AI hardware is not broken, but memory needs to stop high-volume selling.",
     },
     "ru": {
-        "file": "market-brief-2026-07-06-ru.svg",
+        "file": "market-brief-2026-07-07-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "TSM снова тестирует 2500",
-        "subtitle": "Аппаратная AI-цепочка защищается, а TSM дает сигнал частичного восстановления.",
-        "cards": [("MU", "1000-1050", "ключевая защита"), ("TSM TW", "2500", "повторный тест"), ("HYPE", "+4.4%", "риск-аппетит жив")],
-        "box1": ("3 ключевых сигнала", ["1. Удержит ли MU 1000-1050?", "2. Удержит ли TSM NT$2500?", "3. Стабилизируются ли SKHX / SNDK / DRAM?"]),
-        "box2": ("Рамка", ["Сектор ждет подтверждения.", "TSM сильнее цепочки памяти.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: разворот AI-сектора не подтвержден; рынок в фазе защиты и повторного теста.",
+        "title": "Институты vs снижение риска",
+        "subtitle": "AI-логика не сломана, но перпетуалы цепочки памяти снижаются на объеме.",
+        "cards": [("MU", "958.8", "нужен возврат 1000"), ("TSM TW", "2470/2475", "проверка 2500"), ("SNDK / DRAM", "давление", "снижение риска")],
+        "box1": ("3 ключевых сигнала", ["1. Вернет ли MU 1000-1050?", "2. Удержит ли TSM NT$2500?", "3. Подтвердят ли акции/опционы/ETF сигналы перпетуалов?"]),
+        "box2": ("Рамка", ["Институты и деривативы расходятся.", "Волатильность памяти остается высокой.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: AI-сектор не сломан, но цепочке памяти нужно прекратить продажи на объеме.",
     },
 }
 
