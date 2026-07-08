@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-07"
+DATE = "2026-07-08"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-07-zh-cn.svg",
+        "file": "market-brief-2026-07-08-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "机构看多 vs 永续去风险",
-        "subtitle": "AI 硬件中期逻辑未破，但存储链永续仍在高成交下跌。",
-        "cards": [("MU", "958.8", "等待重回 1000"), ("TSM 台股", "2470/2475", "2500 确认位"), ("SNDK / DRAM", "承压", "存储链去风险")],
-        "box1": ("3 个关键观察", ["1. MU 能否重回 1000-1050？", "2. TSM 能否有效站稳 NT$2500？", "3. 正股/期权/ETF 是否验证永续信号？"]),
-        "box2": ("交易框架", ["机构多头与衍生品分歧。", "存储链短线波动仍高。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：中期 AI 硬件不坏，但短线要等存储链停止高成交下跌。",
+        "title": "AI 半导体验证交易",
+        "subtitle": "资金仍在 AI 硬件链，但开始验证估值、存储周期与 CapEx 回报。",
+        "cards": [("TSM 台股", "2420-2455", "2500 压力"), ("MU", "940.1", "900-950 观察"), ("SKHX / DRAM", "修复", "反弹需延续")],
+        "box1": ("3 个关键观察", ["1. TSMC 7/10 营收与 7/16 法说会。", "2. MU 能否从 900-950 修复到 1000-1050？", "3. NVDA 是否继续强于 AMD / MRVL / INTC？"]),
+        "box2": ("交易框架", ["从普涨切到验证。", "存储链修复不是全面解除风险。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：AI 主线未结束，但市场开始要求订单、利润和估值同时验证。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-07-zh-hant.svg",
+        "file": "market-brief-2026-07-08-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "機構看多 vs 永續去風險",
-        "subtitle": "AI 硬體中期邏輯未破，但記憶體鏈永續仍在高成交下跌。",
-        "cards": [("MU", "958.8", "等待重回 1000"), ("TSM 台股", "2470/2475", "2500 確認位"), ("SNDK / DRAM", "承壓", "記憶體鏈去風險")],
-        "box1": ("3 個關鍵觀察", ["1. MU 能否重回 1000-1050？", "2. TSM 能否有效站穩 NT$2500？", "3. 正股/期權/ETF 是否驗證永續信號？"]),
-        "box2": ("交易框架", ["機構多頭與衍生品分歧。", "記憶體鏈短線波動仍高。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：中期 AI 硬體不壞，但短線要等記憶體鏈停止高成交下跌。",
+        "title": "AI 半導體驗證交易",
+        "subtitle": "資金仍在 AI 硬體鏈，但開始驗證估值、記憶體週期與 CapEx 回報。",
+        "cards": [("TSM 台股", "2420-2455", "2500 壓力"), ("MU", "940.1", "900-950 觀察"), ("SKHX / DRAM", "修復", "反彈需延續")],
+        "box1": ("3 個關鍵觀察", ["1. TSMC 7/10 營收與 7/16 法說會。", "2. MU 能否從 900-950 修復到 1000-1050？", "3. NVDA 是否繼續強於 AMD / MRVL / INTC？"]),
+        "box2": ("交易框架", ["從普漲切到驗證。", "記憶體鏈修復不是全面解除風險。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：AI 主線未結束，但市場開始要求訂單、利潤和估值同時驗證。",
     },
     "en": {
-        "file": "market-brief-2026-07-07-en.svg",
+        "file": "market-brief-2026-07-08-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "Institutions vs perpetual de-risking",
-        "subtitle": "AI hardware's thesis is intact, but memory perpetuals are still falling on volume.",
-        "cards": [("MU", "958.8", "needs 1000 reclaim"), ("TSM TW", "2470/2475", "2500 check"), ("SNDK / DRAM", "pressure", "memory de-risking")],
-        "box1": ("3 key checks", ["1. Can MU reclaim 1000-1050?", "2. Can TSM hold NT$2500?", "3. Do cash/options/ETF confirm perpetual signals?"]),
-        "box2": ("Framework", ["Institutions and derivatives diverge.", "Memory volatility remains high.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: AI hardware is not broken, but memory needs to stop high-volume selling.",
+        "title": "AI semis enter verification",
+        "subtitle": "Capital remains in AI hardware, but valuation, memory cycle and CapEx returns are being tested.",
+        "cards": [("TSM TW", "2420-2455", "2500 resistance"), ("MU", "940.1", "watch 900-950"), ("SKHX / DRAM", "rebound", "needs follow-through")],
+        "box1": ("3 key checks", ["1. TSMC July 10 revenue and July 16 call.", "2. Can MU recover from 900-950 to 1000-1050?", "3. Does NVDA stay stronger than AMD / MRVL / INTC?"]),
+        "box2": ("Framework", ["Broad rally becomes verification.", "Memory repair is not full risk clearance.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: the AI trend is not over, but orders, profit and valuation now need confirmation.",
     },
     "ru": {
-        "file": "market-brief-2026-07-07-ru.svg",
+        "file": "market-brief-2026-07-08-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "Институты vs снижение риска",
-        "subtitle": "AI-логика не сломана, но перпетуалы цепочки памяти снижаются на объеме.",
-        "cards": [("MU", "958.8", "нужен возврат 1000"), ("TSM TW", "2470/2475", "проверка 2500"), ("SNDK / DRAM", "давление", "снижение риска")],
-        "box1": ("3 ключевых сигнала", ["1. Вернет ли MU 1000-1050?", "2. Удержит ли TSM NT$2500?", "3. Подтвердят ли акции/опционы/ETF сигналы перпетуалов?"]),
-        "box2": ("Рамка", ["Институты и деривативы расходятся.", "Волатильность памяти остается высокой.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: AI-сектор не сломан, но цепочке памяти нужно прекратить продажи на объеме.",
+        "title": "AI-сектор входит в проверку",
+        "subtitle": "Капитал остается в аппаратной AI-цепочке, но рынок проверяет оценки, цикл памяти и отдачу CapEx.",
+        "cards": [("TSM TW", "2420-2455", "сопротивление 2500"), ("MU", "940.1", "зона 900-950"), ("SKHX / DRAM", "отскок", "нужно продолжение")],
+        "box1": ("3 ключевых сигнала", ["1. Выручка TSMC 10 июля и звонок 16 июля.", "2. Вернет ли MU 1000-1050 после 900-950?", "3. Останется ли NVDA сильнее AMD / MRVL / INTC?"]),
+        "box2": ("Рамка", ["Широкий рост стал проверкой.", "Ремонт памяти не снимает все риски.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: AI-тренд не завершен, но заказы, прибыль и оценки теперь требуют подтверждения.",
     },
 }
 
