@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-08"
+DATE = "2026-07-09"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-08-zh-cn.svg",
+        "file": "market-brief-2026-07-09-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "AI 半导体验证交易",
-        "subtitle": "资金仍在 AI 硬件链，但开始验证估值、存储周期与 CapEx 回报。",
-        "cards": [("TSM 台股", "2420-2455", "2500 压力"), ("MU", "940.1", "900-950 观察"), ("SKHX / DRAM", "修复", "反弹需延续")],
-        "box1": ("3 个关键观察", ["1. TSMC 7/10 营收与 7/16 法说会。", "2. MU 能否从 900-950 修复到 1000-1050？", "3. NVDA 是否继续强于 AMD / MRVL / INTC？"]),
-        "box2": ("交易框架", ["从普涨切到验证。", "存储链修复不是全面解除风险。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：AI 主线未结束，但市场开始要求订单、利润和估值同时验证。",
+        "title": "龙头抱团 + 能源压估值",
+        "subtitle": "AI 半导体未崩，但全链条 beta 已转向龙头抱团与存储链去拥挤。",
+        "cards": [("TSM 台股", "2430-2460", "2500 压力"), ("NVDA", "+3.0%", "相对强"), ("CL / Brent", "+3%~4%", "油价压力")],
+        "box1": ("3 个关键观察", ["1. TSMC 能否守住 2400-2420？", "2. MU 能否重新站上 950-1000？", "3. CL / BRENTOIL 是否继续推升利率压力？"]),
+        "box2": ("交易框架", ["中期 AI 主线仍在。", "短线不是全链条普涨。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：资金抱团确定性龙头，存储链降拥挤，油价上行压制科技估值。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-08-zh-hant.svg",
+        "file": "market-brief-2026-07-09-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "AI 半導體驗證交易",
-        "subtitle": "資金仍在 AI 硬體鏈，但開始驗證估值、記憶體週期與 CapEx 回報。",
-        "cards": [("TSM 台股", "2420-2455", "2500 壓力"), ("MU", "940.1", "900-950 觀察"), ("SKHX / DRAM", "修復", "反彈需延續")],
-        "box1": ("3 個關鍵觀察", ["1. TSMC 7/10 營收與 7/16 法說會。", "2. MU 能否從 900-950 修復到 1000-1050？", "3. NVDA 是否繼續強於 AMD / MRVL / INTC？"]),
-        "box2": ("交易框架", ["從普漲切到驗證。", "記憶體鏈修復不是全面解除風險。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：AI 主線未結束，但市場開始要求訂單、利潤和估值同時驗證。",
+        "title": "龍頭抱團 + 能源壓估值",
+        "subtitle": "AI 半導體未崩，但全鏈條 beta 已轉向龍頭抱團與記憶體鏈去擁擠。",
+        "cards": [("TSM 台股", "2430-2460", "2500 壓力"), ("NVDA", "+3.0%", "相對強"), ("CL / Brent", "+3%~4%", "油價壓力")],
+        "box1": ("3 個關鍵觀察", ["1. TSMC 能否守住 2400-2420？", "2. MU 能否重新站上 950-1000？", "3. CL / BRENTOIL 是否繼續推升利率壓力？"]),
+        "box2": ("交易框架", ["中期 AI 主線仍在。", "短線不是全鏈條普漲。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：資金抱團確定性龍頭，記憶體鏈降擁擠，油價上行壓制科技估值。",
     },
     "en": {
-        "file": "market-brief-2026-07-08-en.svg",
+        "file": "market-brief-2026-07-09-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "AI semis enter verification",
-        "subtitle": "Capital remains in AI hardware, but valuation, memory cycle and CapEx returns are being tested.",
-        "cards": [("TSM TW", "2420-2455", "2500 resistance"), ("MU", "940.1", "watch 900-950"), ("SKHX / DRAM", "rebound", "needs follow-through")],
-        "box1": ("3 key checks", ["1. TSMC July 10 revenue and July 16 call.", "2. Can MU recover from 900-950 to 1000-1050?", "3. Does NVDA stay stronger than AMD / MRVL / INTC?"]),
-        "box2": ("Framework", ["Broad rally becomes verification.", "Memory repair is not full risk clearance.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: the AI trend is not over, but orders, profit and valuation now need confirmation.",
+        "title": "Leaders cluster as oil pressures valuations",
+        "subtitle": "AI semis are not broken, but full-chain beta has shifted to leaders and memory de-crowding.",
+        "cards": [("TSM TW", "2430-2460", "2500 resistance"), ("NVDA", "+3.0%", "relative strength"), ("CL / Brent", "+3%~4%", "oil pressure")],
+        "box1": ("3 key checks", ["1. Can TSMC hold 2400-2420?", "2. Can MU reclaim 950-1000?", "3. Do CL / BRENTOIL keep lifting rate pressure?"]),
+        "box2": ("Framework", ["Medium-term AI remains intact.", "Short term is not full-chain beta.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: capital is clustering around certainty, memory is de-crowding, and oil pressures tech valuations.",
     },
     "ru": {
-        "file": "market-brief-2026-07-08-ru.svg",
+        "file": "market-brief-2026-07-09-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "AI-сектор входит в проверку",
-        "subtitle": "Капитал остается в аппаратной AI-цепочке, но рынок проверяет оценки, цикл памяти и отдачу CapEx.",
-        "cards": [("TSM TW", "2420-2455", "сопротивление 2500"), ("MU", "940.1", "зона 900-950"), ("SKHX / DRAM", "отскок", "нужно продолжение")],
-        "box1": ("3 ключевых сигнала", ["1. Выручка TSMC 10 июля и звонок 16 июля.", "2. Вернет ли MU 1000-1050 после 900-950?", "3. Останется ли NVDA сильнее AMD / MRVL / INTC?"]),
-        "box2": ("Рамка", ["Широкий рост стал проверкой.", "Ремонт памяти не снимает все риски.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: AI-тренд не завершен, но заказы, прибыль и оценки теперь требуют подтверждения.",
+        "title": "Лидеры в фокусе, нефть давит",
+        "subtitle": "AI-сектор не сломан, но широкий beta перешел к лидерам и снижению перегрева памяти.",
+        "cards": [("TSM TW", "2430-2460", "сопротивление 2500"), ("NVDA", "+3.0%", "относительная сила"), ("CL / Brent", "+3%~4%", "давление нефти")],
+        "box1": ("3 ключевых сигнала", ["1. Удержит ли TSMC 2400-2420?", "2. Вернет ли MU 950-1000?", "3. Продолжит ли нефть давить на ставки?"]),
+        "box2": ("Рамка", ["Среднесрочный AI-тренд жив.", "Краткосрочно это не широкий beta.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: капитал выбирает лидеров, цепочка памяти снижает перегрев, а нефть давит на оценки.",
     },
 }
 

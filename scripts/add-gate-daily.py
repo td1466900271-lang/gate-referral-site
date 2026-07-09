@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-08"
+DATE = "2026-07-09"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-08-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-08-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-08-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-08-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-07-09-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-09-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-09-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-09-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "AI 半导体进入验证交易，TSMC 与存储链成为关键确认",
-        "desc": "2026-07-08 GateAffiliate 每日市场日报：AI 半导体从普涨交易进入验证交易，市场开始检验估值、存储周期和 AI CapEx 回报。TSMC 2500、7 月营收与法说会，MU、SKHX、DRAM、SNDK 修复持续性成为核心观察。",
+        "title": "AI 半导体转向龙头抱团，存储链去拥挤与油价压力并存",
+        "desc": "2026-07-09 GateAffiliate 每日市场日报：AI 半导体没有崩，但从全链条 beta 转向龙头抱团、存储链去拥挤和能源冲击压估值。TSMC 2400-2420 支撑与 2500 压力、NVDA 相对强弱、MU / SKHX / DRAM 走势和油价成为核心观察。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "AI 半导体进入验证交易，TSMC 与存储链成为关键确认。",
-        "summary": "资金没有放弃 AI 硬件链，但已经从普涨交易切到验证交易。TSMC 仍是核心资产，却没有重新拿下 2500；存储链在 TraderXYZ 上出现修复，但 AMD、MRVL、INTC 仍弱，说明半导体内部正在再平衡。",
+        "h1": "AI 半导体转向龙头抱团，存储链去拥挤与油价压力并存。",
+        "summary": "AI 硬件链中期逻辑仍在，但市场已经不再无差别买入半导体。TSMC 仍在 2500 下方高位消化，NVDA 相对强，AMD / INTC / MRVL 偏弱；存储链没有崩，但 SKHX、DRAM、SMSN 仍在去拥挤，油价上行继续压制科技股估值。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "AI 半導體進入驗證交易，TSMC 與記憶體鏈成為關鍵確認",
-        "desc": "2026-07-08 GateAffiliate 每日市場日報：AI 半導體從普漲交易進入驗證交易，市場開始檢驗估值、記憶體週期和 AI CapEx 回報。TSMC 2500、7 月營收與法說會，MU、SKHX、DRAM、SNDK 修復持續性成為核心觀察。",
+        "title": "AI 半導體轉向龍頭抱團，記憶體鏈去擁擠與油價壓力並存",
+        "desc": "2026-07-09 GateAffiliate 每日市場日報：AI 半導體沒有崩，但從全鏈條 beta 轉向龍頭抱團、記憶體鏈去擁擠和能源衝擊壓估值。TSMC 2400-2420 支撐與 2500 壓力、NVDA 相對強弱、MU / SKHX / DRAM 走勢和油價成為核心觀察。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "AI 半導體進入驗證交易，TSMC 與記憶體鏈成為關鍵確認。",
-        "summary": "資金沒有放棄 AI 硬體鏈，但已經從普漲交易切到驗證交易。TSMC 仍是核心資產，卻沒有重新拿下 2500；記憶體鏈在 TraderXYZ 上出現修復，但 AMD、MRVL、INTC 仍弱，說明半導體內部正在再平衡。",
+        "h1": "AI 半導體轉向龍頭抱團，記憶體鏈去擁擠與油價壓力並存。",
+        "summary": "AI 硬體鏈中期邏輯仍在，但市場已經不再無差別買入半導體。TSMC 仍在 2500 下方高位消化，NVDA 相對強，AMD / INTC / MRVL 偏弱；記憶體鏈沒有崩，但 SKHX、DRAM、SMSN 仍在去擁擠，油價上行繼續壓制科技股估值。",
         "tag": "最新",
     },
     "en": {
-        "title": "AI semiconductors enter a verification trade as TSMC and memory become key tests",
-        "desc": "2026-07-08 GateAffiliate daily market brief: AI semiconductors move from a broad rally into a verification trade. Valuation, memory-cycle durability and AI CapEx returns are being tested, with TSMC 2500, July revenue, the July 16 call, and MU / SKHX / DRAM / SNDK durability in focus.",
+        "title": "AI semis shift to leader concentration as memory de-crowding and oil pressure rise",
+        "desc": "2026-07-09 GateAffiliate daily market brief: AI semiconductors have not broken, but the trade has shifted from full-chain beta to leader concentration, memory-chain de-crowding, and energy-driven valuation pressure. TSMC 2400-2420 support and 2500 resistance, NVDA relative strength, MU / SKHX / DRAM and oil are the key checks.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "AI semiconductors enter a verification trade as TSMC and memory become key tests.",
-        "summary": "Capital has not abandoned AI hardware, but the trade has shifted from broad buying to verification. TSMC remains a core asset but has not reclaimed NT$2500; memory names improved on TraderXYZ, while AMD, MRVL and INTC remain weak, showing internal semiconductor rebalancing.",
+        "h1": "AI semis shift to leader concentration as memory de-crowding and oil pressure rise.",
+        "summary": "The medium-term AI hardware thesis remains intact, but the market is no longer buying all semis equally. TSMC is digesting below NT$2500, NVDA remains relatively strong, AMD / INTC / MRVL are weaker, memory is de-crowding rather than collapsing, and higher oil keeps pressure on tech valuations.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "AI-полупроводники переходят к проверке, TSMC и цепочка памяти становятся ключевыми тестами",
-        "desc": "Ежедневный обзор GateAffiliate за 2026-07-08: AI-полупроводники переходят от широкого роста к проверке оценок, цикла памяти и отдачи AI CapEx. В фокусе TSMC 2500, июльская выручка, звонок 16 июля и устойчивость MU / SKHX / DRAM / SNDK.",
+        "title": "AI-полупроводники переходят к лидерам, а память и нефть давят на оценки",
+        "desc": "Ежедневный обзор GateAffiliate за 2026-07-09: AI-полупроводники не сломались, но сделка перешла от широкого beta к концентрации в лидерах, снижению перегрева цепочки памяти и давлению нефти на оценки. В фокусе TSMC 2400-2420 и 2500, относительная сила NVDA, MU / SKHX / DRAM и нефть.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "AI-полупроводники переходят к проверке, TSMC и цепочка памяти становятся ключевыми тестами.",
-        "summary": "Капитал не отказался от аппаратной AI-цепочки, но сделка перешла от широких покупок к проверке. TSMC остается ключевым активом, но не вернула NT$2500; цепочка памяти улучшилась на TraderXYZ, тогда как AMD, MRVL и INTC остаются слабыми, показывая внутреннюю ребалансировку сектора.",
+        "h1": "AI-полупроводники переходят к лидерам, а память и нефть давят на оценки.",
+        "summary": "Среднесрочная логика аппаратной AI-цепочки сохраняется, но рынок больше не покупает все полупроводники одинаково. TSMC переваривает движение ниже NT$2500, NVDA остается относительно сильной, AMD / INTC / MRVL слабее, цепочка памяти снижает перегрев, а рост нефти давит на оценки техсектора.",
         "tag": "Свежий",
     },
 }
@@ -70,80 +70,79 @@ META = {
 CONCISE_SECTIONS = {
     "zh-cn": [
         ("核心结论", [
-            "今天市场主线是 AI 半导体从“普涨交易”进入“验证交易”。资金没有放弃 AI 硬件链，但开始追问估值是否过热、存储周期是否接近高点、云厂商 AI CapEx 能否继续兑现成利润。",
-            "中期主线仍然是 AI 算力、HBM、DRAM、先进制程、先进封装和数据中心基础设施。短线风险在于交易过于拥挤，市场已经不满足于“利润很好”，而是要求“未来继续更好”。",
+            "AI 半导体没有崩，但交易结构已经从“全链条 beta”转成“龙头抱团 + 存储链去拥挤 + 能源冲击压估值”。中期主线仍在，短线风险还没有释放完。",
+            "TSMC、Nvidia、HBM、DRAM、先进封装仍是核心方向，但市场不再无差别买入半导体。NVDA 相对强，AMD / INTC / MRVL 相对弱，说明资金继续向最确定的 AI 算力龙头集中。",
         ]),
         ("关键市场结构", [
-            "TSMC 今日盘中在 2420-2455 新台币区间震荡，没有明显走弱，也没有重新拿下 2500。真正更重要的窗口是 7 月 10 日 6 月营收，以及 7 月 16 日二季度业绩与法说会。",
-            "美股半导体 7 月 7 日明显回撤，SOXX 自 6 月底高点回落，MarketWatch 强调高飞芯片股开始失去动能。这不是 AI 产业链结束，而是估值重估。",
-            "TraderXYZ 数据更微妙：SKHX、MU、SNDK、DRAM 转为修复，但 AMD、MRVL、INTC、SPCX 偏弱。衍生品资金不是全面看空半导体，而是在半导体内部做结构切换。",
+            "TSMC 今日盘中在 2430-2460 新台币区间，低于前收 2465，属于高位消化偏弱，不是突破形态。2500 仍是压力位，只要 2400-2420 没有有效跌破，中期结构仍未破坏。",
+            "TraderXYZ 给出防守信号：SKHX、DRAM、SMSN 下跌，MU 基本持平，SNDK 小幅上涨。存储链不是单边崩盘，但资金仍在降低拥挤度。",
+            "油价是今天重要宏观变量。CL 和 BRENTOIL 同时上涨并进入高成交榜，说明市场在交易能源和地缘风险；这会提高通胀粘性和利率压力，对科技股估值不友好。",
         ]),
         ("交易框架", [
-            "对 AI 硬件链保持中期多头框架，但短线不要把每一次反弹都理解为新一轮主升。TSMC 以 2500 新台币为强弱确认点，确认前更像高位震荡。",
-            "存储链重点看 MU、SKHX、DRAM 的高成交反弹能否延续。如果反弹放量且正股同步修复，说明前一轮恐慌可能只是拥挤交易出清。",
-            "接下来一周最重要的不是口号，而是数据：TSMC 月营收、法说会、Samsung / SK Hynix 指引、Micron 价格预期、云厂商资本开支更新。",
+            "对 AI 硬件链保持中期多头框架，但短线继续降低追涨冲动。TSMC 等 6 月营收和法说会验证，技术上先看 2400-2420 支撑和 2500 压力。",
+            "存储链不要只看“跌了很多”，更要看 HBM / DRAM 价格、正股成交、ETF 资金流和 TraderXYZ 高成交方向是否同步改善。",
+            "如果只有 NVDA 强、其他半导体弱，说明市场不是全面风险偏好回升，而是抱团确定性。油价如果继续上行，科技股估值会承压，短线仓位和节奏都应更保守。",
         ]),
     ],
     "zh-hant": [
         ("核心結論", [
-            "今天市場主線是 AI 半導體從「普漲交易」進入「驗證交易」。資金沒有放棄 AI 硬體鏈，但開始追問估值是否過熱、記憶體週期是否接近高點、雲廠商 AI CapEx 能否繼續兌現成利潤。",
-            "中期主線仍然是 AI 算力、HBM、DRAM、先進製程、先進封裝和資料中心基礎設施。短線風險在於交易過於擁擠，市場已經不滿足於「利潤很好」，而是要求「未來繼續更好」。",
+            "AI 半導體沒有崩，但交易結構已經從「全鏈條 beta」轉成「龍頭抱團 + 記憶體鏈去擁擠 + 能源衝擊壓估值」。中期主線仍在，短線風險還沒有釋放完。",
+            "TSMC、Nvidia、HBM、DRAM、先進封裝仍是核心方向，但市場不再無差別買入半導體。NVDA 相對強，AMD / INTC / MRVL 相對弱，說明資金繼續向最確定的 AI 算力龍頭集中。",
         ]),
         ("關鍵市場結構", [
-            "TSMC 今日盤中在 2420-2455 新台幣區間震盪，沒有明顯走弱，也沒有重新拿下 2500。真正更重要的窗口是 7 月 10 日 6 月營收，以及 7 月 16 日二季度業績與法說會。",
-            "美股半導體 7 月 7 日明顯回撤，SOXX 自 6 月底高點回落，MarketWatch 強調高飛晶片股開始失去動能。這不是 AI 產業鏈結束，而是估值重估。",
-            "TraderXYZ 數據更微妙：SKHX、MU、SNDK、DRAM 轉為修復，但 AMD、MRVL、INTC、SPCX 偏弱。衍生品資金不是全面看空半導體，而是在半導體內部做結構切換。",
+            "TSMC 今日盤中在 2430-2460 新台幣區間，低於前收 2465，屬於高位消化偏弱，不是突破形態。2500 仍是壓力位，只要 2400-2420 沒有有效跌破，中期結構仍未破壞。",
+            "TraderXYZ 給出防守信號：SKHX、DRAM、SMSN 下跌，MU 基本持平，SNDK 小幅上漲。記憶體鏈不是單邊崩盤，但資金仍在降低擁擠度。",
+            "油價是今天重要宏觀變量。CL 和 BRENTOIL 同時上漲並進入高成交榜，說明市場在交易能源和地緣風險；這會提高通膨黏性和利率壓力，對科技股估值不友好。",
         ]),
         ("交易框架", [
-            "對 AI 硬體鏈保持中期多頭框架，但短線不要把每一次反彈都理解為新一輪主升。TSMC 以 2500 新台幣為強弱確認點，確認前更像高位震盪。",
-            "記憶體鏈重點看 MU、SKHX、DRAM 的高成交反彈能否延續。如果反彈放量且正股同步修復，說明前一輪恐慌可能只是擁擠交易出清。",
-            "接下來一週最重要的不是口號，而是數據：TSMC 月營收、法說會、Samsung / SK Hynix 指引、Micron 價格預期、雲廠商資本開支更新。",
+            "對 AI 硬體鏈保持中期多頭框架，但短線繼續降低追漲衝動。TSMC 等 6 月營收和法說會驗證，技術上先看 2400-2420 支撐和 2500 壓力。",
+            "記憶體鏈不要只看「跌了很多」，更要看 HBM / DRAM 價格、正股成交、ETF 資金流和 TraderXYZ 高成交方向是否同步改善。",
+            "如果只有 NVDA 強、其他半導體弱，說明市場不是全面風險偏好回升，而是抱團確定性。油價如果繼續上行，科技股估值會承壓，短線倉位和節奏都應更保守。",
         ]),
     ],
     "en": [
         ("Core Takeaway", [
-            "The main shift is that AI semiconductors have moved from a broad rally into a verification trade. Capital has not abandoned AI hardware, but it is now testing valuation heat, memory-cycle durability and whether cloud AI CapEx can keep turning into profit.",
-            "The medium-term theme remains AI compute, HBM, DRAM, advanced nodes, advanced packaging and data-center infrastructure. The short-term risk is crowding: the market no longer accepts strong current profit alone; it wants stronger forward proof.",
+            "AI semiconductors have not broken, but the structure has shifted from full-chain beta into leader concentration, memory-chain de-crowding and energy-driven valuation pressure. The medium-term theme is intact, but short-term risk has not fully cleared.",
+            "TSMC, Nvidia, HBM, DRAM and advanced packaging remain core directions. But the market is no longer buying semiconductors indiscriminately: NVDA is relatively strong, while AMD / INTC / MRVL are weaker, showing capital clustering around the most certain AI compute leader.",
         ]),
         ("Market Structure", [
-            "TSMC traded in a NT$2420-2455 range intraday: not weak, but not a reclaim of NT$2500 either. The more important windows are July 10 monthly revenue and the July 16 earnings call.",
-            "U.S. semiconductors pulled back sharply on July 7, with SOXX off from late-June highs and MarketWatch highlighting that highflying chip stocks are losing momentum. This is valuation reset, not the end of the AI supply chain.",
-            "TraderXYZ is more nuanced: SKHX, MU, SNDK and DRAM improved, while AMD, MRVL, INTC and SPCX stayed weak. Derivatives flow is not broadly bearish on semis; it is rotating within the sector.",
+            "TSMC traded around NT$2430-2460, below the prior NT$2465 close. That is high-level digestion with a weak tilt, not a breakout. NT$2500 is still resistance, while the 2400-2420 area is the support that matters.",
+            "TraderXYZ is defensive: SKHX, DRAM and SMSN fell, MU was roughly flat, and SNDK rose slightly. The memory chain is not collapsing, but capital is still reducing crowding.",
+            "Oil is a major macro input today. CL and BRENTOIL both rose and entered the high-volume list, showing that energy and geopolitical risk are being traded. That adds inflation stickiness and rate pressure, which is unfriendly to tech valuations.",
         ]),
         ("Trading Frame", [
-            "Keep a medium-term bullish AI hardware framework, but do not treat every bounce as a new impulse leg. For TSMC, NT$2500 is still the confirmation point; below it, the setup is more high-level digestion.",
-            "For memory, watch whether MU, SKHX and DRAM can extend their high-volume rebound. If perpetuals recover and cash equities confirm, the previous selloff may have been crowded-position clearing.",
-            "The next week is about data, not slogans: TSMC monthly revenue, the earnings call, Samsung / SK Hynix guidance, Micron pricing expectations and cloud capex updates.",
+            "Keep the medium-term bullish AI hardware framework, but continue to reduce short-term chase risk. For TSMC, wait for June revenue and the earnings call; technically, watch 2400-2420 support and 2500 resistance.",
+            "For memory, do not only look at how far prices have fallen. Watch HBM / DRAM pricing, cash-equity volume, ETF flows and whether TraderXYZ high-volume direction improves together.",
+            "If only NVDA is strong while the rest of semis are weak, that is not broad risk appetite returning; it is a certainty trade. If oil keeps rising, tech valuations stay pressured, so position size and timing should be more conservative.",
         ]),
     ],
     "ru": [
         ("Главный Вывод", [
-            "Главный сдвиг дня: AI-полупроводники переходят от широкого роста к проверке. Капитал не отказался от аппаратной AI-цепочки, но теперь проверяет перегретость оценок, устойчивость цикла памяти и способность облачного AI CapEx превращаться в прибыль.",
-            "Среднесрочная тема остается прежней: AI-вычисления, HBM, DRAM, передовые техпроцессы, передовая упаковка и инфраструктура дата-центров. Краткосрочный риск — перегретое позиционирование: рынку уже мало сильной текущей прибыли, нужны более сильные будущие подтверждения.",
+            "AI-полупроводники не сломались, но структура сделки сместилась от широкого beta к концентрации в лидерах, снижению перегрева цепочки памяти и давлению нефти на оценки. Среднесрочная тема жива, но краткосрочный риск еще не снят.",
+            "TSMC, Nvidia, HBM, DRAM и передовая упаковка остаются ключевыми направлениями. Но рынок больше не покупает полупроводники без разбора: NVDA относительно сильна, а AMD / INTC / MRVL слабее, что показывает концентрацию капитала в самом очевидном лидере AI-вычислений.",
         ]),
         ("Структура Рынка", [
-            "TSMC торговалась внутри дня в диапазоне NT$2420-2455: это не слабость, но и не возврат выше NT$2500. Более важные окна — месячная выручка 10 июля и звонок по отчетности 16 июля.",
-            "Американские полупроводники заметно откатились 7 июля, SOXX снизился от максимумов конца июня, а MarketWatch подчеркнул потерю импульса у сильных chip stocks. Это переоценка, а не конец AI-цепочки поставок.",
-            "Данные TraderXYZ более тонкие: SKHX, MU, SNDK и DRAM улучшились, тогда как AMD, MRVL, INTC и SPCX остались слабыми. Потоки деривативов не являются тотально медвежьими по сектору, они показывают внутреннюю ротацию.",
+            "TSMC торговалась около NT$2430-2460, ниже предыдущего закрытия NT$2465. Это высокоуровневое переваривание со слабым уклоном, а не пробой. NT$2500 остается сопротивлением, а зона 2400-2420 — ключевой поддержкой.",
+            "TraderXYZ дает защитный сигнал: SKHX, DRAM и SMSN снизились, MU почти не изменилась, SNDK немного выросла. Цепочка памяти не рушится, но капитал продолжает снижать перегретость позиций.",
+            "Нефть сегодня важный макро-фактор. CL и BRENTOIL одновременно выросли и вошли в список высоких объемов, показывая торговлю энергетическим и геополитическим риском. Это усиливает инфляционную липкость и давление ставок, что плохо для оценок техсектора.",
         ]),
         ("Торговая Рамка", [
-            "Среднесрочно сохраняется бычья рамка по аппаратной AI-цепочке, но не каждый отскок стоит считать новым импульсом. Для TSMC уровень NT$2500 остается точкой подтверждения; ниже него это скорее переваривание на высоких уровнях.",
-            "По цепочке памяти важно, смогут ли MU, SKHX и DRAM продолжить высокооборотный отскок. Если перпетуалы восстанавливаются, а акции подтверждают движение, прежняя распродажа могла быть чисткой перегретых позиций.",
-            "Следующая неделя — про данные, а не лозунги: месячная выручка TSMC, звонок по отчетности, прогнозы Samsung / SK Hynix, ожидания цен Micron и обновления по облачному CapEx.",
+            "Среднесрочно сохраняется бычья рамка по аппаратной AI-цепочке, но краткосрочно лучше меньше гнаться за ростом. По TSMC нужно ждать июньской выручки и звонка по отчетности; технически важны поддержка 2400-2420 и сопротивление 2500.",
+            "По цепочке памяти недостаточно смотреть только на размер падения. Важны цены HBM / DRAM, объемы в акциях, потоки ETF и то, улучшается ли высокооборотное направление на TraderXYZ.",
+            "Если сильна только NVDA, а остальные полупроводники слабы, это не широкий возврат риск-аппетита, а сделка на определенность. Если нефть продолжит расти, оценки техсектора останутся под давлением, поэтому размер позиции и тайминг должны быть осторожнее.",
         ]),
     ],
 }
 
 SOURCE_URLS = [
     ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
+    ("tsmc-monthly", "https://investor.tsmc.com/english/monthly-revenue/2026"),
     ("tsmc-calendar", "https://investor.tsmc.com/english/financial-calendar"),
     ("hyperliquid-api", "https://api.hyperliquid.xyz/info"),
     ("hyperliquid-docs", "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals"),
-    ("marketwatch-chip-luster", "https://www.marketwatch.com/story/why-highflying-chip-stocks-are-suddenly-losing-their-luster-f0659145"),
-    ("marketwatch-micron-top", "https://www.marketwatch.com/story/microns-stock-falls-as-investors-wonder-if-the-memory-market-is-near-the-top-ab2d2feb"),
-    ("barrons-market-movers", "https://www.barrons.com/articles/stock-market-movers-intel-corning-super-micro-5c6ee417"),
-    ("businessinsider-samsung", "https://www.businessinsider.com/kospi-today-samsung-stock-price-earnings-report-hynix-ai-profits-2026-7"),
-    ("wsj-sk-hynix", "https://www.wsj.com/tech/ai/why-sk-hynix-isnt-as-cheap-as-it-looks-f2f2af42"),
+    ("bi-sk-hynix", "https://www.businessinsider.com/kospi-sk-hynix-stock-price-adr-listing-samsung-chip-stocks-2026-7"),
+    ("bi-memory-bear", "https://www.businessinsider.com/memory-stocks-bear-market-ai-sk-hynix-sndk-mu-wdc-2026-7"),
+    ("ibd-market", "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-us-iran-ceasefire-micron-sandisk/"),
     ("marketwatch-yiu", "https://www.marketwatch.com/story/this-fund-manager-bought-nvidia-and-sk-hynix-and-sold-software-before-others-his-simple-message-on-ai-follow-the-money-c3d67bea"),
     ("goldman-capex", "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out"),
 ]
@@ -151,53 +150,49 @@ SOURCE_URLS = [
 SOURCE_LABELS = {
     "zh-cn": {
         "twse": "TWSE 实时行情",
+        "tsmc-monthly": "TSMC 2026 月营收",
         "tsmc-calendar": "TSMC 投资人日历",
         "hyperliquid-api": "Hyperliquid Info API",
         "hyperliquid-docs": "Hyperliquid HIP-3 / metaAndAssetCtxs 文档",
-        "marketwatch-chip-luster": "MarketWatch：高飞芯片股降温",
-        "marketwatch-micron-top": "MarketWatch：Micron 与存储周期疑问",
-        "barrons-market-movers": "Barron's：市场异动与半导体观察",
-        "businessinsider-samsung": "Business Insider：Samsung 业绩与韩国市场反应",
-        "wsj-sk-hynix": "WSJ：SK Hynix 估值讨论",
+        "bi-sk-hynix": "Business Insider：SK Hynix 与韩国半导体回撤",
+        "bi-memory-bear": "Business Insider：记忆体股票进入回撤区间",
+        "ibd-market": "IBD：美股低位修复与宏观压力",
         "marketwatch-yiu": "MarketWatch：Stephen Yiu AI 基础设施观点",
         "goldman-capex": "Goldman Sachs AI 资本开支框架",
     },
     "zh-hant": {
         "twse": "TWSE 即時行情",
+        "tsmc-monthly": "TSMC 2026 月營收",
         "tsmc-calendar": "TSMC 投資人日曆",
         "hyperliquid-api": "Hyperliquid Info API",
         "hyperliquid-docs": "Hyperliquid HIP-3 / metaAndAssetCtxs 文件",
-        "marketwatch-chip-luster": "MarketWatch：高飛晶片股降溫",
-        "marketwatch-micron-top": "MarketWatch：Micron 與記憶體週期疑問",
-        "barrons-market-movers": "Barron's：市場異動與半導體觀察",
-        "businessinsider-samsung": "Business Insider：Samsung 業績與韓國市場反應",
-        "wsj-sk-hynix": "WSJ：SK Hynix 估值討論",
+        "bi-sk-hynix": "Business Insider：SK Hynix 與韓國半導體回撤",
+        "bi-memory-bear": "Business Insider：記憶體股票進入回撤區間",
+        "ibd-market": "IBD：美股低位修復與宏觀壓力",
         "marketwatch-yiu": "MarketWatch：Stephen Yiu AI 基礎設施觀點",
         "goldman-capex": "Goldman Sachs AI 資本開支框架",
     },
     "en": {
         "twse": "TWSE real-time quotes",
+        "tsmc-monthly": "TSMC 2026 monthly revenue",
         "tsmc-calendar": "TSMC investor calendar",
         "hyperliquid-api": "Hyperliquid Info API",
         "hyperliquid-docs": "Hyperliquid HIP-3 / metaAndAssetCtxs docs",
-        "marketwatch-chip-luster": "MarketWatch: highflying chip stocks lose momentum",
-        "marketwatch-micron-top": "MarketWatch: Micron and memory-cycle concerns",
-        "barrons-market-movers": "Barron's: market movers and semiconductor watch",
-        "businessinsider-samsung": "Business Insider: Samsung earnings and Korea market reaction",
-        "wsj-sk-hynix": "WSJ: SK Hynix valuation discussion",
+        "bi-sk-hynix": "Business Insider: SK Hynix and Korea semiconductor pullback",
+        "bi-memory-bear": "Business Insider: memory stocks enter pullback zone",
+        "ibd-market": "IBD: market repair and macro pressure",
         "marketwatch-yiu": "MarketWatch: Stephen Yiu on AI infrastructure",
         "goldman-capex": "Goldman Sachs AI CapEx framework",
     },
     "ru": {
         "twse": "TWSE: котировки в реальном времени",
+        "tsmc-monthly": "TSMC: месячная выручка 2026",
         "tsmc-calendar": "TSMC: календарь для инвесторов",
         "hyperliquid-api": "Hyperliquid Info API",
         "hyperliquid-docs": "Документация Hyperliquid HIP-3 / metaAndAssetCtxs",
-        "marketwatch-chip-luster": "MarketWatch: охлаждение сильных chip stocks",
-        "marketwatch-micron-top": "MarketWatch: Micron и вопросы по циклу памяти",
-        "barrons-market-movers": "Barron's: рыночные движения и полупроводники",
-        "businessinsider-samsung": "Business Insider: отчет Samsung и реакция рынка Кореи",
-        "wsj-sk-hynix": "WSJ: обсуждение оценки SK Hynix",
+        "bi-sk-hynix": "Business Insider: SK Hynix и откат полупроводников Кореи",
+        "bi-memory-bear": "Business Insider: акции памяти входят в зону отката",
+        "ibd-market": "IBD: восстановление рынка и макро-давление",
         "marketwatch-yiu": "MarketWatch: Stephen Yiu об AI-инфраструктуре",
         "goldman-capex": "Goldman Sachs: рамка AI-капзатрат",
     },
@@ -224,10 +219,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("900-950 / 1000-1050", "2500 与 7/10 营收", "相对强弱验证", "修复能否延续", "油价与通胀压力"),
-        "zh-hant": ("900-950 / 1000-1050", "2500 與 7/10 營收", "相對強弱驗證", "修復能否延續", "油價與通膨壓力"),
-        "en": ("900-950 / 1000-1050", "2500 and July 10 revenue", "relative strength check", "rebound durability", "oil and inflation pressure"),
-        "ru": ("900-950 / 1000-1050", "2500 и выручка 10 июля", "проверка относительной силы", "устойчивость отскока", "нефть и инфляционное давление"),
+        "zh-cn": ("950-1000 修复", "2400-2420 支撑 / 2500 压力", "抱团龙头验证", "去拥挤是否缓和", "能源冲击压估值"),
+        "zh-hant": ("950-1000 修復", "2400-2420 支撐 / 2500 壓力", "抱團龍頭驗證", "去擁擠是否緩和", "能源衝擊壓估值"),
+        "en": ("950-1000 recovery", "2400-2420 support / 2500 resistance", "leader concentration check", "de-crowding pressure", "energy pressure on valuations"),
+        "ru": ("возврат к 950-1000", "поддержка 2400-2420 / сопротивление 2500", "проверка лидеров", "снижение перегрева", "энергия давит на оценки"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -275,14 +270,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("机构看多与永续去风险分歧，存储链仍是短线核心矛盾", "上一篇市场日报。", "归档"),
-        "zh-hant": ("機構看多與永續去風險分歧，記憶體鏈仍是短線核心矛盾", "上一篇市場日報。", "歸檔"),
-        "en": ("Institutional optimism clashes with perpetual de-risking across the memory chain", "Previous market brief.", "Archive"),
-        "ru": ("Оптимизм институтов расходится со снижением риска в перпетуалах цепочки памяти", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("AI 半导体进入验证交易，TSMC 与存储链成为关键确认", "上一篇市场日报。", "归档"),
+        "zh-hant": ("AI 半導體進入驗證交易，TSMC 與記憶體鏈成為關鍵確認", "上一篇市場日報。", "歸檔"),
+        "en": ("AI semiconductors enter a verification trade as TSMC and memory become key tests", "Previous market brief.", "Archive"),
+        "ru": ("AI-полупроводники переходят к проверке, TSMC и цепочка памяти становятся ключевыми тестами", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-07")}"><span class="history-date">2026-07-07</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-08")}"><span class="history-date">2026-07-08</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
