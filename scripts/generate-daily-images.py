@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-10"
+DATE = "2026-07-13"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-10-zh-cn.svg",
+        "file": "market-brief-2026-07-13-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "AI 硬件链修复，存储领涨",
-        "subtitle": "市场从防守切回修复，存储链高成交反弹，油价回落缓和估值压力。",
-        "cards": [("MU", "+4.6%", "1000 附近确认"), ("SNDK / DRAM", "+10.4% / +4.8%", "存储修复"), ("CL / Brent", "-2.7% / -2.8%", "油价回落")],
-        "box1": ("3 个关键观察", ["1. MU 能否站稳 1000-1050？", "2. TSMC 6 月营收是否验证？", "3. 存储链高成交上涨能否延续？"]),
-        "box2": ("交易框架", ["中期 AI 主线仍在。", "短线从防守转修复。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：AI 硬件链重新修复，存储链主动反弹，油价回落给科技估值减压。",
+        "title": "台积电偏强，存储回吐",
+        "subtitle": "台股现货强于周末存储情绪，但原油走强与筹码降温压低估值容错率。",
+        "cards": [("TSMC", "2445-2475", "现货偏强"), ("SKHX / DRAM", "-10.6% / -6.6%", "存储回吐"), ("WTI / Brent", "+1.2%", "油价走强")],
+        "box1": ("3 个关键观察", ["1. TSMC 能否挑战 2500？", "2. 存储链跌幅能否收窄？", "3. 油价与 10Y 美债是否同步上行？"]),
+        "box2": ("交易框架", ["AI CapEx 仍在上修。", "筹码拥挤度正在降温。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：产业景气仍强，但油价、利率与资金减仓会放大半导体波动。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-10-zh-hant.svg",
+        "file": "market-brief-2026-07-13-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "AI 硬體鏈修復，記憶體領漲",
-        "subtitle": "市場從防守切回修復，記憶體鏈高成交反彈，油價回落緩和估值壓力。",
-        "cards": [("MU", "+4.6%", "1000 附近確認"), ("SNDK / DRAM", "+10.4% / +4.8%", "記憶體修復"), ("CL / Brent", "-2.7% / -2.8%", "油價回落")],
-        "box1": ("3 個關鍵觀察", ["1. MU 能否站穩 1000-1050？", "2. TSMC 6 月營收是否驗證？", "3. 記憶體鏈高成交上漲能否延續？"]),
-        "box2": ("交易框架", ["中期 AI 主線仍在。", "短線從防守轉修復。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：AI 硬體鏈重新修復，記憶體鏈主動反彈，油價回落給科技估值減壓。",
+        "title": "台積電偏強，記憶體回吐",
+        "subtitle": "台股現貨強於週末記憶體情緒，但原油走強與籌碼降溫壓低估值容錯率。",
+        "cards": [("TSMC", "2445-2475", "現貨偏強"), ("SKHX / DRAM", "-10.6% / -6.6%", "記憶體回吐"), ("WTI / Brent", "+1.2%", "油價走強")],
+        "box1": ("3 個關鍵觀察", ["1. TSMC 能否挑戰 2500？", "2. 記憶體鏈跌幅能否收窄？", "3. 油價與 10Y 美債是否同步上行？"]),
+        "box2": ("交易框架", ["AI CapEx 仍在上修。", "籌碼擁擠度正在降溫。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：產業景氣仍強，但油價、利率與資金減倉會放大半導體波動。",
     },
     "en": {
-        "file": "market-brief-2026-07-10-en.svg",
+        "file": "market-brief-2026-07-13-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "AI hardware repairs, memory leads",
-        "subtitle": "The market rotated from defense to repair as memory rebounded on high volume and lower oil eased valuation pressure.",
-        "cards": [("MU", "+4.6%", "1000 area check"), ("SNDK / DRAM", "+10.4% / +4.8%", "memory repair"), ("CL / Brent", "-2.7% / -2.8%", "oil pullback")],
-        "box1": ("3 key checks", ["1. Can MU hold 1000-1050?", "2. Does TSMC June revenue confirm?", "3. Does memory volume follow through?"]),
-        "box2": ("Framework", ["Medium-term AI remains intact.", "Short term shifted to repair.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: AI hardware is repairing, memory is leading, and lower oil relieves pressure on tech valuations.",
+        "title": "TSMC firm, memory gives back",
+        "subtitle": "Taiwan cash is stronger than weekend memory sentiment, but firmer oil and lighter positioning lower valuation tolerance.",
+        "cards": [("TSMC", "2445-2475", "cash strength"), ("SKHX / DRAM", "-10.6% / -6.6%", "memory giveback"), ("WTI / Brent", "+1.2%", "oil firmer")],
+        "box1": ("3 key checks", ["1. Can TSMC test 2500?", "2. Do memory losses narrow?", "3. Do oil and U.S. 10Y rise together?"]),
+        "box2": ("Framework", ["AI CapEx is still rising.", "Positioning is cooling.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: industry momentum is strong, but oil, rates and de-risking can amplify semiconductor volatility.",
     },
     "ru": {
-        "file": "market-brief-2026-07-10-ru.svg",
+        "file": "market-brief-2026-07-13-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "AI-сектор восстанавливается, память лидирует",
-        "subtitle": "Рынок перешел от защиты к восстановлению: память растет на объеме, а снижение нефти облегчает оценки.",
-        "cards": [("MU", "+4.6%", "проверка зоны 1000"), ("SNDK / DRAM", "+10.4% / +4.8%", "восстановление памяти"), ("CL / Brent", "-2.7% / -2.8%", "снижение нефти")],
-        "box1": ("3 ключевых сигнала", ["1. Удержит ли MU 1000-1050?", "2. Подтвердит ли TSMC июньскую выручку?", "3. Продлится ли рост памяти на объеме?"]),
-        "box2": ("Рамка", ["Среднесрочный AI-тренд жив.", "Краткосрочно рынок чинится.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: AI-оборудование восстанавливается, память лидирует, а снижение нефти снимает давление с оценок.",
+        "title": "TSMC силен, память откатывается",
+        "subtitle": "Тайваньский рынок сильнее памяти на выходных, но нефть и снижение позиций уменьшают терпимость к оценкам.",
+        "cards": [("TSMC", "2445-2475", "сила наличного рынка"), ("SKHX / DRAM", "-10.6% / -6.6%", "откат памяти"), ("WTI / Brent", "+1.2%", "нефть растет")],
+        "box1": ("3 ключевых сигнала", ["1. Проверит ли TSMC 2500?", "2. Сократится ли падение памяти?", "3. Растут ли нефть и доходность 10Y вместе?"]),
+        "box2": ("Рамка", ["AI-капзатраты еще растут.", "Позиции охлаждаются.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: отраслевой импульс силен, но нефть, ставки и снижение риска усиливают волатильность чипов.",
     },
 }
 
