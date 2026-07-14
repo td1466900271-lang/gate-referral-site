@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-13"
+DATE = "2026-07-14"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-13-zh-cn.svg",
+        "file": "market-brief-2026-07-14-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "台积电偏强，存储回吐",
-        "subtitle": "台股现货强于周末存储情绪，但原油走强与筹码降温压低估值容错率。",
-        "cards": [("TSMC", "2445-2475", "现货偏强"), ("SKHX / DRAM", "-10.6% / -6.6%", "存储回吐"), ("WTI / Brent", "+1.2%", "油价走强")],
-        "box1": ("3 个关键观察", ["1. TSMC 能否挑战 2500？", "2. 存储链跌幅能否收窄？", "3. 油价与 10Y 美债是否同步上行？"]),
-        "box2": ("交易框架", ["AI CapEx 仍在上修。", "筹码拥挤度正在降温。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：产业景气仍强，但油价、利率与资金减仓会放大半导体波动。",
+        "title": "能源冲击压制科技估值",
+        "subtitle": "油价与利率同步上行，台股系统性去风险，存储链仍是回撤中心。",
+        "cards": [("TAIEX", "-2.8%", "广泛去风险"), ("TSMC", "2390-2430", "相对韧性"), ("WTI / Brent", "+6.9% / +6.2%", "能源冲击")],
+        "box1": ("3 个关键观察", ["1. 油价能否回落？", "2. 台股 44000 点能否承接？", "3. 存储是否继续弱于 GPU？"]),
+        "box2": ("验证框架", ["7 月 16 日 TSMC 法说。", "关注资本开支与毛利率。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：AI 产业逻辑未反转，但市场已进入现金回报与估值验证阶段。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-13-zh-hant.svg",
+        "file": "market-brief-2026-07-14-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "台積電偏強，記憶體回吐",
-        "subtitle": "台股現貨強於週末記憶體情緒，但原油走強與籌碼降溫壓低估值容錯率。",
-        "cards": [("TSMC", "2445-2475", "現貨偏強"), ("SKHX / DRAM", "-10.6% / -6.6%", "記憶體回吐"), ("WTI / Brent", "+1.2%", "油價走強")],
-        "box1": ("3 個關鍵觀察", ["1. TSMC 能否挑戰 2500？", "2. 記憶體鏈跌幅能否收窄？", "3. 油價與 10Y 美債是否同步上行？"]),
-        "box2": ("交易框架", ["AI CapEx 仍在上修。", "籌碼擁擠度正在降溫。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：產業景氣仍強，但油價、利率與資金減倉會放大半導體波動。",
+        "title": "能源衝擊壓制科技估值",
+        "subtitle": "油價與利率同步上行，台股系統性去風險，記憶體鏈仍是回撤中心。",
+        "cards": [("TAIEX", "-2.8%", "廣泛去風險"), ("TSMC", "2390-2430", "相對韌性"), ("WTI / Brent", "+6.9% / +6.2%", "能源衝擊")],
+        "box1": ("3 個關鍵觀察", ["1. 油價能否回落？", "2. 台股 44000 點能否承接？", "3. 記憶體是否繼續弱於 GPU？"]),
+        "box2": ("驗證框架", ["7 月 16 日 TSMC 法說。", "關注資本開支與毛利率。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：AI 產業邏輯未反轉，但市場已進入現金回報與估值驗證階段。",
     },
     "en": {
-        "file": "market-brief-2026-07-13-en.svg",
+        "file": "market-brief-2026-07-14-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "TSMC firm, memory gives back",
-        "subtitle": "Taiwan cash is stronger than weekend memory sentiment, but firmer oil and lighter positioning lower valuation tolerance.",
-        "cards": [("TSMC", "2445-2475", "cash strength"), ("SKHX / DRAM", "-10.6% / -6.6%", "memory giveback"), ("WTI / Brent", "+1.2%", "oil firmer")],
-        "box1": ("3 key checks", ["1. Can TSMC test 2500?", "2. Do memory losses narrow?", "3. Do oil and U.S. 10Y rise together?"]),
-        "box2": ("Framework", ["AI CapEx is still rising.", "Positioning is cooling.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: industry momentum is strong, but oil, rates and de-risking can amplify semiconductor volatility.",
+        "title": "Energy shock hits tech valuations",
+        "subtitle": "Oil and yields rise together as Taiwan equities de-risk broadly and memory remains at the center of the drawdown.",
+        "cards": [("TAIEX", "-2.8%", "broad de-risking"), ("TSMC", "2390-2430", "relative resilience"), ("WTI / Brent", "+6.9% / +6.2%", "energy shock")],
+        "box1": ("3 key checks", ["1. Can oil retrace?", "2. Does TAIEX hold 44000?", "3. Does memory stay weaker than GPU?"]),
+        "box2": ("Validation", ["TSMC reports on July 16.", "Watch capex and gross margin.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: AI fundamentals remain intact, but markets are testing cash returns and valuation discipline.",
     },
     "ru": {
-        "file": "market-brief-2026-07-13-ru.svg",
+        "file": "market-brief-2026-07-14-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "TSMC силен, память откатывается",
-        "subtitle": "Тайваньский рынок сильнее памяти на выходных, но нефть и снижение позиций уменьшают терпимость к оценкам.",
-        "cards": [("TSMC", "2445-2475", "сила наличного рынка"), ("SKHX / DRAM", "-10.6% / -6.6%", "откат памяти"), ("WTI / Brent", "+1.2%", "нефть растет")],
-        "box1": ("3 ключевых сигнала", ["1. Проверит ли TSMC 2500?", "2. Сократится ли падение памяти?", "3. Растут ли нефть и доходность 10Y вместе?"]),
-        "box2": ("Рамка", ["AI-капзатраты еще растут.", "Позиции охлаждаются.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: отраслевой импульс силен, но нефть, ставки и снижение риска усиливают волатильность чипов.",
+        "title": "Энергошок давит на оценки технологий",
+        "subtitle": "Нефть и доходности растут, тайваньский рынок снижает риск, а память остается центром падения.",
+        "cards": [("TAIEX", "-2.8%", "общее снижение риска"), ("TSMC", "2390-2430", "относительная устойчивость"), ("WTI / Brent", "+6.9% / +6.2%", "энергетический шок")],
+        "box1": ("3 ключевых сигнала", ["1. Откатится ли нефть?", "2. Удержит ли TAIEX 44000?", "3. Будет ли память слабее GPU?"]),
+        "box2": ("Проверка", ["Отчет TSMC 16 июля.", "Следите за капзатратами и маржой.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: AI-фундамент сохраняется, но рынок проверяет денежную отдачу и дисциплину оценок.",
     },
 }
 
