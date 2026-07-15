@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-14"
+DATE = "2026-07-15"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-14-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-14-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-14-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-14-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-07-15-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-15-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-15-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-15-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "能源冲击取代 AI 需求成为首要变量",
-        "desc": "2026-07-14 GateAffiliate 每日市场日报：霍尔木兹海峡风险推升油价和利率，台股盘中普遍去风险，存储链继续承压。台积电 7 月 16 日法说将验证 AI 需求、资本开支和毛利率。",
+        "title": "台股与存储链强力修复，半导体进入关键验证窗口",
+        "desc": "2026-07-15 GateAffiliate 每日市场日报：台股反弹约 2.2%，存储链剧烈修复。美国 6 月 CPI 降温提供宏观缓冲，但高油价与拥挤仓位仍带来风险。ASML 业绩和台积电法说将验证反弹成色。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "能源冲击取代 AI 需求，成为市场首要变量。",
-        "summary": "油价跳涨与利率上行压缩科技股估值，台股盘中跌约 2.8%，存储链继续去风险。AI 产业逻辑尚未反转，但资金已进入验证回报与估值的阶段。",
+        "h1": "台股与存储链强力修复，半导体进入关键验证窗口。",
+        "summary": "低 CPI 支持风险资产反弹，台股与存储链强力修复；但油价仍高、半导体仓位拥挤。未来 24 小时的 ASML 业绩和台积电法说将决定修复能否转化为盈利上修。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "能源衝擊取代 AI 需求成為首要變量",
-        "desc": "2026-07-14 GateAffiliate 每日市場日報：霍爾木茲海峽風險推高油價和利率，台股盤中普遍去風險，記憶體鏈繼續承壓。台積電 7 月 16 日法說將驗證 AI 需求、資本開支和毛利率。",
+        "title": "台股與記憶體鏈強力修復，半導體進入關鍵驗證窗口",
+        "desc": "2026-07-15 GateAffiliate 每日市場日報：台股反彈約 2.2%，記憶體鏈劇烈修復。美國 6 月 CPI 降溫提供宏觀緩衝，但高油價與擁擠倉位仍帶來風險。ASML 業績和台積電法說將驗證反彈成色。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "能源衝擊取代 AI 需求，成為市場首要變量。",
-        "summary": "油價跳漲與利率上行壓縮科技股估值，台股盤中跌約 2.8%，記憶體鏈繼續去風險。AI 產業邏輯尚未反轉，但資金已進入驗證回報與估值的階段。",
+        "h1": "台股與記憶體鏈強力修復，半導體進入關鍵驗證窗口。",
+        "summary": "低 CPI 支持風險資產反彈，台股與記憶體鏈強力修復；但油價仍高、半導體倉位擁擠。未來 24 小時的 ASML 業績和台積電法說將決定修復能否轉化為盈利上修。",
         "tag": "最新",
     },
     "en": {
-        "title": "Energy shock replaces AI demand as the market's primary variable",
-        "desc": "2026-07-14 GateAffiliate daily market brief: Strait of Hormuz risk lifts oil and yields, Taiwan equities de-risk broadly and memory remains under pressure. TSMC's July 16 call will test AI demand, capex and margins.",
+        "title": "Taiwan and memory stage a powerful rebound into a key semiconductor test",
+        "desc": "2026-07-15 GateAffiliate daily market brief: Taiwan equities rebound about 2.2% and memory contracts surge. Cooler June CPI provides macro relief, but elevated oil and crowded semiconductor positioning remain risks. ASML results and TSMC's call will test the rebound.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "Energy shock replaces AI demand as the market's primary variable.",
-        "summary": "The oil surge and higher yields are compressing technology valuations. Taiwan equities fell about 2.8% intraday and memory continues to de-risk. AI fundamentals have not reversed, but markets have entered a return-and-valuation test.",
+        "h1": "Taiwan and memory stage a powerful rebound into a key semiconductor test.",
+        "summary": "Cooler CPI supports a forceful rebound in Taiwan and memory, but oil remains elevated and semiconductor positioning is crowded. ASML results and TSMC's July 16 call will decide whether technical repair becomes an earnings upgrade.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "Энергетический шок стал главной переменной рынка",
-        "desc": "Ежедневный обзор GateAffiliate за 2026-07-14: риск в Ормузском проливе повышает цены на нефть и доходности, тайваньский рынок снижает риск, а память остается под давлением. Отчет TSMC 16 июля проверит AI-спрос, капзатраты и маржу.",
+        "title": "Тайвань и память сильно отскакивают перед ключевой проверкой чипов",
+        "desc": "Ежедневный обзор GateAffiliate за 2026-07-15: тайваньский рынок отскакивает примерно на 2,2%, а контракты на память резко растут. Низкий CPI дает передышку, но нефть и перегретые позиции остаются рисками. Отчеты ASML и TSMC проверят отскок.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "Энергетический шок стал главной переменной рынка.",
-        "summary": "Скачок нефти и рост доходностей сжимают оценки технологий. Тайваньский рынок падал примерно на 2,8%, а память продолжает снижать риск. AI-фундамент не сломан, но рынок теперь проверяет отдачу и оценки.",
+        "h1": "Тайвань и память сильно отскакивают перед ключевой проверкой чипов.",
+        "summary": "Низкий CPI поддерживает сильный отскок Тайваня и памяти, но нефть остается дорогой, а позиции в чипах перегреты. Отчет ASML и звонок TSMC 16 июля покажут, станет ли техническое восстановление ростом прибыли.",
         "tag": "Свежий",
     },
 }
@@ -70,136 +70,136 @@ META = {
 CONCISE_SECTIONS = {
     "zh-cn": [
         ("核心结论", [
-            "能源冲击已超过 AI 需求，成为今日首要变量。霍尔木兹海峡运输风险推高 WTI 与 Brent，通胀预期和债券收益率随之上行，高估值科技股首先承压。",
-            "台股是广泛的系统性去风险，不是台积电单一个股的调整。加权指数盘中约 44115，跌幅约 2.8%；台积电运行于 2390-2430，相对大盘仍有韧性，但还不能视为调整结束。",
+            "市场正在进行强力技术修复，但尚未确认风险完全解除。台湾加权指数盘中反弹约 2.2%，台积电回到 2450 附近，存储链出现 8%-24% 的剧烈修复，显示空头回补与抄底资金同时涌入。",
+            "美国 6 月总体 CPI 环比下降 0.4%，核心 CPI 环比持平，为科技股估值提供缓冲。但该数据未包含 7 月油价冲击，WTI 与 Brent 仍约为 79.2 和 84.2 美元，宏观风险尚未出清。",
         ]),
-        ("半导体内部分化", [
-            "存储链仍是回撤中心。TraderXYZ 中 SKHX 跌 7.64%、SNDK 跌 9.22%、DRAM 跌 3.04%，而 MU 跌幅较小。这更像资金减持前期涨幅较大的拥挤品种，并未单日否定 HBM / DRAM 中期供需。",
-            "NVDA 和 AMD 的表现好于部分存储与网络芯片，说明市场主要在处理估值、筹码与能源成本，还没有 AI 核心需求直接反转的证据。",
-            "AI 资本开支仍在增长，但股价逻辑已从“订单增长”转向“现金回报”。供应链景气与股票回报需要分开判断。",
+        ("半导体修复与拥挤度", [
+            "TraderXYZ 中 SKHX 涨 21.33%、SKHY 涨 24.41%、DRAM 涨 11.65%，MU 和 SNDK 也反弹超过 8%。存储中期供需仍强，但如此剧烈的反弹同时包含空头回补、杠杆清算和流动性溢价。",
+            "NVDA 和 AMD 约涨 4%，修复稳健但弱于存储。美国银行调查显示“做多全球半导体”仍是最拥挤交易之一，基本面与筹码风险都处于高位。",
+            "ASML 结果与台积电法说是未来 24 小时的关键验证。市场需要设备订单、先进制程利用率、先进封装产能与毛利率将交易修复转化为盈利上修。",
         ]),
         ("交易框架", [
-            "首先看 WTI 和 Brent 能否回落至跳涨前区域。油价维持高位时，不宜仅因科技股跌幅扩大就判断宏观压力已经出清。",
-            "台股关注 44000 点承接和台积电 2390-2400 区间。美股开盘后，用 MU、SKHY、SNDK 与 NVDA、AMD 的相对强弱判断是否仅为存储去拥挤。",
-            "7 月 16 日台积电法说是近期核心验证：重点跟踪全年营收增速、资本开支、CoWoS / 先进封装产能、2nm / 3nm 进展、毛利率与海外厂成本。",
+            "台股关注 45500 上方能否稳定，台积电能否维持 2450 附近，并观察反弹是否继续扩散到其他电子、金融与传统板块。",
+            "美股开盘后比较 SKHY、MU、SNDK 与 NVDA、AMD。若存储冲高回落而 GPU 链稳定，说明拥挤交易仍在消化；同时需要正股成交、SOXX / SMH 和期权波动率确认。",
+            "低 CPI 利好估值，但油价再次上冲会抵消这一利好。台积电法说后应以盈利预期是否上修为判断标准，不以单日股价涨跌代替基本面结论。",
         ]),
     ],
     "zh-hant": [
         ("核心結論", [
-            "能源衝擊已超越 AI 需求，成為今日首要變量。霍爾木茲海峽運輸風險推高 WTI 與 Brent，通膨預期和債券收益率隨之上行，高估值科技股首先承壓。",
-            "台股是廣泛的系統性去風險，不是台積電單一個股的調整。加權指數盤中約 44115，跌幅約 2.8%；台積電運行於 2390-2430，相對大盤仍有韌性，但還不能視為調整結束。",
+            "市場正在進行強力技術修復，但尚未確認風險完全解除。台灣加權指數盤中反彈約 2.2%，台積電回到 2450 附近，記憶體鏈出現 8%-24% 的劇烈修復，顯示空頭回補與抄底資金同時湧入。",
+            "美國 6 月總體 CPI 環比下降 0.4%，核心 CPI 環比持平，為科技股估值提供緩衝。但該數據未包含 7 月油價衝擊，WTI 與 Brent 仍約為 79.2 和 84.2 美元，宏觀風險尚未出清。",
         ]),
-        ("半導體內部分化", [
-            "記憶體鏈仍是回撤中心。TraderXYZ 中 SKHX 跌 7.64%、SNDK 跌 9.22%、DRAM 跌 3.04%，而 MU 跌幅較小。這更像資金減持前期漲幅較大的擁擠品種，並未單日否定 HBM / DRAM 中期供需。",
-            "NVDA 和 AMD 的表現好於部分記憶體與網路芯片，說明市場主要在處理估值、籌碼與能源成本，還沒有 AI 核心需求直接反轉的證據。",
-            "AI 資本開支仍在增長，但股價邏輯已從「訂單增長」轉向「現金回報」。供應鏈景氣與股票回報需要分開判斷。",
+        ("半導體修復與擁擠度", [
+            "TraderXYZ 中 SKHX 漲 21.33%、SKHY 漲 24.41%、DRAM 漲 11.65%，MU 和 SNDK 也反彈超過 8%。記憶體中期供需仍強，但如此劇烈的反彈同時包含空頭回補、槓桿清算和流動性溢價。",
+            "NVDA 和 AMD 約漲 4%，修復穩健但弱於記憶體。美國銀行調查顯示「做多全球半導體」仍是最擁擠交易之一，基本面與籌碼風險都處於高位。",
+            "ASML 結果與台積電法說是未來 24 小時的關鍵驗證。市場需要設備訂單、先進製程利用率、先進封裝產能與毛利率將交易修復轉化為盈利上修。",
         ]),
         ("交易框架", [
-            "首先看 WTI 和 Brent 能否回落至跳漲前區域。油價維持高位時，不宜僅因科技股跌幅擴大就判斷宏觀壓力已經出清。",
-            "台股關注 44000 點承接和台積電 2390-2400 區間。美股開盤後，用 MU、SKHY、SNDK 與 NVDA、AMD 的相對強弱判斷是否僅為記憶體去擁擠。",
-            "7 月 16 日台積電法說是近期核心驗證：重點跟蹤全年營收增速、資本開支、CoWoS / 先進封裝產能、2nm / 3nm 進展、毛利率與海外廠成本。",
+            "台股關注 45500 上方能否穩定，台積電能否維持 2450 附近，並觀察反彈是否繼續擴散到其他電子、金融與傳統板塊。",
+            "美股開盤後比較 SKHY、MU、SNDK 與 NVDA、AMD。若記憶體衝高回落而 GPU 鏈穩定，說明擁擠交易仍在消化；同時需要正股成交、SOXX / SMH 和期權波動率確認。",
+            "低 CPI 利好估值，但油價再次上衝會抵消這一利好。台積電法說後應以盈利預期是否上修為判斷標準，不以單日股價漲跌代替基本面結論。",
         ]),
     ],
     "en": [
         ("Core Takeaway", [
-            "Energy has overtaken AI demand as today's primary variable. Strait of Hormuz risk pushed WTI and Brent sharply higher, lifting inflation expectations and bond yields and putting the most pressure on long-duration technology valuations.",
-            "Taiwan's decline is broad systemic de-risking rather than a TSMC-only event. The Taiwan Weighted Index traded near 44115, down about 2.8%, while TSMC held a 2390-2430 range. Relative resilience is visible, but it does not confirm the correction is over.",
+            "Markets are staging a powerful technical repair, but risk is not fully cleared. Taiwan's benchmark rebounded about 2.2%, TSMC returned toward NT$2450 and TraderXYZ memory contracts gained roughly 8%-24%, reflecting both dip buying and aggressive short covering.",
+            "U.S. June headline CPI fell 0.4% month over month and core CPI was flat, giving technology valuations macro relief. But the report predates July's oil shock; WTI and Brent remain near $79.2 and $84.2, so the inflation risk has not disappeared.",
         ]),
-        ("Semiconductor Split", [
-            "Memory remains the center of the drawdown. On TraderXYZ, SKHX fell 7.64%, SNDK 9.22% and DRAM 3.04%, while MU lost much less. The pattern points to de-crowding in the biggest prior winners rather than one-day proof that HBM and DRAM fundamentals have reversed.",
-            "NVDA and AMD held up better than parts of memory and networking, suggesting the market is repricing valuation, positioning and energy costs rather than directly rejecting core AI demand.",
-            "AI capex is still rising, but the equity test has shifted from order growth to cash return. Supply-chain momentum and stock returns now need to be judged separately.",
+        ("Semiconductor Rebound and Crowding", [
+            "SKHX rose 21.33%, SKHY 24.41% and DRAM 11.65%, while MU and SNDK gained more than 8%. Medium-term memory supply and demand remain firm, but moves this large also contain short covering, leverage liquidations and a liquidity premium.",
+            "NVDA and AMD gained about 4%, a steadier but smaller rebound than memory. Bank of America's survey still identifies long global semiconductors as one of the most crowded trades, leaving fundamentals and positioning risk high at the same time.",
+            "ASML's results and TSMC's call are the next 24-hour test. Equipment orders, advanced-node utilization, packaging capacity and margins must turn trading repair into earnings upgrades.",
         ]),
         ("Trading Frame", [
-            "First watch whether WTI and Brent can retrace toward their pre-jump levels. If oil stays elevated, a large technology drawdown alone does not mean the macro pressure has cleared.",
-            "In Taiwan, watch support near 44000 and TSMC's 2390-2400 area. At the U.S. open, compare MU, SKHY and SNDK with NVDA and AMD to test whether this is mainly memory de-crowding.",
-            "TSMC's July 16 earnings call is the next major validation point. Focus on full-year revenue growth, capex, CoWoS and advanced packaging capacity, 2nm / 3nm progress, gross margin and overseas-fab costs.",
+            "Watch whether Taiwan can hold above 45500, whether TSMC stays near 2450 and whether the rebound keeps broadening beyond the main index weight.",
+            "At the U.S. open, compare SKHY, MU and SNDK with NVDA and AMD. If memory fades while GPUs hold, crowding is still being digested; confirm with cash-equity volume, SOXX / SMH and options volatility.",
+            "Cool CPI supports valuation, but another oil surge would offset that benefit. After TSMC's call, judge the move by earnings revisions rather than one day's share-price reaction.",
         ]),
     ],
     "ru": [
         ("Главный Вывод", [
-            "Энергетический шок обогнал AI-спрос и стал главной переменной дня. Риск в Ормузском проливе резко поднял WTI и Brent, а с ними инфляционные ожидания и доходности, давя на дорогие технологии.",
-            "Снижение на Тайване носит системный характер, а не ограничивается TSMC. Taiwan Weighted Index был около 44115, снижаясь примерно на 2,8%, а TSMC держалась в диапазоне 2390-2430. Относительная устойчивость видна, но коррекция еще не подтверждена как завершенная.",
+            "Рынок показывает сильное техническое восстановление, но риск еще не исчез. Тайваньский индекс отскочил примерно на 2,2%, TSMC вернулась к NT$2450, а контракты на память выросли на 8%-24%, что отражает покупки на падении и закрытие шортов.",
+            "Общий CPI США за июнь снизился на 0,4% к месяцу, а базовый CPI не изменился, дав передышку оценкам технологий. Но эти данные еще не отражают июльский скачок нефти; WTI и Brent остаются около $79,2 и $84,2.",
         ]),
-        ("Расхождение Полупроводников", [
-            "Память остается центром снижения. На TraderXYZ SKHX потерял 7,64%, SNDK 9,22%, DRAM 3,04%, а MU снизился гораздо меньше. Это похоже на снижение перегрева в прежних лидерах, а не на однодневное опровержение фундамента HBM / DRAM.",
-            "NVDA и AMD держались лучше части памяти и сетевых чипов. Рынок скорее переоценивает стоимость, позиции и энергозатраты, чем отвергает базовый AI-спрос.",
-            "AI-капзатраты все еще растут, но проверка акций сместилась от роста заказов к денежной отдаче. Динамику цепочки поставок и доходность акций теперь нужно оценивать отдельно.",
+        ("Отскок и Перегрев Чипов", [
+            "На TraderXYZ SKHX вырос на 21,33%, SKHY на 24,41%, DRAM на 11,65%, а MU и SNDK более чем на 8%. Среднесрочный баланс памяти силен, но такой скачок также включает закрытие шортов, ликвидации и премию за ликвидность.",
+            "NVDA и AMD прибавили около 4%, показав более спокойное восстановление. Опрос Bank of America по-прежнему называет длинную позицию в глобальных полупроводниках одной из самых перегретых сделок.",
+            "Результаты ASML и звонок TSMC станут проверкой ближайших 24 часов. Заказы на оборудование, загрузка передовых техпроцессов, упаковка и маржа должны превратить технический отскок в повышение прибыли.",
         ]),
         ("Рамка Наблюдения", [
-            "Сначала нужно понять, смогут ли WTI и Brent вернуться к уровням до скачка. Если нефть остается дорогой, сильное падение технологий само по себе не означает, что макрориск исчез.",
-            "На Тайване важна поддержка около 44000 и зона TSMC 2390-2400. На открытии США сравните MU, SKHY и SNDK с NVDA и AMD, чтобы проверить, связано ли движение преимущественно с охлаждением памяти.",
-            "Отчет TSMC 16 июля станет следующей ключевой проверкой. В центре внимания: рост выручки, капзатраты, мощности CoWoS и передовой упаковки, прогресс 2nm / 3nm, валовая маржа и затраты зарубежных фабрик.",
+            "На Тайване важно удержаться выше 45500, TSMC около 2450, а также продолжение расширения отскока за пределы главной акции индекса.",
+            "На открытии США сравните SKHY, MU и SNDK с NVDA и AMD. Если память ослабнет, а GPU удержатся, перегрев еще не устранен; нужно подтверждение объемом акций, SOXX / SMH и волатильностью опционов.",
+            "Низкий CPI помогает оценкам, но новый скачок нефти его нейтрализует. После звонка TSMC оценивайте движение по пересмотру прогнозов прибыли, а не по одному дню цены.",
         ]),
     ],
 }
 
 SOURCE_URLS = [
+    ("bls-cpi", "https://www.bls.gov/news.release/cpi.htm?lv=true"),
     ("tsmc-q2", "https://investor.tsmc.com/english/quarterly-results/2026/q2"),
     ("tsmc-monthly", "https://investor.tsmc.com/english/monthly-revenue/2026"),
+    ("asml-q2", "https://www.asml.com/en/investors/financial-results/q2-2026"),
     ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
     ("hyperliquid-api", "https://api.hyperliquid.xyz/info"),
     ("hyperliquid-docs", "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals"),
-    ("reuters-gulf", "https://au.investing.com/news/commodities-news/shares-slip-in-asia-as-oil-jumps-on-gulf-attacks-4528787"),
-    ("reuters-stocks", "https://au.marketscreener.com/news/wall-street-slips-as-iran-tensions-hit-sentiment-chipmakers-drop-ce7f5edcdb88f327"),
     ("ap-oil", "https://apnews.com/article/2d6744b09c68b5473d0bc8584b89e60e"),
-    ("morgan-stanley", "https://www.morganstanley.com/Themes/outlooks"),
-    ("jpmorgan-ai", "https://am.jpmorgan.com/se/en/asset-management/adv/insights/market-insights/investment-outlook/technology-and-ai/"),
-    ("amundi", "https://research-center.amundi.com/article/global-investment-views-july-2026"),
+    ("ubs-ai", "https://www.ubs.com/us/en/wealth-management/insights/market-news/article.3534348.html"),
+    ("man-group", "https://www.man.com/insights/views-from-the-floor-2026-14-july"),
+    ("franklin-ai", "https://www.franklintempleton.com/articles/2026/clearbridge-investments/can-ai-capex-extend-the-semiconductor-cycle"),
 ]
 
 SOURCE_LABELS = {
     "zh-cn": {
+        "bls-cpi": "美国劳工统计局：2026 年 6 月 CPI",
         "tsmc-q2": "TSMC 2026 年第二季度业绩",
         "tsmc-monthly": "TSMC 2026 月营收",
+        "asml-q2": "ASML 2026 年第二季度业绩",
         "twse": "Taiwan Stock Exchange",
         "hyperliquid-api": "Hyperliquid Info API",
         "hyperliquid-docs": "Hyperliquid HIP-3 / metaAndAssetCtxs 文档",
-        "reuters-gulf": "Reuters：海湾冲突升级与油价上涨",
-        "reuters-stocks": "Reuters：伊朗局势压制美股与芯片股",
         "ap-oil": "AP：油价跳涨、AI 股票下跌",
-        "morgan-stanley": "摩根士丹利 2026 年中展望",
-        "jpmorgan-ai": "摩根资管：AI 需求与资本开支",
-        "amundi": "Amundi 2026 年 7 月全球投资观点",
+        "ubs-ai": "UBS：AI 资本开支与半导体选择",
+        "man-group": "Man Group：半导体交易进入选择阶段",
+        "franklin-ai": "Franklin Templeton：AI 资本开支与半导体周期",
     },
     "zh-hant": {
+        "bls-cpi": "美國勞工統計局：2026 年 6 月 CPI",
         "tsmc-q2": "TSMC 2026 年第二季度業績",
         "tsmc-monthly": "TSMC 2026 月營收",
+        "asml-q2": "ASML 2026 年第二季度業績",
         "twse": "Taiwan Stock Exchange",
         "hyperliquid-api": "Hyperliquid Info API",
         "hyperliquid-docs": "Hyperliquid HIP-3 / metaAndAssetCtxs 文件",
-        "reuters-gulf": "Reuters：海灣衝突升級與油價上漲",
-        "reuters-stocks": "Reuters：伊朗局勢壓制美股與芯片股",
         "ap-oil": "AP：油價跳漲、AI 股票下跌",
-        "morgan-stanley": "摩根士丹利 2026 年中展望",
-        "jpmorgan-ai": "摩根資管：AI 需求與資本開支",
-        "amundi": "Amundi 2026 年 7 月全球投資觀點",
+        "ubs-ai": "UBS：AI 資本開支與半導體選擇",
+        "man-group": "Man Group：半導體交易進入選擇階段",
+        "franklin-ai": "Franklin Templeton：AI 資本開支與半導體週期",
     },
     "en": {
+        "bls-cpi": "U.S. BLS: June 2026 CPI",
         "tsmc-q2": "TSMC 2026 second-quarter results",
         "tsmc-monthly": "TSMC 2026 monthly revenue",
+        "asml-q2": "ASML 2026 second-quarter results",
         "twse": "Taiwan Stock Exchange",
         "hyperliquid-api": "Hyperliquid Info API",
         "hyperliquid-docs": "Hyperliquid HIP-3 / metaAndAssetCtxs docs",
-        "reuters-gulf": "Reuters: Gulf conflict escalation and higher oil",
-        "reuters-stocks": "Reuters: Iran tension weighs on U.S. stocks and chips",
         "ap-oil": "AP: oil jumps and AI stocks fall",
-        "morgan-stanley": "Morgan Stanley 2026 midyear outlook",
-        "jpmorgan-ai": "J.P. Morgan Asset Management: AI demand and capex",
-        "amundi": "Amundi July 2026 global investment views",
+        "ubs-ai": "UBS: AI capex and semiconductor selection",
+        "man-group": "Man Group: semiconductors enter a selection phase",
+        "franklin-ai": "Franklin Templeton: AI capex and the chip cycle",
     },
     "ru": {
+        "bls-cpi": "BLS США: CPI за июнь 2026",
         "tsmc-q2": "TSMC: результаты второго квартала 2026",
         "tsmc-monthly": "TSMC: месячная выручка 2026",
+        "asml-q2": "ASML: результаты второго квартала 2026",
         "twse": "Taiwan Stock Exchange",
         "hyperliquid-api": "Hyperliquid Info API",
         "hyperliquid-docs": "Документация Hyperliquid HIP-3 / metaAndAssetCtxs",
-        "reuters-gulf": "Reuters: эскалация в Заливе и рост нефти",
-        "reuters-stocks": "Reuters: напряженность вокруг Ирана давит на чипы",
         "ap-oil": "AP: нефть скачет, AI-акции падают",
-        "morgan-stanley": "Morgan Stanley: обзор середины 2026 года",
-        "jpmorgan-ai": "J.P. Morgan Asset Management: спрос AI и капзатраты",
-        "amundi": "Amundi: глобальные инвестиционные взгляды за июль 2026",
+        "ubs-ai": "UBS: AI-капзатраты и выбор чипов",
+        "man-group": "Man Group: полупроводники входят в фазу отбора",
+        "franklin-ai": "Franklin Templeton: AI-капзатраты и цикл чипов",
     },
 }
 
@@ -224,10 +224,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("2390-2430 / 7 月 16 日法说", "SKHX、MU、DRAM、SNDK 去风险", "油价与 10 年美债", "44000 点承接 / ETF 资金流", "资本开支与现金回报"),
-        "zh-hant": ("2390-2430 / 7 月 16 日法說", "SKHX、MU、DRAM、SNDK 去風險", "油價與 10 年美債", "44000 點承接 / ETF 資金流", "資本開支與現金回報"),
-        "en": ("2390-2430 / July 16 earnings", "SKHX, MU, DRAM, SNDK de-risking", "oil and U.S. 10-year yield", "44000 support / ETF flows", "capex and cash return"),
-        "ru": ("2390-2430 / отчет 16 июля", "снижение риска SKHX, MU, DRAM, SNDK", "нефть и 10-летняя доходность США", "поддержка 44000 / потоки ETF", "капзатраты и денежная отдача"),
+        "zh-cn": ("2415-2460 / 法说验证", "SKHX、SKHY、DRAM、MU 强力修复", "6 月 CPI / 高油价", "45500 点承接 / ETF 确认", "ASML 订单 / TSMC 指引"),
+        "zh-hant": ("2415-2460 / 法說驗證", "SKHX、SKHY、DRAM、MU 強力修復", "6 月 CPI / 高油價", "45500 點承接 / ETF 確認", "ASML 訂單 / TSMC 指引"),
+        "en": ("2415-2460 / earnings test", "SKHX, SKHY, DRAM, MU rebound", "June CPI / elevated oil", "45500 support / ETF confirmation", "ASML orders / TSMC guidance"),
+        "ru": ("2415-2460 / проверка отчетом", "отскок SKHX, SKHY, DRAM, MU", "CPI за июнь / дорогая нефть", "поддержка 45500 / ETF", "заказы ASML / прогноз TSMC"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -253,9 +253,9 @@ def brief_body(lang):
             <div class="brief-list">
               <div class="brief-item"><strong>TSMC</strong><span>{watch_labels[0]}</span></div>
               <div class="brief-item"><strong>SKHX / MU / DRAM / SNDK</strong><span>{watch_labels[1]}</span></div>
-              <div class="brief-item"><strong>WTI / Brent / US10Y</strong><span>{watch_labels[2]}</span></div>
+              <div class="brief-item"><strong>CPI / WTI / Brent</strong><span>{watch_labels[2]}</span></div>
               <div class="brief-item"><strong>TAIEX / SOXX / SMH</strong><span>{watch_labels[3]}</span></div>
-              <div class="brief-item"><strong>AI CapEx</strong><span>{watch_labels[4]}</span></div>
+              <div class="brief-item"><strong>ASML / TSMC</strong><span>{watch_labels[4]}</span></div>
             </div>
           </aside>
         </div>
@@ -275,14 +275,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("台积电现货偏强，周末存储链回吐与原油走强并存", "上一篇市场日报。", "归档"),
-        "zh-hant": ("台積電現貨偏強，週末記憶體鏈回吐與原油走強並存", "上一篇市場日報。", "歸檔"),
-        "en": ("TSMC cash strength contrasts with weekend memory giveback and firmer oil", "Previous market brief.", "Archive"),
-        "ru": ("TSMC силен, но память откатывается, а нефть растет", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("能源冲击取代 AI 需求成为首要变量", "上一篇市场日报。", "归档"),
+        "zh-hant": ("能源衝擊取代 AI 需求成為首要變量", "上一篇市場日報。", "歸檔"),
+        "en": ("Energy shock replaces AI demand as the market's primary variable", "Previous market brief.", "Archive"),
+        "ru": ("Энергетический шок стал главной переменной рынка", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-13")}"><span class="history-date">2026-07-13</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-14")}"><span class="history-date">2026-07-14</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 

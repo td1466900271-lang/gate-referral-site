@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-14"
+DATE = "2026-07-15"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-14-zh-cn.svg",
+        "file": "market-brief-2026-07-15-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "能源冲击压制科技估值",
-        "subtitle": "油价与利率同步上行，台股系统性去风险，存储链仍是回撤中心。",
-        "cards": [("TAIEX", "-2.8%", "广泛去风险"), ("TSMC", "2390-2430", "相对韧性"), ("WTI / Brent", "+6.9% / +6.2%", "能源冲击")],
-        "box1": ("3 个关键观察", ["1. 油价能否回落？", "2. 台股 44000 点能否承接？", "3. 存储是否继续弱于 GPU？"]),
-        "box2": ("验证框架", ["7 月 16 日 TSMC 法说。", "关注资本开支与毛利率。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：AI 产业逻辑未反转，但市场已进入现金回报与估值验证阶段。",
+        "title": "半导体强力修复",
+        "subtitle": "低 CPI 提供缓冲，台股与存储链反弹，但拥挤度与油价风险仍在。",
+        "cards": [("TAIEX", "+2.2%", "广泛修复"), ("SKHX / SKHY", "+21% / +24%", "存储回补"), ("NVDA / AMD", "+4.4% / +3.9%", "GPU 稳健")],
+        "box1": ("3 个关键观察", ["1. 台股能否稳住 45500？", "2. 存储反弹能否获得现货确认？", "3. 油价是否抵消 CPI 利好？"]),
+        "box2": ("验证窗口", ["ASML 关注净订单。", "TSMC 关注指引与毛利率。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：技术修复强劲，但需要订单、成交与盈利上修完成确认。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-14-zh-hant.svg",
+        "file": "market-brief-2026-07-15-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "能源衝擊壓制科技估值",
-        "subtitle": "油價與利率同步上行，台股系統性去風險，記憶體鏈仍是回撤中心。",
-        "cards": [("TAIEX", "-2.8%", "廣泛去風險"), ("TSMC", "2390-2430", "相對韌性"), ("WTI / Brent", "+6.9% / +6.2%", "能源衝擊")],
-        "box1": ("3 個關鍵觀察", ["1. 油價能否回落？", "2. 台股 44000 點能否承接？", "3. 記憶體是否繼續弱於 GPU？"]),
-        "box2": ("驗證框架", ["7 月 16 日 TSMC 法說。", "關注資本開支與毛利率。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：AI 產業邏輯未反轉，但市場已進入現金回報與估值驗證階段。",
+        "title": "半導體強力修復",
+        "subtitle": "低 CPI 提供緩衝，台股與記憶體鏈反彈，但擁擠度與油價風險仍在。",
+        "cards": [("TAIEX", "+2.2%", "廣泛修復"), ("SKHX / SKHY", "+21% / +24%", "記憶體回補"), ("NVDA / AMD", "+4.4% / +3.9%", "GPU 穩健")],
+        "box1": ("3 個關鍵觀察", ["1. 台股能否穩住 45500？", "2. 記憶體反彈能否獲得現貨確認？", "3. 油價是否抵消 CPI 利好？"]),
+        "box2": ("驗證窗口", ["ASML 關注淨訂單。", "TSMC 關注指引與毛利率。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：技術修復強勁，但需要訂單、成交與盈利上修完成確認。",
     },
     "en": {
-        "file": "market-brief-2026-07-14-en.svg",
+        "file": "market-brief-2026-07-15-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "Energy shock hits tech valuations",
-        "subtitle": "Oil and yields rise together as Taiwan equities de-risk broadly and memory remains at the center of the drawdown.",
-        "cards": [("TAIEX", "-2.8%", "broad de-risking"), ("TSMC", "2390-2430", "relative resilience"), ("WTI / Brent", "+6.9% / +6.2%", "energy shock")],
-        "box1": ("3 key checks", ["1. Can oil retrace?", "2. Does TAIEX hold 44000?", "3. Does memory stay weaker than GPU?"]),
-        "box2": ("Validation", ["TSMC reports on July 16.", "Watch capex and gross margin.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: AI fundamentals remain intact, but markets are testing cash returns and valuation discipline.",
+        "title": "Semiconductors rebound sharply",
+        "subtitle": "Cooler CPI supports Taiwan and memory, but crowded positioning and elevated oil keep risk high.",
+        "cards": [("TAIEX", "+2.2%", "broad repair"), ("SKHX / SKHY", "+21% / +24%", "memory covering"), ("NVDA / AMD", "+4.4% / +3.9%", "steady GPU")],
+        "box1": ("3 key checks", ["1. Can TAIEX hold 45500?", "2. Does cash trading confirm memory?", "3. Does oil offset the CPI relief?"]),
+        "box2": ("Validation Window", ["ASML: watch net bookings.", "TSMC: watch guidance and margin.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: technical repair is strong, but orders, volume and earnings upgrades must confirm it.",
     },
     "ru": {
-        "file": "market-brief-2026-07-14-ru.svg",
+        "file": "market-brief-2026-07-15-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "Энергошок давит на оценки технологий",
-        "subtitle": "Нефть и доходности растут, тайваньский рынок снижает риск, а память остается центром падения.",
-        "cards": [("TAIEX", "-2.8%", "общее снижение риска"), ("TSMC", "2390-2430", "относительная устойчивость"), ("WTI / Brent", "+6.9% / +6.2%", "энергетический шок")],
-        "box1": ("3 ключевых сигнала", ["1. Откатится ли нефть?", "2. Удержит ли TAIEX 44000?", "3. Будет ли память слабее GPU?"]),
-        "box2": ("Проверка", ["Отчет TSMC 16 июля.", "Следите за капзатратами и маржой.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: AI-фундамент сохраняется, но рынок проверяет денежную отдачу и дисциплину оценок.",
+        "title": "Чипы резко отскакивают",
+        "subtitle": "Низкий CPI поддерживает Тайвань и память, но перегретые позиции и дорогая нефть сохраняют риск.",
+        "cards": [("TAIEX", "+2.2%", "широкое восстановление"), ("SKHX / SKHY", "+21% / +24%", "закрытие в памяти"), ("NVDA / AMD", "+4.4% / +3.9%", "стабильные GPU")],
+        "box1": ("3 ключевых сигнала", ["1. Удержит ли TAIEX 45500?", "2. Подтвердит ли спот отскок памяти?", "3. Нейтрализует ли нефть эффект CPI?"]),
+        "box2": ("Окно Проверки", ["ASML: следите за заказами.", "TSMC: прогноз и маржа.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: отскок силен, но его должны подтвердить заказы, объем и прогнозы прибыли.",
     },
 }
 
