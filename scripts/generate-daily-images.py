@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-15"
+DATE = "2026-07-16"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-15-zh-cn.svg",
+        "file": "market-brief-2026-07-16-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "半导体强力修复",
-        "subtitle": "低 CPI 提供缓冲，台股与存储链反弹，但拥挤度与油价风险仍在。",
-        "cards": [("TAIEX", "+2.2%", "广泛修复"), ("SKHX / SKHY", "+21% / +24%", "存储回补"), ("NVDA / AMD", "+4.4% / +3.9%", "GPU 稳健")],
-        "box1": ("3 个关键观察", ["1. 台股能否稳住 45500？", "2. 存储反弹能否获得现货确认？", "3. 油价是否抵消 CPI 利好？"]),
-        "box2": ("验证窗口", ["ASML 关注净订单。", "TSMC 关注指引与毛利率。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：技术修复强劲，但需要订单、成交与盈利上修完成确认。",
+        "title": "ASML 强指引，存储去杠杆",
+        "subtitle": "设备需求与存储交易继续分化，台积电法说将验证资本开支回报。",
+        "cards": [("ASML", "EUR43-45B", "2026 收入指引"), ("SKHX / SKHY", "-13.9% / -11.0%", "存储去杠杆"), ("TSMC", "2420-2455", "法说前观望")],
+        "box1": ("3 个关键观察", ["1. TSMC 毛利率与资本开支？", "2. 存储现货是否确认跌幅？", "3. 油价是否抵消通胀降温？"]),
+        "box2": ("产业框架", ["ASML 订单与产能强。", "存储中期积极、短期谨慎。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：产业需求仍强，股票交易更重视订单、毛利率与回报兑现。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-15-zh-hant.svg",
+        "file": "market-brief-2026-07-16-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "半導體強力修復",
-        "subtitle": "低 CPI 提供緩衝，台股與記憶體鏈反彈，但擁擠度與油價風險仍在。",
-        "cards": [("TAIEX", "+2.2%", "廣泛修復"), ("SKHX / SKHY", "+21% / +24%", "記憶體回補"), ("NVDA / AMD", "+4.4% / +3.9%", "GPU 穩健")],
-        "box1": ("3 個關鍵觀察", ["1. 台股能否穩住 45500？", "2. 記憶體反彈能否獲得現貨確認？", "3. 油價是否抵消 CPI 利好？"]),
-        "box2": ("驗證窗口", ["ASML 關注淨訂單。", "TSMC 關注指引與毛利率。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：技術修復強勁，但需要訂單、成交與盈利上修完成確認。",
+        "title": "ASML 強指引，記憶體去槓桿",
+        "subtitle": "設備需求與記憶體交易繼續分化，台積電法說將驗證資本開支回報。",
+        "cards": [("ASML", "EUR43-45B", "2026 收入指引"), ("SKHX / SKHY", "-13.9% / -11.0%", "記憶體去槓桿"), ("TSMC", "2420-2455", "法說前觀望")],
+        "box1": ("3 個關鍵觀察", ["1. TSMC 毛利率與資本開支？", "2. 記憶體現貨是否確認跌幅？", "3. 油價是否抵消通膨降溫？"]),
+        "box2": ("產業框架", ["ASML 訂單與產能強。", "記憶體中期積極、短期謹慎。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：產業需求仍強，股票交易更重視訂單、毛利率與回報兌現。",
     },
     "en": {
-        "file": "market-brief-2026-07-15-en.svg",
+        "file": "market-brief-2026-07-16-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "Semiconductors rebound sharply",
-        "subtitle": "Cooler CPI supports Taiwan and memory, but crowded positioning and elevated oil keep risk high.",
-        "cards": [("TAIEX", "+2.2%", "broad repair"), ("SKHX / SKHY", "+21% / +24%", "memory covering"), ("NVDA / AMD", "+4.4% / +3.9%", "steady GPU")],
-        "box1": ("3 key checks", ["1. Can TAIEX hold 45500?", "2. Does cash trading confirm memory?", "3. Does oil offset the CPI relief?"]),
-        "box2": ("Validation Window", ["ASML: watch net bookings.", "TSMC: watch guidance and margin.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: technical repair is strong, but orders, volume and earnings upgrades must confirm it.",
+        "title": "ASML strong, memory de-leverages",
+        "subtitle": "Equipment demand and memory trading diverge as TSMC's call tests the return on AI capex.",
+        "cards": [("ASML", "EUR43-45B", "2026 revenue guide"), ("SKHX / SKHY", "-13.9% / -11.0%", "memory de-leveraging"), ("TSMC", "2420-2455", "pre-call caution")],
+        "box1": ("3 key checks", ["1. TSMC margin and capex?", "2. Does cash memory confirm losses?", "3. Does oil offset disinflation?"]),
+        "box2": ("Industry Frame", ["ASML orders and capacity are strong.", "Memory: constructive, near-term cautious.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: industry demand is firm, while equities demand real delivery in orders, margin and returns.",
     },
     "ru": {
-        "file": "market-brief-2026-07-15-ru.svg",
+        "file": "market-brief-2026-07-16-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "Чипы резко отскакивают",
-        "subtitle": "Низкий CPI поддерживает Тайвань и память, но перегретые позиции и дорогая нефть сохраняют риск.",
-        "cards": [("TAIEX", "+2.2%", "широкое восстановление"), ("SKHX / SKHY", "+21% / +24%", "закрытие в памяти"), ("NVDA / AMD", "+4.4% / +3.9%", "стабильные GPU")],
-        "box1": ("3 ключевых сигнала", ["1. Удержит ли TAIEX 45500?", "2. Подтвердит ли спот отскок памяти?", "3. Нейтрализует ли нефть эффект CPI?"]),
-        "box2": ("Окно Проверки", ["ASML: следите за заказами.", "TSMC: прогноз и маржа.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: отскок силен, но его должны подтвердить заказы, объем и прогнозы прибыли.",
+        "title": "ASML силен, память снижает плечо",
+        "subtitle": "Спрос на оборудование и торговля памятью расходятся; звонок TSMC проверит отдачу AI-капзатрат.",
+        "cards": [("ASML", "EUR43-45B", "прогноз выручки 2026"), ("SKHX / SKHY", "-13.9% / -11.0%", "снижение плеча памяти"), ("TSMC", "2420-2455", "осторожность перед звонком")],
+        "box1": ("3 ключевых сигнала", ["1. Маржа и капзатраты TSMC?", "2. Подтвердит ли спот падение памяти?", "3. Нейтрализует ли нефть дезинфляцию?"]),
+        "box2": ("Отраслевая Рамка", ["ASML: сильные заказы и мощности.", "Память: срок позитивен, краткосрочно осторожно.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: спрос силен, но акциям нужна реальная отдача в заказах, марже и доходности.",
     },
 }
 
