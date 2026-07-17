@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-16"
+DATE = "2026-07-17"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-16-zh-cn.svg",
+        "file": "market-brief-2026-07-17-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "ASML 强指引，存储去杠杆",
-        "subtitle": "设备需求与存储交易继续分化，台积电法说将验证资本开支回报。",
-        "cards": [("ASML", "EUR43-45B", "2026 收入指引"), ("SKHX / SKHY", "-13.9% / -11.0%", "存储去杠杆"), ("TSMC", "2420-2455", "法说前观望")],
-        "box1": ("3 个关键观察", ["1. TSMC 毛利率与资本开支？", "2. 存储现货是否确认跌幅？", "3. 油价是否抵消通胀降温？"]),
-        "box2": ("产业框架", ["ASML 订单与产能强。", "存储中期积极、短期谨慎。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：产业需求仍强，股票交易更重视订单、毛利率与回报兑现。",
+        "title": "强财报后的资本回报再定价",
+        "subtitle": "台积电需求与利润创新高，但高资本开支、毛利率边际回落和拥挤仓位推动 AI 科技去风险。",
+        "cards": [("TSMC", "$40.2B", "二季度美元收入"), ("TAIEX / TSMC", "-5.2% / -5.1%", "广泛去风险"), ("CapEx", "$60-64B", "2026 资本开支")],
+        "box1": ("3 个关键观察", ["1. TSMC 2340-2350 能否守稳？", "2. SOXX / SMH 成交是否确认？", "3. 油价、利率与美元是否共振？"]),
+        "box2": ("估值框架", ["AI 需求仍强，估值容错下降。", "重点转向毛利率与自由现金流。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：产业景气仍强，市场正在重新评估资本开支与回报兑现。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-16-zh-hant.svg",
+        "file": "market-brief-2026-07-17-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "ASML 強指引，記憶體去槓桿",
-        "subtitle": "設備需求與記憶體交易繼續分化，台積電法說將驗證資本開支回報。",
-        "cards": [("ASML", "EUR43-45B", "2026 收入指引"), ("SKHX / SKHY", "-13.9% / -11.0%", "記憶體去槓桿"), ("TSMC", "2420-2455", "法說前觀望")],
-        "box1": ("3 個關鍵觀察", ["1. TSMC 毛利率與資本開支？", "2. 記憶體現貨是否確認跌幅？", "3. 油價是否抵消通膨降溫？"]),
-        "box2": ("產業框架", ["ASML 訂單與產能強。", "記憶體中期積極、短期謹慎。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：產業需求仍強，股票交易更重視訂單、毛利率與回報兌現。",
+        "title": "強財報後的資本回報再定價",
+        "subtitle": "台積電需求與利潤創新高，但高資本開支、毛利率邊際回落和擁擠部位推動 AI 科技去風險。",
+        "cards": [("TSMC", "$40.2B", "第二季度美元收入"), ("TAIEX / TSMC", "-5.2% / -5.1%", "廣泛去風險"), ("CapEx", "$60-64B", "2026 資本開支")],
+        "box1": ("3 個關鍵觀察", ["1. TSMC 2340-2350 能否守穩？", "2. SOXX / SMH 成交是否確認？", "3. 油價、利率與美元是否共振？"]),
+        "box2": ("估值框架", ["AI 需求仍強，估值容錯下降。", "重點轉向毛利率與自由現金流。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：產業景氣仍強，市場正在重新評估資本開支與回報兌現。",
     },
     "en": {
-        "file": "market-brief-2026-07-16-en.svg",
+        "file": "market-brief-2026-07-17-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "ASML strong, memory de-leverages",
-        "subtitle": "Equipment demand and memory trading diverge as TSMC's call tests the return on AI capex.",
-        "cards": [("ASML", "EUR43-45B", "2026 revenue guide"), ("SKHX / SKHY", "-13.9% / -11.0%", "memory de-leveraging"), ("TSMC", "2420-2455", "pre-call caution")],
-        "box1": ("3 key checks", ["1. TSMC margin and capex?", "2. Does cash memory confirm losses?", "3. Does oil offset disinflation?"]),
-        "box2": ("Industry Frame", ["ASML orders and capacity are strong.", "Memory: constructive, near-term cautious.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: industry demand is firm, while equities demand real delivery in orders, margin and returns.",
+        "title": "Capital returns repriced after strong results",
+        "subtitle": "TSMC demand and profit hit records, but high capex, softer margin guidance and crowded positions drive AI tech de-risking.",
+        "cards": [("TSMC", "$40.2B", "Q2 USD revenue"), ("TAIEX / TSMC", "-5.2% / -5.1%", "broad de-risking"), ("CapEx", "$60-64B", "2026 spending")],
+        "box1": ("3 key checks", ["1. Can TSMC hold 2340-2350?", "2. Do SOXX / SMH volumes confirm?", "3. Do oil, yields and USD rise together?"]),
+        "box2": ("Valuation Frame", ["AI demand is firm; valuation tolerance falls.", "Focus shifts to margin and free cash flow.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: industry demand remains strong while markets reprice capex and realized capital returns.",
     },
     "ru": {
-        "file": "market-brief-2026-07-16-ru.svg",
+        "file": "market-brief-2026-07-17-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "ASML силен, память снижает плечо",
-        "subtitle": "Спрос на оборудование и торговля памятью расходятся; звонок TSMC проверит отдачу AI-капзатрат.",
-        "cards": [("ASML", "EUR43-45B", "прогноз выручки 2026"), ("SKHX / SKHY", "-13.9% / -11.0%", "снижение плеча памяти"), ("TSMC", "2420-2455", "осторожность перед звонком")],
-        "box1": ("3 ключевых сигнала", ["1. Маржа и капзатраты TSMC?", "2. Подтвердит ли спот падение памяти?", "3. Нейтрализует ли нефть дезинфляцию?"]),
-        "box2": ("Отраслевая Рамка", ["ASML: сильные заказы и мощности.", "Память: срок позитивен, краткосрочно осторожно.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: спрос силен, но акциям нужна реальная отдача в заказах, марже и доходности.",
+        "title": "Сильный отчет, переоценка капитала",
+        "subtitle": "Рекорды TSMC не остановили снижение: капзатраты, маржа и перегретые позиции давят на AI-технологии.",
+        "cards": [("TSMC", "$40.2B", "выручка Q2"), ("TAIEX / TSMC", "-5.2% / -5.1%", "снижение риска"), ("Капзатраты", "$60-64B", "план на 2026")],
+        "box1": ("3 ключевых сигнала", ["1. Удержит ли TSMC зону 2340-2350?", "2. Подтвердят ли объемы SOXX / SMH?", "3. Растут ли нефть, ставки и доллар вместе?"]),
+        "box2": ("Рамка Оценки", ["Спрос на AI силен, запас оценки снижается.", "Фокус на марже и свободном денежном потоке.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: отраслевой спрос силен, но рынок переоценивает капзатраты и фактическую отдачу капитала.",
     },
 }
 
