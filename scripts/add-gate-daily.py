@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-17"
+DATE = "2026-07-20"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-17-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-17-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-17-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-17-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-07-20-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-20-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-20-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-20-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "台积电强财报后下跌，AI 科技进入资本回报再定价",
-        "desc": "2026-07-17 GateAffiliate 每日市场日报：台积电收入、利润与全年指引强劲，但资本开支上调、毛利率边际回落与拥挤仓位引发 AI 科技广泛去风险。",
+        "title": "台股超跌修复，AI 交易转向云资本开支与能源验证",
+        "desc": "2026-07-20 GateAffiliate 每日市场日报：台积电反弹但台股尚未确认反转，AI 基本面仍强，周末永续成交偏低，油价与云厂商资本开支成为本周关键。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "台积电强财报后下跌，AI 科技进入资本回报再定价。",
-        "summary": "台积电证明 AI 需求仍极其强劲，但市场已从收入叙事转向自由现金流、毛利率与资本回报率。台股、GPU、存储与网络芯片同步去风险。",
+        "h1": "台股超跌修复，AI 交易转向云资本开支与能源验证。",
+        "summary": "台积电反弹约 2%，但大规模换手后的趋势反转尚未确认。AI 需求仍强，市场本周将用云资本开支、现金回报与高油价重新检验估值。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "台積電強財報後下跌，AI 科技進入資本回報再定價",
-        "desc": "2026-07-17 GateAffiliate 每日市場日報：台積電收入、利潤與全年指引強勁，但資本開支上調、毛利率邊際回落與擁擠倉位引發 AI 科技廣泛去風險。",
+        "title": "台股超跌修復，AI 交易轉向雲端資本開支與能源驗證",
+        "desc": "2026-07-20 GateAffiliate 每日市場日報：台積電反彈但台股尚未確認反轉，AI 基本面仍強，週末永續成交偏低，油價與雲端資本開支成為本週關鍵。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "台積電強財報後下跌，AI 科技進入資本回報再定價。",
-        "summary": "台積電證明 AI 需求仍極其強勁，但市場已從收入敘事轉向自由現金流、毛利率與資本回報率。台股、GPU、記憶體與網路芯片同步去風險。",
+        "h1": "台股超跌修復，AI 交易轉向雲端資本開支與能源驗證。",
+        "summary": "台積電反彈約 2%，但大規模換手後的趨勢反轉尚未確認。AI 需求仍強，市場本週將以雲端資本開支、現金回報與高油價重新檢驗估值。",
         "tag": "最新",
     },
     "en": {
-        "title": "TSMC falls after a stellar report as AI tech reprices capital returns",
-        "desc": "2026-07-17 GateAffiliate daily market brief: TSMC delivers strong revenue, profit and guidance, but higher capex, softer sequential margin guidance and crowded positioning trigger broad de-risking across AI technology.",
+        "title": "Taiwan steadies as AI trades face cloud-capex and energy tests",
+        "desc": "GateAffiliate's 2026-07-20 market brief: TSMC rebounds but Taiwan has not confirmed a reversal; AI fundamentals remain firm while thin weekend perpetual volume, oil and cloud capex shape the week.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "TSMC falls after a stellar report as AI tech reprices capital returns.",
-        "summary": "TSMC confirms exceptionally strong AI demand, but markets have shifted from revenue growth to free cash flow, margin and return on capital. Taiwan, GPUs, memory and networking chips are de-risking together.",
+        "h1": "Taiwan steadies as AI trades face cloud-capex and energy tests.",
+        "summary": "TSMC rebounds about 2%, but heavy turnover leaves the trend reversal unconfirmed. Strong AI demand now faces a weekly test from cloud capex, cash returns and elevated oil prices.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "TSMC падает после сильного отчета: AI-сектор переоценивает отдачу капитала",
-        "desc": "Ежедневный обзор GateAffiliate за 2026-07-17: TSMC показывает сильную выручку, прибыль и прогноз, но рост капзатрат, снижение прогноза маржи и перегретые позиции вызывают общее снижение риска в AI-технологиях.",
+        "title": "Тайвань стабилизируется: AI проверят облачные капзатраты и нефть",
+        "desc": "Обзор GateAffiliate за 2026-07-20: TSMC отскакивает, но разворот Тайваня не подтвержден; фундамент AI силен, а низкий объем выходных, нефть и облачные капзатраты определяют неделю.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "TSMC падает после сильного отчета: AI-сектор переоценивает отдачу капитала.",
-        "summary": "TSMC подтверждает исключительно сильный AI-спрос, но рынок уже смотрит на свободный денежный поток, маржу и отдачу капитала. Тайвань, GPU, память и сетевые чипы снижают риск вместе.",
+        "h1": "Тайвань стабилизируется: AI проверят облачные капзатраты и нефть.",
+        "summary": "TSMC отскакивает примерно на 2%, но разворот после крупного оборота еще не подтвержден. Сильный AI-спрос теперь проверят облачные капзатраты, денежная отдача и дорогая нефть.",
         "tag": "Свежий",
     },
 }
@@ -201,16 +201,83 @@ CONCISE_SECTIONS.update({
     ],
 })
 
+CONCISE_SECTIONS.update({
+    "zh-cn": [
+        ("核心结论", [
+            "台股出现超跌修复，但尚未确认趋势反转。台湾加权指数接近平盘，台积电较前收反弹约 1.7%-2.0%；上周五台积电跌 7.29%，台股成交约 1.213 万亿新台币，今天首先应视为大幅换手后的技术修复。",
+            "AI 产业基本面仍强，股票却继续消化高估值与拥挤仓位。台积电利润增长 77%、上调全年收入指引，ASML 也提高收入与产能计划；市场焦点已转向资本开支能否产生足够毛利率、自由现金流与股东回报。",
+        ]),
+        ("低流动性修复与能源压力", [
+            "周末 TraderXYZ 前十名义成交量约 13.5 亿美元，较上周五下降约 63%，且 SKHX 占约 39%。MU、SK 海力士与大盘合约小幅回升，只能说明恐慌缓和，不能证明芯片股已经见底。",
+            "WTI 约 83.8 美元、Brent 约 88.2 美元。能源进口经济体与高耗电 AI 基础设施同时承受成本压力，油价将继续通过通胀、汇率和政策利率影响科技估值。",
+            "本周验证点转向 Alphabet 的 AI 资本开支、云收入与商业化，同时关注 Tesla、ECB、欧美 PMI、中国 LPR 以及美联储会议前的利率定价。",
+        ]),
+        ("本周观察框架", [
+            "台湾市场观察 42000-43000 点区间承接，以及台积电能否稳定在 2300 上方并出现缩量止跌。",
+            "美股开盘后用 TSM、NVDA、AMD、MU、SKHY、SNDK 正股，SOXX / SMH 与期权隐含波动率验证低成交永续信号。",
+            "重点监控 Brent 90 美元关口、美元与美债收益率。中期仍优先选择订单、产能和现金流可验证的企业，降低对只依靠估值扩张品种的容忍度。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "台股出現超跌修復，但尚未確認趨勢反轉。台灣加權指數接近平盤，台積電較前收反彈約 1.7%-2.0%；上週五台積電跌 7.29%，台股成交約 1.213 萬億新台幣，今天首先應視為大幅換手後的技術修復。",
+            "AI 產業基本面仍強，股票卻繼續消化高估值與擁擠部位。台積電利潤增長 77%、上調全年收入指引，ASML 也提高收入與產能計畫；市場焦點已轉向資本開支能否產生足夠毛利率、自由現金流與股東回報。",
+        ]),
+        ("低流動性修復與能源壓力", [
+            "週末 TraderXYZ 前十名義成交量約 13.5 億美元，較上週五下降約 63%，且 SKHX 佔約 39%。MU、SK 海力士與大盤合約小幅回升，只能說明恐慌緩和，不能證明晶片股已經見底。",
+            "WTI 約 83.8 美元、Brent 約 88.2 美元。能源進口經濟體與高耗電 AI 基礎設施同時承受成本壓力，油價將繼續透過通膨、匯率和政策利率影響科技估值。",
+            "本週驗證點轉向 Alphabet 的 AI 資本開支、雲端收入與商業化，同時關注 Tesla、ECB、歐美 PMI、中國 LPR 以及聯準會會議前的利率定價。",
+        ]),
+        ("本週觀察框架", [
+            "台灣市場觀察 42000-43000 點區間承接，以及台積電能否穩定在 2300 上方並出現縮量止跌。",
+            "美股開盤後以 TSM、NVDA、AMD、MU、SKHY、SNDK 現貨，SOXX / SMH 與期權隱含波動率驗證低成交永續訊號。",
+            "重點監控 Brent 90 美元關口、美元與美債殖利率。中期仍優先選擇訂單、產能和現金流可驗證的企業，降低對只依靠估值擴張品種的容忍度。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "Taiwan is staging an oversold rebound, not a confirmed trend reversal. The index is nearly flat and TSMC is up roughly 1.7%-2.0%; after Friday's 7.29% TSMC drop and NT$1.213 trillion turnover, today's move is best treated as a technical repair after heavy rotation.",
+            "AI fundamentals remain firm while equities digest high valuations and crowded positioning. TSMC grew profit 77% and raised revenue guidance, while ASML lifted its outlook and capacity plans. The debate has moved to whether capex can deliver margin, free cash flow and shareholder returns.",
+        ]),
+        ("Thin Repair, Higher Energy Risk", [
+            "TraderXYZ top-ten notional volume was about $1.35 billion, down roughly 63% from Friday, with SKHX alone near 39%. Small gains in MU, SK Hynix and index contracts suggest fear is easing, but cannot establish a bottom in cash semiconductor shares.",
+            "WTI is near $83.8 and Brent $88.2. Energy-importing economies and power-intensive AI infrastructure both face rising costs, leaving oil as a channel into inflation, currencies, policy rates and technology valuations.",
+            "This week's test shifts to Alphabet's AI capex, cloud revenue and monetization, alongside Tesla, the ECB, U.S. and European PMIs, China's LPR and rate pricing ahead of the Federal Reserve meeting.",
+        ]),
+        ("Weekly Watch Frame", [
+            "Watch support across 42000-43000 in Taiwan and whether TSMC can stabilize above 2300 on declining volume.",
+            "At the U.S. open, validate thin perpetual signals through TSM, NVDA, AMD, MU, SKHY and SNDK cash shares, SOXX / SMH and implied volatility.",
+            "Monitor Brent near $90, the dollar and Treasury yields. Medium term, favor companies with verifiable orders, capacity and cash flow while demanding more from valuation-dependent trades.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "Тайвань показывает технический отскок, но разворот тренда не подтвержден. Индекс почти не меняется, TSMC растет примерно на 1,7%-2,0%; после падения TSMC на 7,29% и оборота NT$1,213 трлн в пятницу это прежде всего восстановление после крупной смены позиций.",
+            "Фундамент AI остается сильным, а акции переваривают дорогую оценку и перегретые позиции. Прибыль TSMC выросла на 77%, прогноз выручки повышен, ASML также улучшила прогноз и план мощностей. Теперь рынок требует маржу, свободный денежный поток и отдачу акционерам.",
+        ]),
+        ("Тонкий Отскок и Энергетический Риск", [
+            "Оборот первой десятки TraderXYZ составил около $1,35 млрд, на 63% меньше пятницы, а доля SKHX достигла 39%. Небольшой рост MU, SK Hynix и индексов говорит лишь об ослаблении страха, но не подтверждает дно акций чипов.",
+            "WTI около $83,8, Brent $88,2. Импортеры энергии и энергоемкая AI-инфраструктура сталкиваются с ростом затрат; нефть продолжит влиять на инфляцию, валюты, ставки и оценки технологий.",
+            "Проверка недели смещается к AI-капзатратам, облачной выручке и монетизации Alphabet, а также Tesla, ЕЦБ, PMI США и Европы, LPR Китая и ожиданиям перед заседанием ФРС.",
+        ]),
+        ("Рамка Наблюдения на Неделю", [
+            "Следите за поддержкой Тайваня в диапазоне 42000-43000 и способностью TSMC удержаться выше 2300 при снижении объема.",
+            "На открытии США проверяйте слабый сигнал перпетуалов через акции TSM, NVDA, AMD, MU, SKHY, SNDK, фонды SOXX / SMH и подразумеваемую волатильность.",
+            "Контролируйте Brent у $90, доллар и доходности США. В среднесрочном горизонте приоритет у компаний с проверяемыми заказами, мощностями и денежным потоком.",
+        ]),
+    ],
+})
+
 SOURCE_URLS = [
     ("tsmc-q2", "https://investor.tsmc.com/english/quarterly-results/2026/q2"),
-    ("reuters-tsmc", "https://www.investing.com/news/stock-market-news/tsmc-q2-profit-jumps-77-to-record-far-surpasses-expectations-4794649"),
-    ("ap-tsmc-us", "https://apnews.com/article/taiwan-tsmc-chipmaking-ai-arizona-fab-ba05b1b952257d371acb9d070e7914ff"),
-    ("sec-tsmc", "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000447/tsm-revenue20260713.htm"),
-    ("reuters-chips", "https://sa.marketscreener.com/news/chipmakers-put-pressure-on-equity-indexes-globally-oil-dips-ce7f5ed3dc89f327"),
-    ("asml-q2", "https://www.asml.com/en/investors/financial-results/q2-2026"),
     ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
-    ("bls-cpi", "https://www.bls.gov/news.release/cpi.htm"),
-    ("bls-ppi", "https://www.bls.gov/news.release/archives/ppi_07152026.htm"),
+    ("taipei-times", "https://www.taipeitimes.com/News/front/archives/2026/07/18/2003860942"),
+    ("ap-global", "https://apnews.com/article/65449e9565fba441a617f9517e097f5a"),
+    ("reuters-global", "https://www.investing.com/news/economy-news/asian-shares-slump-on-chipmaker-drag-bonds-cheer-cooler-inflation-4794608"),
+    ("ubs-volatility", "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-06072026.html"),
+    ("week-ahead", "https://au.marketscreener.com/news/week-ahead-for-fx-bonds-u-s-european-pmi-data-ecb-decision-in-focus-ce7f51dade8dff20"),
+    ("dbs-week", "https://www.dbs.com.tw/personal/aics/templatedata/article/generic/data/en/GR/072026/260717_insights_week_ahead.xml"),
+    ("imf-weo", "https://www.imf.org/-/media/files/publications/weo/2026/update/july/english/text.pdf"),
     ("hyperliquid-api", "https://api.hyperliquid.xyz/info"),
     ("hyperliquid-docs", "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals"),
     ("man-group", "https://www.man.com/insights/views-from-the-floor-2026-14-july"),
@@ -221,6 +288,13 @@ SOURCE_LABELS = {
         "bls-cpi": "美国劳工统计局：2026 年 6 月 CPI",
         "bls-ppi": "美国劳工统计局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度业绩",
+        "taipei-times": "Taipei Times：7 月 17 日台股成交与下跌",
+        "ap-global": "AP：全球 AI 股票抛售与油价上涨",
+        "reuters-global": "Reuters：全球芯片股下跌",
+        "ubs-volatility": "UBS：以分散和精选应对 AI 波动",
+        "week-ahead": "本周全球央行与 PMI 前瞻",
+        "dbs-week": "DBS：本周宏观前瞻",
+        "imf-weo": "IMF：2026 年 7 月世界经济展望更新",
         "reuters-tsmc": "Reuters：TSMC 第二季度利润创新高",
         "ap-tsmc-us": "AP：TSMC 美国投资与扩产计划",
         "sec-tsmc": "SEC：TSMC 2026 年 6 月营收报告",
@@ -235,6 +309,13 @@ SOURCE_LABELS = {
         "bls-cpi": "美國勞工統計局：2026 年 6 月 CPI",
         "bls-ppi": "美國勞工統計局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度業績",
+        "taipei-times": "Taipei Times：7 月 17 日台股成交與下跌",
+        "ap-global": "AP：全球 AI 股票拋售與油價上漲",
+        "reuters-global": "Reuters：全球晶片股下跌",
+        "ubs-volatility": "UBS：以分散和精選應對 AI 波動",
+        "week-ahead": "本週全球央行與 PMI 前瞻",
+        "dbs-week": "DBS：本週宏觀前瞻",
+        "imf-weo": "IMF：2026 年 7 月世界經濟展望更新",
         "reuters-tsmc": "Reuters：TSMC 第二季度利潤創新高",
         "ap-tsmc-us": "AP：TSMC 美國投資與擴產計畫",
         "sec-tsmc": "SEC：TSMC 2026 年 6 月營收報告",
@@ -249,6 +330,13 @@ SOURCE_LABELS = {
         "bls-cpi": "U.S. BLS: June 2026 CPI",
         "bls-ppi": "U.S. BLS: June 2026 PPI",
         "tsmc-q2": "TSMC 2026 second-quarter results",
+        "taipei-times": "Taipei Times: July 17 Taiwan turnover and decline",
+        "ap-global": "AP: global AI selloff and higher oil",
+        "reuters-global": "Reuters: global chip shares decline",
+        "ubs-volatility": "UBS: diversification and selection amid AI volatility",
+        "week-ahead": "Week ahead: central banks and PMIs",
+        "dbs-week": "DBS: weekly macro outlook",
+        "imf-weo": "IMF: July 2026 World Economic Outlook update",
         "reuters-tsmc": "Reuters: TSMC second-quarter profit hits a record",
         "ap-tsmc-us": "AP: TSMC's U.S. investment and expansion",
         "sec-tsmc": "SEC: TSMC June 2026 revenue filing",
@@ -263,6 +351,13 @@ SOURCE_LABELS = {
         "bls-cpi": "BLS США: CPI за июнь 2026",
         "bls-ppi": "BLS США: PPI за июнь 2026",
         "tsmc-q2": "TSMC: результаты второго квартала 2026",
+        "taipei-times": "Taipei Times: оборот и падение Тайваня 17 июля",
+        "ap-global": "AP: глобальная распродажа AI и рост нефти",
+        "reuters-global": "Reuters: снижение мировых акций чипов",
+        "ubs-volatility": "UBS: диверсификация при волатильности AI",
+        "week-ahead": "Неделя впереди: центробанки и PMI",
+        "dbs-week": "DBS: недельный макрообзор",
+        "imf-weo": "IMF: обновление мирового прогноза, июль 2026",
         "reuters-tsmc": "Reuters: рекордная прибыль TSMC за второй квартал",
         "ap-tsmc-us": "AP: инвестиции и расширение TSMC в США",
         "sec-tsmc": "SEC: отчет TSMC о выручке за июнь 2026",
@@ -296,10 +391,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("2340-2350 / 毛利率与资本开支", "广泛科技去风险", "油价 / 美债收益率 / 美元", "美股正股与 ETF 确认", "资本回报与自由现金流"),
-        "zh-hant": ("2340-2350 / 毛利率與資本開支", "廣泛科技去風險", "油價 / 美債殖利率 / 美元", "美股現貨與 ETF 確認", "資本回報與自由現金流"),
-        "en": ("2340-2350 / margin and capex", "broad tech de-risking", "oil / Treasury yields / dollar", "U.S. cash and ETF confirmation", "capital returns and free cash flow"),
-        "ru": ("2340-2350 / маржа и капзатраты", "широкое снижение риска в технологиях", "нефть / доходности США / доллар", "подтверждение спотом США и ETF", "отдача капитала и свободный денежный поток"),
+        "zh-cn": ("2300 / 缩量企稳", "美股正股与 ETF 验证", "Brent 90 美元关口", "42000-43000 区间承接", "云资本开支与现金回报"),
+        "zh-hant": ("2300 / 縮量企穩", "美股現貨與 ETF 驗證", "Brent 90 美元關口", "42000-43000 區間承接", "雲端資本開支與現金回報"),
+        "en": ("2300 / lower-volume stabilization", "U.S. cash and ETF validation", "Brent near $90", "support across 42000-43000", "cloud capex and cash returns"),
+        "ru": ("2300 / стабилизация на меньшем объеме", "проверка спотом США и ETF", "Brent у $90", "поддержка 42000-43000", "облачные капзатраты и денежная отдача"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -327,7 +422,7 @@ def brief_body(lang):
               <div class="brief-item"><strong>NVDA / AMD / MU / SNDK</strong><span>{watch_labels[1]}</span></div>
               <div class="brief-item"><strong>WTI / US10Y / USD</strong><span>{watch_labels[2]}</span></div>
               <div class="brief-item"><strong>TAIEX / SOXX / SMH</strong><span>{watch_labels[3]}</span></div>
-              <div class="brief-item"><strong>TSMC CapEx / Margin</strong><span>{watch_labels[4]}</span></div>
+              <div class="brief-item"><strong>GOOGL Cloud / CapEx</strong><span>{watch_labels[4]}</span></div>
             </div>
           </aside>
         </div>
@@ -347,14 +442,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("ASML 上调指引，存储链再度去杠杆", "上一篇市场日报。", "归档"),
-        "zh-hant": ("ASML 上調指引，記憶體鏈再度去槓桿", "上一篇市場日報。", "歸檔"),
-        "en": ("ASML raises guidance as memory de-leverages again", "Previous market brief.", "Archive"),
-        "ru": ("ASML повышает прогноз, а память снова снижает плечо", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("台积电强财报后下跌，AI 科技进入资本回报再定价", "上一篇市场日报。", "归档"),
+        "zh-hant": ("台積電強財報後下跌，AI 科技進入資本回報再定價", "上一篇市場日報。", "歸檔"),
+        "en": ("TSMC falls after a stellar report as AI tech reprices capital returns", "Previous market brief.", "Archive"),
+        "ru": ("TSMC падает после сильного отчета: AI-сектор переоценивает отдачу капитала", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-16")}"><span class="history-date">2026-07-16</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-17")}"><span class="history-date">2026-07-17</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
