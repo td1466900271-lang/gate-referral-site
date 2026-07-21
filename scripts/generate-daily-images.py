@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-20"
+DATE = "2026-07-21"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-20-zh-cn.svg",
+        "file": "market-brief-2026-07-21-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "台股修复，等待云资本开支验证",
-        "subtitle": "台积电超跌反弹但趋势未确认，低成交永续仅显示恐慌缓和，高油价继续约束科技估值。",
-        "cards": [("TSMC", "2330-2335", "反弹约 2%"), ("TraderXYZ", "$1.35B", "前十低成交"), ("Brent", "$88.2", "能源压力上升")],
-        "box1": ("3 个关键观察", ["1. TSMC 能否守住 2300？", "2. SOXX / SMH 是否止跌？", "3. Brent 是否突破 90 美元？"]),
-        "box2": ("本周框架", ["Alphabet 云资本开支与收入。", "订单、利润率与现金回报优先。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：技术修复不等于反转，AI 交易进入云资本开支与能源双重验证。",
+        "title": "科技修复增强，等待云财报确认",
+        "subtitle": "台湾市场广度改善、油价回落、存储成交恢复，但新趋势仍需美国现货和 Alphabet 基本面验证。",
+        "cards": [("TAIEX / TSMC", "+3.8% / +3.0%", "广泛风险回补"), ("TraderXYZ", "$2.84B", "前十成交翻倍"), ("Brent", "$86.7", "回落约 1.7%")],
+        "box1": ("3 个关键观察", ["1. TSMC 能否收稳 2380-2400？", "2. SOXX / SMH 是否放量？", "3. Brent 能否回到 85 美元下方？"]),
+        "box2": ("云财报框架", ["Google Cloud 增速与 AI 资本开支。", "Gemini 商业化与搜索利润率。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：反弹强度与成交改善，阶段性底部仍需现货、期权和云财报共同确认。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-20-zh-hant.svg",
+        "file": "market-brief-2026-07-21-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "台股修復，等待雲端資本開支驗證",
-        "subtitle": "台積電超跌反彈但趨勢未確認，低成交永續僅顯示恐慌緩和，高油價繼續約束科技估值。",
-        "cards": [("TSMC", "2330-2335", "反彈約 2%"), ("TraderXYZ", "$1.35B", "前十低成交"), ("Brent", "$88.2", "能源壓力上升")],
-        "box1": ("3 個關鍵觀察", ["1. TSMC 能否守住 2300？", "2. SOXX / SMH 是否止跌？", "3. Brent 是否突破 90 美元？"]),
-        "box2": ("本週框架", ["Alphabet 雲端資本開支與收入。", "訂單、利潤率與現金回報優先。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：技術修復不等於反轉，AI 交易進入雲端資本開支與能源雙重驗證。",
+        "title": "科技修復增強，等待雲端財報確認",
+        "subtitle": "台灣市場廣度改善、油價回落、記憶體成交恢復，但新趨勢仍需美國現貨和 Alphabet 基本面驗證。",
+        "cards": [("TAIEX / TSMC", "+3.8% / +3.0%", "廣泛風險回補"), ("TraderXYZ", "$2.84B", "前十成交翻倍"), ("Brent", "$86.7", "回落約 1.7%")],
+        "box1": ("3 個關鍵觀察", ["1. TSMC 能否收穩 2380-2400？", "2. SOXX / SMH 是否放量？", "3. Brent 能否回到 85 美元下方？"]),
+        "box2": ("雲端財報框架", ["Google Cloud 增速與 AI 資本開支。", "Gemini 商業化與搜尋利潤率。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：反彈強度與成交改善，階段性底部仍需現貨、期權和雲端財報共同確認。",
     },
     "en": {
-        "file": "market-brief-2026-07-20-en.svg",
+        "file": "market-brief-2026-07-21-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "Taiwan repairs as cloud capex faces a test",
-        "subtitle": "TSMC rebounds without confirming a reversal; thin perpetual volume shows calmer fear while high oil restrains tech valuations.",
-        "cards": [("TSMC", "2330-2335", "about 2% rebound"), ("TraderXYZ", "$1.35B", "thin top-ten volume"), ("Brent", "$88.2", "higher energy risk")],
-        "box1": ("3 key checks", ["1. Can TSMC hold 2300?", "2. Can SOXX / SMH stabilize?", "3. Does Brent break $90?"]),
-        "box2": ("Weekly Frame", ["Alphabet cloud capex and revenue.", "Prioritize orders, margin and cash returns.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: technical repair is not a reversal; AI now faces cloud-capex and energy tests.",
+        "title": "Tech repair strengthens; cloud results decide",
+        "subtitle": "Taiwan breadth improves as oil falls and memory volume returns, but U.S. cash trading and Alphabet fundamentals must confirm the trend.",
+        "cards": [("TAIEX / TSMC", "+3.8% / +3.0%", "broad risk buying"), ("TraderXYZ", "$2.84B", "top-ten volume doubles"), ("Brent", "$86.7", "down about 1.7%")],
+        "box1": ("3 key checks", ["1. Can TSMC close at 2380-2400?", "2. Do SOXX / SMH volumes expand?", "3. Can Brent move below $85?"]),
+        "box2": ("Cloud Results Frame", ["Google Cloud growth and AI capex.", "Gemini monetization and search margin.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: stronger price and volume help, but cash, options and cloud earnings must confirm a tactical bottom.",
     },
     "ru": {
-        "file": "market-brief-2026-07-20-ru.svg",
+        "file": "market-brief-2026-07-21-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "Тайвань отскакивает: проверка облаков",
-        "subtitle": "TSMC растет без подтверждения разворота; тонкий объем снижает страх, а дорогая нефть давит на оценки технологий.",
-        "cards": [("TSMC", "2330-2335", "отскок около 2%"), ("TraderXYZ", "$1.35B", "низкий оборот"), ("Brent", "$88.2", "рост энергориска")],
-        "box1": ("3 ключевых сигнала", ["1. Удержит ли TSMC уровень 2300?", "2. Стабилизируются ли SOXX / SMH?", "3. Пробьет ли Brent отметку $90?"]),
-        "box2": ("Рамка Недели", ["Облачные капзатраты и выручка Alphabet.", "Важнее заказы, маржа и денежная отдача.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: технический отскок не равен развороту; AI проверят облачные капзатраты и энергия.",
+        "title": "Отскок усилился: облака решат",
+        "subtitle": "Тайвань растет, нефть снижается, оборот памяти вернулся; тренд подтвердят спот США и отчет Alphabet.",
+        "cards": [("TAIEX / TSMC", "+3.8% / +3.0%", "широкий отскок"), ("TraderXYZ", "$2.84B", "оборот удвоился"), ("Brent", "$86.7", "снижение на 1.7%")],
+        "box1": ("3 ключевых сигнала", ["1. Закроется ли TSMC на 2380-2400?", "2. Вырастут ли объемы SOXX / SMH?", "3. Опустится ли Brent ниже $85?"]),
+        "box2": ("Рамка Облачного Отчета", ["Рост Google Cloud и AI-капзатраты.", "Монетизация Gemini и маржа поиска.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: цена и объем улучшились, но тактическое дно должны подтвердить спот, опционы и облачная отчетность.",
     },
 }
 
