@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-21"
+DATE = "2026-07-22"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-21-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-21-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-21-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-21-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-07-22-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-22-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-22-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-22-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "台湾科技修复增强，云财报决定 AI 反弹成色",
-        "desc": "2026-07-21 GateAffiliate 每日市场日报：台股与台积电连续修复、油价回落，存储反弹成交恢复，但阶段底仍需美国现货与 Alphabet 云财报确认。",
+        "title": "AI 硬件反弹获成交确认，Alphabet 检验资本回报",
+        "desc": "2026-07-22 GateAffiliate 每日市场日报：存储与 AI 硬件反弹获得成交支持，台湾指数强于台积电，油价与美债收益率约束估值，Alphabet 财报检验云资本开支回报。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "台湾科技修复增强，云财报决定 AI 反弹成色。",
-        "summary": "台股上涨约 3.8%、台积电再涨约 3%，油价回落推动跨资产修复。存储反弹成交改善，但 Alphabet 的云收入、资本开支与 AI 商业化才是关键验证。",
+        "h1": "AI 硬件反弹获成交确认，Alphabet 检验资本回报。",
+        "summary": "Micron 大涨、存储合约高成交延续，但台湾指数强于台积电，Brent 重回 91 美元附近。今晚重点不是 Alphabet 是否继续花钱，而是 Cloud、AI 变现与自由现金流能否证明回报。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "台灣科技修復增強，雲端財報決定 AI 反彈成色",
-        "desc": "2026-07-21 GateAffiliate 每日市場日報：台股與台積電連續修復、油價回落，記憶體反彈成交恢復，但階段底仍需美國現貨與 Alphabet 雲端財報確認。",
+        "title": "AI 硬體反彈獲成交確認，Alphabet 檢驗資本回報",
+        "desc": "2026-07-22 GateAffiliate 每日市場日報：記憶體與 AI 硬體反彈獲得成交支持，台灣指數強於台積電，油價與美債殖利率約束估值，Alphabet 財報檢驗雲端資本開支回報。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "台灣科技修復增強，雲端財報決定 AI 反彈成色。",
-        "summary": "台股上漲約 3.8%、台積電再漲約 3%，油價回落推動跨資產修復。記憶體反彈成交改善，但 Alphabet 的雲端收入、資本開支與 AI 商業化才是關鍵驗證。",
+        "h1": "AI 硬體反彈獲成交確認，Alphabet 檢驗資本回報。",
+        "summary": "Micron 大漲、記憶體合約高成交延續，但台灣指數強於台積電，Brent 重回 91 美元附近。今晚重點不是 Alphabet 是否繼續花錢，而是 Cloud、AI 變現與自由現金流能否證明回報。",
         "tag": "最新",
     },
     "en": {
-        "title": "Taiwan tech repair strengthens as cloud earnings test the AI rebound",
-        "desc": "GateAffiliate's 2026-07-21 brief: Taiwan and TSMC extend their repair as oil eases and memory volume returns, but U.S. cash trading and Alphabet cloud results must confirm a durable bottom.",
+        "title": "AI hardware rebound gains volume as Alphabet tests capital returns",
+        "desc": "GateAffiliate's 2026-07-22 brief: memory and AI hardware rebound on volume, Taiwan outperforms TSMC, oil and yields constrain valuation, and Alphabet earnings test returns on cloud capex.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "Taiwan tech repair strengthens as cloud earnings test the AI rebound.",
-        "summary": "Taiwan rises about 3.8% and TSMC nearly 3% as lower oil supports a broader repair. Memory volume improves, but Alphabet's cloud growth, capex and AI monetization remain the decisive test.",
+        "h1": "AI hardware rebound gains volume as Alphabet tests capital returns.",
+        "summary": "Micron surges and memory contracts stay active, but Taiwan outperforms TSMC while Brent returns near $91. Alphabet must now show that Cloud growth, AI monetization and free cash flow justify its spending.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "Технологии Тайваня растут: облачная отчетность проверит AI-отскок",
-        "desc": "Обзор GateAffiliate за 2026-07-21: Тайвань и TSMC продолжают восстановление, нефть снижается, оборот памяти растет, но дно должны подтвердить спот США и облачная отчетность Alphabet.",
+        "title": "AI-оборудование растет на объеме: Alphabet проверит отдачу капитала",
+        "desc": "Обзор GateAffiliate за 2026-07-22: память и AI-оборудование растут на объеме, Тайвань опережает TSMC, нефть и доходности ограничивают оценки, а Alphabet проверит отдачу облачных капзатрат.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "Технологии Тайваня растут: облачная отчетность проверит AI-отскок.",
-        "summary": "Тайвань растет примерно на 3,8%, TSMC почти на 3%, а снижение нефти поддерживает широкий отскок. Оборот памяти улучшился, но решающей станет отчетность Alphabet по облаку, капзатратам и AI.",
+        "h1": "AI-оборудование растет на объеме: Alphabet проверит отдачу капитала.",
+        "summary": "Micron резко растет, а память сохраняет высокий оборот, но Тайвань опережает TSMC, пока Brent снова около $91. Alphabet должна подтвердить расходы ростом Cloud, монетизацией AI и денежным потоком.",
         "tag": "Свежий",
     },
 }
@@ -335,17 +335,83 @@ CONCISE_SECTIONS.update({
     ],
 })
 
+CONCISE_SECTIONS.update({
+    "zh-cn": [
+        ("核心结论", [
+            "AI 硬件反弹获得成交支持。Micron 上涨 12.2%，Nvidia 上涨约 2%；TraderXYZ 前十成交中，MU、SK 海力士、SNDK 与 DRAM 占据四席，资金正在集中回补存储与 AI 硬件链。",
+            "台湾市场出现指数强、台积电弱的分化。加权指数盘中上涨约 1.85%至 45050 附近，台积电却在 2400 附近略低于前收，并从 2445 回落；这更像广泛修复与板块轮动，而非单一权重股推动。",
+        ]),
+        ("反弹有基础，宏观仍有约束", [
+            "Brent 上一交易日结算约 91.01 美元，10 年期美债收益率升至约 4.63%。股市上涨而原油与收益率同步走高，利好盈利上修明确的硬件股，却限制依赖远期现金流的高估值资产。",
+            "存储仍是最强也最拥挤的交易。MU 合约再涨约 6.5%，SNDK、SKHY 与 DRAM 同步上行，前十名义成交约 28.2 亿美元；工作日成交提高信号价值，但仍不能替代美股正股、ETF 与期权定价。",
+            "台积电长期需求没有破坏，但股价分化显示市场正在审视海外扩产成本、折旧和三季度 65%-67% 的毛利率指引。若资本开支继续上调而利润率回落，估值中枢仍需调整。",
+        ]),
+        ("Alphabet 财报验证", [
+            "今晚重点依次是 Google Cloud 增速、AI 资本开支、Gemini 与搜索 AI 的变现、Cloud 利润率及自由现金流，而不只是营收是否达标。",
+            "若 Cloud 保持高增长且利润率稳定，GPU、HBM、先进封装、光模块和数据中心电力链会获得更强基本面支持；若收入达标但自由现金流继续恶化，资本开支上调会被重估为回报周期拉长。",
+            "未来 24 小时同时观察 Brent 能否站稳 90 美元、10 年期收益率是否靠近 4.7%，以及台积电能否重新跑赢台湾指数。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "AI 硬體反彈獲得成交支持。Micron 上漲 12.2%，Nvidia 上漲約 2%；TraderXYZ 前十成交中，MU、SK 海力士、SNDK 與 DRAM 佔據四席，資金正在集中回補記憶體與 AI 硬體鏈。",
+            "台灣市場出現指數強、台積電弱的分化。加權指數盤中上漲約 1.85%至 45050 附近，台積電卻在 2400 附近略低於前收，並從 2445 回落；這更像廣泛修復與板塊輪動，而非單一權重股推動。",
+        ]),
+        ("反彈有基礎，宏觀仍有約束", [
+            "Brent 上一交易日結算約 91.01 美元，10 年期美債殖利率升至約 4.63%。股市上漲而原油與殖利率同步走高，利好盈利上修明確的硬體股，卻限制依賴遠期現金流的高估值資產。",
+            "記憶體仍是最強也最擁擠的交易。MU 合約再漲約 6.5%，SNDK、SKHY 與 DRAM 同步上行，前十名義成交約 28.2 億美元；工作日成交提高訊號價值，但仍不能替代美股現貨、ETF 與期權定價。",
+            "台積電長期需求沒有破壞，但股價分化顯示市場正在審視海外擴產成本、折舊和三季度 65%-67% 的毛利率指引。若資本開支持續上調而利潤率回落，估值中樞仍需調整。",
+        ]),
+        ("Alphabet 財報驗證", [
+            "今晚重點依次是 Google Cloud 增速、AI 資本開支、Gemini 與搜尋 AI 的變現、Cloud 利潤率及自由現金流，而不只是營收是否達標。",
+            "若 Cloud 保持高增長且利潤率穩定，GPU、HBM、先進封裝、光模組和資料中心電力鏈會獲得更強基本面支持；若收入達標但自由現金流繼續惡化，資本開支上調會被重估為回報週期拉長。",
+            "未來 24 小時同時觀察 Brent 能否站穩 90 美元、10 年期殖利率是否靠近 4.7%，以及台積電能否重新跑贏台灣指數。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "The AI hardware rebound has volume behind it. Micron rose 12.2% and Nvidia about 2%; MU, SK Hynix, SNDK and DRAM take four places in TraderXYZ's top ten, showing concentrated buying across memory and AI hardware.",
+            "Taiwan shows a strong-index, weak-TSMC divergence. The index gains roughly 1.85% near 45050 while TSMC trades around 2400, slightly below its prior close after retreating from 2445. This is broad rotation rather than a one-stock rally.",
+        ]),
+        ("A Supported Rebound With Macro Constraints", [
+            "Brent settled near $91.01 and the U.S. 10-year yield rose to about 4.63%. Equities rising alongside oil and yields favors hardware with visible earnings upgrades but constrains expensive assets dependent on distant cash flows.",
+            "Memory remains both the strongest and most crowded trade. MU perpetuals add about 6.5% as SNDK, SKHY and DRAM rise, with top-ten notional volume near $2.82 billion. Weekday volume improves the signal but cannot replace cash, ETF and options price discovery.",
+            "TSMC's long-term demand remains intact, yet its relative weakness shows investors are pricing overseas expansion, depreciation and third-quarter gross-margin guidance of 65%-67%. Higher capex with lower margins would still pressure valuation.",
+        ]),
+        ("Alphabet Earnings Test", [
+            "Tonight's sequence is Google Cloud growth, AI capex, Gemini and search-AI monetization, Cloud margin and free cash flow, not simply whether revenue meets consensus.",
+            "If Cloud stays fast and profitable, GPUs, HBM, advanced packaging, optics and data-center power gain stronger fundamental support. If revenue meets expectations while free cash flow worsens, higher capex will be repriced as a longer return cycle.",
+            "Over the next 24 hours, also watch Brent above $90, the 10-year yield toward 4.7% and whether TSMC can regain leadership over Taiwan's index.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "Отскок AI-оборудования подтверждается оборотом. Micron выросла на 12,2%, Nvidia примерно на 2%; MU, SK Hynix, SNDK и DRAM занимают четыре места в первой десятке TraderXYZ, показывая концентрацию покупок в памяти и AI-оборудовании.",
+            "На Тайване сильный индекс расходится со слабой TSMC. Индекс растет примерно на 1,85% к 45050, а TSMC около 2400, чуть ниже прошлого закрытия после отката от 2445. Это широкая ротация, а не рост одной акции.",
+        ]),
+        ("Отскок Поддержан, Макроусловия Ограничивают", [
+            "Brent закрылся около $91,01, доходность 10-летних облигаций США выросла до 4,63%. Одновременный рост акций, нефти и ставок помогает оборудованию с ростом прибыли, но ограничивает дорогие активы с далекими денежными потоками.",
+            "Память остается самым сильным и перегретым сегментом. MU прибавляет 6,5%, SNDK, SKHY и DRAM также растут, а оборот первой десятки около $2,82 млрд. Рабочий день улучшает сигнал, но не заменяет акции, ETF и опционы.",
+            "Долгосрочный спрос TSMC не нарушен, однако слабость акции отражает затраты зарубежного расширения, амортизацию и прогноз маржи 65%-67%. Рост капзатрат при снижении маржи продолжит давить на оценку.",
+        ]),
+        ("Проверка Отчетом Alphabet", [
+            "Сегодня важны рост Google Cloud, AI-капзатраты, монетизация Gemini и AI-поиска, маржа Cloud и свободный денежный поток, а не только выполнение прогноза выручки.",
+            "Сильный и прибыльный Cloud поддержит GPU, HBM, передовую упаковку, оптику и энергетику дата-центров. Если выручка выполнит прогноз, а денежный поток ухудшится, рост капзатрат будет означать более долгий цикл отдачи.",
+            "В ближайшие сутки следите за Brent выше $90, доходностью к 4,7% и способностью TSMC снова опередить индекс Тайваня.",
+        ]),
+    ],
+})
+
 SOURCE_URLS = [
+    ("ap-us-0721", "https://apnews.com/article/stock-markets-ai-oil-iran-trump-30c42bb51683c4b43c9f64dfeff7a3ea"),
+    ("ap-asia-0722", "https://apnews.com/article/stocks-markets-iran-ai-trump-207dfa55d180fcc565420454178168c5"),
     ("tsmc-q2", "https://investor.tsmc.com/english/quarterly-results/2026/q2"),
-    ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
-    ("reuters-repair", "https://au.marketscreener.com/news/s-p-500-nasdaq-rise-with-chips-boost-iran-and-megacap-earnings-in-focus-ce7f51dbdd8ef524"),
-    ("ap-ai-oil", "https://apnews.com/article/stocks-market-ai-oil-iran-war-15939a01f378bcec5eec2868e8100ca9"),
-    ("reuters-bear", "https://au.investing.com/news/stock-market-news/sp-500-and-nasdaq-slip-as-chip-rout-extends-netflix-slides-4539385"),
-    ("reuters-macro", "https://www.investing.com/news/stock-market-news/stocks-stumble-oil-set-for-weekly-gain-on-renewed-gulf-hostilities-4797335"),
-    ("focus-taiwan", "https://focustaiwan.tw/business/202607170015"),
+    ("ig-alphabet", "https://www.ig.com/en/news-and-trade-ideas/alphabet-q2-2026-earnings-preview-260716"),
+    ("morningstar-alphabet", "https://www.morningstar.com/stocks/ahead-earnings-is-alphabet-stock-buy-sell-or-fairly-valued"),
+    ("kiplinger-calendar", "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"),
+    ("bofa-survey", "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60473810/bofa-fund-manager-survey-july-2026-no-landing-ai-capex-credit-event"),
     ("ubs-volatility", "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-06072026.html"),
-    ("hyperliquid-api", "https://api.hyperliquid.xyz/info"),
-    ("hyperliquid-docs", "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals"),
+    ("traderxyz", "https://traderxyz.com/"),
 ]
 
 SOURCE_LABELS = {
@@ -353,6 +419,13 @@ SOURCE_LABELS = {
         "bls-cpi": "美国劳工统计局：2026 年 6 月 CPI",
         "bls-ppi": "美国劳工统计局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度业绩",
+        "ap-us-0721": "AP：7 月 21 日美股、芯片股与油价",
+        "ap-asia-0722": "AP：7 月 22 日亚洲市场",
+        "ig-alphabet": "IG：Alphabet 2026 年第二季度财报前瞻",
+        "morningstar-alphabet": "Morningstar：Alphabet 财报前估值与基本面",
+        "kiplinger-calendar": "Kiplinger：本周美股财报日历",
+        "bofa-survey": "BofA：2026 年 7 月基金经理调查摘要",
+        "traderxyz": "TraderXYZ 市场数据",
         "reuters-repair": "Reuters：7 月 20 日美股与芯片股修复",
         "ap-ai-oil": "AP：AI 股票企稳、油价与美债收益率上升",
         "reuters-bear": "Reuters：芯片指数进入技术性熊市",
@@ -379,6 +452,13 @@ SOURCE_LABELS = {
         "bls-cpi": "美國勞工統計局：2026 年 6 月 CPI",
         "bls-ppi": "美國勞工統計局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度業績",
+        "ap-us-0721": "AP：7 月 21 日美股、晶片股與油價",
+        "ap-asia-0722": "AP：7 月 22 日亞洲市場",
+        "ig-alphabet": "IG：Alphabet 2026 年第二季度財報前瞻",
+        "morningstar-alphabet": "Morningstar：Alphabet 財報前估值與基本面",
+        "kiplinger-calendar": "Kiplinger：本週美股財報日曆",
+        "bofa-survey": "BofA：2026 年 7 月基金經理調查摘要",
+        "traderxyz": "TraderXYZ 市場數據",
         "reuters-repair": "Reuters：7 月 20 日美股與晶片股修復",
         "ap-ai-oil": "AP：AI 股票企穩、油價與美債殖利率上升",
         "reuters-bear": "Reuters：晶片指數進入技術性熊市",
@@ -405,6 +485,13 @@ SOURCE_LABELS = {
         "bls-cpi": "U.S. BLS: June 2026 CPI",
         "bls-ppi": "U.S. BLS: June 2026 PPI",
         "tsmc-q2": "TSMC 2026 second-quarter results",
+        "ap-us-0721": "AP: July 21 U.S. stocks, chips and oil",
+        "ap-asia-0722": "AP: July 22 Asian markets",
+        "ig-alphabet": "IG: Alphabet Q2 2026 earnings preview",
+        "morningstar-alphabet": "Morningstar: Alphabet valuation before earnings",
+        "kiplinger-calendar": "Kiplinger: weekly U.S. earnings calendar",
+        "bofa-survey": "BofA: July 2026 fund manager survey summary",
+        "traderxyz": "TraderXYZ market data",
         "reuters-repair": "Reuters: July 20 U.S. and chip-share repair",
         "ap-ai-oil": "AP: AI shares steady as oil and yields rise",
         "reuters-bear": "Reuters: chip index enters a technical bear market",
@@ -431,6 +518,13 @@ SOURCE_LABELS = {
         "bls-cpi": "BLS США: CPI за июнь 2026",
         "bls-ppi": "BLS США: PPI за июнь 2026",
         "tsmc-q2": "TSMC: результаты второго квартала 2026",
+        "ap-us-0721": "AP: акции США, чипы и нефть 21 июля",
+        "ap-asia-0722": "AP: рынки Азии 22 июля",
+        "ig-alphabet": "IG: прогноз отчета Alphabet за второй квартал 2026",
+        "morningstar-alphabet": "Morningstar: оценка Alphabet перед отчетом",
+        "kiplinger-calendar": "Kiplinger: календарь отчетов США на неделю",
+        "bofa-survey": "BofA: опрос управляющих за июль 2026",
+        "traderxyz": "Рыночные данные TraderXYZ",
         "reuters-repair": "Reuters: восстановление акций США и чипов 20 июля",
         "ap-ai-oil": "AP: AI-акции стабильны, нефть и доходности растут",
         "reuters-bear": "Reuters: индекс чипов входит в технический медвежий рынок",
@@ -476,10 +570,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("2380-2400 / 收盘确认", "现货成交与期权偏度", "回到 85 美元下方", "43800-44000 收盘区间", "云增长、资本开支与商业化"),
-        "zh-hant": ("2380-2400 / 收盤確認", "現貨成交與期權偏度", "回到 85 美元下方", "43800-44000 收盤區間", "雲端增長、資本開支與商業化"),
-        "en": ("2380-2400 / closing confirmation", "cash volume and options skew", "move below $85", "43800-44000 closing zone", "cloud growth, capex and monetization"),
-        "ru": ("2380-2400 / подтверждение закрытием", "объем спота и скью опционов", "снижение ниже $85", "зона закрытия 43800-44000", "рост облака, капзатраты и монетизация"),
+        "zh-cn": ("2400 / 相对台湾指数强弱", "高成交能否持续", "90 美元与 US10Y 4.7%", "指数强、权重股弱", "Cloud、AI 变现与自由现金流"),
+        "zh-hant": ("2400 / 相對台灣指數強弱", "高成交能否持續", "90 美元與 US10Y 4.7%", "指數強、權重股弱", "Cloud、AI 變現與自由現金流"),
+        "en": ("2400 / relative strength vs Taiwan", "whether high volume persists", "$90 and US10Y at 4.7%", "strong index, weak mega-cap", "Cloud, AI monetization and free cash flow"),
+        "ru": ("2400 / сила против индекса Тайваня", "сохранится ли высокий оборот", "$90 и US10Y у 4,7%", "сильный индекс, слабый лидер", "Cloud, монетизация AI и денежный поток"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -527,14 +621,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("台股超跌修复，AI 交易转向云资本开支与能源验证", "上一篇市场日报。", "归档"),
-        "zh-hant": ("台股超跌修復，AI 交易轉向雲端資本開支與能源驗證", "上一篇市場日報。", "歸檔"),
-        "en": ("Taiwan steadies as AI trades face cloud-capex and energy tests", "Previous market brief.", "Archive"),
-        "ru": ("Тайвань стабилизируется: AI проверят облачные капзатраты и нефть", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("台湾科技修复增强，云财报决定 AI 反弹成色", "上一篇市场日报。", "归档"),
+        "zh-hant": ("台灣科技修復增強，雲端財報決定 AI 反彈成色", "上一篇市場日報。", "歸檔"),
+        "en": ("Taiwan tech repair strengthens as cloud earnings test the AI rebound", "Previous market brief.", "Archive"),
+        "ru": ("Технологии Тайваня растут: облачная отчетность проверит AI-отскок", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-20")}"><span class="history-date">2026-07-20</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-21")}"><span class="history-date">2026-07-21</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
