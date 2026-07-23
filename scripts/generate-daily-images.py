@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-22"
+DATE = "2026-07-23"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-22-zh-cn.svg",
+        "file": "market-brief-2026-07-23-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "硬件反弹有量，等待 Alphabet 验证",
-        "subtitle": "存储与 AI 硬件获资金回补，台湾指数强于台积电；高油价和收益率继续约束估值扩张。",
-        "cards": [("MU", "+12.2%", "存储领涨"), ("TAIEX / TSMC", "+1.9 / -0.4", "百分比变化"), ("Brent / US10Y", "91.0 / 4.63", "美元 / 收益率百分比")],
-        "box1": ("3 个关键观察", ["1. 存储高成交能否延续？", "2. TSMC 能否重新跑赢指数？", "3. Brent 与收益率是否继续上行？"]),
-        "box2": ("Alphabet 验证", ["Cloud 增速与 AI 资本开支。", "Gemini 变现与自由现金流。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：AI 硬件短线偏强，全面风险重启仍需云收入、利润率与现金回报证明。",
+        "title": "AI 需求确认，资本回报开始分化",
+        "subtitle": "Google Cloud 高增长且算力受限，但资本开支超过经营现金流，供应链受益与云厂估值压力并存。",
+        "cards": [("Google Cloud", "+82%", "收入同比增长"), ("CapEx / OCF", "44.9 / 39.1", "十亿美元"), ("Free Cash Flow", "-5.86B", "季度转负")],
+        "box1": ("3 个关键观察", ["1. GOOGL 能否收复盘后跌幅？", "2. TSMC 能否守住 2370？", "3. Brent 是否站稳 95 美元？"]),
+        "box2": ("分化框架", ["上游订单与定价权受益。", "云厂需证明现金回报。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：AI 资本开支尚未见顶，投资重点从规模增长转向订单、利润率与自由现金流。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-22-zh-hant.svg",
+        "file": "market-brief-2026-07-23-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "硬體反彈有量，等待 Alphabet 驗證",
-        "subtitle": "記憶體與 AI 硬體獲資金回補，台灣指數強於台積電；高油價和殖利率繼續約束估值擴張。",
-        "cards": [("MU", "+12.2%", "記憶體領漲"), ("TAIEX / TSMC", "+1.9 / -0.4", "百分比變化"), ("Brent / US10Y", "91.0 / 4.63", "美元 / 殖利率百分比")],
-        "box1": ("3 個關鍵觀察", ["1. 記憶體高成交能否延續？", "2. TSMC 能否重新跑贏指數？", "3. Brent 與殖利率是否續升？"]),
-        "box2": ("Alphabet 驗證", ["Cloud 增速與 AI 資本開支。", "Gemini 變現與自由現金流。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：AI 硬體短線偏強，全面風險重啟仍需雲端收入、利潤率與現金回報證明。",
+        "title": "AI 需求確認，資本回報開始分化",
+        "subtitle": "Google Cloud 高增長且算力受限，但資本開支超過經營現金流，供應鏈受益與雲端業者估值壓力並存。",
+        "cards": [("Google Cloud", "+82%", "收入年增"), ("CapEx / OCF", "44.9 / 39.1", "十億美元"), ("Free Cash Flow", "-5.86B", "季度轉負")],
+        "box1": ("3 個關鍵觀察", ["1. GOOGL 能否收復盤後跌幅？", "2. TSMC 能否守住 2370？", "3. Brent 是否站穩 95 美元？"]),
+        "box2": ("分化框架", ["上游訂單與定價權受益。", "雲端業者需證明現金回報。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：AI 資本開支尚未見頂，投資重點從規模增長轉向訂單、利潤率與自由現金流。",
     },
     "en": {
-        "file": "market-brief-2026-07-22-en.svg",
+        "file": "market-brief-2026-07-23-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "Hardware rebounds on volume; Alphabet tests it",
-        "subtitle": "Memory and AI hardware attract fresh buying as Taiwan beats TSMC; elevated oil and yields still constrain valuation expansion.",
-        "cards": [("MU", "+12.2%", "memory leads"), ("TAIEX / TSMC", "+1.9 / -0.4", "change, percent"), ("Brent / US10Y", "91.0 / 4.63", "USD / yield %")],
-        "box1": ("3 key checks", ["1. Does high memory volume persist?", "2. Can TSMC regain index leadership?", "3. Do Brent and yields keep rising?"]),
-        "box2": ("Alphabet Test", ["Cloud growth and AI capex.", "Gemini monetization and free cash flow.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: AI hardware is tactically firm, but broad risk needs proof from cloud revenue, margin and cash returns.",
+        "title": "AI demand confirmed; capital returns diverge",
+        "subtitle": "Google Cloud surges as compute stays constrained, but capex exceeds operating cash flow, splitting supplier upside from hyperscaler valuation pressure.",
+        "cards": [("Google Cloud", "+82%", "year-on-year growth"), ("CapEx / OCF", "44.9 / 39.1", "USD billions"), ("Free Cash Flow", "-5.86B", "quarter turns negative")],
+        "box1": ("3 key checks", ["1. Can GOOGL recover its post-call loss?", "2. Can TSMC hold 2370?", "3. Does Brent hold above $95?"]),
+        "box2": ("Divergence Frame", ["Upstream orders and pricing benefit.", "Cloud buyers must prove cash returns.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: AI capex has not peaked; focus shifts from spending scale to orders, margin and free cash flow.",
     },
     "ru": {
-        "file": "market-brief-2026-07-22-ru.svg",
+        "file": "market-brief-2026-07-23-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "AI-оборудование растет: тест Alphabet",
-        "subtitle": "Память и AI привлекают покупки, индекс Тайваня сильнее TSMC; дорогая нефть и доходности ограничивают оценки.",
-        "cards": [("MU", "+12.2%", "память лидирует"), ("TAIEX / TSMC", "+1.9 / -0.4", "изменение, %"), ("Brent / US10Y", "91.0 / 4.63", "USD / доходность %")],
-        "box1": ("3 ключевых сигнала", ["1. Сохранится ли оборот памяти?", "2. Вернет ли TSMC лидерство?", "3. Продолжат ли расти нефть и ставки?"]),
-        "box2": ("Проверка Alphabet", ["Рост Cloud и AI-капзатраты.", "Монетизация Gemini и денежный поток.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: AI-оборудование сильно краткосрочно, но широкий риск требует роста облака, маржи и денежной отдачи.",
+        "title": "AI-спрос силен, капитал под давлением",
+        "subtitle": "Google Cloud растет, но капзатраты выше денежного потока: поставщики и облачные оценки расходятся.",
+        "cards": [("Google Cloud", "+82%", "рост год к году"), ("Капзатраты / OCF", "44.9 / 39.1", "миллиарды USD"), ("Свободный Поток", "-5.86B", "отрицательный квартал")],
+        "box1": ("3 ключевых сигнала", ["1. Вернет ли GOOGL падение после отчета?", "2. Удержит ли TSMC уровень 2370?", "3. Удержится ли Brent выше $95?"]),
+        "box2": ("Рамка Расхождения", ["Заказы и ценовая сила помогают поставщикам.", "Облака должны доказать денежную отдачу.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: пик AI-капзатрат не пройден; фокус смещается к заказам, марже и свободному денежному потоку.",
     },
 }
 

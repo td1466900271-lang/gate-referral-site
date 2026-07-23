@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-22"
+DATE = "2026-07-23"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-22-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-22-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-22-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-22-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-07-23-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-23-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-23-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-23-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "AI 硬件反弹获成交确认，Alphabet 检验资本回报",
-        "desc": "2026-07-22 GateAffiliate 每日市场日报：存储与 AI 硬件反弹获得成交支持，台湾指数强于台积电，油价与美债收益率约束估值，Alphabet 财报检验云资本开支回报。",
+        "title": "Alphabet 确认 AI 需求，云厂资本回报开始承压",
+        "desc": "2026-07-23 GateAffiliate 每日市场日报：Alphabet Cloud 增长 82%并上调资本开支，但自由现金流转负；AI 供应链上涨、GOOGL 下跌，台股冲高回落且油价继续压制估值。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "AI 硬件反弹获成交确认，Alphabet 检验资本回报。",
-        "summary": "Micron 大涨、存储合约高成交延续，但台湾指数强于台积电，Brent 重回 91 美元附近。今晚重点不是 Alphabet 是否继续花钱，而是 Cloud、AI 变现与自由现金流能否证明回报。",
+        "h1": "Alphabet 确认 AI 需求，云厂资本回报开始承压。",
+        "summary": "Google Cloud 增长 82%、算力仍受供给约束，但季度资本开支超过经营现金流，自由现金流转负。供应链受益与云厂估值压力正式分化。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "AI 硬體反彈獲成交確認，Alphabet 檢驗資本回報",
-        "desc": "2026-07-22 GateAffiliate 每日市場日報：記憶體與 AI 硬體反彈獲得成交支持，台灣指數強於台積電，油價與美債殖利率約束估值，Alphabet 財報檢驗雲端資本開支回報。",
+        "title": "Alphabet 確認 AI 需求，雲端業者資本回報開始承壓",
+        "desc": "2026-07-23 GateAffiliate 每日市場日報：Alphabet Cloud 增長 82%並上調資本開支，但自由現金流轉負；AI 供應鏈上漲、GOOGL 下跌，台股衝高回落且油價繼續壓制估值。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "AI 硬體反彈獲成交確認，Alphabet 檢驗資本回報。",
-        "summary": "Micron 大漲、記憶體合約高成交延續，但台灣指數強於台積電，Brent 重回 91 美元附近。今晚重點不是 Alphabet 是否繼續花錢，而是 Cloud、AI 變現與自由現金流能否證明回報。",
+        "h1": "Alphabet 確認 AI 需求，雲端業者資本回報開始承壓。",
+        "summary": "Google Cloud 增長 82%、算力仍受供給約束，但季度資本開支超過經營現金流，自由現金流轉負。供應鏈受益與雲端業者估值壓力正式分化。",
         "tag": "最新",
     },
     "en": {
-        "title": "AI hardware rebound gains volume as Alphabet tests capital returns",
-        "desc": "GateAffiliate's 2026-07-22 brief: memory and AI hardware rebound on volume, Taiwan outperforms TSMC, oil and yields constrain valuation, and Alphabet earnings test returns on cloud capex.",
+        "title": "Alphabet confirms AI demand as hyperscaler capital returns come under pressure",
+        "desc": "GateAffiliate's 2026-07-23 brief: Alphabet Cloud grows 82% and capex rises, but free cash flow turns negative; AI suppliers gain while GOOGL falls, Taiwan fades and oil caps valuations.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "AI hardware rebound gains volume as Alphabet tests capital returns.",
-        "summary": "Micron surges and memory contracts stay active, but Taiwan outperforms TSMC while Brent returns near $91. Alphabet must now show that Cloud growth, AI monetization and free cash flow justify its spending.",
+        "h1": "Alphabet confirms AI demand as hyperscaler capital returns come under pressure.",
+        "summary": "Google Cloud grows 82% and compute remains supply constrained, but quarterly capex exceeds operating cash flow and free cash flow turns negative. Supplier upside now diverges from hyperscaler valuation pressure.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "AI-оборудование растет на объеме: Alphabet проверит отдачу капитала",
-        "desc": "Обзор GateAffiliate за 2026-07-22: память и AI-оборудование растут на объеме, Тайвань опережает TSMC, нефть и доходности ограничивают оценки, а Alphabet проверит отдачу облачных капзатрат.",
+        "title": "Alphabet подтверждает AI-спрос, но отдача облачного капитала под давлением",
+        "desc": "Обзор GateAffiliate за 2026-07-23: Cloud Alphabet растет на 82%, но свободный денежный поток становится отрицательным; поставщики AI растут, GOOGL падает, Тайвань слабеет, нефть ограничивает оценки.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "AI-оборудование растет на объеме: Alphabet проверит отдачу капитала.",
-        "summary": "Micron резко растет, а память сохраняет высокий оборот, но Тайвань опережает TSMC, пока Brent снова около $91. Alphabet должна подтвердить расходы ростом Cloud, монетизацией AI и денежным потоком.",
+        "h1": "Alphabet подтверждает AI-спрос, но отдача облачного капитала под давлением.",
+        "summary": "Google Cloud растет на 82%, вычисления ограничены предложением, но капзатраты превышают операционный поток, а свободный поток становится отрицательным. Поставщики и облачные оценки расходятся.",
         "tag": "Свежий",
     },
 }
@@ -402,15 +402,87 @@ CONCISE_SECTIONS.update({
     ],
 })
 
+CONCISE_SECTIONS.update({
+    "zh-cn": [
+        ("核心结论", [
+            "Alphabet 财报确认 AI 算力需求仍比预期更紧。Google Cloud 收入同比增长 82%，积压订单增至 5140 亿美元，公司明确表示算力仍受供给约束，并把 2026 年资本开支指引上调至 1950 亿-2050 亿美元。",
+            "同一份财报也让资本回报压力正式进入报表。季度资本开支 449.24 亿美元，超过 390.69 亿美元经营现金流，自由现金流转为负 58.55 亿美元。供应链上涨而 GOOGL 下跌，准确反映需求利好与购买方估值压力的分化。",
+        ]),
+        ("供应链受益，云厂现金流承压", [
+            "Cloud 营收 247.68 亿美元、利润率约 35.6%，搜索收入增长 17%，说明 AI 已贡献收入且暂未破坏搜索商业模式；但 GAAP 利润包含大额投资收益，核心盈利并没有表面数字那么强。",
+            "TraderXYZ 前十名义成交约 35.15 亿美元，较昨日增加约 25%。MU、SK 海力士、SNDK、DRAM、AMD 与 Nvidia 上涨，GOOGL 跌约 4.7%，跨市场方向与财报逻辑一致。",
+            "台湾指数早盘冲高后跌约 0.8%，台积电在 2375-2380、较前收低约 1%。Alphabet 上调资本开支强化先进制程与互连订单，但台积电仍受三季度毛利率、海外厂成本和高基数估值约束。",
+        ]),
+        ("风险阈值与下一验证", [
+            "Brent 结算升至 94.07 美元，10 年期美债收益率约 4.65%。若 Brent 站稳 95 美元且收益率突破 4.7%，科技盈利上修可能继续被估值下调抵消。",
+            "AI 上游维持结构性偏多，但优先选择订单、定价权与自由现金流兼备的存储、先进封装、光互连、电力和模拟芯片环节，避免只根据单日永续合约追价。",
+            "未来 24 小时关注 Intel 的数据中心、18A、代工利用率与现金流，欧洲央行措辞，以及 Alphabet 正式交易能否收复盘后跌幅。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "Alphabet 財報確認 AI 算力需求仍比預期更緊。Google Cloud 收入年增 82%，積壓訂單增至 5140 億美元，公司明確表示算力仍受供給約束，並把 2026 年資本開支指引上調至 1950 億-2050 億美元。",
+            "同一份財報也讓資本回報壓力正式進入報表。季度資本開支 449.24 億美元，超過 390.69 億美元經營現金流，自由現金流轉為負 58.55 億美元。供應鏈上漲而 GOOGL 下跌，準確反映需求利好與購買方估值壓力的分化。",
+        ]),
+        ("供應鏈受益，雲端業者現金流承壓", [
+            "Cloud 營收 247.68 億美元、利潤率約 35.6%，搜尋收入增長 17%，說明 AI 已貢獻收入且暫未破壞搜尋商業模式；但 GAAP 利潤包含大額投資收益，核心盈利沒有表面數字那麼強。",
+            "TraderXYZ 前十名義成交約 35.15 億美元，較昨日增加約 25%。MU、SK 海力士、SNDK、DRAM、AMD 與 Nvidia 上漲，GOOGL 跌約 4.7%，跨市場方向與財報邏輯一致。",
+            "台灣指數早盤衝高後跌約 0.8%，台積電在 2375-2380、較前收低約 1%。Alphabet 上調資本開支強化先進製程與互連訂單，但台積電仍受三季度毛利率、海外廠成本和高基數估值約束。",
+        ]),
+        ("風險閾值與下一驗證", [
+            "Brent 結算升至 94.07 美元，10 年期美債殖利率約 4.65%。若 Brent 站穩 95 美元且殖利率突破 4.7%，科技盈利上修可能繼續被估值下調抵消。",
+            "AI 上游維持結構性偏多，但優先選擇訂單、定價權與自由現金流兼備的記憶體、先進封裝、光互連、電力和類比晶片環節，避免只根據單日永續合約追價。",
+            "未來 24 小時關注 Intel 的資料中心、18A、代工利用率與現金流，歐洲央行措辭，以及 Alphabet 正式交易能否收復盤後跌幅。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "Alphabet confirms AI compute demand is tighter than expected. Google Cloud revenue grows 82%, backlog reaches $514 billion and management says compute remains supply constrained, while lifting 2026 capex guidance to $195-205 billion.",
+            "The same report puts capital-return pressure directly into the accounts. Quarterly capex of $44.924 billion exceeds $39.069 billion of operating cash flow, turning free cash flow negative by $5.855 billion. Suppliers rise while GOOGL falls, capturing the demand-versus-buyer split.",
+        ]),
+        ("Supplier Upside, Hyperscaler Cash Pressure", [
+            "Cloud revenue reaches $24.768 billion with roughly 35.6% margin, while search grows 17%, showing AI is monetizing without yet breaking search. Yet GAAP profit contains a large investment gain, so core earnings are less spectacular than the headline.",
+            "TraderXYZ top-ten notional volume rises about 25% to $3.515 billion. MU, SK Hynix, SNDK, DRAM, AMD and Nvidia gain while GOOGL falls about 4.7%, a cross-market pattern consistent with the earnings logic.",
+            "Taiwan fades from an early gain to about -0.8%, with TSMC at 2375-2380, roughly 1% below its prior close. Higher Alphabet capex supports advanced nodes and interconnect orders, but TSMC still faces margin, overseas-cost and valuation constraints.",
+        ]),
+        ("Risk Thresholds and Next Tests", [
+            "Brent settles at $94.07 and the U.S. 10-year yield near 4.65%. If Brent holds $95 and yields break 4.7%, higher technology earnings can continue to be offset by multiple compression.",
+            "Stay structurally constructive on AI suppliers, prioritizing memory, advanced packaging, optical interconnects, power and analog chips with visible orders, pricing power and free cash flow rather than chasing one-day perpetual moves.",
+            "The next 24 hours bring Intel's data-center, 18A, foundry-utilization and cash-flow test, the ECB's policy language and whether Alphabet cash trading recovers its post-earnings decline.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "Alphabet подтверждает, что спрос на AI-вычисления сильнее ожиданий. Выручка Google Cloud растет на 82%, портфель заказов достигает $514 млрд, мощности ограничены предложением, а прогноз капзатрат 2026 повышен до $195-205 млрд.",
+            "Тот же отчет показывает давление на отдачу капитала. Капзатраты $44,924 млрд превышают операционный поток $39,069 млрд, свободный поток становится отрицательным на $5,855 млрд. Поставщики растут, GOOGL падает — спрос и оценка покупателя расходятся.",
+        ]),
+        ("Рост Поставщиков, Давление на Денежный Поток", [
+            "Выручка Cloud достигает $24,768 млрд при марже около 35,6%, поиск растет на 17%: AI уже монетизируется и пока не разрушает поиск. Но GAAP-прибыль содержит крупный инвестиционный доход, поэтому базовая прибыль слабее заголовка.",
+            "Оборот первой десятки TraderXYZ растет примерно на 25% до $3,515 млрд. MU, SK Hynix, SNDK, DRAM, AMD и Nvidia растут, а GOOGL падает на 4,7%, что соответствует логике отчета.",
+            "Тайвань разворачивается от раннего роста к падению на 0,8%, TSMC торгуется 2375-2380, примерно на 1% ниже закрытия. Рост капзатрат Alphabet поддерживает заказы, но маржа, зарубежные затраты и оценка TSMC остаются ограничениями.",
+        ]),
+        ("Пороги Риска и Следующие Проверки", [
+            "Brent закрывается на $94,07, доходность 10-летних облигаций США около 4,65%. Если Brent удержит $95, а доходность превысит 4,7%, рост прибыли технологий продолжит компенсироваться снижением мультипликаторов.",
+            "Структурно позитивный взгляд на поставщиков AI сохраняется, но приоритет у памяти, упаковки, оптики, энергетики и аналоговых чипов с заказами, ценовой силой и свободным денежным потоком.",
+            "В ближайшие сутки важны дата-центры, 18A, загрузка фабрик и денежный поток Intel, риторика ЕЦБ и способность Alphabet восстановиться после падения.",
+        ]),
+    ],
+})
+
 SOURCE_URLS = [
-    ("ap-us-0721", "https://apnews.com/article/stock-markets-ai-oil-iran-trump-30c42bb51683c4b43c9f64dfeff7a3ea"),
-    ("ap-asia-0722", "https://apnews.com/article/stocks-markets-iran-ai-trump-207dfa55d180fcc565420454178168c5"),
+    ("alphabet-q2", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"),
+    ("alphabet-call", "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/"),
+    ("reuters-alphabet", "https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/"),
+    ("ap-alphabet", "https://apnews.com/article/google-results-revenue-profit-ai-alphabet-f914606d842d4c6848019083d667fc3a"),
+    ("ap-market-0722", "https://apnews.com/article/stocks-markets-iran-ai-trump-207dfa55d180fcc565420454178168c5"),
     ("tsmc-q2", "https://investor.tsmc.com/english/quarterly-results/2026/q2"),
-    ("ig-alphabet", "https://www.ig.com/en/news-and-trade-ideas/alphabet-q2-2026-earnings-preview-260716"),
-    ("morningstar-alphabet", "https://www.morningstar.com/stocks/ahead-earnings-is-alphabet-stock-buy-sell-or-fairly-valued"),
-    ("kiplinger-calendar", "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"),
-    ("bofa-survey", "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60473810/bofa-fund-manager-survey-july-2026-no-landing-ai-capex-credit-event"),
-    ("ubs-volatility", "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-06072026.html"),
+    ("tesla-q2", "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2026-financial-results"),
+    ("ti-q2", "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-07-22-ti-reports-second-quarter-2026-financial-results-and-shareholder-returns.html"),
+    ("ibm-q2", "https://newsroom.ibm.com/2026-07-22-IBM-RELEASES-SECOND-QUARTER-RESULTS"),
+    ("fed-mpr", "https://www.federalreserve.gov/monetarypolicy/2026-07-mpr-summary.htm"),
+    ("goldman-ai", "https://www.goldmansachs.com/insights/articles/ai-investment-is-shifting-as-inference-enterprise-adoption-accelerate"),
+    ("ubs-capex", "https://www.ubs.com/us/en/wealth-management/insights/market-news/article.3534348.html"),
+    ("jpm-fed", "https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts"),
     ("traderxyz", "https://traderxyz.com/"),
 ]
 
@@ -419,6 +491,18 @@ SOURCE_LABELS = {
         "bls-cpi": "美国劳工统计局：2026 年 6 月 CPI",
         "bls-ppi": "美国劳工统计局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度业绩",
+        "alphabet-q2": "Alphabet 2026 年第二季度官方财报",
+        "alphabet-call": "Sundar Pichai：第二季度财报电话会发言",
+        "reuters-alphabet": "Reuters：Alphabet 上调资本开支与 Cloud 增长",
+        "ap-alphabet": "AP：Alphabet 第二季度财报",
+        "ap-market-0722": "AP：7 月 22 日美股、油价与美债收益率",
+        "tesla-q2": "Tesla 2026 年第二季度财报",
+        "ti-q2": "Texas Instruments 2026 年第二季度业绩",
+        "ibm-q2": "IBM 2026 年第二季度业绩",
+        "fed-mpr": "美联储 2026 年 7 月货币政策报告",
+        "goldman-ai": "Goldman Sachs AM：企业 AI 采用与算力约束",
+        "ubs-capex": "UBS：AI 资本开支与回报风险",
+        "jpm-fed": "J.P. Morgan：美联储政策展望",
         "ap-us-0721": "AP：7 月 21 日美股、芯片股与油价",
         "ap-asia-0722": "AP：7 月 22 日亚洲市场",
         "ig-alphabet": "IG：Alphabet 2026 年第二季度财报前瞻",
@@ -452,6 +536,18 @@ SOURCE_LABELS = {
         "bls-cpi": "美國勞工統計局：2026 年 6 月 CPI",
         "bls-ppi": "美國勞工統計局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度業績",
+        "alphabet-q2": "Alphabet 2026 年第二季度官方財報",
+        "alphabet-call": "Sundar Pichai：第二季度財報電話會發言",
+        "reuters-alphabet": "Reuters：Alphabet 上調資本開支與 Cloud 增長",
+        "ap-alphabet": "AP：Alphabet 第二季度財報",
+        "ap-market-0722": "AP：7 月 22 日美股、油價與美債殖利率",
+        "tesla-q2": "Tesla 2026 年第二季度財報",
+        "ti-q2": "Texas Instruments 2026 年第二季度業績",
+        "ibm-q2": "IBM 2026 年第二季度業績",
+        "fed-mpr": "聯準會 2026 年 7 月貨幣政策報告",
+        "goldman-ai": "Goldman Sachs AM：企業 AI 採用與算力約束",
+        "ubs-capex": "UBS：AI 資本開支與回報風險",
+        "jpm-fed": "J.P. Morgan：聯準會政策展望",
         "ap-us-0721": "AP：7 月 21 日美股、晶片股與油價",
         "ap-asia-0722": "AP：7 月 22 日亞洲市場",
         "ig-alphabet": "IG：Alphabet 2026 年第二季度財報前瞻",
@@ -485,6 +581,18 @@ SOURCE_LABELS = {
         "bls-cpi": "U.S. BLS: June 2026 CPI",
         "bls-ppi": "U.S. BLS: June 2026 PPI",
         "tsmc-q2": "TSMC 2026 second-quarter results",
+        "alphabet-q2": "Alphabet official Q2 2026 results",
+        "alphabet-call": "Sundar Pichai: Q2 earnings-call remarks",
+        "reuters-alphabet": "Reuters: Alphabet lifts capex as Cloud grows",
+        "ap-alphabet": "AP: Alphabet second-quarter results",
+        "ap-market-0722": "AP: July 22 stocks, oil and Treasury yields",
+        "tesla-q2": "Tesla Q2 2026 results",
+        "ti-q2": "Texas Instruments Q2 2026 results",
+        "ibm-q2": "IBM Q2 2026 results",
+        "fed-mpr": "Federal Reserve July 2026 Monetary Policy Report",
+        "goldman-ai": "Goldman Sachs AM: enterprise AI and compute constraints",
+        "ubs-capex": "UBS: AI capex and return risks",
+        "jpm-fed": "J.P. Morgan: Federal Reserve policy outlook",
         "ap-us-0721": "AP: July 21 U.S. stocks, chips and oil",
         "ap-asia-0722": "AP: July 22 Asian markets",
         "ig-alphabet": "IG: Alphabet Q2 2026 earnings preview",
@@ -518,6 +626,18 @@ SOURCE_LABELS = {
         "bls-cpi": "BLS США: CPI за июнь 2026",
         "bls-ppi": "BLS США: PPI за июнь 2026",
         "tsmc-q2": "TSMC: результаты второго квартала 2026",
+        "alphabet-q2": "Alphabet: официальный отчет за второй квартал 2026",
+        "alphabet-call": "Sundar Pichai: комментарии к отчету за второй квартал",
+        "reuters-alphabet": "Reuters: Alphabet повышает капзатраты на фоне роста Cloud",
+        "ap-alphabet": "AP: результаты Alphabet за второй квартал",
+        "ap-market-0722": "AP: акции, нефть и доходности 22 июля",
+        "tesla-q2": "Tesla: результаты второго квартала 2026",
+        "ti-q2": "Texas Instruments: результаты второго квартала 2026",
+        "ibm-q2": "IBM: результаты второго квартала 2026",
+        "fed-mpr": "ФРС: отчет о денежной политике, июль 2026",
+        "goldman-ai": "Goldman Sachs AM: внедрение AI и дефицит вычислений",
+        "ubs-capex": "UBS: AI-капзатраты и риски отдачи",
+        "jpm-fed": "J.P. Morgan: прогноз политики ФРС",
         "ap-us-0721": "AP: акции США, чипы и нефть 21 июля",
         "ap-asia-0722": "AP: рынки Азии 22 июля",
         "ig-alphabet": "IG: прогноз отчета Alphabet за второй квартал 2026",
@@ -570,10 +690,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("2400 / 相对台湾指数强弱", "高成交能否持续", "90 美元与 US10Y 4.7%", "指数强、权重股弱", "Cloud、AI 变现与自由现金流"),
-        "zh-hant": ("2400 / 相對台灣指數強弱", "高成交能否持續", "90 美元與 US10Y 4.7%", "指數強、權重股弱", "Cloud、AI 變現與自由現金流"),
-        "en": ("2400 / relative strength vs Taiwan", "whether high volume persists", "$90 and US10Y at 4.7%", "strong index, weak mega-cap", "Cloud, AI monetization and free cash flow"),
-        "ru": ("2400 / сила против индекса Тайваня", "сохранится ли высокий оборот", "$90 и US10Y у 4,7%", "сильный индекс, слабый лидер", "Cloud, монетизация AI и денежный поток"),
+        "zh-cn": ("2370-2400 / 毛利率约束", "供应链强于云厂", "Brent 95 / US10Y 4.7%", "冲高回落与收盘位置", "Cloud 利润与负自由现金流"),
+        "zh-hant": ("2370-2400 / 毛利率約束", "供應鏈強於雲端業者", "Brent 95 / US10Y 4.7%", "衝高回落與收盤位置", "Cloud 利潤與負自由現金流"),
+        "en": ("2370-2400 / margin constraint", "suppliers outperform hyperscalers", "Brent 95 / US10Y 4.7%", "failed rally and closing level", "Cloud profit and negative free cash flow"),
+        "ru": ("2370-2400 / ограничение маржи", "поставщики сильнее облаков", "Brent 95 / US10Y 4,7%", "разворот роста и закрытие", "прибыль Cloud и отрицательный поток"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -621,14 +741,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("台湾科技修复增强，云财报决定 AI 反弹成色", "上一篇市场日报。", "归档"),
-        "zh-hant": ("台灣科技修復增強，雲端財報決定 AI 反彈成色", "上一篇市場日報。", "歸檔"),
-        "en": ("Taiwan tech repair strengthens as cloud earnings test the AI rebound", "Previous market brief.", "Archive"),
-        "ru": ("Технологии Тайваня растут: облачная отчетность проверит AI-отскок", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("AI 硬件反弹获成交确认，Alphabet 检验资本回报", "上一篇市场日报。", "归档"),
+        "zh-hant": ("AI 硬體反彈獲成交確認，Alphabet 檢驗資本回報", "上一篇市場日報。", "歸檔"),
+        "en": ("AI hardware rebound gains volume as Alphabet tests capital returns", "Previous market brief.", "Archive"),
+        "ru": ("AI-оборудование растет на объеме: Alphabet проверит отдачу капитала", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-21")}"><span class="history-date">2026-07-21</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-22")}"><span class="history-date">2026-07-22</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
