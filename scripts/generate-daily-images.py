@@ -5,49 +5,49 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-23"
+DATE = "2026-07-27"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-23-zh-cn.svg",
+        "file": "market-brief-2026-07-27-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "AI 需求确认，资本回报开始分化",
-        "subtitle": "Google Cloud 高增长且算力受限，但资本开支超过经营现金流，供应链受益与云厂估值压力并存。",
-        "cards": [("Google Cloud", "+82%", "收入同比增长"), ("CapEx / OCF", "44.9 / 39.1", "十亿美元"), ("Free Cash Flow", "-5.86B", "季度转负")],
-        "box1": ("3 个关键观察", ["1. GOOGL 能否收复盘后跌幅？", "2. TSMC 能否守住 2370？", "3. Brent 是否站稳 95 美元？"]),
-        "box2": ("分化框架", ["上游订单与定价权受益。", "云厂需证明现金回报。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：AI 资本开支尚未见顶，投资重点从规模增长转向订单、利润率与自由现金流。",
+        "title": "油价回落，等待云财报接力",
+        "subtitle": "风险环境边际缓和，台积电相对抗跌；低成交反弹仍需四大科技公司的资本回报共同确认。",
+        "cards": [("Brent / WTI", "-5.2 / -5.4", "亚洲时段百分比"), ("TSMC", "2350-2355", "接近前收"), ("TraderXYZ", "$1.48B", "前十成交偏低")],
+        "box1": ("3 个关键观察", ["1. Brent 能否稳定低于 90 美元？", "2. TSMC 能否守住 2330-2350？", "3. 云厂能否兑现自由现金流？"]),
+        "box2": ("本周框架", ["Microsoft / Meta 云增速与资本开支。", "Amazon AWS 与 Apple 盈利质量。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：风险缓和不等于解除，AI 行情将由云收入、资本开支和现金回报共同决定。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-23-zh-hant.svg",
+        "file": "market-brief-2026-07-27-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "AI 需求確認，資本回報開始分化",
-        "subtitle": "Google Cloud 高增長且算力受限，但資本開支超過經營現金流，供應鏈受益與雲端業者估值壓力並存。",
-        "cards": [("Google Cloud", "+82%", "收入年增"), ("CapEx / OCF", "44.9 / 39.1", "十億美元"), ("Free Cash Flow", "-5.86B", "季度轉負")],
-        "box1": ("3 個關鍵觀察", ["1. GOOGL 能否收復盤後跌幅？", "2. TSMC 能否守住 2370？", "3. Brent 是否站穩 95 美元？"]),
-        "box2": ("分化框架", ["上游訂單與定價權受益。", "雲端業者需證明現金回報。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：AI 資本開支尚未見頂，投資重點從規模增長轉向訂單、利潤率與自由現金流。",
+        "title": "油價回落，等待雲端財報接力",
+        "subtitle": "風險環境邊際緩和，台積電相對抗跌；低成交反彈仍需四大科技公司的資本回報共同確認。",
+        "cards": [("Brent / WTI", "-5.2 / -5.4", "亞洲時段百分比"), ("TSMC", "2350-2355", "接近前收"), ("TraderXYZ", "$1.48B", "前十成交偏低")],
+        "box1": ("3 個關鍵觀察", ["1. Brent 能否穩定低於 90 美元？", "2. TSMC 能否守住 2330-2350？", "3. 雲端業者能否兌現自由現金流？"]),
+        "box2": ("本週框架", ["Microsoft / Meta 雲端增速與資本開支。", "Amazon AWS 與 Apple 盈利品質。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：風險緩和不等於解除，AI 行情將由雲端收入、資本開支和現金回報共同決定。",
     },
     "en": {
-        "file": "market-brief-2026-07-23-en.svg",
+        "file": "market-brief-2026-07-27-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "AI demand confirmed; capital returns diverge",
-        "subtitle": "Google Cloud surges as compute stays constrained, but capex exceeds operating cash flow, splitting supplier upside from hyperscaler valuation pressure.",
-        "cards": [("Google Cloud", "+82%", "year-on-year growth"), ("CapEx / OCF", "44.9 / 39.1", "USD billions"), ("Free Cash Flow", "-5.86B", "quarter turns negative")],
-        "box1": ("3 key checks", ["1. Can GOOGL recover its post-call loss?", "2. Can TSMC hold 2370?", "3. Does Brent hold above $95?"]),
-        "box2": ("Divergence Frame", ["Upstream orders and pricing benefit.", "Cloud buyers must prove cash returns.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: AI capex has not peaked; focus shifts from spending scale to orders, margin and free cash flow.",
+        "title": "Oil eases; cloud earnings must take over",
+        "subtitle": "Risk conditions improve and TSMC stays resilient, but a thin rebound still needs capital-return proof from four technology mega-caps.",
+        "cards": [("Brent / WTI", "-5.2 / -5.4", "Asia-session percent"), ("TSMC", "2350-2355", "near prior close"), ("TraderXYZ", "$1.48B", "thin top-ten volume")],
+        "box1": ("3 key checks", ["1. Can Brent stay below $90?", "2. Can TSMC hold 2330-2350?", "3. Can cloud capex deliver free cash flow?"]),
+        "box2": ("Weekly Frame", ["Microsoft / Meta cloud growth and capex.", "Amazon AWS and Apple earnings quality.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: risk relief is not resolution; cloud revenue, capex and cash returns will decide the AI trade.",
     },
     "ru": {
-        "file": "market-brief-2026-07-23-ru.svg",
+        "file": "market-brief-2026-07-27-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "AI-спрос силен, капитал под давлением",
-        "subtitle": "Google Cloud растет, но капзатраты выше денежного потока: поставщики и облачные оценки расходятся.",
-        "cards": [("Google Cloud", "+82%", "рост год к году"), ("Капзатраты / OCF", "44.9 / 39.1", "миллиарды USD"), ("Свободный Поток", "-5.86B", "отрицательный квартал")],
-        "box1": ("3 ключевых сигнала", ["1. Вернет ли GOOGL падение после отчета?", "2. Удержит ли TSMC уровень 2370?", "3. Удержится ли Brent выше $95?"]),
-        "box2": ("Рамка Расхождения", ["Заказы и ценовая сила помогают поставщикам.", "Облака должны доказать денежную отдачу.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: пик AI-капзатрат не пройден; фокус смещается к заказам, марже и свободному денежному потоку.",
+        "title": "Нефть падает, эстафета у облаков",
+        "subtitle": "Риск снижается, TSMC устойчива; тонкий отскок должны подтвердить денежные результаты четырех гигантов.",
+        "cards": [("Brent / WTI", "-5.2 / -5.4", "проценты в Азии"), ("TSMC", "2350-2355", "около прошлого закрытия"), ("TraderXYZ", "$1.48B", "низкий оборот десятки")],
+        "box1": ("3 ключевых сигнала", ["1. Удержится ли Brent ниже $90?", "2. Удержит ли TSMC зону 2330-2350?", "3. Дадут ли облака свободный поток?"]),
+        "box2": ("Рамка Недели", ["Рост облака и капзатраты Microsoft / Meta.", "AWS Amazon и качество прибыли Apple.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: ослабление риска не равно его снятию; AI определят облачная выручка, капзатраты и денежная отдача.",
     },
 }
 

@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-23"
+DATE = "2026-07-27"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-23-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-23-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-23-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-23-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-07-27-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-27-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-27-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-27-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "Alphabet 确认 AI 需求，云厂资本回报开始承压",
-        "desc": "2026-07-23 GateAffiliate 每日市场日报：Alphabet Cloud 增长 82%并上调资本开支，但自由现金流转负；AI 供应链上涨、GOOGL 下跌，台股冲高回落且油价继续压制估值。",
+        "title": "油价回落推动风险修复，云厂财报决定 AI 持续性",
+        "desc": "2026-07-27 GateAffiliate 每日市场日报：Brent 与美债收益率回落带动风险修复，台积电相对抗跌，存储出现地区轮动；Microsoft、Meta、Amazon 与 Apple 将检验 AI 资本回报。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "Alphabet 确认 AI 需求，云厂资本回报开始承压。",
-        "summary": "Google Cloud 增长 82%、算力仍受供给约束，但季度资本开支超过经营现金流，自由现金流转负。供应链受益与云厂估值压力正式分化。",
+        "h1": "油价回落推动风险修复，云厂财报决定 AI 持续性。",
+        "summary": "Brent 回落至约 91.7 美元、美债收益率下降，为科技估值提供缓冲；但停火并不等于风险解除，本周四家大型科技公司的收入、资本开支与自由现金流才是关键。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "Alphabet 確認 AI 需求，雲端業者資本回報開始承壓",
-        "desc": "2026-07-23 GateAffiliate 每日市場日報：Alphabet Cloud 增長 82%並上調資本開支，但自由現金流轉負；AI 供應鏈上漲、GOOGL 下跌，台股衝高回落且油價繼續壓制估值。",
+        "title": "油價回落推動風險修復，雲端財報決定 AI 持續性",
+        "desc": "2026-07-27 GateAffiliate 每日市場日報：Brent 與美債殖利率回落帶動風險修復，台積電相對抗跌，記憶體出現地區輪動；Microsoft、Meta、Amazon 與 Apple 將檢驗 AI 資本回報。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "Alphabet 確認 AI 需求，雲端業者資本回報開始承壓。",
-        "summary": "Google Cloud 增長 82%、算力仍受供給約束，但季度資本開支超過經營現金流，自由現金流轉負。供應鏈受益與雲端業者估值壓力正式分化。",
+        "h1": "油價回落推動風險修復，雲端財報決定 AI 持續性。",
+        "summary": "Brent 回落至約 91.7 美元、美債殖利率下降，為科技估值提供緩衝；但停火不等於風險解除，本週四家大型科技公司的收入、資本開支與自由現金流才是關鍵。",
         "tag": "最新",
     },
     "en": {
-        "title": "Alphabet confirms AI demand as hyperscaler capital returns come under pressure",
-        "desc": "GateAffiliate's 2026-07-23 brief: Alphabet Cloud grows 82% and capex rises, but free cash flow turns negative; AI suppliers gain while GOOGL falls, Taiwan fades and oil caps valuations.",
+        "title": "Oil relief supports risk repair as cloud earnings test AI durability",
+        "desc": "GateAffiliate's 2026-07-27 brief: lower Brent and Treasury yields support risk repair, TSMC is relatively resilient and memory rotates by region; Microsoft, Meta, Amazon and Apple now test AI capital returns.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "Alphabet confirms AI demand as hyperscaler capital returns come under pressure.",
-        "summary": "Google Cloud grows 82% and compute remains supply constrained, but quarterly capex exceeds operating cash flow and free cash flow turns negative. Supplier upside now diverges from hyperscaler valuation pressure.",
+        "h1": "Oil relief supports risk repair as cloud earnings test AI durability.",
+        "summary": "Brent falls toward $91.7 and Treasury yields ease, supporting technology valuations. But a pause in attacks is not risk resolution; revenue, capex and free cash flow from four mega-caps will decide the next move.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "Alphabet подтверждает AI-спрос, но отдача облачного капитала под давлением",
-        "desc": "Обзор GateAffiliate за 2026-07-23: Cloud Alphabet растет на 82%, но свободный денежный поток становится отрицательным; поставщики AI растут, GOOGL падает, Тайвань слабеет, нефть ограничивает оценки.",
+        "title": "Снижение нефти поддерживает риск, облачные отчеты проверят устойчивость AI",
+        "desc": "Обзор GateAffiliate за 2026-07-27: снижение Brent и доходностей поддерживает риск, TSMC относительно устойчива, память вращается между регионами; Microsoft, Meta, Amazon и Apple проверят отдачу AI-капитала.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "Alphabet подтверждает AI-спрос, но отдача облачного капитала под давлением.",
-        "summary": "Google Cloud растет на 82%, вычисления ограничены предложением, но капзатраты превышают операционный поток, а свободный поток становится отрицательным. Поставщики и облачные оценки расходятся.",
+        "h1": "Снижение нефти поддерживает риск, облачные отчеты проверят устойчивость AI.",
+        "summary": "Brent снижается к $91,7, доходности падают и поддерживают оценки технологий. Но пауза атак не означает снятия риска: выручка, капзатраты и свободный поток четырех гигантов определят направление.",
         "tag": "Свежий",
     },
 }
@@ -469,20 +469,86 @@ CONCISE_SECTIONS.update({
     ],
 })
 
+CONCISE_SECTIONS.update({
+    "zh-cn": [
+        ("核心结论", [
+            "周末宏观环境边际改善，但只能定义为风险缓和。Brent 从上周五 96.78 美元进一步回落至约 91.73 美元，美债收益率下降、美股期货反弹；红海与霍尔木兹运输风险仍在，单日油价下跌不等于风险解除。",
+            "本周决定 AI 行情的关键从需求转向资本回报。Microsoft、Meta、Amazon 与 Apple 集中披露财报；Alphabet 已经证明 Cloud 需求极强，却因资本开支超过经营现金流而遭遇估值下调。",
+        ]),
+        ("台积电抗跌，存储地区轮动", [
+            "台湾指数盘中跌约 0.9%，台积电却在 2350-2355、接近前收并从低位回升，显示资金仍认可先进制程基本面，同时继续卖出高波动中小型科技股。只有重新站稳 2400 并持续跑赢大盘，才能确认估值重定价结束。",
+            "存储链出现地区分化：上周五 MU 跌约 6.9%，今天 MU、SNDK 与 DRAM 温和上涨，SK 海力士相关合约下跌；CXMT 上海上市首日因稀缺性与低发行定价大涨，但不能据此推导 HBM 或全球存储基本面一天改变。",
+            "TraderXYZ 前十名义成交约 14.81 亿美元，较上周工作日高峰下降约 58%，且 CXMT 事件占据大量成交。指数和原油方向仍有参考价值，单一个股尤其是 CXMT 与低成交 TSM 不适合作为精确定价。",
+        ]),
+        ("本周验证框架", [
+            "Microsoft 与 Meta 重点看云增速、AI 收入、资本开支和自由现金流；Amazon 看 AWS 与约 2000 亿美元资本开支回报，Apple 则需要在接近高估值时交出几乎无瑕疵的结果。",
+            "Intel 超预期却下跌，进一步说明需求增长不等于自由现金流转正。AI 上游仍偏多，但优先选择有技术壁垒、订单可见度与议价能力的先进制程、封装、存储和光互连。",
+            "短线观察 Brent 能否稳定低于 90 美元、10 年期收益率能否守在 4.7%下方，以及台积电能否守住 2330-2350。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "週末宏觀環境邊際改善，但只能定義為風險緩和。Brent 從上週五 96.78 美元進一步回落至約 91.73 美元，美債殖利率下降、美股期貨反彈；紅海與霍爾木茲運輸風險仍在，單日油價下跌不等於風險解除。",
+            "本週決定 AI 行情的關鍵從需求轉向資本回報。Microsoft、Meta、Amazon 與 Apple 集中披露財報；Alphabet 已經證明 Cloud 需求極強，卻因資本開支超過經營現金流而遭遇估值下調。",
+        ]),
+        ("台積電抗跌，記憶體地區輪動", [
+            "台灣指數盤中跌約 0.9%，台積電卻在 2350-2355、接近前收並從低位回升，顯示資金仍認可先進製程基本面，同時繼續賣出高波動中小型科技股。只有重新站穩 2400 並持續跑贏大盤，才能確認估值重定價結束。",
+            "記憶體鏈出現地區分化：上週五 MU 跌約 6.9%，今天 MU、SNDK 與 DRAM 溫和上漲，SK 海力士相關合約下跌；CXMT 上海上市首日因稀缺性與低發行定價大漲，但不能據此推導 HBM 或全球記憶體基本面一天改變。",
+            "TraderXYZ 前十名義成交約 14.81 億美元，較上週工作日高峰下降約 58%，且 CXMT 事件佔據大量成交。指數和原油方向仍有參考價值，單一個股尤其是 CXMT 與低成交 TSM 不適合作為精確定價。",
+        ]),
+        ("本週驗證框架", [
+            "Microsoft 與 Meta 重點看雲端增速、AI 收入、資本開支和自由現金流；Amazon 看 AWS 與約 2000 億美元資本開支回報，Apple 則需要在接近高估值時交出幾乎無瑕疵的結果。",
+            "Intel 超預期卻下跌，進一步說明需求增長不等於自由現金流轉正。AI 上游仍偏多，但優先選擇有技術壁壘、訂單可見度與議價能力的先進製程、封裝、記憶體和光互連。",
+            "短線觀察 Brent 能否穩定低於 90 美元、10 年期殖利率能否守在 4.7%下方，以及台積電能否守住 2330-2350。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "The weekend macro backdrop improves at the margin, but this is risk relief rather than risk resolution. Brent falls from Friday's $96.78 settlement toward $91.73, Treasury yields ease and U.S. futures rebound, while Red Sea and Hormuz shipping risks remain active.",
+            "This week's AI question shifts from demand to capital returns. Microsoft, Meta, Amazon and Apple report in a cluster; Alphabet already proved Cloud demand is powerful, yet suffered valuation pressure because capex exceeded operating cash flow.",
+        ]),
+        ("TSMC Resilience, Regional Memory Rotation", [
+            "Taiwan's index falls about 0.9% while TSMC trades near 2350-2355, close to its prior finish after recovering from the low. Investors still favor advanced-node fundamentals while selling volatile smaller technology. A sustained move above 2400 is needed to end the repricing debate.",
+            "Memory diverges by region: MU fell about 6.9% Friday, while MU, SNDK and DRAM rise modestly today and SK Hynix-linked contracts fall. CXMT's Shanghai debut surges on scarcity and IPO pricing, but does not mean HBM or global memory fundamentals changed overnight.",
+            "TraderXYZ top-ten notional volume is about $1.481 billion, down roughly 58% from last week's workday peak, with CXMT absorbing substantial activity. Index and oil direction remain useful; CXMT and thin TSM contracts do not offer precise fair value.",
+        ]),
+        ("Weekly Validation Frame", [
+            "For Microsoft and Meta, prioritize cloud growth, AI revenue, capex and free cash flow. Amazon must validate AWS and roughly $200 billion of spending, while Apple needs a near-flawless print close to peak valuation.",
+            "Intel beating expectations but falling reinforces that demand growth is not free-cash-flow conversion. Stay constructive upstream, favoring advanced nodes, packaging, memory and optics with technical barriers, visible orders and pricing power.",
+            "Near-term checks are Brent sustainably below $90, the U.S. 10-year below 4.7% and TSMC holding 2330-2350.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "Макрофон выходных улучшился, но это ослабление риска, а не его исчезновение. Brent снижается с пятничных $96,78 к $91,73, доходности падают, фьючерсы США растут, однако риски перевозок в Красном море и Ормузском проливе сохраняются.",
+            "Главный вопрос AI этой недели смещается от спроса к отдаче капитала. Microsoft, Meta, Amazon и Apple публикуют отчеты; Alphabet уже доказала силу Cloud, но получила снижение оценки из-за капзатрат выше операционного потока.",
+        ]),
+        ("Устойчивость TSMC и Региональная Ротация Памяти", [
+            "Индекс Тайваня падает примерно на 0,9%, а TSMC держится у 2350-2355, около прошлого закрытия после восстановления от минимума. Рынок сохраняет доверие к передовым техпроцессам, продавая более волатильные малые технологии. Для завершения переоценки нужен устойчивый уровень выше 2400.",
+            "Память расходится по регионам: MU потеряла 6,9% в пятницу, сегодня MU, SNDK и DRAM умеренно растут, а контракты SK Hynix падают. Взлет CXMT на дебюте отражает дефицит и цену IPO, но не означает мгновенной смены фундаментала HBM и мировой памяти.",
+            "Оборот первой десятки TraderXYZ около $1,481 млрд, на 58% ниже рабочего пика прошлой недели; CXMT забирает значительную долю. Индексы и нефть полезны для направления, но CXMT и тонкий TSM не дают точной справедливой цены.",
+        ]),
+        ("Рамка Проверки Недели", [
+            "У Microsoft и Meta важны рост облака, AI-выручка, капзатраты и свободный поток. Amazon должна подтвердить AWS и около $200 млрд расходов, Apple — показать почти безупречный отчет при высокой оценке.",
+            "Падение Intel после сильного отчета показывает: рост спроса не равен свободному потоку. Вверх по цепочке приоритет у техпроцессов, упаковки, памяти и оптики с барьерами, заказами и ценовой силой.",
+            "Краткосрочные ориентиры: Brent устойчиво ниже $90, доходность США ниже 4,7% и TSMC выше 2330-2350.",
+        ]),
+    ],
+})
+
 SOURCE_URLS = [
-    ("alphabet-q2", "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf"),
-    ("alphabet-call", "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026/"),
-    ("reuters-alphabet", "https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/"),
-    ("ap-alphabet", "https://apnews.com/article/google-results-revenue-profit-ai-alphabet-f914606d842d4c6848019083d667fc3a"),
-    ("ap-market-0722", "https://apnews.com/article/stocks-markets-iran-ai-trump-207dfa55d180fcc565420454178168c5"),
+    ("ap-market-0724", "https://apnews.com/article/stocks-markets-tariffs-oil-trump-ai-0b9c3b2aa5ca83eb391c1388efe03c97"),
+    ("reuters-asia-0727", "https://au.investing.com/news/stock-market-news/shares-bonds-bounce-as-oil-skid-offers-inflation-relief-4552818"),
+    ("reuters-week", "https://au.investing.com/news/economy-news/us-stocks-face-tests-from-fed-decision-techled-earnings-deluge-4551069"),
+    ("reuters-bonds", "https://ca.marketscreener.com/news/stocks-mixed-as-oil-prices-pause-climb-but-yields-hover-near-highs-ce7f51dfd18cf021"),
+    ("intel-q2", "https://www.publicnow.com/view/DFD786CAC6455060E4C33C013A3EE7AB4AB38AF6"),
+    ("reuters-intel", "https://live.euronext.com/en/financial-news/intel-forecast-crushes-estimates-ai-boom-boosts-chip-demand-shares-jump"),
+    ("reuters-cxmt", "https://www.investing.com/news/stock-market-news/china-memory-chipmaker-cxmt-set-for-shanghai-debut-after-asias-biggest-ipo-4812927"),
+    ("sse-cxmt", "https://english.sse.com.cn/news/newsrelease/voice/c/c_20260716_10825660.shtml"),
+    ("sp-msft-meta", "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/microsoft-and-meta-earnings-previews"),
+    ("msft-date", "https://news.microsoft.com/source/2026/07/08/microsoft-announces-quarterly-earnings-release-date-68/"),
+    ("sp-credit", "https://www.spglobal.com/ratings/en/regulatory/article/creditweek-will-rising-capex-test-hyperscalers-credit-strength-s101685676"),
     ("tsmc-q2", "https://investor.tsmc.com/english/quarterly-results/2026/q2"),
-    ("tesla-q2", "https://ir.tesla.com/press-release/tesla-releases-second-quarter-2026-financial-results"),
-    ("ti-q2", "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-07-22-ti-reports-second-quarter-2026-financial-results-and-shareholder-returns.html"),
-    ("ibm-q2", "https://newsroom.ibm.com/2026-07-22-IBM-RELEASES-SECOND-QUARTER-RESULTS"),
-    ("fed-mpr", "https://www.federalreserve.gov/monetarypolicy/2026-07-mpr-summary.htm"),
-    ("goldman-ai", "https://www.goldmansachs.com/insights/articles/ai-investment-is-shifting-as-inference-enterprise-adoption-accelerate"),
-    ("ubs-capex", "https://www.ubs.com/us/en/wealth-management/insights/market-news/article.3534348.html"),
-    ("jpm-fed", "https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts"),
     ("traderxyz", "https://traderxyz.com/"),
 ]
 
@@ -491,6 +557,17 @@ SOURCE_LABELS = {
         "bls-cpi": "美国劳工统计局：2026 年 6 月 CPI",
         "bls-ppi": "美国劳工统计局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度业绩",
+        "ap-market-0724": "AP：7 月 24 日美股、原油与美债市场",
+        "reuters-asia-0727": "Reuters：7 月 27 日亚洲市场、油价与央行预期",
+        "reuters-week": "Reuters：本周美联储与科技财报风险",
+        "reuters-bonds": "Reuters：全球债券收益率、关税与原油",
+        "intel-q2": "Intel 2026 年第二季度财报摘要",
+        "reuters-intel": "Reuters：Intel 财报与 14A 投资",
+        "reuters-cxmt": "Reuters：CXMT 上市与 IPO 数据",
+        "sse-cxmt": "上海证券交易所：CXMT IPO 信息",
+        "sp-msft-meta": "S&P Global：Microsoft 与 Meta 财报前瞻",
+        "msft-date": "Microsoft：季度财报发布日期",
+        "sp-credit": "S&P Global Ratings：大型云厂资本开支与信用风险",
         "alphabet-q2": "Alphabet 2026 年第二季度官方财报",
         "alphabet-call": "Sundar Pichai：第二季度财报电话会发言",
         "reuters-alphabet": "Reuters：Alphabet 上调资本开支与 Cloud 增长",
@@ -536,6 +613,17 @@ SOURCE_LABELS = {
         "bls-cpi": "美國勞工統計局：2026 年 6 月 CPI",
         "bls-ppi": "美國勞工統計局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度業績",
+        "ap-market-0724": "AP：7 月 24 日美股、原油與美債市場",
+        "reuters-asia-0727": "Reuters：7 月 27 日亞洲市場、油價與央行預期",
+        "reuters-week": "Reuters：本週聯準會與科技財報風險",
+        "reuters-bonds": "Reuters：全球債券殖利率、關稅與原油",
+        "intel-q2": "Intel 2026 年第二季度財報摘要",
+        "reuters-intel": "Reuters：Intel 財報與 14A 投資",
+        "reuters-cxmt": "Reuters：CXMT 上市與 IPO 數據",
+        "sse-cxmt": "上海證券交易所：CXMT IPO 資訊",
+        "sp-msft-meta": "S&P Global：Microsoft 與 Meta 財報前瞻",
+        "msft-date": "Microsoft：季度財報發布日期",
+        "sp-credit": "S&P Global Ratings：大型雲端業者資本開支與信用風險",
         "alphabet-q2": "Alphabet 2026 年第二季度官方財報",
         "alphabet-call": "Sundar Pichai：第二季度財報電話會發言",
         "reuters-alphabet": "Reuters：Alphabet 上調資本開支與 Cloud 增長",
@@ -581,6 +669,17 @@ SOURCE_LABELS = {
         "bls-cpi": "U.S. BLS: June 2026 CPI",
         "bls-ppi": "U.S. BLS: June 2026 PPI",
         "tsmc-q2": "TSMC 2026 second-quarter results",
+        "ap-market-0724": "AP: July 24 stocks, oil and Treasury markets",
+        "reuters-asia-0727": "Reuters: July 27 Asia, oil and central-bank outlook",
+        "reuters-week": "Reuters: Fed decision and technology earnings risks",
+        "reuters-bonds": "Reuters: global yields, tariffs and oil",
+        "intel-q2": "Intel Q2 2026 earnings summary",
+        "reuters-intel": "Reuters: Intel earnings and 14A investment",
+        "reuters-cxmt": "Reuters: CXMT listing and IPO data",
+        "sse-cxmt": "Shanghai Stock Exchange: CXMT IPO information",
+        "sp-msft-meta": "S&P Global: Microsoft and Meta earnings previews",
+        "msft-date": "Microsoft: quarterly earnings release date",
+        "sp-credit": "S&P Global Ratings: hyperscaler capex and credit risk",
         "alphabet-q2": "Alphabet official Q2 2026 results",
         "alphabet-call": "Sundar Pichai: Q2 earnings-call remarks",
         "reuters-alphabet": "Reuters: Alphabet lifts capex as Cloud grows",
@@ -626,6 +725,17 @@ SOURCE_LABELS = {
         "bls-cpi": "BLS США: CPI за июнь 2026",
         "bls-ppi": "BLS США: PPI за июнь 2026",
         "tsmc-q2": "TSMC: результаты второго квартала 2026",
+        "ap-market-0724": "AP: акции, нефть и облигации США 24 июля",
+        "reuters-asia-0727": "Reuters: Азия, нефть и ожидания центробанков 27 июля",
+        "reuters-week": "Reuters: решение ФРС и риски отчетов технологий",
+        "reuters-bonds": "Reuters: мировые доходности, тарифы и нефть",
+        "intel-q2": "Intel: итоги второго квартала 2026",
+        "reuters-intel": "Reuters: отчет Intel и инвестиции в 14A",
+        "reuters-cxmt": "Reuters: листинг CXMT и данные IPO",
+        "sse-cxmt": "Шанхайская биржа: информация об IPO CXMT",
+        "sp-msft-meta": "S&P Global: прогноз отчетов Microsoft и Meta",
+        "msft-date": "Microsoft: дата публикации квартального отчета",
+        "sp-credit": "S&P Global Ratings: капзатраты облаков и кредитный риск",
         "alphabet-q2": "Alphabet: официальный отчет за второй квартал 2026",
         "alphabet-call": "Sundar Pichai: комментарии к отчету за второй квартал",
         "reuters-alphabet": "Reuters: Alphabet повышает капзатраты на фоне роста Cloud",
@@ -690,10 +800,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("2370-2400 / 毛利率约束", "供应链强于云厂", "Brent 95 / US10Y 4.7%", "冲高回落与收盘位置", "Cloud 利润与负自由现金流"),
-        "zh-hant": ("2370-2400 / 毛利率約束", "供應鏈強於雲端業者", "Brent 95 / US10Y 4.7%", "衝高回落與收盤位置", "Cloud 利潤與負自由現金流"),
-        "en": ("2370-2400 / margin constraint", "suppliers outperform hyperscalers", "Brent 95 / US10Y 4.7%", "failed rally and closing level", "Cloud profit and negative free cash flow"),
-        "ru": ("2370-2400 / ограничение маржи", "поставщики сильнее облаков", "Brent 95 / US10Y 4,7%", "разворот роста и закрытие", "прибыль Cloud и отрицательный поток"),
+        "zh-cn": ("2330-2350 / 相对抗跌", "存储地区轮动与低成交", "Brent 90 / US10Y 4.7%", "指数弱、权重股稳", "云增速、资本开支与自由现金流"),
+        "zh-hant": ("2330-2350 / 相對抗跌", "記憶體地區輪動與低成交", "Brent 90 / US10Y 4.7%", "指數弱、權重股穩", "雲端增速、資本開支與自由現金流"),
+        "en": ("2330-2350 / relative resilience", "regional memory rotation and thin volume", "Brent 90 / US10Y 4.7%", "weak index, stable mega-cap", "cloud growth, capex and free cash flow"),
+        "ru": ("2330-2350 / относительная устойчивость", "ротация памяти и низкий оборот", "Brent 90 / US10Y 4,7%", "слабый индекс, устойчивый лидер", "рост облака, капзатраты и свободный поток"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -721,7 +831,7 @@ def brief_body(lang):
               <div class="brief-item"><strong>NVDA / AMD / MU / SNDK</strong><span>{watch_labels[1]}</span></div>
               <div class="brief-item"><strong>WTI / US10Y / USD</strong><span>{watch_labels[2]}</span></div>
               <div class="brief-item"><strong>TAIEX / SOXX / SMH</strong><span>{watch_labels[3]}</span></div>
-              <div class="brief-item"><strong>GOOGL Cloud / CapEx</strong><span>{watch_labels[4]}</span></div>
+              <div class="brief-item"><strong>MSFT / META / AMZN / AAPL</strong><span>{watch_labels[4]}</span></div>
             </div>
           </aside>
         </div>
@@ -741,14 +851,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("AI 硬件反弹获成交确认，Alphabet 检验资本回报", "上一篇市场日报。", "归档"),
-        "zh-hant": ("AI 硬體反彈獲成交確認，Alphabet 檢驗資本回報", "上一篇市場日報。", "歸檔"),
-        "en": ("AI hardware rebound gains volume as Alphabet tests capital returns", "Previous market brief.", "Archive"),
-        "ru": ("AI-оборудование растет на объеме: Alphabet проверит отдачу капитала", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("Alphabet 确认 AI 需求，云厂资本回报开始承压", "上一篇市场日报。", "归档"),
+        "zh-hant": ("Alphabet 確認 AI 需求，雲端業者資本回報開始承壓", "上一篇市場日報。", "歸檔"),
+        "en": ("Alphabet confirms AI demand as hyperscaler capital returns come under pressure", "Previous market brief.", "Archive"),
+        "ru": ("Alphabet подтверждает AI-спрос, но отдача облачного капитала под давлением", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-22")}"><span class="history-date">2026-07-22</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-23")}"><span class="history-date">2026-07-23</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
