@@ -5,49 +5,53 @@ import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "daily" / "images"
-DATE = "2026-07-27"
+DATE = "2026-07-28"
 CODE = "VLYQB1HXUW"
 
 IMAGES = {
     "zh-cn": {
-        "file": "market-brief-2026-07-27-zh-cn.svg",
+        "file": "market-brief-2026-07-28-zh-cn.svg",
         "tag": f"{DATE} · 全球市场日报",
-        "title": "油价回落，等待云财报接力",
-        "subtitle": "风险环境边际缓和，台积电相对抗跌；低成交反弹仍需四大科技公司的资本回报共同确认。",
-        "cards": [("Brent / WTI", "-5.2 / -5.4", "亚洲时段百分比"), ("TSMC", "2350-2355", "接近前收"), ("TraderXYZ", "$1.48B", "前十成交偏低")],
-        "box1": ("3 个关键观察", ["1. Brent 能否稳定低于 90 美元？", "2. TSMC 能否守住 2330-2350？", "3. 云厂能否兑现自由现金流？"]),
-        "box2": ("本周框架", ["Microsoft / Meta 云增速与资本开支。", "Amazon AWS 与 Apple 盈利质量。", f"GateAffiliate · 邀请码 {CODE}"]),
-        "bottom": "核心：风险缓和不等于解除，AI 行情将由云收入、资本开支和现金回报共同决定。",
+        "title": "亚洲芯片去杠杆，台积电相对抗跌",
+        "subtitle": "油价与收益率回落仍未阻止半导体抛售，竞争、拥挤仓位和资本回报进入集中重估。",
+        "cards": [("KOSPI", "-7.4%", "触发交易限制"), ("TAIEX / TSMC", "-4.7 / -3.0", "百分比变化"), ("TraderXYZ", "$4.47B", "前十成交增 202%")],
+        "box1": ("3 个关键观察", ["1. TSMC 能否守住 2270？", "2. 美国现货是否同步放量下跌？", "3. KOSPI 能否停止交易限制？"]),
+        "box2": ("风险框架", ["方向可信，永续跌幅不作定价。", "Fed 与云财报提供二次确认。", f"GateAffiliate · 邀请码 {CODE}"]),
+        "bottom": "核心：先控制波动与杠杆，长期 AI 需求未被证伪，短线底部仍需美国现货和财报验证。",
     },
     "zh-hant": {
-        "file": "market-brief-2026-07-27-zh-hant.svg",
+        "file": "market-brief-2026-07-28-zh-hant.svg",
         "tag": f"{DATE} · 全球市場日報",
-        "title": "油價回落，等待雲端財報接力",
-        "subtitle": "風險環境邊際緩和，台積電相對抗跌；低成交反彈仍需四大科技公司的資本回報共同確認。",
-        "cards": [("Brent / WTI", "-5.2 / -5.4", "亞洲時段百分比"), ("TSMC", "2350-2355", "接近前收"), ("TraderXYZ", "$1.48B", "前十成交偏低")],
-        "box1": ("3 個關鍵觀察", ["1. Brent 能否穩定低於 90 美元？", "2. TSMC 能否守住 2330-2350？", "3. 雲端業者能否兌現自由現金流？"]),
-        "box2": ("本週框架", ["Microsoft / Meta 雲端增速與資本開支。", "Amazon AWS 與 Apple 盈利品質。", f"GateAffiliate · 邀請碼 {CODE}"]),
-        "bottom": "核心：風險緩和不等於解除，AI 行情將由雲端收入、資本開支和現金回報共同決定。",
+        "title": "亞洲晶片去槓桿，台積電相對抗跌",
+        "subtitle": "油價與殖利率回落仍未阻止半導體拋售，競爭、擁擠部位和資本回報進入集中重估。",
+        "cards": [("KOSPI", "-7.4%", "觸發交易限制"), ("TAIEX / TSMC", "-4.7 / -3.0", "百分比變化"), ("TraderXYZ", "$4.47B", "前十成交增 202%")],
+        "box1": ("3 個關鍵觀察", ["1. TSMC 能否守住 2270？", "2. 美國現貨是否同步放量下跌？", "3. KOSPI 能否停止交易限制？"]),
+        "box2": ("風險框架", ["方向可信，永續跌幅不作定價。", "Fed 與雲端財報提供二次確認。", f"GateAffiliate · 邀請碼 {CODE}"]),
+        "bottom": "核心：先控制波動與槓桿，長期 AI 需求未被證偽，短線底部仍需美國現貨和財報驗證。",
     },
     "en": {
-        "file": "market-brief-2026-07-27-en.svg",
+        "file": "market-brief-2026-07-28-en.svg",
         "tag": f"{DATE} · Global Market Brief",
-        "title": "Oil eases; cloud earnings must take over",
-        "subtitle": "Risk conditions improve and TSMC stays resilient, but a thin rebound still needs capital-return proof from four technology mega-caps.",
-        "cards": [("Brent / WTI", "-5.2 / -5.4", "Asia-session percent"), ("TSMC", "2350-2355", "near prior close"), ("TraderXYZ", "$1.48B", "thin top-ten volume")],
-        "box1": ("3 key checks", ["1. Can Brent stay below $90?", "2. Can TSMC hold 2330-2350?", "3. Can cloud capex deliver free cash flow?"]),
-        "box2": ("Weekly Frame", ["Microsoft / Meta cloud growth and capex.", "Amazon AWS and Apple earnings quality.", f"GateAffiliate · invite code {CODE}"]),
-        "bottom": "Bottom line: risk relief is not resolution; cloud revenue, capex and cash returns will decide the AI trade.",
+        "title": "Asia chips sell off; TSMC holds up",
+        "title_size": 48,
+        "subtitle": "Lower oil and yields fail to halt chip selling as markets reprice competition, leverage and capital returns.",
+        "cards": [("KOSPI", "-7.4%", "limits triggered"), ("TAIEX / TSMC", "-4.7 / -3.0", "change, %"), ("TraderXYZ", "$4.47B", "top-ten volume +202%")],
+        "box1": ("3 key checks", ["1. Can TSMC hold 2270?", "2. Does U.S. cash sell off on volume?", "3. Can KOSPI stop hitting limits?"]),
+        "box2": ("Risk Frame", ["Signal credible; pricing imprecise.", "Fed and earnings must confirm.", f"GateAffiliate · invite code {CODE}"]),
+        "bottom": "Bottom line: control volatility and leverage first; long-run AI demand remains intact, while cash and earnings must confirm a bottom.",
     },
     "ru": {
-        "file": "market-brief-2026-07-27-ru.svg",
+        "file": "market-brief-2026-07-28-ru.svg",
         "tag": f"{DATE} · Обзор рынка",
-        "title": "Нефть падает, эстафета у облаков",
-        "subtitle": "Риск снижается, TSMC устойчива; тонкий отскок должны подтвердить денежные результаты четырех гигантов.",
-        "cards": [("Brent / WTI", "-5.2 / -5.4", "проценты в Азии"), ("TSMC", "2350-2355", "около прошлого закрытия"), ("TraderXYZ", "$1.48B", "низкий оборот десятки")],
-        "box1": ("3 ключевых сигнала", ["1. Удержится ли Brent ниже $90?", "2. Удержит ли TSMC зону 2330-2350?", "3. Дадут ли облака свободный поток?"]),
-        "box2": ("Рамка Недели", ["Рост облака и капзатраты Microsoft / Meta.", "AWS Amazon и качество прибыли Apple.", f"GateAffiliate · код {CODE}"]),
-        "bottom": "Итог: ослабление риска не равно его снятию; AI определят облачная выручка, капзатраты и денежная отдача.",
+        "title": "Азия продает чипы; TSMC крепче",
+        "title_size": 44,
+        "subtitle": "Нефть дешевеет, но чипы падают: рынок снижает плечо и переоценивает риски.",
+        "subtitle_width": 42,
+        "cards": [("KOSPI", "-7.4%", "торговые ограничения"), ("TAIEX / TSMC", "-4.7 / -3.0", "изменение, %"), ("TraderXYZ", "$4.47B", "оборот +202%")],
+        "box1": ("3 ключевых сигнала", ["1. Удержит ли TSMC уровень 2270?", "2. Подтвердят ли продажи акции США?", "3. Перестанет ли KOSPI бить лимиты?"]),
+        "box2": ("Рамка риска", ["Сигнал верен; цена неточна.", "ФРС и отчеты подтвердят.", f"GateAffiliate · код {CODE}"]),
+        "bottom": "Итог: снизить риск и плечо. Спрос на AI не опровергнут; дно подтвердят отчеты.",
+        "bottom_width": 45,
     },
 }
 
@@ -102,8 +106,8 @@ def svg(data):
     {text_line(23, 28, data["tag"], 18, "#d9ecff")}
   </g>
 
-  {text_line(70, 154, data["title"], 54, "#f5f9ff", "800", "Inter, Arial, sans-serif")}
-  {paragraph(70, 212, lines(data["subtitle"], 58), 25, 34, "#c8dcf8")}
+  {text_line(70, 154, data["title"], data.get("title_size", 54), "#f5f9ff", "800", "Inter, Arial, sans-serif")}
+  {paragraph(70, 212, lines(data["subtitle"], data.get("subtitle_width", 58)), 25, 34, "#c8dcf8")}
 
   <g filter="url(#shadow)" font-family="Inter, Arial, sans-serif">
     {''.join(card_svg)}
@@ -121,7 +125,7 @@ def svg(data):
     {paragraph(26, 78, box2_lines, 21, 32)}
   </g>
 
-  {paragraph(70, 625, lines(data["bottom"], 88), 22, 28, "#45b7ff", "800")}
+  {paragraph(70, 625, lines(data["bottom"], data.get("bottom_width", 88)), 22, 28, "#45b7ff", "800")}
 </svg>
 '''
 
