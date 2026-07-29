@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-28"
+DATE = "2026-07-29"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-28-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-28-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-28-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-28-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-07-29-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-07-29-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-07-29-en.svg",
+    "ru": "/daily/images/market-brief-2026-07-29-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "亚洲半导体全面去杠杆，台积电相对抗跌",
-        "desc": "2026-07-28 GateAffiliate 每日市场日报：韩国与台湾半导体大幅下跌，TraderXYZ 成交放大三倍，台积电跌幅小于大盘；CXMT、拥挤仓位与 AI 资本回报共同触发区域风险重估。",
+        "title": "亚洲芯片二次去杠杆，强业绩也难阻估值收缩",
+        "desc": "2026-07-29 GateAffiliate 每日市场日报：KOSPI 与台湾芯片继续去杠杆，SK 海力士创纪录业绩仍低于极高预期；Fed、Microsoft 与 Meta 将验证 AI 资本回报。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "亚洲半导体全面去杠杆，台积电相对抗跌。",
-        "summary": "KOSPI 跌约 7.4%、台湾指数跌约 4.65%，存储与 AI 硬件同步下挫。油价和收益率回落仍未阻止抛售，说明市场正集中重估竞争、杠杆与资本回报。",
+        "h1": "亚洲芯片二次去杠杆，强业绩也难阻估值收缩。",
+        "summary": "KOSPI 午间再跌约 8.2%、台湾指数跌约 4.9%。SK 海力士收入与利润创新高仍未满足极高预期，市场焦点已转向估值、杠杆与 AI 投资回报。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "亞洲半導體全面去槓桿，台積電相對抗跌",
-        "desc": "2026-07-28 GateAffiliate 每日市場日報：韓國與台灣半導體大幅下跌，TraderXYZ 成交放大三倍，台積電跌幅小於大盤；CXMT、擁擠部位與 AI 資本回報共同觸發區域風險重估。",
+        "title": "亞洲晶片二次去槓桿，強業績也難阻估值收縮",
+        "desc": "2026-07-29 GateAffiliate 每日市場日報：KOSPI 與台灣晶片繼續去槓桿，SK 海力士創紀錄業績仍低於極高預期；Fed、Microsoft 與 Meta 將驗證 AI 資本回報。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "亞洲半導體全面去槓桿，台積電相對抗跌。",
-        "summary": "KOSPI 跌約 7.4%、台灣指數跌約 4.65%，記憶體與 AI 硬體同步下挫。油價和殖利率回落仍未阻止拋售，說明市場正集中重估競爭、槓桿與資本回報。",
+        "h1": "亞洲晶片二次去槓桿，強業績也難阻估值收縮。",
+        "summary": "KOSPI 午間再跌約 8.2%、台灣指數跌約 4.9%。SK 海力士收入與利潤創新高仍未滿足極高預期，市場焦點已轉向估值、槓桿與 AI 投資回報。",
         "tag": "最新",
     },
     "en": {
-        "title": "Asian semiconductors de-leverage as TSMC shows relative resilience",
-        "desc": "GateAffiliate's 2026-07-28 brief: Korean and Taiwan chips sell off as TraderXYZ volume triples, while TSMC outperforms its index; CXMT, crowded positioning and AI capital returns drive regional repricing.",
+        "title": "Asian chips enter a second de-leveraging wave despite record results",
+        "desc": "GateAffiliate's 2026-07-29 brief: KOSPI and Taiwan chips keep de-leveraging as record SK Hynix results miss extreme expectations; the Fed, Microsoft and Meta now test returns on AI capital.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "Asian semiconductors de-leverage as TSMC shows relative resilience.",
-        "summary": "KOSPI falls about 7.4% and Taiwan 4.65% as memory and AI hardware sell off together. Lower oil and yields fail to halt the decline, shifting the focus to competition, leverage and capital returns.",
+        "h1": "Asian chips enter a second de-leveraging wave despite record results.",
+        "summary": "KOSPI falls another 8.2% and Taiwan about 4.9%. Record SK Hynix revenue and profit still miss extreme expectations, shifting the market toward valuation, leverage and returns on AI investment.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "Полупроводники Азии снижают плечо, TSMC устойчивее рынка",
-        "desc": "Обзор GateAffiliate за 2026-07-28: чипы Кореи и Тайваня резко падают, оборот TraderXYZ утраивается, TSMC опережает индекс; CXMT, перегретые позиции и отдача AI-капитала ведут к переоценке риска.",
+        "title": "Вторая волна снижения плеча в чипах Азии несмотря на рекорды",
+        "desc": "Обзор GateAffiliate за 2026-07-29: KOSPI и чипы Тайваня продолжают снижать плечо, а рекорд SK Hynix не достигает крайних ожиданий; ФРС, Microsoft и Meta проверят отдачу AI-капитала.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "Полупроводники Азии снижают плечо, TSMC устойчивее рынка.",
-        "summary": "KOSPI падает на 7,4%, Тайвань на 4,65%, память и AI-оборудование снижаются вместе. Даже падение нефти и доходностей не остановило продажи: рынок переоценивает конкуренцию, плечо и отдачу капитала.",
+        "h1": "Вторая волна снижения плеча в чипах Азии несмотря на рекорды.",
+        "summary": "KOSPI теряет еще 8,2%, Тайвань около 4,9%. Рекордные выручка и прибыль SK Hynix не достигают крайних ожиданий, поэтому рынок пересматривает оценки, плечо и отдачу AI-инвестиций.",
         "tag": "Свежий",
     },
 }
@@ -603,19 +603,81 @@ CONCISE_SECTIONS.update({
     ],
 })
 
+CONCISE_SECTIONS.update({
+    "zh-cn": [
+        ("核心结论", [
+            "亚洲 AI 硬件进入第二阶段去杠杆。KOSPI 在前一日暴跌后午间再跌约 8.2%，台湾指数跌约 4.9%；这已从情绪冲击升级为盈利预期、估值与杠杆同步收缩。",
+            "SK 海力士收入和营业利润均创新高，但利润仍低于极高共识约 5.4%。AI 需求没有消失，真正变化是强增长已不足以支撑此前的极端估值。",
+        ]),
+        ("先进代工与存储需要分开判断", [
+            "台积电约跌 4.2%，小于韩国两大存储厂，但尚未形成真正相对强势。CXMT 扩产首先影响通用 DRAM 与成熟制程，台积电在先进逻辑、CoWoS 和客户验证上的护城河更深。",
+            "TraderXYZ 前十名义成交约 60.28 亿美元，韩国、MU、SNDK 与亚洲现货方向一致，边际情绪可信；永续价格仍会被杠杆、清算和跨时段流动性放大，不能替代主市场定价。",
+            "两日极端下跌更像高估值、指数集中、杠杆 ETF 与预期下修共同触发的流动性事件，而不是 CXMT 单一消息或 AI 终端需求突然归零。",
+        ]),
+        ("今晚的验证节点", [
+            "美联储主流预期维持 3.50%-3.75%，但油价反弹保留收紧尾部风险。Microsoft 与 Meta 的关键不只是资本开支，而是 Azure、广告效率、利润率与自由现金流能否证明 AI 投入正在产生回报。",
+            "反转需要韩国停止流动性踩踏、MU / SNDK / SOXX 放量止跌、台积电守住 2185 并重新站回 2280。若油价再上 90 美元，或云厂上调资本开支却下调现金流，估值压力可能延续。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "亞洲 AI 硬體進入第二階段去槓桿。KOSPI 在前一日暴跌後午間再跌約 8.2%，台灣指數跌約 4.9%；這已從情緒衝擊升級為盈利預期、估值與槓桿同步收縮。",
+            "SK 海力士收入和營業利潤均創新高，但利潤仍低於極高共識約 5.4%。AI 需求沒有消失，真正變化是強增長已不足以支撐此前的極端估值。",
+        ]),
+        ("先進代工與記憶體需要分開判斷", [
+            "台積電約跌 4.2%，小於韓國兩大記憶體廠，但尚未形成真正相對強勢。CXMT 擴產首先影響通用 DRAM 與成熟製程，台積電在先進邏輯、CoWoS 和客戶驗證上的護城河更深。",
+            "TraderXYZ 前十名義成交約 60.28 億美元，韓國、MU、SNDK 與亞洲現貨方向一致，邊際情緒可信；永續價格仍會被槓桿、清算和跨時段流動性放大，不能替代主市場定價。",
+            "兩日極端下跌更像高估值、指數集中、槓桿 ETF 與預期下修共同觸發的流動性事件，而不是 CXMT 單一消息或 AI 終端需求突然歸零。",
+        ]),
+        ("今晚的驗證節點", [
+            "聯準會主流預期維持 3.50%-3.75%，但油價反彈保留收緊尾部風險。Microsoft 與 Meta 的關鍵不只是資本開支，而是 Azure、廣告效率、利潤率與自由現金流能否證明 AI 投入正在產生回報。",
+            "反轉需要韓國停止流動性踩踏、MU / SNDK / SOXX 放量止跌、台積電守住 2185 並重新站回 2280。若油價再上 90 美元，或雲端業者上調資本開支卻下調現金流，估值壓力可能延續。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "Asian AI hardware enters a second de-leveraging phase. After the prior session's collapse, KOSPI loses another 8.2% around midday and Taiwan falls about 4.9%, turning an emotional shock into a simultaneous contraction in earnings expectations, valuation and leverage.",
+            "SK Hynix posts record revenue and operating profit, yet profit misses an exceptionally high consensus by roughly 5.4%. AI demand has not disappeared; the change is that strong growth no longer supports the previous extreme valuation.",
+        ]),
+        ("Separate Advanced Foundry From Memory", [
+            "TSMC falls about 4.2%, less than Korea's major memory makers but not yet true relative strength. CXMT capacity is most relevant to commodity DRAM and mature nodes, while TSMC retains deeper advantages in advanced logic, CoWoS and customer qualification.",
+            "TraderXYZ top-ten notional reaches about $6.028 billion. Korea, MU, SNDK and Asian cash markets agree on direction, improving the sentiment signal; leverage, liquidations and cross-session liquidity still exaggerate perpetual prices.",
+            "The two-day decline looks like a liquidity event driven by high valuation, index concentration, leveraged ETFs and estimate cuts, not a single CXMT headline or a sudden disappearance of end demand for AI.",
+        ]),
+        ("Tonight's Confirmation", [
+            "Consensus expects the Fed to hold at 3.50%-3.75%, while rebounding oil preserves a tightening tail risk. For Microsoft and Meta, the test is whether Azure, advertising efficiency, margins and free cash flow can prove AI capex is producing returns.",
+            "A turn requires Korean liquidity to stabilize, MU / SNDK / SOXX to stop falling on volume, and TSMC to hold 2185 before reclaiming 2280. Oil above $90 or higher cloud capex paired with weaker cash flow would extend valuation pressure.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "AI-оборудование Азии входит во вторую фазу снижения плеча. После вчерашнего обвала KOSPI теряет еще около 8,2%, Тайвань около 4,9%: эмоциональный шок превращается в одновременное сжатие ожиданий прибыли, оценок и плеча.",
+            "SK Hynix показывает рекордные выручку и операционную прибыль, но прибыль примерно на 5,4% ниже крайне высокого консенсуса. Спрос на AI не исчез; сильного роста теперь недостаточно для прежних экстремальных оценок.",
+        ]),
+        ("Передовые Фабрики и Память Нельзя Смешивать", [
+            "TSMC падает примерно на 4,2%, меньше крупных производителей памяти Кореи, но это еще не настоящая относительная сила. CXMT прежде всего влияет на обычную DRAM и зрелые узлы; преимущества TSMC глубже в передовой логике, CoWoS и сертификации клиентов.",
+            "Оборот первой десятки TraderXYZ достигает около $6,028 млрд. Корея, MU, SNDK и азиатский спот подтверждают направление, но плечо, ликвидации и межсессионная ликвидность по-прежнему преувеличивают цены перпетуалов.",
+            "Двухдневное падение больше похоже на событие ликвидности из-за высоких оценок, концентрации индексов, ETF с плечом и снижения прогнозов, а не на одну новость CXMT или исчезновение спроса на AI.",
+        ]),
+        ("Проверка Сегодня Вечером", [
+            "Консенсус ждет ставку ФРС 3,50%-3,75% без изменений, но рост нефти сохраняет риск ужесточения. Microsoft и Meta должны показать, что Azure, эффективность рекламы, маржа и денежный поток подтверждают отдачу AI-капзатрат.",
+            "Для разворота нужны стабилизация Кореи, остановка MU / SNDK / SOXX на объеме и удержание TSMC 2185 с возвратом к 2280. Нефть выше $90 или рост капзатрат при слабом потоке продлят давление на оценки.",
+        ]),
+    ],
+})
+
 SOURCE_URLS = [
-    ("ap-us-0727", "https://apnews.com/article/stocks-oil-rates-markets-cxmt-2b81f0e01bb318ae8d4281964f89f2f1"),
-    ("reuters-us-0727", "https://www.investing.com/news/economy-news/wall-st-futures-rise-as-us-iran-pause-hostilities-4813225"),
-    ("ap-asia-0728", "https://apnews.com/article/stock-markets-ai-chips-oil-a880057323bd065c325ad19b23de0cf3"),
-    ("reuters-korea", "https://ca.marketscreener.com/news/south-korea-s-kospi-drops-7-as-global-chipmaker-selloff-deepens-ce7f51ddd980f421"),
-    ("ap-cxmt", "https://apnews.com/article/9cd8b79866cf4bd5ef7c1cb81215e796"),
-    ("tsmc-q2", "https://investor.tsmc.com/english/quarterly-results/2026/q2"),
-    ("goldman-outlook", "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/us-midyear-outlook-geopolitical-shocks-the-new-fed-era-and-growth"),
-    ("jpm-fed", "https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts"),
-    ("apollo-week", "https://www.apollo.com/institutional/insights-news/insights/daily-spark/Next-Week-Could-Be-Volatile-for-Markets"),
-    ("sp-msft-meta", "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/microsoft-and-meta-earnings-previews"),
-    ("msft-ir", "https://www.microsoft.com/en-us/Investor/"),
-    ("traderxyz", "https://traderxyz.com/"),
+    ("ap-asia-0729", "https://apnews.com/article/b8bfaf782877957bbaa7196b70a4d725"),
+    ("ap-us-0728", "https://apnews.com/article/wall-street-stocks-dow-nasdaq-d2a114bce818cab6ee9583f4815cb89a"),
+    ("skhynix-q2", "https://news.skhynix.com/en/q2-2026-business-results/"),
+    ("skhynix-sec", "https://www.sec.gov/Archives/edgar/data/2120882/000119312526303983/d19380d6k.htm"),
+    ("reuters-asia-0729", "https://au.investing.com/news/stock-market-news/samsung-sk-hynix-slide-amid-nvidia-financing-worries-china-competition-4555278"),
+    ("reuters-fed-0729", "https://www.investing.com/news/economy-news/growing-number-of-brokerages-see-july-fed-decision-as-a-close-call-4813379"),
+    ("morgan-stanley", "https://www.morganstanley.com/insights/articles/market-risks-portfolio-positioning-July-2026"),
+    ("msft-date", "https://news.microsoft.com/source/2026/07/08/microsoft-announces-quarterly-earnings-release-date-68/"),
+    ("meta-q2", "https://investor.atmeta.com/investor-events/event-details/2026/Q2-2026-Earnings-Call/default.aspx"),
+    ("hyperliquid-api", "https://api.hyperliquid.xyz/info"),
+    ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
 ]
 
 SOURCE_LABELS = {
@@ -623,6 +685,14 @@ SOURCE_LABELS = {
         "bls-cpi": "美国劳工统计局：2026 年 6 月 CPI",
         "bls-ppi": "美国劳工统计局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度业绩",
+        "ap-asia-0729": "AP：7 月 29 日亚洲芯片与韩国市场",
+        "ap-us-0728": "AP：7 月 28 日美股收盘",
+        "skhynix-q2": "SK 海力士：2026 年第二季度业绩",
+        "skhynix-sec": "SEC：SK 海力士第二季度公告",
+        "reuters-asia-0729": "Reuters：亚洲芯片抛售与中国竞争",
+        "reuters-fed-0729": "Reuters：7 月 Fed 决议预期",
+        "morgan-stanley": "Morgan Stanley：市场风险与仓位建议",
+        "meta-q2": "Meta：2026 年第二季度电话会",
         "ap-us-0727": "AP：7 月 27 日美股、油价与美债",
         "reuters-us-0727": "Reuters：7 月 27 日美股、芯片指数与 Fed 定价",
         "ap-asia-0728": "AP：7 月 28 日韩国、台湾与亚洲市场",
@@ -687,6 +757,14 @@ SOURCE_LABELS = {
         "bls-cpi": "美國勞工統計局：2026 年 6 月 CPI",
         "bls-ppi": "美國勞工統計局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度業績",
+        "ap-asia-0729": "AP：7 月 29 日亞洲晶片與韓國市場",
+        "ap-us-0728": "AP：7 月 28 日美股收盤",
+        "skhynix-q2": "SK 海力士：2026 年第二季度業績",
+        "skhynix-sec": "SEC：SK 海力士第二季度公告",
+        "reuters-asia-0729": "Reuters：亞洲晶片拋售與中國競爭",
+        "reuters-fed-0729": "Reuters：7 月 Fed 決議預期",
+        "morgan-stanley": "Morgan Stanley：市場風險與部位建議",
+        "meta-q2": "Meta：2026 年第二季度電話會",
         "ap-us-0727": "AP：7 月 27 日美股、油價與美債",
         "reuters-us-0727": "Reuters：7 月 27 日美股、晶片指數與 Fed 定價",
         "ap-asia-0728": "AP：7 月 28 日韓國、台灣與亞洲市場",
@@ -751,6 +829,14 @@ SOURCE_LABELS = {
         "bls-cpi": "U.S. BLS: June 2026 CPI",
         "bls-ppi": "U.S. BLS: June 2026 PPI",
         "tsmc-q2": "TSMC 2026 second-quarter results",
+        "ap-asia-0729": "AP: July 29 Asian chips and Korean markets",
+        "ap-us-0728": "AP: July 28 U.S. market close",
+        "skhynix-q2": "SK Hynix: Q2 2026 business results",
+        "skhynix-sec": "SEC: SK Hynix second-quarter filing",
+        "reuters-asia-0729": "Reuters: Asian chip selloff and China competition",
+        "reuters-fed-0729": "Reuters: expectations for the July Fed decision",
+        "morgan-stanley": "Morgan Stanley: market risks and positioning",
+        "meta-q2": "Meta: Q2 2026 earnings call",
         "ap-us-0727": "AP: July 27 U.S. stocks, oil and Treasuries",
         "reuters-us-0727": "Reuters: July 27 U.S. stocks, chips and Fed pricing",
         "ap-asia-0728": "AP: July 28 Korea, Taiwan and Asian markets",
@@ -815,6 +901,14 @@ SOURCE_LABELS = {
         "bls-cpi": "BLS США: CPI за июнь 2026",
         "bls-ppi": "BLS США: PPI за июнь 2026",
         "tsmc-q2": "TSMC: результаты второго квартала 2026",
+        "ap-asia-0729": "AP: чипы Азии и рынок Кореи 29 июля",
+        "ap-us-0728": "AP: закрытие рынка США 28 июля",
+        "skhynix-q2": "SK Hynix: результаты второго квартала 2026",
+        "skhynix-sec": "SEC: квартальный отчет SK Hynix",
+        "reuters-asia-0729": "Reuters: распродажа чипов Азии и конкуренция Китая",
+        "reuters-fed-0729": "Reuters: ожидания решения ФРС в июле",
+        "morgan-stanley": "Morgan Stanley: риски рынка и позиции",
+        "meta-q2": "Meta: отчетная конференция за второй квартал 2026",
         "ap-us-0727": "AP: акции США, нефть и облигации 27 июля",
         "reuters-us-0727": "Reuters: акции США, чипы и ожидания ФРС 27 июля",
         "ap-asia-0728": "AP: Корея, Тайвань и рынки Азии 28 июля",
@@ -898,10 +992,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("2270 低点 / 2350-2400 修复", "美国现货与期权确认", "油价回落但芯片仍跌", "亚洲去杠杆与美国验证", "AI 收入能否覆盖资本开支"),
-        "zh-hant": ("2270 低點 / 2350-2400 修復", "美國現貨與期權確認", "油價回落但晶片仍跌", "亞洲去槓桿與美國驗證", "AI 收入能否覆蓋資本開支"),
-        "en": ("2270 low / 2350-2400 repair", "U.S. cash and options confirmation", "oil falls while chips still decline", "Asian de-leveraging vs U.S. validation", "whether AI revenue covers capex"),
-        "ru": ("минимум 2270 / возврат 2350-2400", "подтверждение спотом и опционами США", "нефть падает, чипы тоже", "Азия против проверки США", "покрывает ли AI-выручка капзатраты"),
+        "zh-cn": ("2185 支撑 / 2280 修复", "美国现货与期权止跌确认", "Fed 决议与油价反弹", "韩国踩踏与 SOXX 验证", "AI 收入能否覆盖资本开支"),
+        "zh-hant": ("2185 支撐 / 2280 修復", "美國現貨與期權止跌確認", "Fed 決議與油價反彈", "韓國踩踏與 SOXX 驗證", "AI 收入能否覆蓋資本開支"),
+        "en": ("2185 support / 2280 repair", "U.S. cash and options stabilization", "Fed decision and oil rebound", "Korean stress vs SOXX confirmation", "whether AI revenue covers capex"),
+        "ru": ("поддержка 2185 / возврат 2280", "стабилизация акций и опционов США", "решение ФРС и рост нефти", "стресс Кореи и проверка SOXX", "покрывает ли AI-выручка капзатраты"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -949,14 +1043,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("油价回落推动风险修复，云厂财报决定 AI 持续性", "上一篇市场日报。", "归档"),
-        "zh-hant": ("油價回落推動風險修復，雲端財報決定 AI 持續性", "上一篇市場日報。", "歸檔"),
-        "en": ("Oil relief supports risk repair as cloud earnings test AI durability", "Previous market brief.", "Archive"),
-        "ru": ("Снижение нефти поддерживает риск, облачные отчеты проверят устойчивость AI", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("亚洲半导体全面去杠杆，台积电相对抗跌", "上一篇市场日报。", "归档"),
+        "zh-hant": ("亞洲半導體全面去槓桿，台積電相對抗跌", "上一篇市場日報。", "歸檔"),
+        "en": ("Asian semiconductors de-leverage as TSMC shows relative resilience", "Previous market brief.", "Archive"),
+        "ru": ("Полупроводники Азии снижают плечо, TSMC устойчивее рынка", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-27")}"><span class="history-date">2026-07-27</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-28")}"><span class="history-date">2026-07-28</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
