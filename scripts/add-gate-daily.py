@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-07-31"
+DATE = "2026-08-03"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-07-31-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-07-31-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-07-31-en.svg",
-    "ru": "/daily/images/market-brief-2026-07-31-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-08-03-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-08-03-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-08-03-en.svg",
+    "ru": "/daily/images/market-brief-2026-08-03-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "AI业绩验证触发抢筹，亚洲芯片极端反弹",
-        "desc": "2026-07-31 GateAffiliate 每日市场日报：台积电涨近10%、KOSPI创纪录反弹，Amazon上调AI资本开支；需求保持强劲，但涨幅包含空头回补与流动性冲击。",
+        "title": "AI资本开支仍未见顶，市场转向回报验证",
+        "desc": "2026-08-03 GateAffiliate 每日市场日报：AI资本开支继续扩张，但市场要求收入、利润和现金流验证；台股指数与台积电分化，存储追涨和TraderXYZ成交明显降温。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "AI业绩验证触发抢筹，亚洲芯片极端反弹。",
-        "summary": "台积电涨近 10%、台湾指数涨约 8%，KOSPI 创纪录上涨 17.9%。云厂财报确认 AI 需求仍强，但极端涨幅同时包含空头回补与流动性修复。",
+        "h1": "AI资本开支仍未见顶，市场转向回报验证。",
+        "summary": "台湾指数午间涨约 0.6%，台积电却跌约 1.9%，韩国回吐极端反弹。基础设施周期仍扩张，但资金正重新审视盈利、自由现金流与估值。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "AI業績驗證觸發搶籌，亞洲晶片極端反彈",
-        "desc": "2026-07-31 GateAffiliate 每日市場日報：台積電漲近10%、KOSPI創紀錄反彈，Amazon上調AI資本開支；需求保持強勁，但漲幅包含空頭回補與流動性衝擊。",
+        "title": "AI資本開支仍未見頂，市場轉向回報驗證",
+        "desc": "2026-08-03 GateAffiliate 每日市場日報：AI資本開支繼續擴張，但市場要求收入、利潤和現金流驗證；台股指數與台積電分化，記憶體追漲和TraderXYZ成交明顯降溫。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "AI業績驗證觸發搶籌，亞洲晶片極端反彈。",
-        "summary": "台積電漲近 10%、台灣指數漲約 8%，KOSPI 創紀錄上漲 17.9%。雲端財報確認 AI 需求仍強，但極端漲幅同時包含空頭回補與流動性修復。",
+        "h1": "AI資本開支仍未見頂，市場轉向回報驗證。",
+        "summary": "台灣指數午間漲約 0.6%，台積電卻跌約 1.9%，韓國回吐極端反彈。基礎設施週期仍擴張，但資金正重新審視盈利、自由現金流與估值。",
         "tag": "最新",
     },
     "en": {
-        "title": "AI earnings proof sparks an extreme rebound in Asian chips",
-        "desc": "GateAffiliate's 2026-07-31 brief: TSMC gains nearly 10% and KOSPI posts a record rebound as Amazon lifts AI capex; demand remains firm, but short covering and liquidity amplify the move.",
+        "title": "AI capex keeps expanding as markets demand proof of returns",
+        "desc": "GateAffiliate's 2026-08-03 brief: AI capex continues to expand, but markets demand revenue, profit and cash-flow proof; Taiwan diverges from TSMC as memory momentum and TraderXYZ volume cool.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "AI earnings proof sparks an extreme rebound in Asian chips.",
-        "summary": "TSMC gains nearly 10%, Taiwan about 8% and KOSPI a record 17.9%. Cloud earnings confirm firm AI demand, while short covering and a liquidity reversal amplify the rebound.",
+        "h1": "AI capex keeps expanding as markets demand proof of returns.",
+        "summary": "Taiwan rises about 0.6% while TSMC falls roughly 1.9%, and Korea gives back part of its extreme rebound. Infrastructure still expands, but profit, free cash flow and valuation regain focus.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "Отчеты по AI вызвали экстремальный отскок чипов Азии",
-        "desc": "Обзор GateAffiliate за 2026-07-31: TSMC растет почти на 10%, KOSPI показывает рекордный отскок, Amazon повышает AI-капзатраты; спрос силен, но шорты и ликвидность усиливают движение.",
+        "title": "AI-капзатраты растут, рынок требует доказать отдачу",
+        "desc": "Обзор GateAffiliate за 2026-08-03: AI-капзатраты продолжают расти, но рынок требует выручку, прибыль и денежный поток; Тайвань расходится с TSMC, а импульс памяти и TraderXYZ слабеет.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "Отчеты по AI вызвали экстремальный отскок чипов Азии.",
-        "summary": "TSMC растет почти на 10%, Тайвань на 8%, KOSPI на рекордные 17,9%. Облачные отчеты подтверждают спрос на AI, но закрытие шортов и восстановление ликвидности усиливают рост.",
+        "h1": "AI-капзатраты растут, рынок требует доказать отдачу.",
+        "summary": "Тайвань растет примерно на 0,6%, TSMC падает на 1,9%, Корея отдает часть экстремального отскока. Инфраструктура расширяется, но в центр возвращаются прибыль, поток и оценка.",
         "tag": "Свежий",
     },
 }
@@ -729,17 +729,79 @@ CONCISE_SECTIONS.update({
     ],
 })
 
+CONCISE_SECTIONS.update({
+    "zh-cn": [
+        ("核心结论", [
+            "AI 资本开支尚未见顶，但市场定价已经切换：投入规模不再自动获得溢价，收入、利润率与自由现金流成为核心验证。Amazon 与 Microsoft 获得奖励，Apple 和此前的 Meta 则显示弱指引或回报压力会被迅速惩罚。",
+            "台湾市场出现指数强、台积电弱的分化。加权指数午间涨约 0.6%，台积电跌约 1.9%；韩国回吐上周五反弹，说明极端空头回补退潮后，资金重新评估盈利质量与估值。",
+        ]),
+        ("产业扩张与拥挤降温", [
+            "Amazon 将 2026 年资本开支上调至 2200 亿美元，AWS 增长 37%；Microsoft 的 Azure 与盈利也支持算力需求仍高于供给。约束正由 GPU 扩散到 HBM、先进封装、光通信、电力、并网和数据中心建设。",
+            "台积电 Q2 收入、利润率和净利润均高于预期，全年收入增速与资本开支指引上调。今日回落更像涨停后的消化，但未来仍需 2nm 良率、CoWoS 扩产、订单和毛利率持续验证。",
+            "TraderXYZ 前十名义成交约 14.93 亿美元，较上周五相近时点下降约 76%。存储合约仍活跃，但极端追涨与强平换手明显退潮，链上信号偏温和，不能推导美股芯片开盘必然上涨。",
+        ]),
+        ("本周验证条件", [
+            "短线观察台积电能否收复 2400、新台币与外资流向，以及 MU、SNDK、SOXX 的现货成交和期权偏度。存储供需仍紧，但高仓位、扩产和替代供应会放大周期波动。",
+            "美国职位空缺与非农就业将重定价利率。就业过强可能推高收紧预期；就业放缓而通胀偏高则增加滞胀担忧。高估值科技仍受长端收益率和油价约束。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "AI 資本開支尚未見頂，但市場定價已經切換：投入規模不再自動獲得溢價，收入、利潤率與自由現金流成為核心驗證。Amazon 與 Microsoft 獲得獎勵，Apple 和此前的 Meta 則顯示弱指引或回報壓力會被迅速懲罰。",
+            "台灣市場出現指數強、台積電弱的分化。加權指數午間漲約 0.6%，台積電跌約 1.9%；韓國回吐上週五反彈，說明極端空頭回補退潮後，資金重新評估盈利品質與估值。",
+        ]),
+        ("產業擴張與擁擠降溫", [
+            "Amazon 將 2026 年資本開支上調至 2200 億美元，AWS 增長 37%；Microsoft 的 Azure 與盈利也支持算力需求仍高於供給。約束正由 GPU 擴散到 HBM、先進封裝、光通信、電力、併網和資料中心建設。",
+            "台積電 Q2 收入、利潤率和淨利潤均高於預期，全年收入增速與資本開支指引上調。今日回落更像漲停後的消化，但未來仍需 2nm 良率、CoWoS 擴產、訂單和毛利率持續驗證。",
+            "TraderXYZ 前十名義成交約 14.93 億美元，較上週五相近時點下降約 76%。記憶體合約仍活躍，但極端追漲與強平換手明顯退潮，鏈上訊號偏溫和，不能推導美股晶片開盤必然上漲。",
+        ]),
+        ("本週驗證條件", [
+            "短線觀察台積電能否收復 2400、新台幣與外資流向，以及 MU、SNDK、SOXX 的現貨成交和期權偏度。記憶體供需仍緊，但高部位、擴產和替代供應會放大週期波動。",
+            "美國職位空缺與非農就業將重定價利率。就業過強可能推高收緊預期；就業放緩而通膨偏高則增加停滯性通膨擔憂。高估值科技仍受長端殖利率和油價約束。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "AI capex has not peaked, but the pricing rule has changed: spending no longer earns an automatic premium, while revenue, margins and free cash flow provide the proof. Amazon and Microsoft are rewarded; Apple and the earlier Meta reaction show that weak guidance or poor returns are punished quickly.",
+            "Taiwan shows a strong-index, weak-TSMC split. The benchmark rises about 0.6% around midday while TSMC falls roughly 1.9%, and Korea gives back part of Friday's surge. As short covering fades, investors return to earnings quality and valuation.",
+        ]),
+        ("Expansion Continues as Crowding Cools", [
+            "Amazon lifts 2026 capex to $220 billion as AWS grows 37%, while Azure and Microsoft profitability also support demand above supply. Bottlenecks now extend from GPUs into HBM, advanced packaging, optics, power, grid access and data-center construction.",
+            "TSMC beats Q2 expectations on revenue, margins and profit, then raises full-year growth and capex guidance. Today's decline looks like digestion after Friday's limit-like move, while 2nm yield, CoWoS capacity, orders and margins must keep validating the story.",
+            "TraderXYZ top-ten notional falls to about $1.493 billion, roughly 76% below a similar Friday snapshot. Memory remains active, but forced turnover and chase intensity fade sharply; the mild signal cannot establish a higher U.S. chip open.",
+        ]),
+        ("This Week's Confirmation", [
+            "Watch whether TSMC reclaims 2400, alongside the Taiwan dollar, foreign flows and cash/options behavior in MU, SNDK and SOXX. Memory remains tight, but crowded positions, new capacity and alternative supply amplify the cycle.",
+            "U.S. job openings and payrolls will reprice rates. Strong employment could lift tightening expectations; weaker jobs with firm inflation would raise stagflation risk. Long yields and oil still constrain expensive technology.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "AI-капзатраты еще не достигли пика, но правило оценки изменилось: расходы больше не дают автоматическую премию, нужны выручка, маржа и свободный поток. Amazon и Microsoft получают награду; Apple и прежняя реакция Meta показывают наказание за слабый прогноз и отдачу.",
+            "На Тайване сильный индекс расходится со слабой TSMC. Индекс растет примерно на 0,6%, TSMC падает на 1,9%, Корея отдает часть пятничного скачка. После закрытия шортов рынок снова оценивает качество прибыли и цену.",
+        ]),
+        ("Цикл Растет, Перегрев Снижается", [
+            "Amazon повышает капзатраты 2026 года до $220 млрд при росте AWS на 37%; Azure и прибыль Microsoft также подтверждают спрос выше предложения. Ограничения идут от GPU к HBM, упаковке, оптике, энергии, сетям и строительству дата-центров.",
+            "TSMC превышает ожидания Q2 по выручке, марже и прибыли и повышает прогноз роста и капзатрат. Сегодняшнее снижение похоже на паузу после пятничного скачка, но нужны подтверждения 2nm, CoWoS, заказов и маржи.",
+            "Оборот первой десятки TraderXYZ падает до $1,493 млрд, примерно на 76% ниже сопоставимого пятничного снимка. Память активна, но погоня и принудительный оборот резко ослабли; сигнал не гарантирует рост чипов США на открытии.",
+        ]),
+        ("Проверка Этой Недели", [
+            "Следите, вернется ли TSMC выше 2400, а также за валютой Тайваня, иностранными потоками и акциями/опционами MU, SNDK и SOXX. Память остается дефицитной, но позиции, новые мощности и альтернативы усиливают цикл.",
+            "Вакансии и занятость США переоценят ставки. Сильные данные повысят риск ужесточения; слабая занятость при высокой инфляции усилит страх стагфляции. Доходности и нефть ограничивают дорогие технологии.",
+        ]),
+    ],
+})
+
 SOURCE_URLS = [
-    ("ap-asia-0731", "https://apnews.com/article/stock-markets-rates-korea-ai-oil-e31b3a442bcb957a53f1823ef21e73e8"),
     ("twse-live", "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_t00.tw%7Ctse_2330.tw&json=1&delay=0"),
-    ("ap-us-0730", "https://apnews.com/article/stock-markets-rates-korea-ai-oil-99b5702d93a2b5c6e513fb952ccdcc92"),
-    ("ap-amazon-q2", "https://apnews.com/article/amazon-second-quarter-earnings-cloud-b4ce02b4666a35b8975823c5c22072ee"),
-    ("ap-apple-q2", "https://apnews.com/article/apple-earnings-revenue-iphone-ai-94102918cb3592ebc1d2a38c4d7d819a"),
-    ("ap-tsmc-q2", "https://apnews.com/article/taiwan-tsmc-chipmaking-ai-arizona-fab-ba05b1b952257d371acb9d070e7914ff"),
-    ("fed-july", "https://www.lemonde.fr/en/economy/article/2026/07/30/fed-keeps-rates-steady-despite-high-inflation_6755980_19.html"),
-    ("morgan-stanley", "https://www.morganstanley.com/insights/articles/market-risks-portfolio-positioning-July-2026"),
-    ("ms-infra", "https://www.morganstanley.com/im/en-us/institutional-investor/insights/outlooks/infrastructure-midyear-outlook-2026.html"),
-    ("ms-slimmon", "https://www.morganstanley.com/im/en-us/institutional-investor/insights/series/slimmons-take.html"),
+    ("ap-us-0731", "https://apnews.com/article/stock-markets-rates-korea-ai-oil-e31b3a442bcb957a53f1823ef21e73e8"),
+    ("ap-week-0803", "https://apnews.com/article/wall-street-earnings-jobs-inflation-91895d5d308c6887ba8737e25567601c"),
+    ("sp-tsmc-q2", "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/tsmc-postq-ai-drives-beat-outlook-raised-higher-capex-weighs-on-sentiment"),
+    ("goldman-ai-adoption", "https://www.goldmansachs.com/insights/articles/ai-investment-is-shifting-as-inference-enterprise-adoption-accelerate"),
+    ("ms-ai-cycle", "https://www.morganstanley.com/insights/articles/ai-market-trends-institute-2026"),
+    ("blackrock-equity", "https://www.blackrock.com/uk/solutions/equity-market-outlook"),
+    ("jpm-midyear", "https://www.jpmorgan.com/insights/global-research/outlook/mid-year-outlook"),
+    ("jpm-ai-chain", "https://am.jpmorgan.com/us/en/asset-management/liq/insights/market-themes/artificial-intelligence/"),
     ("hyperliquid-api", "https://api.hyperliquid.xyz/info"),
 ]
 
@@ -748,6 +810,14 @@ SOURCE_LABELS = {
         "bls-cpi": "美国劳工统计局：2026 年 6 月 CPI",
         "bls-ppi": "美国劳工统计局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度业绩",
+        "ap-us-0731": "AP：7 月 31 日美国市场与大型科技",
+        "ap-week-0803": "AP：本周美国就业数据与财报日程",
+        "sp-tsmc-q2": "S&P Global：台积电 Q2 与资本开支分析",
+        "goldman-ai-adoption": "Goldman Sachs：企业 AI 采用与算力约束",
+        "ms-ai-cycle": "Morgan Stanley：AI 宏观投资周期",
+        "blackrock-equity": "BlackRock：股票市场与 AI 二阶机会",
+        "jpm-midyear": "J.P. Morgan：2026 年中市场展望",
+        "jpm-ai-chain": "J.P. Morgan AM：AI 产业链",
         "ap-asia-0731": "AP：7 月 31 日亚洲、韩国与台湾市场",
         "twse-live": "台湾证券交易所：指数与台积电行情",
         "ap-us-0730": "AP：7 月 30 日美国市场",
@@ -829,6 +899,14 @@ SOURCE_LABELS = {
         "bls-cpi": "美國勞工統計局：2026 年 6 月 CPI",
         "bls-ppi": "美國勞工統計局：2026 年 6 月 PPI",
         "tsmc-q2": "TSMC 2026 年第二季度業績",
+        "ap-us-0731": "AP：7 月 31 日美國市場與大型科技",
+        "ap-week-0803": "AP：本週美國就業數據與財報日程",
+        "sp-tsmc-q2": "S&P Global：台積電 Q2 與資本開支分析",
+        "goldman-ai-adoption": "Goldman Sachs：企業 AI 採用與算力約束",
+        "ms-ai-cycle": "Morgan Stanley：AI 宏觀投資週期",
+        "blackrock-equity": "BlackRock：股票市場與 AI 二階機會",
+        "jpm-midyear": "J.P. Morgan：2026 年中市場展望",
+        "jpm-ai-chain": "J.P. Morgan AM：AI 產業鏈",
         "ap-asia-0731": "AP：7 月 31 日亞洲、韓國與台灣市場",
         "twse-live": "台灣證券交易所：指數與台積電行情",
         "ap-us-0730": "AP：7 月 30 日美國市場",
@@ -910,6 +988,14 @@ SOURCE_LABELS = {
         "bls-cpi": "U.S. BLS: June 2026 CPI",
         "bls-ppi": "U.S. BLS: June 2026 PPI",
         "tsmc-q2": "TSMC 2026 second-quarter results",
+        "ap-us-0731": "AP: July 31 U.S. markets and mega-cap technology",
+        "ap-week-0803": "AP: U.S. jobs data and earnings this week",
+        "sp-tsmc-q2": "S&P Global: TSMC Q2 and capex analysis",
+        "goldman-ai-adoption": "Goldman Sachs: enterprise AI adoption and compute constraints",
+        "ms-ai-cycle": "Morgan Stanley: AI macro investment cycle",
+        "blackrock-equity": "BlackRock: equities and second-order AI opportunities",
+        "jpm-midyear": "J.P. Morgan: 2026 midyear market outlook",
+        "jpm-ai-chain": "J.P. Morgan AM: the AI value chain",
         "ap-asia-0731": "AP: July 31 Asian, Korean and Taiwan markets",
         "twse-live": "Taiwan Stock Exchange: index and TSMC quotes",
         "ap-us-0730": "AP: July 30 U.S. markets",
@@ -991,6 +1077,14 @@ SOURCE_LABELS = {
         "bls-cpi": "BLS США: CPI за июнь 2026",
         "bls-ppi": "BLS США: PPI за июнь 2026",
         "tsmc-q2": "TSMC: результаты второго квартала 2026",
+        "ap-us-0731": "AP: рынок США и крупные технологии 31 июля",
+        "ap-week-0803": "AP: занятость и отчеты США на этой неделе",
+        "sp-tsmc-q2": "S&P Global: Q2 TSMC и анализ капзатрат",
+        "goldman-ai-adoption": "Goldman Sachs: внедрение AI и ограничения вычислений",
+        "ms-ai-cycle": "Morgan Stanley: макроцикл инвестиций в AI",
+        "blackrock-equity": "BlackRock: акции и вторичные возможности AI",
+        "jpm-midyear": "J.P. Morgan: обзор рынка на середину 2026 года",
+        "jpm-ai-chain": "J.P. Morgan AM: цепочка стоимости AI",
         "ap-asia-0731": "AP: рынки Азии, Кореи и Тайваня 31 июля",
         "twse-live": "Тайваньская биржа: индекс и котировки TSMC",
         "ap-us-0730": "AP: рынок США 30 июля",
@@ -1091,10 +1185,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("2425 缺口 / 外资流向", "美国现货与期权确认", "美债收益率与油价", "亚洲反弹与 SOXX 验证", "AI 收入与自由现金流"),
-        "zh-hant": ("2425 缺口 / 外資流向", "美國現貨與期權確認", "美債殖利率與油價", "亞洲反彈與 SOXX 驗證", "AI 收入與自由現金流"),
-        "en": ("2425 gap / foreign flows", "U.S. cash and options confirmation", "Treasury yields and oil", "Asian rebound vs SOXX validation", "AI revenue and free cash flow"),
-        "ru": ("гэп 2425 / иностранные потоки", "акции и опционы США", "доходности и нефть", "отскок Азии и проверка SOXX", "AI-выручка и свободный поток"),
+        "zh-cn": ("2365-2400 / 外资流向", "美国现货与期权确认", "就业、收益率与油价", "台湾分化与 SOXX 验证", "AI 收入、资本开支与现金流"),
+        "zh-hant": ("2365-2400 / 外資流向", "美國現貨與期權確認", "就業、殖利率與油價", "台灣分化與 SOXX 驗證", "AI 收入、資本開支與現金流"),
+        "en": ("2365-2400 / foreign flows", "U.S. cash and options confirmation", "jobs, yields and oil", "Taiwan split vs SOXX validation", "AI revenue, capex and cash flow"),
+        "ru": ("2365-2400 / иностранные потоки", "акции и опционы США", "занятость, ставки и нефть", "Тайвань против проверки SOXX", "AI-выручка, капзатраты и поток"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -1142,14 +1236,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("亚洲芯片二次去杠杆，强业绩也难阻估值收缩", "上一篇市场日报。", "归档"),
-        "zh-hant": ("亞洲晶片二次去槓桿，強業績也難阻估值收縮", "上一篇市場日報。", "歸檔"),
-        "en": ("Asian chips enter a second de-leveraging wave despite record results", "Previous market brief.", "Archive"),
-        "ru": ("Вторая волна снижения плеча в чипах Азии несмотря на рекорды", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("AI业绩验证触发抢筹，亚洲芯片极端反弹", "上一篇市场日报。", "归档"),
+        "zh-hant": ("AI業績驗證觸發搶籌，亞洲晶片極端反彈", "上一篇市場日報。", "歸檔"),
+        "en": ("AI earnings proof sparks an extreme rebound in Asian chips", "Previous market brief.", "Archive"),
+        "ru": ("Отчеты по AI вызвали экстремальный отскок чипов Азии", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-29")}"><span class="history-date">2026-07-29</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-07-31")}"><span class="history-date">2026-07-31</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
