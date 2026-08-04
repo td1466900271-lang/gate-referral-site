@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-08-03"
+DATE = "2026-08-04"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-08-03-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-08-03-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-08-03-en.svg",
-    "ru": "/daily/images/market-brief-2026-08-03-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-08-04-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-08-04-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-08-04-en.svg",
+    "ru": "/daily/images/market-brief-2026-08-04-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "AI资本开支仍未见顶，市场转向回报验证",
-        "desc": "2026-08-03 GateAffiliate 每日市场日报：AI资本开支继续扩张，但市场要求收入、利润和现金流验证；台股指数与台积电分化，存储追涨和TraderXYZ成交明显降温。",
+        "title": "美股接近新高，亚洲芯片仍在去拥挤",
+        "desc": "2026-08-04 GateAffiliate 每日市场日报：油价回落推动美股接近历史高点，但台积电与亚洲芯片承压；TraderXYZ存储成交放大，AI交易转向盈利兑现。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "AI资本开支仍未见顶，市场转向回报验证。",
-        "summary": "台湾指数午间涨约 0.6%，台积电却跌约 1.9%，韩国回吐极端反弹。基础设施周期仍扩张，但资金正重新审视盈利、自由现金流与估值。",
+        "h1": "美股接近新高，亚洲芯片仍在去拥挤。",
+        "summary": "油价回落推动标普500上涨 1.5%，但台积电午间跌约 1.9%，存储合约放量分化。AI基础设施周期未结束，市场却更看重盈利与现金流兑现。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "AI資本開支仍未見頂，市場轉向回報驗證",
-        "desc": "2026-08-03 GateAffiliate 每日市場日報：AI資本開支繼續擴張，但市場要求收入、利潤和現金流驗證；台股指數與台積電分化，記憶體追漲和TraderXYZ成交明顯降溫。",
+        "title": "美股接近新高，亞洲晶片仍在去擁擠",
+        "desc": "2026-08-04 GateAffiliate 每日市場日報：油價回落推動美股接近歷史高點，但台積電與亞洲晶片承壓；TraderXYZ記憶體成交放大，AI交易轉向盈利兌現。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "AI資本開支仍未見頂，市場轉向回報驗證。",
-        "summary": "台灣指數午間漲約 0.6%，台積電卻跌約 1.9%，韓國回吐極端反彈。基礎設施週期仍擴張，但資金正重新審視盈利、自由現金流與估值。",
+        "h1": "美股接近新高，亞洲晶片仍在去擁擠。",
+        "summary": "油價回落推動標普500上漲 1.5%，但台積電午間跌約 1.9%，記憶體合約放量分化。AI基礎設施週期未結束，市場卻更看重盈利與現金流兌現。",
         "tag": "最新",
     },
     "en": {
-        "title": "AI capex keeps expanding as markets demand proof of returns",
-        "desc": "GateAffiliate's 2026-08-03 brief: AI capex continues to expand, but markets demand revenue, profit and cash-flow proof; Taiwan diverges from TSMC as memory momentum and TraderXYZ volume cool.",
+        "title": "U.S. stocks near records while Asian chips keep unwinding",
+        "desc": "GateAffiliate's 2026-08-04 brief: lower oil lifts U.S. stocks near records, but TSMC and Asian chips lag as TraderXYZ memory volume rises and AI leadership shifts toward earnings delivery.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "AI capex keeps expanding as markets demand proof of returns.",
-        "summary": "Taiwan rises about 0.6% while TSMC falls roughly 1.9%, and Korea gives back part of its extreme rebound. Infrastructure still expands, but profit, free cash flow and valuation regain focus.",
+        "h1": "U.S. stocks near records while Asian chips keep unwinding.",
+        "summary": "Lower oil lifts the S&P 500 by 1.5%, but TSMC falls about 1.9% at midday as memory contracts diverge on heavier volume. The AI buildout continues, while earnings and cash flow decide leadership.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "AI-капзатраты растут, рынок требует доказать отдачу",
-        "desc": "Обзор GateAffiliate за 2026-08-03: AI-капзатраты продолжают расти, но рынок требует выручку, прибыль и денежный поток; Тайвань расходится с TSMC, а импульс памяти и TraderXYZ слабеет.",
+        "title": "Рынок США у рекорда, чипы Азии продолжают разгрузку",
+        "desc": "Обзор GateAffiliate за 2026-08-04: снижение нефти поддержало рынок США, но TSMC и чипы Азии отстают; оборот памяти TraderXYZ вырос, а лидерство AI зависит от прибыли.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "AI-капзатраты растут, рынок требует доказать отдачу.",
-        "summary": "Тайвань растет примерно на 0,6%, TSMC падает на 1,9%, Корея отдает часть экстремального отскока. Инфраструктура расширяется, но в центр возвращаются прибыль, поток и оценка.",
+        "h1": "Рынок США у рекорда, чипы Азии продолжают разгрузку.",
+        "summary": "Снижение нефти поднимает S&P 500 на 1,5%, но TSMC теряет около 1,9%, а память расходится при росте оборота. Цикл AI продолжается, однако лидерство решают прибыль и денежный поток.",
         "tag": "Свежий",
     },
 }
@@ -792,16 +792,77 @@ CONCISE_SECTIONS.update({
     ],
 })
 
+CONCISE_SECTIONS.update({
+    "zh-cn": [
+        ("核心结论", [
+            "油价回落、长端收益率缓和与大型科技修复推动标普500上涨 1.5%，距离历史高点约 0.1%。但 SOXX 仅涨约 0.6%，台积电午间跌约 1.9%，说明指数风险偏好与亚洲芯片定价仍明显分化。",
+            "AI 基础设施周期尚未见顶，市场主线却从普遍奖励硬件转向验证货币化。Microsoft、Amazon 与 Alphabet 更能用云收入和利润支撑投入；半导体仍有需求基础，但估值弹性下降。",
+        ]),
+        ("存储放量，方向并不一致", [
+            "TraderXYZ 前十名义成交约 36.99 亿美元，较前一日增加约 148%。成交放大主要伴随 SK 海力士、美光与 DRAM 下跌，SNDK 则上涨，因此更接近仓位调整和板块分歧，而不是全面风险偏好回升。",
+            "台积电 Q2 盈利与全年指引仍支持先进制程、CoWoS 和 AI 加速器需求。短线跌破 2350 后，重点看 2300 附近承接、外资方向与成交量；基本面强不等于高估值阶段没有剧烈波动。",
+            "云厂商资本开支继续扩张，瓶颈从 GPU 延伸到 HBM、先进封装、光通信、电力和数据中心建设。下一阶段胜负取决于这些投入能否形成收入、利润率和自由现金流。",
+        ]),
+        ("今日验证条件", [
+            "今晚关注 JOLTS、10 年期美债收益率与布伦特 85 美元附近表现。就业过强可能推高收紧预期；油价重新上行则会削弱隔夜科技股修复的宏观基础。",
+            "美股开盘后用 MU、SNDK、NVDA、AMD 现货，SOXX / SMH 与期权波动率确认 TraderXYZ 信号。成交额增长本身不能替代方向和现货价格发现。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "油價回落、長端殖利率緩和與大型科技修復推動標普500上漲 1.5%，距離歷史高點約 0.1%。但 SOXX 僅漲約 0.6%，台積電午間跌約 1.9%，顯示指數風險偏好與亞洲晶片定價仍明顯分化。",
+            "AI 基礎設施週期尚未見頂，市場主線卻從普遍獎勵硬體轉向驗證貨幣化。Microsoft、Amazon 與 Alphabet 更能用雲端收入和利潤支撐投入；半導體仍有需求基礎，但估值彈性下降。",
+        ]),
+        ("記憶體放量，方向並不一致", [
+            "TraderXYZ 前十名義成交約 36.99 億美元，較前一日增加約 148%。成交放大主要伴隨 SK 海力士、美光與 DRAM 下跌，SNDK 則上漲，因此更接近部位調整和板塊分歧，而不是全面風險偏好回升。",
+            "台積電 Q2 盈利與全年指引仍支持先進製程、CoWoS 和 AI 加速器需求。短線跌破 2350 後，重點看 2300 附近承接、外資方向與成交量；基本面強不等於高估值階段沒有劇烈波動。",
+            "雲端業者資本開支繼續擴張，瓶頸從 GPU 延伸到 HBM、先進封裝、光通信、電力和資料中心建設。下一階段勝負取決於這些投入能否形成收入、利潤率和自由現金流。",
+        ]),
+        ("今日驗證條件", [
+            "今晚關注 JOLTS、10 年期美債殖利率與布倫特 85 美元附近表現。就業過強可能推高緊縮預期；油價重新上行則會削弱隔夜科技股修復的宏觀基礎。",
+            "美股開盤後用 MU、SNDK、NVDA、AMD 現貨，SOXX / SMH 與期權波動率確認 TraderXYZ 訊號。成交額增長本身不能取代方向和現貨價格發現。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "Lower oil, easier long yields and a mega-cap rebound lift the S&P 500 by 1.5% to roughly 0.1% below its record. Yet SOXX gains only about 0.6% and TSMC falls around 1.9% at midday, leaving a clear split between index risk appetite and Asian chip pricing.",
+            "The AI infrastructure cycle has not peaked, but leadership shifts from broad hardware exposure toward monetization proof. Microsoft, Amazon and Alphabet can better support spending with cloud revenue and profit; semiconductor demand remains firm as valuation beta fades.",
+        ]),
+        ("Memory Volume Rises Without a Common Direction", [
+            "TraderXYZ top-ten notional reaches about $3.699 billion, up roughly 148% day over day. Heavier turnover accompanies declines in SK Hynix, Micron and DRAM while SNDK rises, pointing to repositioning and dispersion rather than a broad return of risk appetite.",
+            "TSMC's Q2 earnings and full-year guidance still support advanced nodes, CoWoS and AI accelerators. After slipping below 2350, the near-term checks are support around 2300, foreign flows and volume; strong fundamentals do not remove high-valuation volatility.",
+            "Hyperscaler capex keeps expanding as bottlenecks spread beyond GPUs into HBM, advanced packaging, optics, power and data-center construction. The next phase depends on converting that spending into revenue, margins and free cash flow.",
+        ]),
+        ("Today's Confirmation", [
+            "Watch JOLTS, the U.S. 10-year yield and Brent near $85. Strong jobs could lift tightening expectations, while another oil rise would erode the macro foundation of the overnight technology rebound.",
+            "At the U.S. open, confirm TraderXYZ with MU, SNDK, NVDA and AMD cash trading, SOXX / SMH and option volatility. Higher notional turnover cannot replace direction or primary-market price discovery.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "Снижение нефти, доходностей и отскок крупных технологий поднимают S&P 500 на 1,5% — примерно на 0,1% ниже рекорда. Но SOXX растет лишь на 0,6%, а TSMC теряет около 1,9%: индексный оптимизм расходится с ценами чипов Азии.",
+            "Цикл инфраструктуры AI еще не достиг пика, но лидерство смещается от всех производителей железа к доказанной монетизации. Microsoft, Amazon и Alphabet лучше подкрепляют расходы облачной выручкой и прибылью; спрос на чипы силен, а оценочный потенциал ниже.",
+        ]),
+        ("Оборот Памяти Растет Без Общего Направления", [
+            "Оборот первой десятки TraderXYZ достигает около $3,699 млрд, на 148% выше дня ранее. SK Hynix, Micron и DRAM падают, тогда как SNDK растет: это перестройка позиций и расхождение, а не общий возврат аппетита к риску.",
+            "Q2 и годовой прогноз TSMC поддерживают передовые узлы, CoWoS и AI-ускорители. После ухода ниже 2350 важны поддержка около 2300, иностранные потоки и объем; сильный бизнес не устраняет волатильность высокой оценки.",
+            "Капзатраты облаков растут, а дефицит идет от GPU к HBM, упаковке, оптике, энергии и дата-центрам. Следующий этап требует превращения расходов в выручку, маржу и свободный денежный поток.",
+        ]),
+        ("Проверка Сегодня", [
+            "Следите за JOLTS, доходностью 10-летних облигаций США и Brent около $85. Сильная занятость повысит риск ужесточения, а новый рост нефти ослабит основу ночного отскока технологий.",
+            "После открытия США сверяйте TraderXYZ с акциями MU, SNDK, NVDA и AMD, ETF SOXX / SMH и волатильностью опционов. Рост оборота не заменяет направление и основное ценообразование.",
+        ]),
+    ],
+})
+
 SOURCE_URLS = [
     ("twse-live", "https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=tse_t00.tw%7Ctse_2330.tw&json=1&delay=0"),
-    ("ap-us-0731", "https://apnews.com/article/stock-markets-rates-korea-ai-oil-e31b3a442bcb957a53f1823ef21e73e8"),
-    ("ap-week-0803", "https://apnews.com/article/wall-street-earnings-jobs-inflation-91895d5d308c6887ba8737e25567601c"),
-    ("sp-tsmc-q2", "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/tsmc-postq-ai-drives-beat-outlook-raised-higher-capex-weighs-on-sentiment"),
+    ("ap-us-0803", "https://apnews.com/article/wall-street-stocks-dow-nasdaq-f8e5f81b45c83878f5b7f69832bb0c95"),
+    ("reuters-hyperscalers", "https://www.investing.com/news/economy-news/ai-investors-may-pivot-to-hyperscalers-from-chipmakers-morgan-stanley-says-4776770"),
     ("goldman-ai-adoption", "https://www.goldmansachs.com/insights/articles/ai-investment-is-shifting-as-inference-enterprise-adoption-accelerate"),
+    ("goldman-covello", "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/the-ai-investment-boom-when-will-it-pay-off"),
     ("ms-ai-cycle", "https://www.morganstanley.com/insights/articles/ai-market-trends-institute-2026"),
-    ("blackrock-equity", "https://www.blackrock.com/uk/solutions/equity-market-outlook"),
-    ("jpm-midyear", "https://www.jpmorgan.com/insights/global-research/outlook/mid-year-outlook"),
-    ("jpm-ai-chain", "https://am.jpmorgan.com/us/en/asset-management/liq/insights/market-themes/artificial-intelligence/"),
+    ("nyfed-calendar", "https://www.newyorkfed.org/research/calendars/i-aug26.html"),
     ("hyperliquid-api", "https://api.hyperliquid.xyz/info"),
 ]
 
@@ -1164,6 +1225,31 @@ SOURCE_LABELS = {
     },
 }
 
+SOURCE_LABELS["zh-cn"].update({
+    "ap-us-0803": "AP：8 月 3 日美国市场与油价",
+    "reuters-hyperscalers": "Reuters：资金从芯片转向云厂商",
+    "goldman-covello": "Goldman Sachs：AI 投资回报的反向观点",
+    "nyfed-calendar": "纽约联储：2026 年 8 月经济数据日程",
+})
+SOURCE_LABELS["zh-hant"].update({
+    "ap-us-0803": "AP：8 月 3 日美國市場與油價",
+    "reuters-hyperscalers": "Reuters：資金從晶片轉向雲端業者",
+    "goldman-covello": "Goldman Sachs：AI 投資回報的反向觀點",
+    "nyfed-calendar": "紐約聯儲：2026 年 8 月經濟數據日程",
+})
+SOURCE_LABELS["en"].update({
+    "ap-us-0803": "AP: August 3 U.S. markets and oil",
+    "reuters-hyperscalers": "Reuters: capital rotates from chips toward hyperscalers",
+    "goldman-covello": "Goldman Sachs: the contrarian case on AI returns",
+    "nyfed-calendar": "New York Fed: August 2026 economic calendar",
+})
+SOURCE_LABELS["ru"].update({
+    "ap-us-0803": "AP: рынок США и нефть 3 августа",
+    "reuters-hyperscalers": "Reuters: капитал идет от чипов к облачным платформам",
+    "goldman-covello": "Goldman Sachs: альтернативный взгляд на отдачу AI",
+    "nyfed-calendar": "ФРБ Нью-Йорка: календарь данных на август 2026",
+})
+
 
 def translated_sections(sections):
     return "\n".join(
@@ -1185,10 +1271,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("2365-2400 / 外资流向", "美国现货与期权确认", "就业、收益率与油价", "台湾分化与 SOXX 验证", "AI 收入、资本开支与现金流"),
-        "zh-hant": ("2365-2400 / 外資流向", "美國現貨與期權確認", "就業、殖利率與油價", "台灣分化與 SOXX 驗證", "AI 收入、資本開支與現金流"),
-        "en": ("2365-2400 / foreign flows", "U.S. cash and options confirmation", "jobs, yields and oil", "Taiwan split vs SOXX validation", "AI revenue, capex and cash flow"),
-        "ru": ("2365-2400 / иностранные потоки", "акции и опционы США", "занятость, ставки и нефть", "Тайвань против проверки SOXX", "AI-выручка, капзатраты и поток"),
+        "zh-cn": ("2300 / 外资与成交量", "美国现货与期权确认", "JOLTS、收益率与油价", "亚洲分化与 SOXX 验证", "AI 收入、资本开支与现金流"),
+        "zh-hant": ("2300 / 外資與成交量", "美國現貨與期權確認", "JOLTS、殖利率與油價", "亞洲分化與 SOXX 驗證", "AI 收入、資本開支與現金流"),
+        "en": ("2300 / foreign flows and volume", "U.S. cash and options confirmation", "JOLTS, yields and oil", "Asia split vs SOXX validation", "AI revenue, capex and cash flow"),
+        "ru": ("2300 / потоки и объем", "акции и опционы США", "JOLTS, ставки и нефть", "Азия против проверки SOXX", "AI-выручка, капзатраты и поток"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -1236,14 +1322,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("AI业绩验证触发抢筹，亚洲芯片极端反弹", "上一篇市场日报。", "归档"),
-        "zh-hant": ("AI業績驗證觸發搶籌，亞洲晶片極端反彈", "上一篇市場日報。", "歸檔"),
-        "en": ("AI earnings proof sparks an extreme rebound in Asian chips", "Previous market brief.", "Archive"),
-        "ru": ("Отчеты по AI вызвали экстремальный отскок чипов Азии", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("AI资本开支仍未见顶，市场转向回报验证", "上一篇市场日报。", "归档"),
+        "zh-hant": ("AI資本開支仍未見頂，市場轉向回報驗證", "上一篇市場日報。", "歸檔"),
+        "en": ("AI capex keeps expanding as markets demand proof of returns", "Previous market brief.", "Archive"),
+        "ru": ("AI-капзатраты растут, рынок требует доказать отдачу", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-07-31")}"><span class="history-date">2026-07-31</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-08-03")}"><span class="history-date">2026-08-03</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
