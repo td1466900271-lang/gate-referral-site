@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-08-10"
+DATE = "2026-08-14"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-08-10-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-08-10-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-08-10-en.svg",
-    "ru": "/daily/images/market-brief-2026-08-10-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-08-14-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-08-14-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-08-14-en.svg",
+    "ru": "/daily/images/market-brief-2026-08-14-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "弱就业推升风险偏好，AI硬件进入内部重排",
-        "desc": "2026-08-10 GateAffiliate 每日市场日报：美国弱就业压低加息预期，科技股与亚洲市场反弹；台积电7月营收、美国CPI和零售销售成为本周验证点。",
+        "title": "通胀降温推升美股，AI资金转向存储与HBM",
+        "desc": "2026-08-14 GateAffiliate 每日市场日报：美国通胀降温推动标普500创新高，台股冲高回落，存储与HBM成为AI硬件资金主线，零售销售将检验软着陆。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "弱就业推升风险偏好，AI硬件进入内部重排。",
-        "summary": "美国非农意外下降带动收益率回落，标普500再创新高，台股午间涨约 1.6%。AI需求仍强，但台积电营收、CPI与消费将检验这轮反弹。",
+        "h1": "通胀降温推升美股，AI资金转向存储与HBM。",
+        "summary": "标普500上涨 0.7% 再创新高，台股与台积电午间分别回落约 0.1% 和 0.4%。TraderXYZ 前十成交约 30.65 亿美元，零售销售成为软着陆的下一道验证。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "弱就業推升風險偏好，AI硬體進入內部重排",
-        "desc": "2026-08-10 GateAffiliate 每日市場日報：美國弱就業壓低升息預期，科技股與亞洲市場反彈；台積電7月營收、美國CPI和零售銷售成為本週驗證點。",
+        "title": "通膨降溫推升美股，AI資金轉向記憶體與HBM",
+        "desc": "2026-08-14 GateAffiliate 每日市場日報：美國通膨降溫推動標普500創新高，台股衝高回落，記憶體與HBM成為AI硬體資金主線，零售銷售將檢驗軟著陸。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "弱就業推升風險偏好，AI硬體進入內部重排。",
-        "summary": "美國非農意外下降帶動殖利率回落，標普500再創新高，台股午間漲約 1.6%。AI需求仍強，但台積電營收、CPI與消費將檢驗這輪反彈。",
+        "h1": "通膨降溫推升美股，AI資金轉向記憶體與HBM。",
+        "summary": "標普500上漲 0.7% 再創新高，台股與台積電午間分別回落約 0.1% 和 0.4%。TraderXYZ 前十成交約 30.65 億美元，零售銷售成為軟著陸的下一道驗證。",
         "tag": "最新",
     },
     "en": {
-        "title": "Weak jobs lift risk appetite as AI hardware leadership resets",
-        "desc": "GateAffiliate's 2026-08-10 brief: weak U.S. jobs lower hike expectations and lift technology and Asian markets, while TSMC revenue, CPI and retail sales become the week's key tests.",
+        "title": "Cooling inflation lifts U.S. stocks as AI capital rotates into memory",
+        "desc": "GateAffiliate's 2026-08-14 brief: cooling U.S. inflation lifts the S&P 500 to a record, Taiwan fades, memory and HBM lead AI hardware, and retail sales become the next soft-landing test.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "Weak jobs lift risk appetite as AI hardware leadership resets.",
-        "summary": "A surprise U.S. payroll decline lowers yields, the S&P 500 reaches another record and Taiwan rises about 1.6% at midday. AI demand remains firm, but TSMC revenue, CPI and consumption must validate the rebound.",
+        "h1": "Cooling inflation lifts U.S. stocks as AI capital rotates into memory.",
+        "summary": "The S&P 500 gains 0.7% to a record while Taiwan and TSMC fade about 0.1% and 0.4% at midday. TraderXYZ top-ten volume reaches $3.065 billion before retail sales test the soft landing.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "Слабая занятость поддержала риск, лидеры AI меняются",
-        "desc": "Обзор GateAffiliate за 2026-08-10: слабая занятость США снижает ожидания повышения ставки и поддерживает технологии и Азию; выручка TSMC, CPI и розничные продажи станут главными проверками недели.",
+        "title": "Снижение инфляции поддержало США, капитал AI идет в память",
+        "desc": "Обзор GateAffiliate за 2026-08-14: снижение инфляции поднимает S&P 500 к рекорду, Тайвань откатывается, память и HBM лидируют в AI, а розничные продажи проверят мягкую посадку.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "Слабая занятость поддержала риск, лидеры AI меняются.",
-        "summary": "Неожиданное падение занятости США снижает доходности, S&P 500 ставит новый рекорд, а Тайвань растет примерно на 1,6%. Спрос AI силен, но выручка TSMC, CPI и потребление должны подтвердить отскок.",
+        "h1": "Снижение инфляции поддержало США, капитал AI идет в память.",
+        "summary": "S&P 500 растет на 0,7% до рекорда, тогда как Тайвань и TSMC теряют около 0,1% и 0,4%. Оборот топ-10 TraderXYZ достигает $3,065 млрд перед проверкой розничных продаж.",
         "tag": "Свежий",
     },
 }
@@ -981,13 +981,79 @@ CONCISE_SECTIONS.update({
     ],
 })
 
+CONCISE_SECTIONS.update({
+    "zh-cn": [
+        ("核心结论", [
+            "美国 7 月 CPI 同比 3.4%、核心 CPI 2.5%，PPI 与核心 PPI 分别为 4.7% 和 4.2%。通胀降温缓解立即加息压力，但核心 PCE 仍可能接近 3.3%，这更像政策压力下降，而不是宽松周期已经开启。",
+            "标普500上涨 0.7% 再创历史新高，科技股普遍走强，但小盘股仅涨约 0.2%。风险偏好回升仍集中在大型科技与 AI，今晚零售销售将决定市场更接近软着陆还是重新交易滞胀。",
+        ]),
+        ("台积电与存储轮动", [
+            "台积电 7 月营收 4675.8 亿新台币，同比增长 44.7%、环比增长 5.6%；前七个月累计约 2.872 万亿，同比增长 37%。基本面仍强，但台股冲高回落，台积电午间约跌 0.4%，显示高预期仍需价格确认。",
+            "TraderXYZ 前十名义成交约 30.65 亿美元，较上一份可比日报增加约 38%。SNDK、MU、DRAM 与 SKHY 同步活跃，说明 AI 瓶颈正从 GPU 扩散到 HBM 和存储，但永续合约的杠杆会放大涨幅。",
+            "产业机会继续向先进封装、网络互连、设备、电力与冷却扩散。设备订单和云厂商现金回报比单日股价更能判断资本开支周期是否可持续。",
+        ]),
+        ("下一步确认", [
+            "今晚重点看美国零售销售与密歇根大学通胀预期；之后观察核心 PCE 是否继续高于 3%。消费稳定而通胀温和，才是对科技估值更完整的支持。",
+            "交易层面关注台积电能否守住 2435-2440 新台币，并用 MU、SNDK、DRAM 相关美股现货、SOXX / SMH 与期权成交验证存储反弹。高估值与杠杆仍是主要风险。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "美國 7 月 CPI 年增 3.4%、核心 CPI 2.5%，PPI 與核心 PPI 分別為 4.7% 和 4.2%。通膨降溫緩解立即升息壓力，但核心 PCE 仍可能接近 3.3%，這更像政策壓力下降，而不是寬鬆週期已經開啟。",
+            "標普500上漲 0.7% 再創歷史新高，科技股普遍走強，但小型股僅漲約 0.2%。風險偏好回升仍集中在大型科技與 AI，今晚零售銷售將決定市場更接近軟著陸還是重新交易停滯性通膨。",
+        ]),
+        ("台積電與記憶體輪動", [
+            "台積電 7 月營收 4675.8 億新台幣，年增 44.7%、月增 5.6%；前七個月累計約 2.872 萬億，年增 37%。基本面仍強，但台股衝高回落，台積電午間約跌 0.4%，顯示高預期仍需價格確認。",
+            "TraderXYZ 前十名義成交約 30.65 億美元，較上一份可比日報增加約 38%。SNDK、MU、DRAM 與 SKHY 同步活躍，顯示 AI 瓶頸正從 GPU 擴散到 HBM 和記憶體，但永續合約的槓桿會放大漲幅。",
+            "產業機會繼續向先進封裝、網路互連、設備、電力與冷卻擴散。設備訂單和雲端業者現金回報比單日股價更能判斷資本開支週期是否可持續。",
+        ]),
+        ("下一步確認", [
+            "今晚重點看美國零售銷售與密西根大學通膨預期；之後觀察核心 PCE 是否繼續高於 3%。消費穩定而通膨溫和，才是對科技估值更完整的支持。",
+            "交易層面關注台積電能否守住 2435-2440 新台幣，並用 MU、SNDK、DRAM 相關美股現貨、SOXX / SMH 與期權成交驗證記憶體反彈。高估值與槓桿仍是主要風險。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "U.S. July CPI slows to 3.4% year over year and core CPI to 2.5%, while headline and core PPI stand at 4.7% and 4.2%. Cooling inflation reduces immediate hike pressure, but core PCE may remain near 3.3%; this is policy relief, not an easing cycle.",
+            "The S&P 500 gains 0.7% to a record and technology broadly advances, while small caps add only about 0.2%. Risk appetite remains concentrated in mega-cap technology and AI, leaving retail sales to decide between a soft landing and renewed stagflation concern.",
+        ]),
+        ("TSMC and the Memory Rotation", [
+            "TSMC July revenue reaches TWD 467.58 billion, up 44.7% year over year and 5.6% month over month; January-July sales rise 37% to roughly TWD 2.872 trillion. Fundamentals remain strong, but TSMC fades about 0.4% at midday as high expectations still need price confirmation.",
+            "TraderXYZ top-ten notional reaches about $3.065 billion, up roughly 38% from the prior comparable brief. SNDK, MU, DRAM and SKHY are all active, showing AI bottlenecks spreading from GPUs into HBM and memory, although perpetual leverage magnifies moves.",
+            "Opportunity continues to broaden into advanced packaging, networking, equipment, power and cooling. Equipment orders and hyperscaler cash returns provide better evidence of capex durability than a single trading session.",
+        ]),
+        ("Next Confirmation", [
+            "Watch U.S. retail sales and Michigan inflation expectations tonight, then whether core PCE remains above 3%. Stable consumption with moderate inflation would provide more complete support for technology valuations.",
+            "Track whether TSMC holds TWD 2435-2440 and validate the memory rebound through MU, SNDK and DRAM-linked U.S. cash trading, SOXX / SMH and options volume. Valuation and leverage remain the main risks.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "Инфляция CPI США в июле замедляется до 3,4%, базовая — до 2,5%, тогда как PPI и базовый PPI составляют 4,7% и 4,2%. Это снижает риск немедленного повышения ставки, но базовый PCE может остаться около 3,3%: давление уменьшается, цикл смягчения еще не начался.",
+            "S&P 500 растет на 0,7% до рекорда, технологии идут вверх, но малые компании прибавляют лишь около 0,2%. Спрос на риск сосредоточен в крупных технологиях и AI; розничные продажи проверят мягкую посадку против стагфляции.",
+        ]),
+        ("TSMC и Ротация в Память", [
+            "Выручка TSMC за июль достигает TWD 467,58 млрд: +44,7% год к году и +5,6% за месяц; за январь-июль продажи растут на 37% до TWD 2,872 трлн. Фундамент силен, но TSMC теряет около 0,4% к полудню: высокая планка требует подтверждения ценой.",
+            "Оборот топ-10 TraderXYZ достигает около $3,065 млрд, примерно на 38% выше прошлого сопоставимого обзора. SNDK, MU, DRAM и SKHY активны: ограничения AI идут от GPU к HBM и памяти, хотя плечо бессрочных контрактов усиливает движение.",
+            "Возможности расширяются в упаковку, сети, оборудование, энергетику и охлаждение. Заказы на оборудование и денежная отдача облаков лучше одной сессии показывают устойчивость капзатрат.",
+        ]),
+        ("Следующее Подтверждение", [
+            "Следите за розничными продажами США и ожиданиями инфляции Michigan, затем за базовым PCE выше 3%. Устойчивый спрос при умеренной инфляции даст более полную поддержку оценке технологий.",
+            "Важно, удержит ли TSMC TWD 2435-2440. Рост памяти нужно подтвердить через акции MU и SNDK, связанные с DRAM инструменты, SOXX / SMH и опционы. Главные риски — оценка и плечо.",
+        ]),
+    ],
+})
+
 SOURCE_URLS = [
-    ("ap-us-0807", "https://apnews.com/article/stocks-markets-rates-iran-9636095906bbb689a1f612bce9a07343"),
-    ("ap-week-0810", "https://apnews.com/article/wall-street-inflation-sales-1cf6047f812b3e1f151781f5722d97b7"),
+    ("ap-ppi-0813", "https://apnews.com/article/pipeline-inflation-prices-inflation-tariffs-f9bf278f4550a956b1f350722817371d"),
+    ("ap-market-0813", "https://apnews.com/article/wall-street-stocks-dow-nasdaq-892c5409d8ed26bfd5965eb2a89d9005"),
+    ("kiplinger-cpi-0814", "https://www.kiplinger.com/investing/economy/cpi-report-july-2026-what-to-expect"),
     ("tsmc-monthly-2026", "https://investor.tsmc.com/english/monthly-revenue/2026"),
-    ("blackrock-rieder", "https://www.blackrock.com/us/financial-professionals/insights/summer-markets-ai-investing"),
-    ("goldman-ai-adoption", "https://www.goldmansachs.com/insights/articles/ai-investment-is-shifting-as-inference-enterprise-adoption-accelerate"),
+    ("applied-materials", "https://ir.appliedmaterials.com/financial-information/quarterly-results/"),
+    ("micron-ir", "https://investors.micron.com/"),
+    ("blackrock-outlook", "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/outlook"),
     ("goldman-valuations", "https://www.goldmansachs.com/insights/articles/are-us-stock-market-valuations-outpacing-fundamentals"),
+    ("axios-ai", "https://www.axios.com/2026/08/12/ai-boom-goldman-sachs"),
     ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
     ("hyperliquid-api", "https://api.hyperliquid.xyz/info"),
 ]
@@ -1434,6 +1500,43 @@ SOURCE_LABELS["ru"].update({
     "goldman-valuations": "Goldman Sachs: оценка США и устойчивость прибыли AI",
 })
 
+SOURCE_LABELS["zh-cn"].update({
+    "ap-ppi-0813": "AP：美国 7 月 PPI 与通胀压力",
+    "ap-market-0813": "AP：8 月 13 日美股与科技市场",
+    "kiplinger-cpi-0814": "Kiplinger：美国 7 月 CPI 解读",
+    "applied-materials": "Applied Materials：季度业绩",
+    "micron-ir": "Micron：投资者关系与业绩资料",
+    "blackrock-outlook": "BlackRock：全球投资展望",
+    "axios-ai": "Axios：AI 资本开支与市场定价",
+})
+SOURCE_LABELS["zh-hant"].update({
+    "ap-ppi-0813": "AP：美國 7 月 PPI 與通膨壓力",
+    "ap-market-0813": "AP：8 月 13 日美股與科技市場",
+    "kiplinger-cpi-0814": "Kiplinger：美國 7 月 CPI 解讀",
+    "applied-materials": "Applied Materials：季度業績",
+    "micron-ir": "Micron：投資人關係與業績資料",
+    "blackrock-outlook": "BlackRock：全球投資展望",
+    "axios-ai": "Axios：AI 資本開支與市場定價",
+})
+SOURCE_LABELS["en"].update({
+    "ap-ppi-0813": "AP: U.S. July PPI and inflation pressure",
+    "ap-market-0813": "AP: August 13 U.S. stocks and technology",
+    "kiplinger-cpi-0814": "Kiplinger: reading the U.S. July CPI",
+    "applied-materials": "Applied Materials: quarterly results",
+    "micron-ir": "Micron: investor relations and results",
+    "blackrock-outlook": "BlackRock: global investment outlook",
+    "axios-ai": "Axios: AI capex and market pricing",
+})
+SOURCE_LABELS["ru"].update({
+    "ap-ppi-0813": "AP: PPI США за июль и инфляционное давление",
+    "ap-market-0813": "AP: акции США и технологии 13 августа",
+    "kiplinger-cpi-0814": "Kiplinger: анализ CPI США за июль",
+    "applied-materials": "Applied Materials: квартальные результаты",
+    "micron-ir": "Micron: материалы для инвесторов",
+    "blackrock-outlook": "BlackRock: глобальный инвестиционный прогноз",
+    "axios-ai": "Axios: капзатраты AI и рыночная оценка",
+})
+
 
 def translated_sections(sections):
     return "\n".join(
@@ -1455,10 +1558,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("7月营收 / 2385-2410", "NVDA 对比 AMD / MU", "CPI、收益率与油价", "台股反弹与 SOXX 验证", "AI 收入、资本开支与现金流"),
-        "zh-hant": ("7月營收 / 2385-2410", "NVDA 對比 AMD / MU", "CPI、殖利率與油價", "台股反彈與 SOXX 驗證", "AI 收入、資本開支與現金流"),
-        "en": ("July revenue / 2385-2410", "NVDA vs AMD / MU", "CPI, yields and oil", "Taiwan rebound vs SOXX", "AI revenue, capex and cash flow"),
-        "ru": ("выручка июля / 2385-2410", "NVDA против AMD / MU", "CPI, ставки и нефть", "отскок Тайваня против SOXX", "AI-выручка, капзатраты и поток"),
+        "zh-cn": ("2435-2440 / 7月营收", "存储轮动与现货确认", "零售、核心PCE与收益率", "台股分化与 SOXX 验证", "AI 资本开支与现金回报"),
+        "zh-hant": ("2435-2440 / 7月營收", "記憶體輪動與現貨確認", "零售、核心PCE與殖利率", "台股分化與 SOXX 驗證", "AI 資本開支與現金回報"),
+        "en": ("2435-2440 / July revenue", "memory rotation and cash confirmation", "retail, core PCE and yields", "Taiwan divergence vs SOXX", "AI capex and cash returns"),
+        "ru": ("2435-2440 / выручка июля", "ротация памяти и акции", "продажи, PCE и ставки", "Тайвань против SOXX", "капзатраты AI и денежная отдача"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -1506,14 +1609,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("全球风险资产共振，AI与存储强力修复", "上一篇市场日报。", "归档"),
-        "zh-hant": ("全球風險資產共振，AI與記憶體強力修復", "上一篇市場日報。", "歸檔"),
-        "en": ("Global risk rally lifts AI and memory as oil plunges", "Previous market brief.", "Archive"),
-        "ru": ("Глобальное ралли поднимает AI и память на фоне падения нефти", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("弱就业推升风险偏好，AI硬件进入内部重排", "上一篇市场日报。", "归档"),
+        "zh-hant": ("弱就業推升風險偏好，AI硬體進入內部重排", "上一篇市場日報。", "歸檔"),
+        "en": ("Weak jobs lift risk appetite as AI hardware leadership resets", "Previous market brief.", "Archive"),
+        "ru": ("Слабая занятость поддержала риск, лидеры AI меняются", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-08-05")}"><span class="history-date">2026-08-05</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-08-10")}"><span class="history-date">2026-08-10</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
