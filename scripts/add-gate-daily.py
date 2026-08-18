@@ -23,46 +23,46 @@ footer = import_market_briefs.footer
 header = import_market_briefs.header
 write = import_market_briefs.write
 
-DATE = "2026-08-14"
+DATE = "2026-08-18"
 SOURCE = ROOT / "content" / "daily" / DATE / "zh-cn.txt"
 IMAGES = {
-    "zh-cn": "/daily/images/market-brief-2026-08-14-zh-cn.svg",
-    "zh-hant": "/daily/images/market-brief-2026-08-14-zh-hant.svg",
-    "en": "/daily/images/market-brief-2026-08-14-en.svg",
-    "ru": "/daily/images/market-brief-2026-08-14-ru.svg",
+    "zh-cn": "/daily/images/market-brief-2026-08-18-zh-cn.svg",
+    "zh-hant": "/daily/images/market-brief-2026-08-18-zh-hant.svg",
+    "en": "/daily/images/market-brief-2026-08-18-en.svg",
+    "ru": "/daily/images/market-brief-2026-08-18-ru.svg",
 }
 
 META = {
     "zh-cn": {
-        "title": "通胀降温推升美股，AI资金转向存储与HBM",
-        "desc": "2026-08-14 GateAffiliate 每日市场日报：美国通胀降温推动标普500创新高，台股冲高回落，存储与HBM成为AI硬件资金主线，零售销售将检验软着陆。",
+        "title": "消费转弱叠加油价上行，AI资金转向存储与设备",
+        "desc": "2026-08-18 GateAffiliate 每日市场日报：美国零售销售转弱、油价突破90美元且长债收益率上行，AI资金从平台股转向存储与半导体设备。",
         "eyebrow": f"全球市场日报 · {DATE}",
-        "h1": "通胀降温推升美股，AI资金转向存储与HBM。",
-        "summary": "标普500上涨 0.7% 再创新高，台股与台积电午间分别回落约 0.1% 和 0.4%。TraderXYZ 前十成交约 30.65 亿美元，零售销售成为软着陆的下一道验证。",
+        "h1": "消费转弱叠加油价上行，AI资金转向存储与设备。",
+        "summary": "美国零售销售下降 0.6%，Brent 升至 90.87 美元、10年期收益率升至 4.72%。台股午间跌约 1.0%，TraderXYZ 前十成交约 28.81 亿美元。",
         "tag": "最新",
     },
     "zh-hant": {
-        "title": "通膨降溫推升美股，AI資金轉向記憶體與HBM",
-        "desc": "2026-08-14 GateAffiliate 每日市場日報：美國通膨降溫推動標普500創新高，台股衝高回落，記憶體與HBM成為AI硬體資金主線，零售銷售將檢驗軟著陸。",
+        "title": "消費轉弱疊加油價上行，AI資金轉向記憶體與設備",
+        "desc": "2026-08-18 GateAffiliate 每日市場日報：美國零售銷售轉弱、油價突破90美元且長債殖利率上行，AI資金從平台股轉向記憶體與半導體設備。",
         "eyebrow": f"全球市場日報 · {DATE}",
-        "h1": "通膨降溫推升美股，AI資金轉向記憶體與HBM。",
-        "summary": "標普500上漲 0.7% 再創新高，台股與台積電午間分別回落約 0.1% 和 0.4%。TraderXYZ 前十成交約 30.65 億美元，零售銷售成為軟著陸的下一道驗證。",
+        "h1": "消費轉弱疊加油價上行，AI資金轉向記憶體與設備。",
+        "summary": "美國零售銷售下降 0.6%，Brent 升至 90.87 美元、10年期殖利率升至 4.72%。台股午間跌約 1.0%，TraderXYZ 前十成交約 28.81 億美元。",
         "tag": "最新",
     },
     "en": {
-        "title": "Cooling inflation lifts U.S. stocks as AI capital rotates into memory",
-        "desc": "GateAffiliate's 2026-08-14 brief: cooling U.S. inflation lifts the S&P 500 to a record, Taiwan fades, memory and HBM lead AI hardware, and retail sales become the next soft-landing test.",
+        "title": "Weak consumption and higher oil rotate AI capital into memory and equipment",
+        "desc": "GateAffiliate's 2026-08-18 brief: weak U.S. retail sales, oil above $90 and higher long yields pressure risk assets as AI capital rotates from platforms toward memory and semiconductor equipment.",
         "eyebrow": f"Global market brief · {DATE}",
-        "h1": "Cooling inflation lifts U.S. stocks as AI capital rotates into memory.",
-        "summary": "The S&P 500 gains 0.7% to a record while Taiwan and TSMC fade about 0.1% and 0.4% at midday. TraderXYZ top-ten volume reaches $3.065 billion before retail sales test the soft landing.",
+        "h1": "Weak consumption and higher oil rotate AI capital into memory and equipment.",
+        "summary": "U.S. retail sales fall 0.6% as Brent reaches $90.87 and the 10-year yield 4.72%. Taiwan loses about 1.0% at midday while TraderXYZ top-ten volume reaches $2.881 billion.",
         "tag": "Latest",
     },
     "ru": {
-        "title": "Снижение инфляции поддержало США, капитал AI идет в память",
-        "desc": "Обзор GateAffiliate за 2026-08-14: снижение инфляции поднимает S&P 500 к рекорду, Тайвань откатывается, память и HBM лидируют в AI, а розничные продажи проверят мягкую посадку.",
+        "title": "Слабый спрос и дорогая нефть ведут капитал AI в память и оборудование",
+        "desc": "Обзор GateAffiliate за 2026-08-18: слабые продажи США, нефть выше $90 и рост длинных ставок давят на риск, а капитал AI идет от платформ к памяти и оборудованию.",
         "eyebrow": f"Глобальный обзор · {DATE}",
-        "h1": "Снижение инфляции поддержало США, капитал AI идет в память.",
-        "summary": "S&P 500 растет на 0,7% до рекорда, тогда как Тайвань и TSMC теряют около 0,1% и 0,4%. Оборот топ-10 TraderXYZ достигает $3,065 млрд перед проверкой розничных продаж.",
+        "h1": "Слабый спрос и дорогая нефть ведут капитал AI в память и оборудование.",
+        "summary": "Розничные продажи США падают на 0,6%, Brent достигает $90,87, доходность 10-летних бумаг — 4,72%. Тайвань теряет около 1,0%, оборот топ-10 TraderXYZ составляет $2,881 млрд.",
         "tag": "Свежий",
     },
 }
@@ -1044,16 +1044,78 @@ CONCISE_SECTIONS.update({
     ],
 })
 
+CONCISE_SECTIONS.update({
+    "zh-cn": [
+        ("核心结论", [
+            "美国 7 月零售销售环比下降 0.6%，创 2025 年 5 月以来最大跌幅；剔除汽车与加油站后仍下降 0.2%。弱数据正在从降低加息压力，转化为企业收入与盈利风险。",
+            "Brent 升至 90.87 美元，10 年期美债收益率升至 4.72%，标普500下跌 0.5%。消费走弱、能源上涨与长端利率不降，构成当前最需要防范的滞胀组合。",
+        ]),
+        ("AI分化与台积电", [
+            "AI 资金明显分化：MU 与 AMAT 分别上涨 4.1% 和 5.5%，SOXX 上涨 1.6%；MSFT、META 与 AMD 回落。市场没有否定 AI 投资，而是在奖励存储和设备瓶颈，并提高对平台公司资本回报的要求。",
+            "台股午间跌约 1.02%，台积电约 2375/2380 新台币。7 月营收仍同比增长 44.7%，基本面没有突变；短线压力主要来自全球风险偏好、油价与高位估值，2375 附近承接是关键。",
+            "TraderXYZ 前十名义成交约 28.81 亿美元，较 8 月 14 日下降约 6%。存储与原油仍是两条主线，但存储价格开始分化，需要美股现货、SOXX / SMH 与期权共同确认。",
+        ]),
+        ("后续确认", [
+            "关注 Walmart、Target 与 Home Depot 对消费分层的描述，以及 8 月数据能否证明 7 月只是促销与退税错位。单月销售下滑尚不足以确认消费趋势反转。",
+            "市场确认点包括 Brent 回到 90 美元下方、10 年期收益率从 4.72% 回落、MU / AMAT 继续跑赢 SOXX，以及台积电守住 2375。AI 资本开支仍强，但不等于相关股票可以忽略估值与现金流。",
+        ]),
+    ],
+    "zh-hant": [
+        ("核心結論", [
+            "美國 7 月零售銷售月減 0.6%，創 2025 年 5 月以來最大跌幅；扣除汽車與加油站後仍下降 0.2%。弱數據正在從降低升息壓力，轉化為企業收入與盈利風險。",
+            "Brent 升至 90.87 美元，10 年期美債殖利率升至 4.72%，標普500下跌 0.5%。消費走弱、能源上漲與長端殖利率不降，構成目前最需要防範的停滯性通膨組合。",
+        ]),
+        ("AI分化與台積電", [
+            "AI 資金明顯分化：MU 與 AMAT 分別上漲 4.1% 和 5.5%，SOXX 上漲 1.6%；MSFT、META 與 AMD 回落。市場沒有否定 AI 投資，而是在獎勵記憶體和設備瓶頸，並提高對平台公司資本回報的要求。",
+            "台股午間跌約 1.02%，台積電約 2375/2380 新台幣。7 月營收仍年增 44.7%，基本面沒有突變；短線壓力主要來自全球風險偏好、油價與高位估值，2375 附近承接是關鍵。",
+            "TraderXYZ 前十名義成交約 28.81 億美元，較 8 月 14 日下降約 6%。記憶體與原油仍是兩條主線，但記憶體價格開始分化，需要美股現貨、SOXX / SMH 與期權共同確認。",
+        ]),
+        ("後續確認", [
+            "關注 Walmart、Target 與 Home Depot 對消費分層的描述，以及 8 月數據能否證明 7 月只是促銷與退稅錯位。單月銷售下滑尚不足以確認消費趨勢反轉。",
+            "市場確認點包括 Brent 回到 90 美元下方、10 年期殖利率從 4.72% 回落、MU / AMAT 繼續跑贏 SOXX，以及台積電守住 2375。AI 資本開支仍強，但不等於相關股票可以忽略估值與現金流。",
+        ]),
+    ],
+    "en": [
+        ("Core Takeaway", [
+            "U.S. July retail sales fall 0.6% month over month, the largest decline since May 2025, and still drop 0.2% excluding autos and gasoline. Weak data are shifting from a rate benefit into a revenue and earnings risk.",
+            "Brent rises to $90.87, the U.S. 10-year yield reaches 4.72% and the S&P 500 loses 0.5%. Weaker consumption, higher energy and sticky long yields form the stagflation mix that matters most now.",
+        ]),
+        ("AI Divergence and TSMC", [
+            "AI leadership splits sharply: MU and AMAT gain 4.1% and 5.5%, and SOXX adds 1.6%, while MSFT, META and AMD decline. Markets are not rejecting AI investment; they are rewarding memory and equipment bottlenecks while demanding better platform returns on capital.",
+            "Taiwan falls about 1.02% at midday and TSMC quotes near TWD 2375/2380. July revenue still rises 44.7% year over year, so fundamentals have not broken; global risk, oil and valuation explain the near-term pressure, making 2375 the key support.",
+            "TraderXYZ top-ten notional reaches about $2.881 billion, roughly 6% below August 14. Memory and oil remain the two clearest themes, but diverging memory prices require confirmation from U.S. cash shares, SOXX / SMH and options.",
+        ]),
+        ("What Confirms Next", [
+            "Watch Walmart, Target and Home Depot for evidence on consumer tiers, and whether August data show July was a promotion and tax-refund timing issue. One weak month does not yet confirm a trend reversal.",
+            "Confirmation requires Brent below $90, the 10-year yield easing from 4.72%, MU / AMAT continuing to outperform SOXX and TSMC holding 2375. AI capex remains strong, but related stocks cannot ignore valuation and cash flow.",
+        ]),
+    ],
+    "ru": [
+        ("Главный Вывод", [
+            "Розничные продажи США в июле падают на 0,6% за месяц — сильнее всего с мая 2025 года; без автомобилей и бензина снижение составляет 0,2%. Слабые данные уже превращаются из поддержки ставок в риск для выручки и прибыли.",
+            "Brent растет до $90,87, доходность 10-летних бумаг США — до 4,72%, S&P 500 теряет 0,5%. Слабый спрос, дорогая энергия и высокие длинные ставки создают главный риск стагфляции.",
+        ]),
+        ("Расхождение AI и TSMC", [
+            "Лидеры AI расходятся: MU и AMAT растут на 4,1% и 5,5%, SOXX — на 1,6%, а MSFT, META и AMD снижаются. Рынок не отвергает AI, а награждает узкие места памяти и оборудования и требует большей отдачи от платформ.",
+            "Тайвань теряет около 1,02%, TSMC торгуется возле TWD 2375/2380. Выручка июля все еще растет на 44,7% год к году, поэтому фундамент не сломан; давление идет от общего риска, нефти и оценки, а уровень 2375 становится ключевым.",
+            "Оборот топ-10 TraderXYZ составляет около $2,881 млрд, примерно на 6% ниже 14 августа. Память и нефть остаются главными темами, но расхождение цен нужно подтвердить акциями США, SOXX / SMH и опционами.",
+        ]),
+        ("Следующее Подтверждение", [
+            "Следите за Walmart, Target и Home Depot и за данными августа: они покажут, был ли июль результатом сроков скидок и возвратов налогов. Один слабый месяц еще не подтверждает разворот потребления.",
+            "Нужны Brent ниже $90, снижение 10-летней доходности с 4,72%, лидерство MU / AMAT над SOXX и удержание TSMC уровня 2375. Капзатраты AI сильны, но оценку и денежный поток игнорировать нельзя.",
+        ]),
+    ],
+})
+
 SOURCE_URLS = [
-    ("ap-ppi-0813", "https://apnews.com/article/pipeline-inflation-prices-inflation-tariffs-f9bf278f4550a956b1f350722817371d"),
-    ("ap-market-0813", "https://apnews.com/article/wall-street-stocks-dow-nasdaq-892c5409d8ed26bfd5965eb2a89d9005"),
-    ("kiplinger-cpi-0814", "https://www.kiplinger.com/investing/economy/cpi-report-july-2026-what-to-expect"),
-    ("tsmc-monthly-2026", "https://investor.tsmc.com/english/monthly-revenue/2026"),
-    ("applied-materials", "https://ir.appliedmaterials.com/financial-information/quarterly-results/"),
-    ("micron-ir", "https://investors.micron.com/"),
-    ("blackrock-outlook", "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/outlook"),
-    ("goldman-valuations", "https://www.goldmansachs.com/insights/articles/are-us-stock-market-valuations-outpacing-fundamentals"),
-    ("axios-ai", "https://www.axios.com/2026/08/12/ai-boom-goldman-sachs"),
+    ("ap-market-0817", "https://apnews.com/article/stocks-markets-futures-rates-oil-japan-bf398d5a01f611921c0b48a8bfc884d9"),
+    ("ap-consumer-0818", "https://apnews.com/article/inflation-economy-iran-trump-unemployment-mortgage-a642f3cc32f1e92f0a26812d8fa7c02f"),
+    ("ap-retail-0818", "https://apnews.com/article/stocks-markets-rates-oil-inflation-futures-5d9870d6c5ae735f9b74bf4ceefaa3ec"),
+    ("ap-berkshire", "https://apnews.com/article/fd9d6750d34f208c338e305759bcf6c9"),
+    ("tsmc-calendar", "https://investor.tsmc.com/english/financial-calendar"),
+    ("micron-news", "https://www.micron.com/about/press/news"),
+    ("applied-materials-ir", "https://ir.appliedmaterials.com/"),
+    ("blackrock-outlook-us", "https://www.blackrock.com/us/individual/insights/blackrock-investment-institute/outlook"),
     ("twse", "https://mis.twse.com.tw/stock/index.jsp"),
     ("hyperliquid-api", "https://api.hyperliquid.xyz/info"),
 ]
@@ -1537,6 +1599,47 @@ SOURCE_LABELS["ru"].update({
     "axios-ai": "Axios: капзатраты AI и рыночная оценка",
 })
 
+SOURCE_LABELS["zh-cn"].update({
+    "ap-market-0817": "AP：8 月 17 日美股、油价与利率",
+    "ap-consumer-0818": "AP：美国消费、通胀与就业",
+    "ap-retail-0818": "AP：零售销售与 Wells Fargo 观点",
+    "ap-berkshire": "AP：Berkshire 最新持仓",
+    "tsmc-calendar": "TSMC：投资者财务日历",
+    "micron-news": "Micron：公司新闻",
+    "applied-materials-ir": "Applied Materials：投资者关系",
+    "blackrock-outlook-us": "BlackRock：全球投资展望",
+})
+SOURCE_LABELS["zh-hant"].update({
+    "ap-market-0817": "AP：8 月 17 日美股、油價與利率",
+    "ap-consumer-0818": "AP：美國消費、通膨與就業",
+    "ap-retail-0818": "AP：零售銷售與 Wells Fargo 觀點",
+    "ap-berkshire": "AP：Berkshire 最新持倉",
+    "tsmc-calendar": "TSMC：投資人財務日曆",
+    "micron-news": "Micron：公司新聞",
+    "applied-materials-ir": "Applied Materials：投資人關係",
+    "blackrock-outlook-us": "BlackRock：全球投資展望",
+})
+SOURCE_LABELS["en"].update({
+    "ap-market-0817": "AP: August 17 U.S. stocks, oil and rates",
+    "ap-consumer-0818": "AP: U.S. consumption, inflation and jobs",
+    "ap-retail-0818": "AP: retail sales and the Wells Fargo view",
+    "ap-berkshire": "AP: Berkshire's latest holdings",
+    "tsmc-calendar": "TSMC: investor financial calendar",
+    "micron-news": "Micron: company news",
+    "applied-materials-ir": "Applied Materials: investor relations",
+    "blackrock-outlook-us": "BlackRock: global investment outlook",
+})
+SOURCE_LABELS["ru"].update({
+    "ap-market-0817": "AP: акции США, нефть и ставки 17 августа",
+    "ap-consumer-0818": "AP: потребление, инфляция и занятость США",
+    "ap-retail-0818": "AP: розничные продажи и взгляд Wells Fargo",
+    "ap-berkshire": "AP: последние позиции Berkshire",
+    "tsmc-calendar": "TSMC: финансовый календарь инвестора",
+    "micron-news": "Micron: новости компании",
+    "applied-materials-ir": "Applied Materials: материалы для инвесторов",
+    "blackrock-outlook-us": "BlackRock: глобальный инвестиционный прогноз",
+})
+
 
 def translated_sections(sections):
     return "\n".join(
@@ -1558,10 +1661,10 @@ def brief_body(lang):
         "ru": ("Главный Вывод", "Список Наблюдения", "Источники"),
     }[lang]
     watch_labels = {
-        "zh-cn": ("2435-2440 / 7月营收", "存储轮动与现货确认", "零售、核心PCE与收益率", "台股分化与 SOXX 验证", "AI 资本开支与现金回报"),
-        "zh-hant": ("2435-2440 / 7月營收", "記憶體輪動與現貨確認", "零售、核心PCE與殖利率", "台股分化與 SOXX 驗證", "AI 資本開支與現金回報"),
-        "en": ("2435-2440 / July revenue", "memory rotation and cash confirmation", "retail, core PCE and yields", "Taiwan divergence vs SOXX", "AI capex and cash returns"),
-        "ru": ("2435-2440 / выручка июля", "ротация памяти и акции", "продажи, PCE и ставки", "Тайвань против SOXX", "капзатраты AI и денежная отдача"),
+        "zh-cn": ("2375 支撑 / 7月营收", "存储设备对比平台股", "Brent 90 / US10Y 4.72%", "45300 支撑与 SOXX", "资本开支与自由现金流"),
+        "zh-hant": ("2375 支撐 / 7月營收", "記憶體設備對比平台股", "Brent 90 / US10Y 4.72%", "45300 支撐與 SOXX", "資本開支與自由現金流"),
+        "en": ("2375 support / July revenue", "memory-equipment vs platforms", "Brent 90 / US10Y 4.72%", "45300 support and SOXX", "capex and free cash flow"),
+        "ru": ("поддержка 2375 / июль", "память против платформ", "Brent 90 / US10Y 4,72%", "поддержка 45300 и SOXX", "капзатраты и свободный поток"),
     }[lang]
     return f'''<section class="hero">
       <div class="hero-inner">
@@ -1609,14 +1712,14 @@ def history_section(lang):
     m = LANG_META[lang]
     latest = META[lang]
     previous = {
-        "zh-cn": ("弱就业推升风险偏好，AI硬件进入内部重排", "上一篇市场日报。", "归档"),
-        "zh-hant": ("弱就業推升風險偏好，AI硬體進入內部重排", "上一篇市場日報。", "歸檔"),
-        "en": ("Weak jobs lift risk appetite as AI hardware leadership resets", "Previous market brief.", "Archive"),
-        "ru": ("Слабая занятость поддержала риск, лидеры AI меняются", "Предыдущий обзор рынка.", "Архив"),
+        "zh-cn": ("通胀降温推升美股，AI资金转向存储与HBM", "上一篇市场日报。", "归档"),
+        "zh-hant": ("通膨降溫推升美股，AI資金轉向記憶體與HBM", "上一篇市場日報。", "歸檔"),
+        "en": ("Cooling inflation lifts U.S. stocks as AI capital rotates into memory", "Previous market brief.", "Archive"),
+        "ru": ("Снижение инфляции поддержало США, капитал AI идет в память", "Предыдущий обзор рынка.", "Архив"),
     }[lang]
     return f'''<section id="history"><div class="wrap"><div class="section-head"><h2>{m["history"]}</h2><p>{m["history_copy"]}</p></div><div class="history-list">
       <a class="history-link" href="{daily_slug(lang, DATE)}"><span class="history-date">{DATE}</span><span><span class="history-title">{html.escape(latest["title"])}</span><span class="history-summary">{html.escape(latest["summary"])}</span></span><span class="history-tag">{latest["tag"]}</span></a>
-      <a class="history-link" href="{daily_slug(lang, "2026-08-10")}"><span class="history-date">2026-08-10</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
+      <a class="history-link" href="{daily_slug(lang, "2026-08-14")}"><span class="history-date">2026-08-14</span><span><span class="history-title">{html.escape(previous[0])}</span><span class="history-summary">{html.escape(previous[1])}</span></span><span class="history-tag">{html.escape(previous[2])}</span></a>
     </div></div></section>'''
 
 
